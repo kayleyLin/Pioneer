@@ -1,0 +1,7 @@
+item_id,task_type,n_outputs,n_pairs,mean_within_prompt_similarity,sampling_noise_drift
+code_001,code_generation,3,3,0.904233,0.095767
+fact_001,factual_qa,3,3,0.820198,0.179802
+fact_002,factual_qa,3,3,0.544152,0.455848
+math_001,math_reasoning,3,3,0.338252,0.661748
+math_002,math_reasoning,3,3,0.698482,0.301518
+write_001,open_ended_writing,3,3,0.559615,0.440385

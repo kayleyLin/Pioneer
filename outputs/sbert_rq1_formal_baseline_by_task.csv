@@ -1,0 +1,5 @@
+task_type,n_items,mean_within_prompt_similarity,mean_sampling_noise_drift,std_sampling_noise_drift,similarity_metric
+code_generation,10,0.931653,0.068347,0.028244,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,10,0.951691,0.048309,0.064513,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,10,0.913485,0.086515,0.044816,sentence-transformers/all-MiniLM-L6-v2
+open_ended_writing,10,0.92151,0.07849,0.072555,sentence-transformers/all-MiniLM-L6-v2

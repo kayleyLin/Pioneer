@@ -1,0 +1,683 @@
+item_id,task_type,dataset_name,source_index,perturbation_type,sample_id,model_name,temperature,top_p,max_output_tokens,original_prompt,perturbed_prompt,output_text
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,paraphrasing,1,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Which music act has achieved the most Christmas number one singles?,"The music act that has achieved the most Christmas number one singles in the UK is The Beatles, with a total of 4 Christmas number ones."
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,paraphrasing,2,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Which music act has achieved the most Christmas number one singles?,"The music act that has achieved the most Christmas number one singles in the UK is The Beatles, with a total of four Christmas number ones."
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,paraphrasing,3,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Which music act has achieved the most Christmas number one singles?,"The music act that has achieved the most Christmas number one singles in the UK is The Beatles, with a total of 4 Christmas number ones."
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,reordering,1,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,"Among all acts, which one has had the most Christmas number one singles?",The act with the most Christmas number one singles in the UK is The Beatles. They have achieved this feat with a total of 4 Christmas number ones.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,reordering,2,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,"Among all acts, which one has had the most Christmas number one singles?",The act with the most Christmas number one singles in the UK is The Beatles. They have achieved this feat with a total of 4 Christmas number ones.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,reordering,3,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,"Among all acts, which one has had the most Christmas number one singles?",The act with the most Christmas number one singles in the UK is The Beatles. They achieved this feat with a total of 4 Christmas number one singles.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,formatting_changes,1,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Answer this question briefly: Which act has had more Christmas number one singles than any other?,The act with the most Christmas number one singles is The Beatles.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,formatting_changes,2,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Answer this question briefly: Which act has had more Christmas number one singles than any other?,The act with the most Christmas number one singles is The Beatles.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,formatting_changes,3,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Answer this question briefly: Which act has had more Christmas number one singles than any other?,The Beatles have had more Christmas number one singles than any other act.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,context_injection,1,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,"For a music trivia practice question, answer this: Which act has had more Christmas number one singles than any other?",The act with the most Christmas number one singles is The Beatles. They have achieved this feat 4 times.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,context_injection,2,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,"For a music trivia practice question, answer this: Which act has had more Christmas number one singles than any other?",The act that has had more Christmas number one singles than any other is The Beatles.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,context_injection,3,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,"For a music trivia practice question, answer this: Which act has had more Christmas number one singles than any other?",The act that has had more Christmas number one singles than any other is The Beatles.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,surface_noise,1,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Which act has had more Chrismtas number one singles than any other?,The Beatles hold the record for the most Christmas number one singles in the UK. They achieved this feat with several of their songs topping the charts during the holiday season.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,surface_noise,2,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Which act has had more Chrismtas number one singles than any other?,The act with the most Christmas number one singles in the UK is **The Beatles**. They have achieved this feat with multiple Christmas number ones throughout their career.
+factual_qa_378,factual_qa,mandarjoshi/trivia_qa,378,surface_noise,3,gpt-4o-mini,0.7,0.9,300,Which act has had more Christmas number one singles than any other?,Which act has had more Chrismtas number one singles than any other?,The act with the most Christmas number one singles in the UK is The Beatles. They have achieved this feat 4 times.
+math_reasoning_400,math_reasoning,openai/gsm8k,400,paraphrasing,1,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Karen starts a long hike with 20 pounds of water, 10 pounds of food, and 20 pounds of gear in her backpack. Each hour, she drinks 2 pounds of water and eats food equal to one-third of that hourly water weight. After 6 hours, how much weight is she carrying?","Let's break down the weight changes over the 6 hours of Karen's hike.
+
+1. **Initial Weight**:
+   - Water: 20 pounds
+   - Food: 10 pounds
+   - Gear: 20 pounds
+   - Total initial weight: \(20 + 10 + 20 = 50\) pounds
+
+2. **Water and Food Consumption**:
+   - Each hour, Karen drinks 2 pounds of water.
+   - She eats food equal to one-third of the water weight consumed. Therefore, for each hour, she consumes:
+     - Water: 2 pounds
+     - Food: \(\frac{2}{3} = 0.67\) pounds (approximately)
+
+3. **Total Consumption Over 6 Hours**:
+   - Water consumed in 6 hours: \(2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds}\)
+   - Food consumed in 6 hours: \(0.67 \text{ pounds/hour} \times 6 \text{ hours} = 4 \text{ pounds}\)
+
+4. **Remaining Water and Food**:
+   - Remaining water: \(20 - 12 = 8\) pounds
+   - Remaining food: \(10 - 4 = 6\) pounds
+
+5. **Weight After 6 Hours**:
+   - Remaining weight in the backpack:
+     - Remaining water: 8 pounds
+     -"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,paraphrasing,2,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Karen starts a long hike with 20 pounds of water, 10 pounds of food, and 20 pounds of gear in her backpack. Each hour, she drinks 2 pounds of water and eats food equal to one-third of that hourly water weight. After 6 hours, how much weight is she carrying?","Let's analyze the situation step by step.
+
+1. **Initial Weight**:
+   - Water: 20 pounds
+   - Food: 10 pounds
+   - Gear: 20 pounds
+   - Total initial weight = 20 + 10 + 20 = 50 pounds
+
+2. **Water and Food Consumption**:
+   - Each hour, Karen drinks 2 pounds of water.
+   - She eats food equal to one-third of the water weight consumed: 
+     \[
+     \text{Food consumed per hour} = \frac{1}{3} \times 2 = \frac{2}{3} \text{ pounds}
+     \]
+
+3. **Total Consumption Over 6 Hours**:
+   - Water consumed in 6 hours:
+     \[
+     2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds}
+     \]
+   - Food consumed in 6 hours:
+     \[
+     \frac{2}{3} \text{ pounds/hour} \times 6 \text{ hours} = 4 \text{ pounds}
+     \]
+
+4. **Remaining Weight After 6 Hours**:
+   - Remaining water:
+     \[
+     20 \text{ pounds} - 12 \text{ pounds} = 8 \text{ pounds}
+     \]
+   - Remaining food:
+     \[
+     10 \text{ pounds} - 4 \"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,paraphrasing,3,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Karen starts a long hike with 20 pounds of water, 10 pounds of food, and 20 pounds of gear in her backpack. Each hour, she drinks 2 pounds of water and eats food equal to one-third of that hourly water weight. After 6 hours, how much weight is she carrying?","Let's break down the situation step by step.
+
+Initially, Karen has:
+- Water: 20 pounds
+- Food: 10 pounds
+- Gear: 20 pounds
+
+Total initial weight = 20 + 10 + 20 = 50 pounds
+
+Now, let's see how much water and food she consumes over 6 hours:
+
+1. **Water Consumption**: 
+   - She drinks 2 pounds of water per hour.
+   - In 6 hours, she drinks: \( 2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds} \)
+
+2. **Food Consumption**: 
+   - She eats food equal to one-third of the water weight consumed each hour.
+   - Each hour, she consumes: \( \frac{2 \text{ pounds}}{3} \) of food per hour.
+   - In 6 hours, she eats: \( \frac{2}{3} \text{ pounds/hour} \times 6 \text{ hours} = 4 \text{ pounds} \)
+
+Now we can calculate the remaining amounts of water and food:
+
+- Remaining water: 
+  - Initial water: 20 pounds
+  - Water consumed: 12 pounds
+  - Remaining water: \( 20 - 12 = 8 \) pounds
+
+- Remaining food:
+  - Initial food: 10 pounds
+  - Food consumed: 4 pounds
+  - Remaining"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,reordering,1,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","During her hike, Karen drinks 2 pounds of water per hour and eats food equal to one-third of that hourly water weight. She started with 20 pounds of water, 10 pounds of food, and 20 pounds of gear. How much weight is she carrying after six hours?","To determine how much weight Karen is carrying after six hours, we need to calculate the water and food she consumes during that time.
+
+1. **Water Consumption**: 
+   - Karen drinks 2 pounds of water per hour.
+   - In six hours, she drinks: 
+     \[
+     2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds}
+     \]
+   - Starting with 20 pounds of water, the remaining water after six hours is:
+     \[
+     20 \text{ pounds} - 12 \text{ pounds} = 8 \text{ pounds}
+     \]
+
+2. **Food Consumption**: 
+   - She eats food equal to one-third of her hourly water weight, which is:
+     \[
+     \frac{1}{3} \times 2 \text{ pounds} = \frac{2}{3} \text{ pounds/hour}
+     \]
+   - In six hours, she consumes:
+     \[
+     \frac{2}{3} \text{ pounds/hour} \times 6 \text{ hours} = 4 \text{ pounds}
+     \]
+   - Starting with 10 pounds of food, the remaining food after six hours is:
+     \[
+     10 \text{ pounds} - 4 \text{ pounds} = 6 \text{ pounds}
+     \]
+
+3. **Gear Weight**:"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,reordering,2,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","During her hike, Karen drinks 2 pounds of water per hour and eats food equal to one-third of that hourly water weight. She started with 20 pounds of water, 10 pounds of food, and 20 pounds of gear. How much weight is she carrying after six hours?","To determine how much weight Karen is carrying after six hours, we need to calculate the weight of the water, food, and gear she has after that time.
+
+1. **Water Consumption**:
+   - Karen drinks 2 pounds of water per hour.
+   - In 6 hours, she will drink:  
+     \( 2 \, \text{pounds/hour} \times 6 \, \text{hours} = 12 \, \text{pounds} \)
+   - She started with 20 pounds of water, so the remaining water after 6 hours is:  
+     \( 20 \, \text{pounds} - 12 \, \text{pounds} = 8 \, \text{pounds} \)
+
+2. **Food Consumption**:
+   - She eats food equal to one-third of the water she drinks. Since she drinks 12 pounds of water over 6 hours, the amount of food she eats is:  
+     \( \frac{1}{3} \times 12 \, \text{pounds} = 4 \, \text{pounds} \)
+   - She started with 10 pounds of food, so the remaining food after 6 hours is:  
+     \( 10 \, \text{pounds} - 4 \, \text{pounds} = 6 \, \text{pounds} \)
+
+3. **Gear**:"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,reordering,3,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","During her hike, Karen drinks 2 pounds of water per hour and eats food equal to one-third of that hourly water weight. She started with 20 pounds of water, 10 pounds of food, and 20 pounds of gear. How much weight is she carrying after six hours?","Let's break down Karen's situation step by step.
+
+1. **Water Consumption**: 
+   - Karen drinks 2 pounds of water per hour.
+   - Over 6 hours, she will drink:
+     \[
+     2 \, \text{pounds/hour} \times 6 \, \text{hours} = 12 \, \text{pounds of water}
+     \]
+
+2. **Initial Water Supply**:
+   - She started with 20 pounds of water.
+   - After drinking 12 pounds, the remaining water is:
+     \[
+     20 \, \text{pounds} - 12 \, \text{pounds} = 8 \, \text{pounds of water}
+     \]
+
+3. **Food Consumption**:
+   - She eats food equal to one-third of her hourly water weight, which is:
+     \[
+     \frac{1}{3} \times 2 \, \text{pounds} = \frac{2}{3} \, \text{pounds of food per hour}
+     \]
+   - Over 6 hours, she will eat:
+     \[
+     \frac{2}{3} \, \text{pounds/hour} \times 6 \, \text{hours} = 4 \, \text{pounds of food}
+     \]
+
+4. **Initial Food Supply**:
+   - She started with 10"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,formatting_changes,1,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Solve the problem. Starting weight: 20 lb water, 10 lb food, 20 lb gear. Consumption per hour: 2 lb water and food equal to 1/3 of the hourly water weight. Time: 6 hours. What is the backpack weight after 6 hours?","To solve this problem, we need to calculate the weight loss from water and food consumption over the 6-hour period.
+
+1. **Starting Weight**:
+   - Water: 20 lb
+   - Food: 10 lb
+   - Gear: 20 lb
+   - Total Starting Weight: \(20 + 10 + 20 = 50 \text{ lb}\)
+
+2. **Consumption Rates**:
+   - Water consumption: 2 lb per hour
+   - Food consumption: 1/3 of the hourly water weight. Since the water weight starts at 20 lb, the consumption will be \( \frac{1}{3} \times 20 = \frac{20}{3} \approx 6.67 \text{ lb}\) per hour for food.
+
+3. **Total Consumption Over 6 Hours**:
+   - Water: \(2 \text{ lb/hour} \times 6 \text{ hours} = 12 \text{ lb}\)
+   - Food: \(\frac{20}{3} \text{ lb/hour} \times 6 \text{ hours} = 40 \text{ lb}\)
+
+4. **Weight Remaining After 6 Hours**:
+   - Water remaining: \(20 \text{ lb} - 12 \text{ lb} = 8 \text{ lb}\)
+   - Food remaining: \(10 \text{ lb} - 40 \text{ lb} ="
+math_reasoning_400,math_reasoning,openai/gsm8k,400,formatting_changes,2,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Solve the problem. Starting weight: 20 lb water, 10 lb food, 20 lb gear. Consumption per hour: 2 lb water and food equal to 1/3 of the hourly water weight. Time: 6 hours. What is the backpack weight after 6 hours?","To solve the problem, we need to calculate the consumption of water and food over 6 hours and then determine the remaining weight of the backpack.
+
+**Starting Weight:**
+- Water: 20 lb
+- Food: 10 lb
+- Gear: 20 lb
+- Total Weight: 20 lb (water) + 10 lb (food) + 20 lb (gear) = 50 lb
+
+**Consumption Rates:**
+- Water consumption: 2 lb per hour
+- Food consumption: 1/3 of the hourly water weight, which is 1/3 of 2 lb = 2/3 lb per hour.
+
+**Total Consumption Over 6 Hours:**
+- Water consumed in 6 hours: 2 lb/hour * 6 hours = 12 lb
+- Food consumed in 6 hours: (2/3 lb/hour) * 6 hours = 4 lb
+
+**Remaining Weight After 6 Hours:**
+- Remaining water: 20 lb - 12 lb = 8 lb
+- Remaining food: 10 lb - 4 lb = 6 lb
+- Gear remains unchanged at 20 lb.
+
+**Total Remaining Weight:**
+- Remaining Weight = Remaining water + Remaining food + Gear
+- Remaining Weight = 8 lb (water) + 6 lb (food) + 20 lb (gear) = 34 lb
+
+Therefore, the backpack weight after 6 hours is **34 lb**."
+math_reasoning_400,math_reasoning,openai/gsm8k,400,formatting_changes,3,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Solve the problem. Starting weight: 20 lb water, 10 lb food, 20 lb gear. Consumption per hour: 2 lb water and food equal to 1/3 of the hourly water weight. Time: 6 hours. What is the backpack weight after 6 hours?","To solve the problem, we first need to calculate how much weight is consumed over the 6-hour period.
+
+### Initial Weights:
+- Water: 20 lb
+- Food: 10 lb
+- Gear: 20 lb
+
+### Consumption Rates:
+- **Water Consumption**: 2 lb per hour
+- **Food Consumption**: Since food is equal to 1/3 of the hourly water weight, we can find the food consumption per hour:
+  - Water consumed in 1 hour = 2 lb
+  - Food consumed in 1 hour = (1/3) * 2 lb = 2/3 lb
+
+### Total Consumption Over 6 Hours:
+1. **Water**:
+   - Water consumed in 6 hours = 2 lb/hour * 6 hours = 12 lb
+   - Remaining water = 20 lb - 12 lb = 8 lb
+
+2. **Food**:
+   - Food consumed in 6 hours = (2/3 lb/hour) * 6 hours = 4 lb
+   - Remaining food = 10 lb - 4 lb = 6 lb
+
+3. **Gear**:
+   - Gear weight remains the same at 20 lb.
+
+### Final Backpack Weight Calculation:
+- Remaining water: 8 lb
+- Remaining food: 6 lb
+- Gear: 20 lb
+
+**Total Backpack Weight after 6 hours**:
+\[ 
+\text{Total Weight} = \"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,context_injection,1,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","For a basic arithmetic word-problem exercise, solve this: Karen packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats food equal to one-third of that hourly water weight. How much weight is she carrying after six hours?","To determine how much weight Karen is carrying after six hours, we first need to calculate how much water and food she has consumed during that time.
+
+1. **Water Consumption:**
+   - Karen drinks 2 pounds of water per hour.
+   - In six hours, she drinks:
+     \[
+     2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds of water}
+     \]
+
+2. **Food Consumption:**
+   - She eats food equal to one-third of her hourly water consumption.
+   - Since she drinks 2 pounds of water per hour, she eats:
+     \[
+     \frac{1}{3} \times 2 \text{ pounds/hour} = \frac{2}{3} \text{ pounds of food/hour}
+     \]
+   - In six hours, she eats:
+     \[
+     \frac{2}{3} \text{ pounds/hour} \times 6 \text{ hours} = 4 \text{ pounds of food}
+     \]
+
+3. **Initial Weight:**
+   - Karen starts with:
+     - Water: 20 pounds
+     - Food: 10 pounds
+     - Gear: 20 pounds
+   - Total initial weight:
+     \[
+     20 + 10 + 20 = 50 \text{ pounds}
+     \]
+
+4. **Weight After Six Hours:**
+   - After consuming 12 pounds of"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,context_injection,2,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","For a basic arithmetic word-problem exercise, solve this: Karen packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats food equal to one-third of that hourly water weight. How much weight is she carrying after six hours?","To determine how much weight Karen is carrying after six hours, we first need to calculate how much water and food she consumes during that time.
+
+1. **Water Consumption**:
+   - Karen drinks 2 pounds of water per hour.
+   - In 6 hours, she drinks: 
+     \[
+     2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds of water}
+     \]
+
+2. **Food Consumption**:
+   - She eats food equal to one-third of her hourly water consumption.
+   - One-third of 2 pounds of water is:
+     \[
+     \frac{2 \text{ pounds}}{3} \approx 0.67 \text{ pounds of food per hour}
+     \]
+   - In 6 hours, she eats:
+     \[
+     0.67 \text{ pounds/hour} \times 6 \text{ hours} \approx 4 \text{ pounds of food}
+     \]
+
+3. **Initial Weights**:
+   - Initial weight of water: 20 pounds
+   - Initial weight of food: 10 pounds
+   - Initial weight of gear: 20 pounds
+
+4. **Weight After Consumption**:
+   - Remaining water after 6 hours:
+     \[
+     20 \text{ pounds} - 12 \text{ pounds} = 8 \text{ pounds}
+     \]
+   - Remaining food after"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,context_injection,3,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","For a basic arithmetic word-problem exercise, solve this: Karen packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats food equal to one-third of that hourly water weight. How much weight is she carrying after six hours?","Let's break down the problem step by step.
+
+1. **Initial weights**:
+   - Water: 20 pounds
+   - Food: 10 pounds
+   - Gear: 20 pounds
+   - **Total initial weight**: \( 20 + 10 + 20 = 50 \) pounds
+
+2. **Water consumption**:
+   - Karen drinks 2 pounds of water per hour.
+   - In 6 hours, she drinks:
+     \[
+     2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds of water}
+     \]
+
+3. **Food consumption**:
+   - She eats food equal to one-third of the water she drinks.
+   - In 6 hours, the food consumed is:
+     \[
+     \frac{1}{3} \times 12 \text{ pounds of water} = 4 \text{ pounds of food}
+     \]
+
+4. **Remaining weight after 6 hours**:
+   - Remaining water:
+     \[
+     20 \text{ pounds} - 12 \text{ pounds} = 8 \text{ pounds}
+     \]
+   - Remaining food:
+     \[
+     10 \text{ pounds} - 4 \text{ pounds} = 6 \text{ pounds}
+     \]
+   - Gear remains the same at 20 pounds.
+
+5. **Total weight after 6 hours**:"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,surface_noise,1,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much wieght is she carrying after six hours?","Let's calculate the total weight Karen is carrying after six hours of hiking.
+
+Initially, she packs:
+- Water: 20 pounds
+- Food: 10 pounds
+- Gear: 20 pounds
+
+Total initial weight = 20 + 10 + 20 = 50 pounds.
+
+During the hike:
+- She drinks 2 pounds of water per hour.
+- She eats 1/3 of the weight of water consumed per hour as food, which means she eats \( \frac{1}{3} \times 2 = \frac{2}{3} \) pounds of food per hour.
+
+After 6 hours:
+- Total water consumed = \( 2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds} \).
+- Total food consumed = \( \frac{2}{3} \text{ pounds/hour} \times 6 \text{ hours} = 4 \text{ pounds} \).
+
+Remaining water = \( 20 - 12 = 8 \text{ pounds} \).
+Remaining food = \( 10 - 4 = 6 \text{ pounds} \).
+Remaining gear = 20 pounds (unchanged).
+
+Now, let's calculate the total weight she is carrying after six hours:
+- Remaining water: 8 pounds
+- Remaining food: 6 pounds
+- Gear: 20 pounds
+
+Total weight after 6 hours = \( 8 + 6 + 20 ="
+math_reasoning_400,math_reasoning,openai/gsm8k,400,surface_noise,2,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much wieght is she carrying after six hours?","Let's calculate the total weight Karen starts with and how much she consumes over six hours.
+
+1. **Initial weight:**
+   - Water: 20 pounds
+   - Food: 10 pounds
+   - Gear: 20 pounds
+   - **Total initial weight = 20 + 10 + 20 = 50 pounds**
+
+2. **Water consumed in six hours:**
+   - She drinks 2 pounds of water per hour.
+   - In six hours, she drinks: \( 2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds} \)
+
+3. **Food consumed in six hours:**
+   - She eats 1/3 of the weight of water consumed per hour.
+   - Since she consumes 2 pounds of water per hour, she eats: \( \frac{1}{3} \times 2 = \frac{2}{3} \) pounds of food per hour.
+   - In six hours, she eats: \( \frac{2}{3} \text{ pounds/hour} \times 6 \text{ hours} = 4 \text{ pounds} \)
+
+4. **Remaining weight after six hours:**
+   - Remaining water: \( 20 \text{ pounds} - 12 \text{ pounds} = 8 \text{ pounds} \)
+   - Remaining food: \( 10 \text{ pounds} - 4 \text{"
+math_reasoning_400,math_reasoning,openai/gsm8k,400,surface_noise,3,gpt-4o-mini,0.7,0.9,300,"Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much weight is she carrying after six hours?","Karen is packing her backpack for a long-distance hike. She packs 20 pounds of water, 10 pounds of food, and 20 pounds of gear. During her hike, she drinks 2 pounds of water per hour and eats 1/3rd the weight of food per hour as water per hour. How much wieght is she carrying after six hours?","To find out how much weight Karen is carrying after six hours, we first need to calculate how much water and food she consumes during that time.
+
+1. **Water consumption**: 
+   - Karen drinks 2 pounds of water per hour.
+   - In six hours, she will drink:
+     \[
+     2 \text{ pounds/hour} \times 6 \text{ hours} = 12 \text{ pounds of water}
+     \]
+
+2. **Food consumption**: 
+   - She eats 1/3 of the weight of water consumed per hour.
+   - Since she drinks 2 pounds of water per hour, her food consumption per hour is:
+     \[
+     \frac{1}{3} \times 2 \text{ pounds} = \frac{2}{3} \text{ pounds of food/hour}
+     \]
+   - In six hours, she will eat:
+     \[
+     \frac{2}{3} \text{ pounds/hour} \times 6 \text{ hours} = 4 \text{ pounds of food}
+     \]
+
+3. **Initial weights**:
+   - Water: 20 pounds
+   - Food: 10 pounds
+   - Gear: 20 pounds
+
+4. **Remaining weights after six hours**:
+   - Remaining water:
+     \[
+     20 \text{ pounds} - 12 \text{ pounds} = 8 \text{ pounds}"
+code_generation_35,code_generation,bigcode/humanevalpack,35,paraphrasing,1,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Create a Python function named `max_element(l: list)` that returns the largest value in the input list. For example, `max_element([1, 2, 3])` should return 3, and `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` should return 123.","Here's a Python function named `max_element` that returns the largest value in the input list:
+
+```python
+def max_element(l: list) -> int:
+    if not l:  # Check if the list is empty
+        raise ValueError(""The list is empty."")
+    max_value = l[0]  # Initialize max_value with the first element
+    for element in l:
+        if element > max_value:
+            max_value = element  # Update max_value if a larger element is found
+    return max_value
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function checks if the list is empty and raises an error if it is. It then iterates through the list to find and return the maximum value."
+code_generation_35,code_generation,bigcode/humanevalpack,35,paraphrasing,2,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Create a Python function named `max_element(l: list)` that returns the largest value in the input list. For example, `max_element([1, 2, 3])` should return 3, and `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` should return 123.","Here is a Python function named `max_element` that returns the largest value in the input list:
+
+```python
+def max_element(l: list):
+    if not l:  # Check if the list is empty
+        return None  # or raise an exception if preferred
+    max_value = l[0]  # Initialize max_value with the first element
+    for item in l:  # Iterate through the list
+        if item > max_value:  # Compare each item with max_value
+            max_value = item  # Update max_value if a larger item is found
+    return max_value  # Return the largest value found
+```
+
+### Example Usage:
+
+```python
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function checks if the list is empty and returns `None` in that case. It initializes `max_value` with the first element of the list and then iterates through the rest of the elements to find the maximum value."
+code_generation_35,code_generation,bigcode/humanevalpack,35,paraphrasing,3,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Create a Python function named `max_element(l: list)` that returns the largest value in the input list. For example, `max_element([1, 2, 3])` should return 3, and `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` should return 123.","Here is a Python function named `max_element` that returns the largest value in the input list:
+
+```python
+def max_element(l: list):
+    if not l:  # Check if the list is empty
+        return None  # Return None if the list is empty
+    max_value = l[0]  # Initialize max_value with the first element of the list
+    for num in l:  # Iterate through each number in the list
+        if num > max_value:  # If the current number is greater than max_value
+            max_value = num  # Update max_value
+    return max_value  # Return the largest value found
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function checks for an empty list and initializes the maximum value with the first element, then iterates through the list to find and return the largest number."
+code_generation_35,code_generation,bigcode/humanevalpack,35,reordering,1,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Return the maximum element in a list. Write the solution as a Python function named `max_element(l: list)`. Example: `max_element([1, 2, 3])` returns 3. Example: `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` returns 123.","Here's a Python function that returns the maximum element in a list:
+
+```python
+def max_element(l: list):
+    if not l:  # Check if the list is empty
+        return None  # Return None or raise an exception based on your preference
+    return max(l)  # Use the built-in max function
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function utilizes Python's built-in `max()` function to find and return the maximum value in the list. If the list is empty, it returns `None`. You can modify the behavior for empty lists as needed."
+code_generation_35,code_generation,bigcode/humanevalpack,35,reordering,2,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Return the maximum element in a list. Write the solution as a Python function named `max_element(l: list)`. Example: `max_element([1, 2, 3])` returns 3. Example: `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` returns 123.","Here’s a Python function that returns the maximum element in a list:
+
+```python
+def max_element(l: list):
+    if not l:
+        return None  # Return None if the list is empty
+    return max(l)
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function uses Python's built-in `max()` function to find and return the maximum value in the list. If the list is empty, it returns `None`."
+code_generation_35,code_generation,bigcode/humanevalpack,35,reordering,3,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Return the maximum element in a list. Write the solution as a Python function named `max_element(l: list)`. Example: `max_element([1, 2, 3])` returns 3. Example: `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` returns 123.","Here's a Python function that returns the maximum element in a list:
+
+```python
+def max_element(l: list):
+    return max(l)
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function uses Python's built-in `max()` function to find and return the maximum element in the list."
+code_generation_35,code_generation,bigcode/humanevalpack,35,formatting_changes,1,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Task: Write Python code. Function name: `max_element`. Input: `l: list`. Output: the maximum element in the list. Examples: `max_element([1, 2, 3]) -> 3`; `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) -> 123`.","Here is the Python code for the function `max_element` that returns the maximum element from a given list:
+
+```python
+def max_element(l: list) -> int:
+    if not l:  # Check if the list is empty
+        raise ValueError(""The list is empty"")
+    return max(l)
+
+# Examples
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function uses Python's built-in `max()` function to find the maximum element in the list. It also includes a check to raise an error if the list is empty."
+code_generation_35,code_generation,bigcode/humanevalpack,35,formatting_changes,2,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Task: Write Python code. Function name: `max_element`. Input: `l: list`. Output: the maximum element in the list. Examples: `max_element([1, 2, 3]) -> 3`; `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) -> 123`.","Here is the Python code for the `max_element` function:
+
+```python
+def max_element(l: list) -> int:
+    if not l:
+        raise ValueError(""The list is empty"")
+    return max(l)
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function uses the built-in `max()` function to find the maximum element in the list. It also checks if the list is empty and raises an appropriate error if it is."
+code_generation_35,code_generation,bigcode/humanevalpack,35,formatting_changes,3,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Task: Write Python code. Function name: `max_element`. Input: `l: list`. Output: the maximum element in the list. Examples: `max_element([1, 2, 3]) -> 3`; `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) -> 123`.","Here's a Python function named `max_element` that takes a list as input and returns the maximum element in that list:
+
+```python
+def max_element(l: list) -> int:
+    if not l:  # Check if the list is empty
+        raise ValueError(""The list is empty"")
+    return max(l)
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function uses Python's built-in `max()` function to find the maximum value in the list. It also includes a check to raise an error if the list is empty."
+code_generation_35,code_generation,bigcode/humanevalpack,35,context_injection,1,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","For a beginner Python programming exercise, write a function `max_element(l: list)` that returns the maximum element in the list. For example, `max_element([1, 2, 3])` returns 3, and `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` returns 123.","Here's a simple Python function `max_element` that returns the maximum element from a given list:
+
+```python
+def max_element(l: list) -> int:
+    if not l:
+        raise ValueError(""The list is empty."")
+    max_value = l[0]
+    for element in l:
+        if element > max_value:
+            max_value = element
+    return max_value
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function first checks if the list is empty and raises a `ValueError` if it is. It then initializes `max_value` to the first element of the list and iterates through the list to find the maximum value."
+code_generation_35,code_generation,bigcode/humanevalpack,35,context_injection,2,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","For a beginner Python programming exercise, write a function `max_element(l: list)` that returns the maximum element in the list. For example, `max_element([1, 2, 3])` returns 3, and `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` returns 123.","Certainly! Here's a simple function `max_element` that takes a list as an argument and returns the maximum element in that list:
+
+```python
+def max_element(l: list):
+    if not l:  # Check if the list is empty
+        return None  # Return None if the list is empty
+    maximum = l[0]  # Initialize maximum with the first element
+    for item in l:
+        if item > maximum:
+            maximum = item  # Update maximum if a larger item is found
+    return maximum
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function first checks if the list is empty, returning `None` if it is. Then, it initializes the maximum value with the first element and iterates through the list to find the maximum value."
+code_generation_35,code_generation,bigcode/humanevalpack,35,context_injection,3,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","For a beginner Python programming exercise, write a function `max_element(l: list)` that returns the maximum element in the list. For example, `max_element([1, 2, 3])` returns 3, and `max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])` returns 123.","Here's a simple implementation of the `max_element` function that returns the maximum element from a list:
+
+```python
+def max_element(l: list):
+    if not l:  # Check if the list is empty
+        return None  # Return None if the list is empty
+    max_value = l[0]  # Initialize max_value with the first element of the list
+    for item in l:  # Iterate through each element in the list
+        if item > max_value:  # Check if the current item is greater than max_value
+            max_value = item  # Update max_value if the current item is greater
+    return max_value  # Return the maximum value found
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function first checks if the list is empty and returns `None` if it is. It then initializes a variable `max_value` to the first element of the list and iterates through the list to find the maximum value. Finally, it returns the maximum value found."
+code_generation_35,code_generation,bigcode/humanevalpack,35,surface_noise,1,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Write a Python function `max_element(l: list)` to solve the following problem: Return maxium element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Here's a Python function that returns the maximum element in a list:
+
+```python
+def max_element(l: list) -> int:
+    if not l:
+        raise ValueError(""The list is empty."")
+    return max(l)
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function uses the built-in `max()` function to find the maximum value in the list. It also raises an error if the list is empty to handle that case appropriately."
+code_generation_35,code_generation,bigcode/humanevalpack,35,surface_noise,2,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Write a Python function `max_element(l: list)` to solve the following problem: Return maxium element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Here's a Python function `max_element(l: list)` that returns the maximum element in the provided list:
+
+```python
+def max_element(l: list):
+    if not l:  # Check if the list is empty
+        return None  # or raise an exception if preferred
+    max_value = l[0]  # Initialize max_value with the first element
+    for item in l:  # Iterate through the list
+        if item > max_value:  # Compare each item with max_value
+            max_value = item  # Update max_value if the current item is greater
+    return max_value  # Return the maximum value found
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function first checks if the list is empty and returns `None` if it is. Then, it initializes the maximum value to the first element and iterates through the list to find the maximum value."
+code_generation_35,code_generation,bigcode/humanevalpack,35,surface_noise,3,gpt-4o-mini,0.7,0.9,300,"Write a Python function `max_element(l: list)` to solve the following problem: Return maximum element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","Write a Python function `max_element(l: list)` to solve the following problem: Return maxium element in the list. >>> max_element([1, 2, 3]) 3 >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]) 123","You can create the `max_element` function in Python as follows:
+
+```python
+def max_element(l: list) -> int:
+    if not l:
+        raise ValueError(""The list cannot be empty."")
+    return max(l)
+
+# Example usage:
+print(max_element([1, 2, 3]))  # Output: 3
+print(max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10]))  # Output: 123
+```
+
+This function checks if the list is empty and raises a `ValueError` if it is. Otherwise, it returns the maximum element using Python's built-in `max()` function."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,paraphrasing,1,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.",Write a few sentences explaining why sleep is important.,"Sleep is essential for overall health and well-being as it allows the body to repair and rejuvenate itself. It plays a critical role in cognitive functions, such as memory consolidation, problem-solving, and emotional regulation. Adequate sleep also supports the immune system, helps maintain a healthy weight, and reduces the risk of chronic conditions like heart disease and diabetes. In short, quality sleep is vital for both physical and mental health."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,paraphrasing,2,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.",Write a few sentences explaining why sleep is important.,"Sleep is essential for overall health and well-being as it allows the body to repair and rejuvenate. It plays a crucial role in cognitive functions, such as memory consolidation and problem-solving skills. Additionally, adequate sleep supports the immune system, helps regulate mood, and promotes physical health by balancing hormones and reducing the risk of chronic diseases. Without sufficient sleep, both mental and physical performance can decline significantly."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,paraphrasing,3,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.",Write a few sentences explaining why sleep is important.,"Sleep is crucial for overall health and well-being as it allows the body to repair and rejuvenate itself. During sleep, the brain processes information, consolidates memories, and regulates emotions, which enhances cognitive function and mood. Additionally, adequate sleep supports the immune system, helping to fend off illness and maintain physical health. Without sufficient sleep, individuals may experience impaired judgment, increased stress levels, and a higher risk of chronic conditions."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,reordering,1,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.",Sleep is important. Describe why in a few sentences.,"Sleep is crucial for overall health and well-being as it allows the body to repair and rejuvenate itself. During sleep, the brain processes information, consolidates memories, and regulates emotions, which enhances cognitive function and mood. Additionally, adequate sleep supports the immune system, helps maintain a healthy weight, and reduces the risk of chronic diseases, making it essential for physical and mental health."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,reordering,2,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.",Sleep is important. Describe why in a few sentences.,"Sleep is essential for overall health and well-being as it allows the body to repair and rejuvenate itself. It plays a crucial role in cognitive functions such as memory consolidation, decision-making, and emotional regulation. Additionally, adequate sleep supports the immune system, helps maintain a healthy weight, and reduces the risk of chronic diseases. Without sufficient rest, both mental and physical performance can decline significantly."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,reordering,3,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.",Sleep is important. Describe why in a few sentences.,"Sleep is crucial for overall health and well-being as it allows the body to repair and rejuvenate itself. During sleep, the brain processes information, consolidates memories, and regulates emotions, which enhances cognitive function and mental clarity. Additionally, adequate sleep supports the immune system, helps maintain a healthy weight, and reduces the risk of chronic diseases, making it essential for both physical and mental health."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,formatting_changes,1,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","In 2-4 sentences, answer: What is the importance of sleep?","Sleep is crucial for overall health and well-being, as it allows the body to repair and rejuvenate itself. It plays a vital role in cognitive functions, including memory consolidation, emotional regulation, and problem-solving. Adequate sleep also supports immune function and helps regulate metabolism, reducing the risk of various health issues. Overall, quality sleep is essential for maintaining physical, mental, and emotional health."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,formatting_changes,2,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","In 2-4 sentences, answer: What is the importance of sleep?","Sleep is crucial for overall health as it supports physical and mental well-being. It plays a vital role in cognitive function, memory consolidation, and emotional regulation, while also aiding in the body's repair processes and immune function. Adequate sleep can enhance productivity, mood, and overall quality of life."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,formatting_changes,3,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","In 2-4 sentences, answer: What is the importance of sleep?","Sleep is essential for overall health and well-being, as it plays a crucial role in physical recovery, cognitive function, and emotional regulation. During sleep, the body repairs tissues, consolidates memories, and regulates hormones, all of which contribute to optimal functioning. Adequate sleep helps improve mood, enhance learning, and boost the immune system, making it vital for daily performance and long-term health."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,context_injection,1,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","For a school wellness discussion, in a few sentences, describe the importance of sleep.","Sleep is crucial for overall well-being as it supports physical health, mental clarity, and emotional stability. During sleep, the body undergoes essential processes such as repairing tissues, regulating hormones, and consolidating memories. Adequate sleep enhances focus, boosts mood, and improves performance in daily activities, making it vital for students and adults alike to prioritize restful nights for optimal functioning and health."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,context_injection,2,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","For a school wellness discussion, in a few sentences, describe the importance of sleep.","Sleep is crucial for overall health and well-being, as it plays a vital role in physical and mental development. It helps the body repair itself, supports immune function, and enhances cognitive processes such as memory and learning. Adequate sleep also regulates mood and stress levels, contributing to better emotional resilience. In a school setting, prioritizing sleep can improve academic performance and promote healthier lifestyle choices among students."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,context_injection,3,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","For a school wellness discussion, in a few sentences, describe the importance of sleep.","Sleep is crucial for overall health and well-being, especially for students. It supports cognitive functions such as memory, concentration, and problem-solving skills, which are essential for learning. Adequate sleep also helps regulate mood and stress levels, promoting emotional resilience. Additionally, good sleep hygiene contributes to physical health by strengthening the immune system and reducing the risk of chronic conditions. Prioritizing sleep is vital for achieving academic success and maintaining a balanced lifestyle."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,surface_noise,1,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","In a few senteces, describe the importance of sleep.","Sleep is crucial for overall health and well-being, as it plays a vital role in physical and mental restoration. During sleep, the body repairs tissues, strengthens the immune system, and consolidates memories. Adequate sleep enhances cognitive function, mood regulation, and creativity, while chronic sleep deprivation can lead to serious health issues such as obesity, heart disease, and depression. Prioritizing sleep is essential for maintaining optimal performance and quality of life."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,surface_noise,2,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","In a few senteces, describe the importance of sleep.","Sleep is vital for overall health and well-being, as it plays a crucial role in physical and mental restoration. It enhances cognitive functions, including memory, learning, and problem-solving skills. Adequate sleep also supports emotional regulation and immune function, reducing the risk of chronic diseases. Furthermore, quality sleep promotes physical recovery and energy levels, making it essential for daily performance and quality of life."
+open_ended_writing_13494,open_ended_writing,tatsu-lab/alpaca,13494,surface_noise,3,gpt-4o-mini,0.7,0.9,300,"In a few sentences, describe the importance of sleep.","In a few senteces, describe the importance of sleep.","Sleep is crucial for overall health and well-being, as it plays a vital role in physical and mental recovery. During sleep, the body repairs tissues, strengthens the immune system, and consolidates memories, enhancing learning and cognitive function. Adequate sleep also helps regulate mood, reduces stress, and supports metabolic health, making it essential for maintaining a balanced lifestyle. Without sufficient rest, both physical and mental performance can decline significantly."

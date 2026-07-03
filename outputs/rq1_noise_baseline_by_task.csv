@@ -1,0 +1,5 @@
+task_type,n_items,mean_sampling_noise_drift
+code_generation,1,0.095767
+factual_qa,2,0.317825
+math_reasoning,2,0.481633
+open_ended_writing,1,0.440385

@@ -1,0 +1,88 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="/Users/wenfenglin/Desktop/Pioneer"
+cd "$ROOT"
+
+mkdir -p logs outputs prompts
+LOG="logs/rq1_n50_minimal_4h_$(date +%Y%m%d_%H%M%S).log"
+
+if [[ -z "${OPENAI_API_KEY:-}" ]]; then
+  echo "OPENAI_API_KEY is not set."
+  echo "Run: export OPENAI_API_KEY=\"your_api_key_here\""
+  exit 1
+fi
+
+run_step() {
+  local name="$1"
+  shift
+  echo ""
+  echo "===== $(date '+%Y-%m-%d %H:%M:%S') START: ${name} =====" | tee -a "$LOG"
+  "$@" 2>&1 | tee -a "$LOG"
+  echo "===== $(date '+%Y-%m-%d %H:%M:%S') END: ${name} =====" | tee -a "$LOG"
+}
+
+run_step "prepare remaining baseline prompt files" python - <<'PY'
+import csv
+from pathlib import Path
+
+root = Path("/Users/wenfenglin/Desktop/Pioneer")
+source = root / "prompts" / "rq1_sampled_original_prompts_n50.csv"
+rows = list(csv.DictReader(source.open(newline="", encoding="utf-8")))
+
+for task in ["code_generation", "open_ended_writing"]:
+    subset = [row for row in rows if row["task_type"] == task]
+    target = root / "prompts" / f"rq1_sampled_original_prompts_n50_{task}.csv"
+    with target.open("w", newline="", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=rows[0].keys())
+        writer.writeheader()
+        writer.writerows(subset)
+    print(f"{task}: wrote {len(subset)} prompts to {target}")
+PY
+
+# Priority 1: complete sample-noise baseline for all four task types.
+# factual_qa and math_reasoning are already complete; this finishes the remaining two.
+run_step "baseline original outputs: code_generation" \
+  python src/07_generate_rq1_outputs_openai.py \
+    --input prompts/rq1_sampled_original_prompts_n50_code_generation.csv \
+    --output outputs/rq1_formal_original_generations_n50_code_generation.csv
+
+run_step "baseline original outputs: open_ended_writing" \
+  python src/07_generate_rq1_outputs_openai.py \
+    --input prompts/rq1_sampled_original_prompts_n50_open_ended_writing.csv \
+    --output outputs/rq1_formal_original_generations_n50_open_ended_writing.csv
+
+# Priority 2: run only factual_qa perturbation outputs.
+# Other task-type perturbation outputs are intentionally skipped for the 4-hour window.
+run_step "perturbed outputs: factual_qa only" \
+  env \
+    RQ1B_PERTURBED_PROMPTS="prompts/rq1_formal_perturbed_prompts_n50_factual_qa.csv" \
+    RQ1B_PERTURBED_OUTPUTS="outputs/rq1_formal_perturbed_generations_n50_factual_qa.csv" \
+    python src/11_generate_rq1b_perturbed_outputs_openai.py
+
+run_step "current row-count summary" python - <<'PY'
+import csv
+from pathlib import Path
+
+paths = [
+    "outputs/rq1_formal_original_generations_n50_factual_qa.csv",
+    "outputs/rq1_formal_original_generations_n50_math_reasoning.csv",
+    "outputs/rq1_formal_original_generations_n50_code_generation.csv",
+    "outputs/rq1_formal_original_generations_n50_open_ended_writing.csv",
+    "prompts/rq1_formal_perturbed_prompts_n50_factual_qa.csv",
+    "outputs/rq1_formal_perturbed_generations_n50_factual_qa.csv",
+]
+
+root = Path("/Users/wenfenglin/Desktop/Pioneer")
+for relative in paths:
+    path = root / relative
+    if not path.exists():
+        print(f"{relative}: MISSING")
+        continue
+    with path.open(newline="", encoding="utf-8") as file:
+        rows = list(csv.DictReader(file))
+    print(f"{relative}: {len(rows)} rows")
+PY
+
+echo ""
+echo "Minimal 4-hour queue completed. Log: ${LOG}"

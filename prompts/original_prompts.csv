@@ -1,0 +1,7 @@
+item_id,task_type,original_prompt,reference_answer,source
+fact_001,factual_qa,"What is the capital city of Canada?","Ottawa","pilot_manual"
+fact_002,factual_qa,"Who wrote the novel Pride and Prejudice?","Jane Austen","pilot_manual"
+math_001,math_reasoning,"A notebook costs 3 dollars. If Maya buys 7 notebooks, how much does she spend in total?","21","pilot_manual"
+math_002,math_reasoning,"A train travels 60 miles per hour for 2.5 hours. How many miles does it travel?","150","pilot_manual"
+code_001,code_generation,"Write a Python function named add_numbers that takes two numbers and returns their sum.","def add_numbers(a, b): return a + b","pilot_manual"
+write_001,open_ended_writing,"Write a short paragraph explaining why sleep is important for students.","","pilot_manual"

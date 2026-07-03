@@ -1,0 +1,7 @@
+group1,group2,mean_difference,p_adj,ci_lower,ci_upper,reject_alpha_0_05
+code_generation,factual_qa,-0.02,0.8492,-0.0866,0.0466,False
+code_generation,math_reasoning,0.0182,0.8825,-0.0484,0.0848,False
+code_generation,open_ended_writing,0.0101,0.9764,-0.0565,0.0767,False
+factual_qa,math_reasoning,0.0382,0.4222,-0.0284,0.1048,False
+factual_qa,open_ended_writing,0.0302,0.6182,-0.0364,0.0968,False
+math_reasoning,open_ended_writing,-0.008,0.988,-0.0746,0.0586,False

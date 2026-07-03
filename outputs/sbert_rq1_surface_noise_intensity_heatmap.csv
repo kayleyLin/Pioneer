@@ -1,0 +1,4 @@
+perturbation_type,factual_qa,math_reasoning,code_generation,open_ended_writing
+surface_noise_low,-0.002819,-0.009355,-0.005216,0.002918
+surface_noise_medium,-0.009481,-0.001748,0.008938,-0.002206
+surface_noise_high,0.000853,-0.016462,0.000288,0.015819

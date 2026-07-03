@@ -1,0 +1,151 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,train,10208,10208,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","The four major ocean currents are the North Atlantic Drift, Gulf Stream, Kuroshio Current, and Rhumb Line. The North Atlantic Drift is a significant western boundary current in the Atlantic Ocean and is part of the North Atlantic Gyre. The Gulf Stream is a warm, swift Atlantic Ocean current that originates in the Gulf of Mexico and flows northeastward toward Europe. The Kuroshio Current is a warm, swift Pacific Ocean current located off the east coast of Japan. Lastly, Rhumb Line is an ocean current that goes in a circle around the world along the same latitude.",20260623
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,train,45338,45338,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10",2,20260623
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,train,11297,11297,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","""new resources learning Spanish""",20260623
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,train,36102,36102,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""",Criticism,20260623
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,train,16258,16258,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","The data shows an overall trend of increasing sales year over year. There was a slight decrease between year 2 and 3, but overall the sales have been steadily increasing.",20260623
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,train,35144,35144,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","Trees do the planet so much good, They freshen the air like they should From the leaves of a tree we take shade And without them, the world would be frayed The branches are swaying with the breeze Providing shelter and giving a peace Without tree these lands would be bare So let's do our part and take care",20260623
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,train,10774,10774,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","[teacher, students, homework]",20260623
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,train,50246,50246,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","This article discusses the benefits of companies providing environmentally friendly services, known as green businesses. It highlights the ways green businesses can create economic value and benefit the environment by reducing emissions, conserving energy, and promoting sustainability. The article also outlines the challenges that may arise when running a green business, from legislative regulations to changing consumer demands.",20260623
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,train,34294,34294,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","def reverse(string): str = """" for i in string: str = i + str return str print(reverse(""Hello World"")) # Output: dlroW olleH",20260623
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,train,35341,35341,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.",He completed the painting.,20260623
+open_ended_writing_45032,open_ended_writing,tatsu-lab/alpaca,train,45032,45032,"Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterdam, Netherlands","The weather in Amsterdam varies throughout the year. During the summer, typically from May to August, temperatures can range from pleasant to hot, typically averaging around 17 to 20 degrees Celsius. During the winter months, temperatures range from cool to cold, and precipitation is common. Snow usually falls in December and January, and temperatures can dip below freezing during the night.",20260623
+open_ended_writing_17839,open_ended_writing,tatsu-lab/alpaca,train,17839,17839,"Instruction: Search the Internet and find an interesting quote related to the given topic.
+
+Input: Determining success","""Success is not determined by what you accomplish, but by the opposition you have encountered, and the courage with which you have maintained the struggle against overwhelming odds."" - Orison Swett Marden",20260623
+open_ended_writing_6859,open_ended_writing,tatsu-lab/alpaca,train,6859,6859,"Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant.
+
+Input: 2, 4, 4, 4, 2",Decreasing.,20260623
+open_ended_writing_35625,open_ended_writing,tatsu-lab/alpaca,train,35625,35625,"Instruction: Find which of these words does not belong:
+
+Input: Stir, Pressure, Jump",Jump,20260623
+open_ended_writing_28710,open_ended_writing,tatsu-lab/alpaca,train,28710,28710,"Instruction: Generate an expression that evaluates to non-zero if the given number is even.
+
+Input: 5",5 % 2 === 0,20260623
+open_ended_writing_20111,open_ended_writing,tatsu-lab/alpaca,train,20111,20111,"Instruction: Write a restaurant review for a Mexican food establishment.
+
+Input: The TexMex Restaurant","I recently visited the TexMex Restaurant and had an amazing experience! The atmosphere was lively and inviting, with bright colors and Mexican art decorating the walls. The menu features a wide selection of authentic Mexican dishes, all of which are made with the freshest and most flavorful ingredients. The burrito I had was amazing - it was packed with grilled veggies, meat, and cheese and was served with freshly made salsa and guacamole. I also sampled the enchiladas which were incredibly flavorful and smothered in delicious and spicy sauces. The service was prompt and attentive, and the prices were reasonable. I would highly recommend this restaurant to anyone craving Mexican cuisine.",20260623
+open_ended_writing_2378,open_ended_writing,tatsu-lab/alpaca,train,2378,2378,"Instruction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology.","An effective content marketing strategy for the new start-up should involve posting new, high-quality content regularly on a blog or website. The content should center around Artificial Intelligence (AI) and Machine Learning technology and should educate the reader on upcoming trends and strategies. Additionally, the content should also feature informative “how-to” articles and informational videos on the technology. Social media engagement should also be included, with content posted on platforms such as LinkedIn and Twitter to increase visibility, solicit feedback, and build connections with key industry influencers.",20260623
+open_ended_writing_9613,open_ended_writing,tatsu-lab/alpaca,train,9613,9613,"Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]","const arr = [1, 2, 3, 2, 4, 3]; const deduplicated = Array.from(new Set(arr)) console.log(deduplicated); // [1, 2, 3, 4]",20260623
+open_ended_writing_7384,open_ended_writing,tatsu-lab/alpaca,train,7384,7384,"Instruction: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines.","I hit all the deadlines, thank goodness!",20260623
+open_ended_writing_1279,open_ended_writing,tatsu-lab/alpaca,train,1279,1279,"Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Distance: 400 miles",It would take approximately 5 hours to reach the destination driving at 80 miles per hour.,20260623
+open_ended_writing_24950,open_ended_writing,tatsu-lab/alpaca,train,24950,24950,"Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors.
+
+Input: I enjoyed to eat some caek.",I enjoyed eating some cake.,20260623
+open_ended_writing_43335,open_ended_writing,tatsu-lab/alpaca,train,43335,43335,"Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster",1. Clean the board 2. Apply the glue 3. Wait for the glue to dry 4. Place the poster,20260623
+open_ended_writing_41294,open_ended_writing,tatsu-lab/alpaca,train,41294,41294,"Instruction: Generate a tweet to promote the following product.
+
+Input: Product: Outdoor camping gear",Ready for your next outdoor adventure? Check out our selection of camping gear for the best camping experience! #camping #outdoor #gear #adventure #explore,20260623
+open_ended_writing_13047,open_ended_writing,tatsu-lab/alpaca,train,13047,13047,"Instruction: Select the correct answer based on the context of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______.",He was very frustrated because all his efforts in the kitchen had gone to waste.,20260623
+open_ended_writing_4286,open_ended_writing,tatsu-lab/alpaca,train,4286,4286,"Instruction: Describe the system architecture of a web browser.
+
+Input: NoInput","A web browser is a software application designed to locate, retrieve, and display content from the internet. It typically consists of five main components: a user interface, an address bar, a browser engine, a rendering engine, and a networking component. The user interface is used to interact with the user, receive input from them, and display output. The address bar holds the URL of the current page, and this is used to access and download resources from the web server. The browser engine is responsible for managing the different components of the browser and the interactions between them. The rendering engine is used to display the content on the user's screen, and the networking component is used to retrieve and load resources.",20260623
+open_ended_writing_35012,open_ended_writing,tatsu-lab/alpaca,train,35012,35012,"Instruction: Write a function to determine whether or not a given number is a perfect square.
+
+Input: No input",def is_perfect_square(n): root = math.sqrt(n) if int(root + 0.5) ** 2 == n: return True else: return False,20260623
+open_ended_writing_16598,open_ended_writing,tatsu-lab/alpaca,train,16598,16598,"Instruction: Given two sets of data, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11","The values from Set A that are not common to Set B are: 1, 4, 6. The values from Set B that are not common to Set A are: 3, 7.",20260623
+open_ended_writing_35890,open_ended_writing,tatsu-lab/alpaca,train,35890,35890,"Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children","It takes a village to raise a child, and when it comes to raising healthy children, it's important to have a supportive environment around them.",20260623
+open_ended_writing_32192,open_ended_writing,tatsu-lab/alpaca,train,32192,32192,"Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United States","Timeline of key events in the history of women's rights in the United States: •1792: Mary Wollstonecraft publishes “A Vindication of the Rights of Women” •1848: The first Women's Rights Convention is held in Seneca Falls •1920: The nineteenth amendment is ratified, granting women the right to vote •1972: The Equal Rights Amendment is passed •1981: The Supreme Court ruled that sexual harassment in the workplace is illegal •1993: The Family and Medical Leave Act is passed •2009: The Lilly Ledbetter Fair Pay Act is passed",20260623
+open_ended_writing_28407,open_ended_writing,tatsu-lab/alpaca,train,28407,28407,"Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.",This article suggests that technology has had a major impact on our environment and that we need to develop more efficient technologies that reduce environmental impact in order for humanity to continue to grow and prosper. It suggests that advances in technology have led to increased pollution and that we need to find sustainable solutions that balance technological progress with environmental protection.,20260623
+open_ended_writing_42931,open_ended_writing,tatsu-lab/alpaca,train,42931,42931,"Instruction: Paraphrase the sentence to remove the cliche.
+
+Input: Time waits for no one.",Nobody is exempt from the passing of time.,20260623
+open_ended_writing_25984,open_ended_writing,tatsu-lab/alpaca,train,25984,25984,"Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely.",Traffic lights are essential for maintain order and safety on the roads.,20260623
+open_ended_writing_26882,open_ended_writing,tatsu-lab/alpaca,train,26882,26882,"Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapes were brown in color.",They painted the drapes brown.,20260623
+open_ended_writing_7032,open_ended_writing,tatsu-lab/alpaca,train,7032,7032,"Instruction: Make a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though","1. Even though I had my doubts, I decided to give it a try. 2. Even though it seemed impossible, I was determined to succeed. 3. Even though I knew the risks, I moved forward anyway. 4. Even though I was afraid, I kept going. 5. Even though the odds were against me, I fought until the end.",20260623
+open_ended_writing_27838,open_ended_writing,tatsu-lab/alpaca,train,27838,27838,"Instruction: Write an algorithm that takes three numbers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15","def calculateAverage(a, b, c): return (a + b + c) / 3 average = calculateAverage(5, 10, 15) print(average) # Output: 10.0",20260623
+open_ended_writing_14306,open_ended_writing,tatsu-lab/alpaca,train,14306,14306,"Instruction: Find the surface area of a cylinder
+
+Input: Radius: 5 cm Height: 7 cm",The surface area of the cylinder is 294 cm2.,20260623
+open_ended_writing_42563,open_ended_writing,tatsu-lab/alpaca,train,42563,42563,"Instruction: Construct a compound word using the following two words:
+
+Input: Computer, science",Computerscience,20260623
+open_ended_writing_6968,open_ended_writing,tatsu-lab/alpaca,train,6968,6968,"Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil","1. In a small bowl, mix together 1 teaspoon of salt, 1/2 teaspoon of pepper, 1 garlic clove minced, 1 teaspoon of oregano, 1/4 teaspoon of red pepper flakes. 2. Slowly drizzle in 3 tablespoons of olive oil and stir until blended. 3. Store your sauce in an airtight container.",20260623
+open_ended_writing_21063,open_ended_writing,tatsu-lab/alpaca,train,21063,21063,"Instruction: Edit the given document and remove any spelling or grammar errors.
+
+Input: I was so exited to here the news.",I was so excited to hear the news.,20260623
+open_ended_writing_47449,open_ended_writing,tatsu-lab/alpaca,train,47449,47449,"Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings",Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings Book 1: Harry Potter - 12000000 ratings,20260623
+open_ended_writing_501,open_ended_writing,tatsu-lab/alpaca,train,501,501,"Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world Australia is the second largest country in the world",Australia is the second largest country in the world.,20260623
+open_ended_writing_44324,open_ended_writing,tatsu-lab/alpaca,train,44324,44324,"Instruction: Automatically format the given text.
+
+Input: Using the right tools,you can achievebetter results","Using the right tools, you can achieve better results.",20260623
+open_ended_writing_33898,open_ended_writing,tatsu-lab/alpaca,train,33898,33898,"Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migrating species of bird: Northern Bobwhite","My hypothesis is that the Northern Bobwhite migrate from one region to another in order to find more suitable food sources. During the summer months, there can be a scarcity of high quality food sources in their current region which may lead to a decrease in the bird's health. By migrating to new regions, the birds can find insulation from cold winters and access more abundant food sources.",20260623
+open_ended_writing_6480,open_ended_writing,tatsu-lab/alpaca,train,6480,6480,"Instruction: Read the sentence below and find the hyperbolic expression.
+
+Input: My professor is so strict that I think the university should ban him!",I think the university should ban my professor because he is too strict!,20260623
+open_ended_writing_12741,open_ended_writing,tatsu-lab/alpaca,train,12741,12741,"Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever.","The world is constantly advancing technologically, with new gadgets being released every few months. Computers have become faster and more powerful over the years. Mobile phones have gone from a luxury item to a necessity. With today's 5G networks, internet access is speedier and more reliable. Technological advancement shows no sign of slowing down, and these developments are revolutionizing the way people live.",20260623
+open_ended_writing_1043,open_ended_writing,tatsu-lab/alpaca,train,1043,1043,"Instruction: Summarize the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use.",Software testing ensures product adherence to specified requirements.,20260623
+open_ended_writing_33075,open_ended_writing,tatsu-lab/alpaca,train,33075,33075,"Instruction: Apply the magic of 8 formula to a number.
+
+Input: Number=34",The magic of 8 formula applied to the number 34 is 40. 40 is 8 more than 34.,20260623
+open_ended_writing_20944,open_ended_writing,tatsu-lab/alpaca,train,20944,20944,"Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX enjoys art and nature.","PersonX may enjoy going to an art gallery or museum to look at different works of art. They could also take a picnic to a nearby park, hike in a nature reserve, take pictures of wildlife, and explore the outdoors.",20260623
+open_ended_writing_49476,open_ended_writing,tatsu-lab/alpaca,train,49476,49476,"Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people.","COVID-19 has caused major downsizing in the global economy, with industrial output decreasing, investors losing confidence, and people losing their jobs. To address these issues, governments have enacted stimulus packages to try and stabilize their economies. But the challenge of maintaining physical distancing has presented further economic difficulties. Moreover, the pandemic has had a tremendous effect on the lives of people, drastically altering their quality of life. The response to this has been encouraging in many countries, and governments are doing their best to counter its crippling effects. However, the long-term consequences of the pandemic are yet to be seen.",20260623
+open_ended_writing_1105,open_ended_writing,tatsu-lab/alpaca,train,1105,1105,"Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>",1. Develop an app that tracks air quality levels and issues warnings when they are deteriorating. 2. Create a Virtual Reality application that highlights the effects of climate change on the environment. 3. Develop an application that uses AI and Machine Learning to detect and repair environmental issues. 4. Create a messaging app that allows users to share tips and discuss ways to become more environmentally friendly. 5. Develop an app for tracking plastic waste and making it easier to recycle.,20260623

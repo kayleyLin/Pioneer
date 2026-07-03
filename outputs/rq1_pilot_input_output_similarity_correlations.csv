@@ -1,0 +1,11 @@
+group,n,pearson_r,pearson_p,spearman_rho,spearman_p
+overall,40,0.363136,0.021274,0.362603,0.021479
+task=code_generation,10,0.827923,0.003099,0.078788,0.828717
+task=factual_qa,10,0.319812,0.367681,0.325178,0.359238
+task=math_reasoning,10,0.479036,0.161275,0.381818,0.276255
+task=open_ended_writing,10,0.362469,0.303318,0.386532,0.269869
+perturbation=context_injection,8,0.373797,0.36168,0.333333,0.419753
+perturbation=formatting_changes,8,-0.016572,0.968934,-0.19162,0.64941
+perturbation=paraphrasing,8,0.000877,0.998355,0.452381,0.260405
+perturbation=reordering,8,0.538216,0.168794,0.238095,0.570156
+perturbation=surface_noise,8,-0.193893,0.64546,-0.275454,0.509054

@@ -1,0 +1,38 @@
+# macOS / editor files
+.DS_Store
+*.swp
+*.swo
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local environment variables
+.env
+.env.*
+*.pem
+*.key
+
+# Runtime logs
+logs/
+*.log
+
+# Large or personal source documents / screenshots
+*.pdf
+*.docx
+*.png
+*.jpg
+*.jpeg
+*.heic
+
+# Local notebooks checkpoints
+.ipynb_checkpoints/
+
+# Optional local model/cache artifacts
+.cache/
+models/

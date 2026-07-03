@@ -1,0 +1,5 @@
+task_type,target_valid_prompts,accepted_valid_prompts,attempts,rejected_unchanged,status
+factual_qa,5,5,72,67,complete
+math_reasoning,5,5,5,0,complete
+code_generation,5,5,6,1,complete
+open_ended_writing,5,5,17,12,complete

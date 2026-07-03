@@ -1,0 +1,134 @@
+item_id,task_type,prompt_version,perturbation_type,sample_id,model_name,output_text
+fact_001,factual_qa,original,none,1,pilot_mock,Ottawa is the capital of Canada.
+fact_001,factual_qa,original,none,2,pilot_mock,Ottawa is the capital of Canada.
+fact_001,factual_qa,original,none,3,pilot_mock,Canada's capital is Ottawa.
+fact_002,factual_qa,original,none,1,pilot_mock,The author is Jane Austen.
+fact_002,factual_qa,original,none,2,pilot_mock,Pride and Prejudice was written by Jane Austen.
+fact_002,factual_qa,original,none,3,pilot_mock,Pride and Prejudice was written by Jane Austen.
+math_001,math_reasoning,original,none,1,pilot_mock,"The total cost is 7 times 3, which equals 21 dollars."
+math_001,math_reasoning,original,none,2,pilot_mock,She spends $21.
+math_001,math_reasoning,original,none,3,pilot_mock,Maya spends 21 dollars in total.
+math_002,math_reasoning,original,none,1,pilot_mock,The train travels 150 miles.
+math_002,math_reasoning,original,none,2,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,original,none,3,pilot_mock,It travels 150 miles in total.
+code_001,code_generation,original,none,1,pilot_mock,"def add_numbers(a, b):
+    return a + b"
+code_001,code_generation,original,none,2,pilot_mock,"def add_numbers(a, b):
+    result = a + b
+    return result"
+code_001,code_generation,original,none,3,pilot_mock,"def add_numbers(a, b):
+    result = a + b
+    return result"
+write_001,open_ended_writing,original,none,1,pilot_mock,"Sleep is important for students because it helps memory, focus, and emotional health. When students get enough rest, they can learn more effectively and manage stress better."
+write_001,open_ended_writing,original,none,2,pilot_mock,"Sleep is important for students because it helps memory, focus, and emotional health. When students get enough rest, they can learn more effectively and manage stress better."
+write_001,open_ended_writing,original,none,3,pilot_mock,"Getting enough sleep supports students' learning, mood, and physical well-being. It gives the brain time to recover and prepare for the next day."
+fact_001,factual_qa,perturbed,paraphrasing,1,pilot_mock,Canada's capital is Ottawa.
+fact_001,factual_qa,perturbed,paraphrasing,2,pilot_mock,The capital city of Canada is Ottawa.
+fact_001,factual_qa,perturbed,paraphrasing,3,pilot_mock,The capital city of Canada is Ottawa.
+fact_001,factual_qa,perturbed,reordering,1,pilot_mock,The capital city of Canada is Ottawa.
+fact_001,factual_qa,perturbed,reordering,2,pilot_mock,Canada's capital is Ottawa.
+fact_001,factual_qa,perturbed,reordering,3,pilot_mock,Ottawa is the capital of Canada.
+fact_001,factual_qa,perturbed,formatting,1,pilot_mock,Ottawa is the capital of Canada.
+fact_001,factual_qa,perturbed,formatting,2,pilot_mock,The capital city of Canada is Ottawa.
+fact_001,factual_qa,perturbed,formatting,3,pilot_mock,Ottawa is the capital of Canada.
+fact_001,factual_qa,perturbed,context_injection,1,pilot_mock,The capital city of Canada is Ottawa.
+fact_001,factual_qa,perturbed,context_injection,2,pilot_mock,The capital city of Canada is Ottawa.
+fact_001,factual_qa,perturbed,context_injection,3,pilot_mock,Canada's capital is Ottawa.
+fact_001,factual_qa,perturbed,surface_noise,1,pilot_mock,Canada's capital is Ottawa.
+fact_001,factual_qa,perturbed,surface_noise,2,pilot_mock,The capital city of Canada is Ottawa.
+fact_001,factual_qa,perturbed,surface_noise,3,pilot_mock,The capital city of Canada is Ottawa.
+fact_002,factual_qa,perturbed,paraphrasing,1,pilot_mock,Pride and Prejudice was written by Jane Austen.
+fact_002,factual_qa,perturbed,paraphrasing,2,pilot_mock,Pride and Prejudice was written by Jane Austen.
+fact_002,factual_qa,perturbed,paraphrasing,3,pilot_mock,Pride and Prejudice was written by Jane Austen.
+fact_002,factual_qa,perturbed,reordering,1,pilot_mock,Pride and Prejudice was written by Jane Austen.
+fact_002,factual_qa,perturbed,reordering,2,pilot_mock,Pride and Prejudice was written by Jane Austen.
+fact_002,factual_qa,perturbed,reordering,3,pilot_mock,Jane Austen wrote the novel Pride and Prejudice.
+fact_002,factual_qa,perturbed,formatting,1,pilot_mock,The author is Jane Austen.
+fact_002,factual_qa,perturbed,formatting,2,pilot_mock,Jane Austen wrote the novel Pride and Prejudice.
+fact_002,factual_qa,perturbed,formatting,3,pilot_mock,Pride and Prejudice was written by Jane Austen.
+fact_002,factual_qa,perturbed,context_injection,1,pilot_mock,Jane Austen wrote the novel Pride and Prejudice.
+fact_002,factual_qa,perturbed,context_injection,2,pilot_mock,The author is Jane Austen.
+fact_002,factual_qa,perturbed,context_injection,3,pilot_mock,The author is Jane Austen.
+fact_002,factual_qa,perturbed,surface_noise,1,pilot_mock,Jane Austen wrote the novel Pride and Prejudice.
+fact_002,factual_qa,perturbed,surface_noise,2,pilot_mock,Pride and Prejudice was written by Jane Austen.
+fact_002,factual_qa,perturbed,surface_noise,3,pilot_mock,Jane Austen wrote the novel Pride and Prejudice.
+math_001,math_reasoning,perturbed,paraphrasing,1,pilot_mock,"The total cost is 7 times 3, which equals 21 dollars."
+math_001,math_reasoning,perturbed,paraphrasing,2,pilot_mock,Maya spends 21 dollars in total.
+math_001,math_reasoning,perturbed,paraphrasing,3,pilot_mock,Maya spends 21 dollars in total.
+math_001,math_reasoning,perturbed,reordering,1,pilot_mock,"The total cost is 7 times 3, which equals 21 dollars."
+math_001,math_reasoning,perturbed,reordering,2,pilot_mock,"The total cost is 7 times 3, which equals 21 dollars."
+math_001,math_reasoning,perturbed,reordering,3,pilot_mock,She spends $21.
+math_001,math_reasoning,perturbed,formatting,1,pilot_mock,She spends $21.
+math_001,math_reasoning,perturbed,formatting,2,pilot_mock,Maya spends 21 dollars in total.
+math_001,math_reasoning,perturbed,formatting,3,pilot_mock,She spends $21.
+math_001,math_reasoning,perturbed,context_injection,1,pilot_mock,Maya spends 21 dollars in total.
+math_001,math_reasoning,perturbed,context_injection,2,pilot_mock,"The total cost is 7 times 3, which equals 21 dollars."
+math_001,math_reasoning,perturbed,context_injection,3,pilot_mock,"The total cost is 7 times 3, which equals 21 dollars."
+math_001,math_reasoning,perturbed,surface_noise,1,pilot_mock,"There may be a typo in the question, but the answer should be checked carefully."
+math_001,math_reasoning,perturbed,surface_noise,2,pilot_mock,"There may be a typo in the question, but the answer should be checked carefully."
+math_001,math_reasoning,perturbed,surface_noise,3,pilot_mock,Maya spends 21 dollars in total.
+math_002,math_reasoning,perturbed,paraphrasing,1,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,perturbed,paraphrasing,2,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,perturbed,paraphrasing,3,pilot_mock,"Distance equals speed times time, so 60 x 2.5 = 150 miles."
+math_002,math_reasoning,perturbed,reordering,1,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,perturbed,reordering,2,pilot_mock,"Distance equals speed times time, so 60 x 2.5 = 150 miles."
+math_002,math_reasoning,perturbed,reordering,3,pilot_mock,The train travels 150 miles.
+math_002,math_reasoning,perturbed,formatting,1,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,perturbed,formatting,2,pilot_mock,"Distance equals speed times time, so 60 x 2.5 = 150 miles."
+math_002,math_reasoning,perturbed,formatting,3,pilot_mock,The train travels 150 miles.
+math_002,math_reasoning,perturbed,context_injection,1,pilot_mock,The train travels 150 miles.
+math_002,math_reasoning,perturbed,context_injection,2,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,perturbed,context_injection,3,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,perturbed,surface_noise,1,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,perturbed,surface_noise,2,pilot_mock,It travels 150 miles in total.
+math_002,math_reasoning,perturbed,surface_noise,3,pilot_mock,"There may be a typo in the question, but the answer should be checked carefully."
+code_001,code_generation,perturbed,paraphrasing,1,pilot_mock,"def add_numbers(a, b):
+    result = a + b
+    return result"
+code_001,code_generation,perturbed,paraphrasing,2,pilot_mock,"def add_numbers(a, b):
+    result = a + b
+    return result"
+code_001,code_generation,perturbed,paraphrasing,3,pilot_mock,"def add_numbers(a, b):
+    result = a + b
+    return result"
+code_001,code_generation,perturbed,reordering,1,pilot_mock,"def add_numbers(a, b):
+    return a + b"
+code_001,code_generation,perturbed,reordering,2,pilot_mock,"def add_numbers(a, b):
+    return a + b"
+code_001,code_generation,perturbed,reordering,3,pilot_mock,"def add_numbers(x, y):
+    return x + y"
+code_001,code_generation,perturbed,formatting,1,pilot_mock,"def add_numbers(a, b):
+    return a + b"
+code_001,code_generation,perturbed,formatting,2,pilot_mock,"def add_numbers(a, b):
+    return a + b"
+code_001,code_generation,perturbed,formatting,3,pilot_mock,"def add_numbers(a, b):
+    result = a + b
+    return result"
+code_001,code_generation,perturbed,context_injection,1,pilot_mock,"def add_numbers(a, b):
+    return a + b"
+code_001,code_generation,perturbed,context_injection,2,pilot_mock,"def add_numbers(x, y):
+    return x + y"
+code_001,code_generation,perturbed,context_injection,3,pilot_mock,"def add_numbers(a, b):
+    result = a + b
+    return result"
+code_001,code_generation,perturbed,surface_noise,1,pilot_mock,"There may be a typo in the question, but the answer should be checked carefully."
+code_001,code_generation,perturbed,surface_noise,2,pilot_mock,"def add_numbers(a, b):
+    result = a + b
+    return result"
+code_001,code_generation,perturbed,surface_noise,3,pilot_mock,"def add_numbers(x, y):
+    return x + y"
+write_001,open_ended_writing,perturbed,paraphrasing,1,pilot_mock,"Sleep is important for students because it helps memory, focus, and emotional health. When students get enough rest, they can learn more effectively and manage stress better."
+write_001,open_ended_writing,perturbed,paraphrasing,2,pilot_mock,"Sleep is important for students because it helps memory, focus, and emotional health. When students get enough rest, they can learn more effectively and manage stress better."
+write_001,open_ended_writing,perturbed,paraphrasing,3,pilot_mock,"Students need enough sleep to stay alert in class, remember what they study, and maintain their health. Poor sleep can make schoolwork harder and reduce concentration."
+write_001,open_ended_writing,perturbed,reordering,1,pilot_mock,"Sleep is important for students because it helps memory, focus, and emotional health. When students get enough rest, they can learn more effectively and manage stress better."
+write_001,open_ended_writing,perturbed,reordering,2,pilot_mock,"Getting enough sleep supports students' learning, mood, and physical well-being. It gives the brain time to recover and prepare for the next day."
+write_001,open_ended_writing,perturbed,reordering,3,pilot_mock,"Sleep is important for students because it helps memory, focus, and emotional health. When students get enough rest, they can learn more effectively and manage stress better."
+write_001,open_ended_writing,perturbed,formatting,1,pilot_mock,"Students need enough sleep to stay alert in class, remember what they study, and maintain their health. Poor sleep can make schoolwork harder and reduce concentration."
+write_001,open_ended_writing,perturbed,formatting,2,pilot_mock,"Getting enough sleep supports students' learning, mood, and physical well-being. It gives the brain time to recover and prepare for the next day."
+write_001,open_ended_writing,perturbed,formatting,3,pilot_mock,"Getting enough sleep supports students' learning, mood, and physical well-being. It gives the brain time to recover and prepare for the next day."
+write_001,open_ended_writing,perturbed,context_injection,1,pilot_mock,"Getting enough sleep supports students' learning, mood, and physical well-being. It gives the brain time to recover and prepare for the next day."
+write_001,open_ended_writing,perturbed,context_injection,2,pilot_mock,"Getting enough sleep supports students' learning, mood, and physical well-being. It gives the brain time to recover and prepare for the next day."
+write_001,open_ended_writing,perturbed,context_injection,3,pilot_mock,"Students need enough sleep to stay alert in class, remember what they study, and maintain their health. Poor sleep can make schoolwork harder and reduce concentration."
+write_001,open_ended_writing,perturbed,surface_noise,1,pilot_mock,"Getting enough sleep supports students' learning, mood, and physical well-being. It gives the brain time to recover and prepare for the next day."
+write_001,open_ended_writing,perturbed,surface_noise,2,pilot_mock,"Students need enough sleep to stay alert in class, remember what they study, and maintain their health. Poor sleep can make schoolwork harder and reduce concentration."
+write_001,open_ended_writing,perturbed,surface_noise,3,pilot_mock,"Getting enough sleep supports students' learning, mood, and physical well-being. It gives the brain time to recover and prepare for the next day."

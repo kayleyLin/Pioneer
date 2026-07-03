@@ -1,0 +1,1111 @@
+item_id,task_type,dataset_name,source_index,perturbation_type,perturbation_intensity,surface_noise_error_count,surface_noise_eligible_token_count,surface_noise_token_ratio,construction_method,method_reference,semantic_equivalence_status,original_prompt,perturbed_prompt
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,surface_noise_low,low,1,69,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayro of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?"
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,surface_noise_medium,medium,3,69,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are cakled presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Bteween 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Cenyrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?"
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,surface_noise_high,high,6,69,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was presidenat before 1990. The first Warsaw President was Jan Andrzj Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsw Voivode. Since 1990 the President of Warsaw had been elected by the City counwcil. In the yesrs of 1994–1999 the mayor of the district Centrum automatically was designated as the Presidemt of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?"
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,6460,surface_noise_low,low,1,123,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?","Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football etam?"
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,6460,surface_noise_medium,medium,4,123,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?","Context: Harvard's athletic rivalry with Yale is intense in every sport in which the meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yael have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (fortmer captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule changre in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?"
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,6460,surface_noise_high,high,10,123,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?","Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's eraly days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarmig number of deatlhs and serious injuries in the sport, Walter Canp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surfacr. So, other steps had to be taken. Camp would instead spport revolutionary new rules for the 1906 sesson. These included legalizing the forward pass, perhaps the most sginificant rule chsnge in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?"
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,6353,surface_noise_low,low,1,97,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastruture, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?"
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,6353,surface_noise_medium,medium,3,97,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston tjan in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings througjout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possoble shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?"
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,6353,surface_noise_high,high,8,97,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","Context: Harvard has purchased tracts of lsnd in Allston, a walk across the Crharles Rivrr from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged ridges, a shuttle service and/or a tram. Plans dalso call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles jRiver, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that suc expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles ope to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?"
+factual_qa_800,factual_qa,rajpurkar/squad_v2,800,surface_noise_low,low,1,57,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?","Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distpinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?"
+factual_qa_800,factual_qa,rajpurkar/squad_v2,800,surface_noise_medium,medium,2,57,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?","Context: Southern California is divided culturally, politcally, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, whoch are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?"
+factual_qa_800,factual_qa,rajpurkar/squad_v2,800,surface_noise_high,high,5,57,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?","Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with noth natinal and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct lareas but as a whole combine to crete the southern Calofornia atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?"
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,8164,surface_noise_low,low,1,77,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?","Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity lalows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?"
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,8164,surface_noise_medium,medium,3,77,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?","Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memorpy, where each pathogen is ""remembered"" by a isgnature antigen. The asaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?"
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,8164,surface_noise_high,high,7,77,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?","Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptibe immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount thees tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory celuls are used to quickly eliminate it.
+
+Question: Antigen specificity allows responises that are specaific to certan tyeps of what?"
+factual_qa_2289,factual_qa,rajpurkar/squad_v2,2289,surface_noise_low,low,1,102,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Many major classes of organic molecules in living organisms, such as proteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shells, teeth, and bone. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remain a free element in air without being continuously replenished by the photosynthetic action of living organisms. Another form (allotrope) of oxygen, ozone (O 3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer helps protect the biosphere from ultraviolet radiation, but is a pollutant near the surface where it is a by-product of smog. At even higher low earth orbit altitudes, sufficient atomic oxygen is present to cause erosion for spacecraft.
+
+Question: Oxygen is released in cellular respiration by?","Context: Many major classes of organic omlecules in living organisms, such as proteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shells, teeth, and bone. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remain a free element in air without being continuously replenished by the photosynthetic action of living organisms. Another form (allotrope) of oxygen, ozone (O 3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer helps protect the biosphere from ultraviolet radiation, but is a pollutant near the surface where it is a by-product of smog. At even higher low earth orbit altitudes, sufficient atomic oxygen is present to cause erosion for spacecraft.
+
+Question: Oxygen is released in cellular respiration by?"
+factual_qa_2289,factual_qa,rajpurkar/squad_v2,2289,surface_noise_medium,medium,4,102,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Many major classes of organic molecules in living organisms, such as proteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shells, teeth, and bone. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remain a free element in air without being continuously replenished by the photosynthetic action of living organisms. Another form (allotrope) of oxygen, ozone (O 3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer helps protect the biosphere from ultraviolet radiation, but is a pollutant near the surface where it is a by-product of smog. At even higher low earth orbit altitudes, sufficient atomic oxygen is present to cause erosion for spacecraft.
+
+Question: Oxygen is released in cellular respiration by?","Context: Many major classes of organic molecules in living organisms, such as oroteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shells, teeth, and boen. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remsin a free element in air without being continuously replenished by the photosynthetic action of living organisms. Another form (allotrope) of oxygen, ozone (O 3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer helps protect the biosphere from ultraviolet radiation, but is a pollutant near the surface where it is a by-product of smog. At even hihger low earth orbit altitudes, sufficient atomic oxygen is present to cause erosion for spacecraft.
+
+Question: Oxygen is released in cellular respiration by?"
+factual_qa_2289,factual_qa,rajpurkar/squad_v2,2289,surface_noise_high,high,9,102,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Many major classes of organic molecules in living organisms, such as proteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shells, teeth, and bone. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remain a free element in air without being continuously replenished by the photosynthetic action of living organisms. Another form (allotrope) of oxygen, ozone (O 3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer helps protect the biosphere from ultraviolet radiation, but is a pollutant near the surface where it is a by-product of smog. At even higher low earth orbit altitudes, sufficient atomic oxygen is present to cause erosion for spacecraft.
+
+Question: Oxygen is released in cellular respiration by?","Context: Many major classes of oragnic molecules in living organisms, such as proteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shelks, teeth, and bone. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remaim a free element in air withoput being continuously replenished by the photosynthetic action of living orgsnisms. Another form (allotrope) of oxygen, ozone (O 3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer help protect the biosphere from ultraviolet radiation, but is a pollutaknt near the surface where it is a by-product of smog. At even higher low earth orbit altitudes, sufficient atomic oxygen is present to cauvse erosion for spacecraft.
+
+Question: Oyxgen is released in cellular respiration by?"
+factual_qa_8650,factual_qa,rajpurkar/squad_v2,8650,surface_noise_low,low,1,66,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Another example of scientific research which suggests that previous estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projected rises in sea levels. When the researchers' analysis was ""applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels. These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001"". This may have been due, in part, to the expanding human understanding of climate.
+
+Question: When was the Third Assessment Report published?","Context: Another example of scientific research which suggests that previous estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projecetd rises in sea levels. When the researchers' analysis was ""applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels. These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001"". This may have been due, in part, to the expanding human understanding of climate.
+
+Question: When was the Third Assessment Report published?"
+factual_qa_8650,factual_qa,rajpurkar/squad_v2,8650,surface_noise_medium,medium,2,66,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Another example of scientific research which suggests that previous estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projected rises in sea levels. When the researchers' analysis was ""applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels. These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001"". This may have been due, in part, to the expanding human understanding of climate.
+
+Question: When was the Third Assessment Report published?","Context: Another example of scientific research which suggests that previous estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projected rises in sea levels. When the researchers' analysis was ""applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels. These bvalues are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001"". This may ahve been due, in part, to the expanding human understanding of climate.
+
+Question: When was the Third Assessment Report published?"
+factual_qa_8650,factual_qa,rajpurkar/squad_v2,8650,surface_noise_high,high,6,66,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Another example of scientific research which suggests that previous estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projected rises in sea levels. When the researchers' analysis was ""applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels. These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001"". This may have been due, in part, to the expanding human understanding of climate.
+
+Question: When was the Third Assessment Report published?","Context: Another example of scientific research which suggests that prvious estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projected rises in sea levels. When the researchers' analysis was ""applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers fonud that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 kevels. These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Sssessment Report, publoshed in 2001"". This may have been due, in part, to the expanding human understanding of climate.
+
+Question: When was the Third Assessment eport published?"
+factual_qa_3373,factual_qa,rajpurkar/squad_v2,3373,surface_noise_low,low,1,104,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain ""Amazonas"" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.
+
+Question: In what country can most of the Amazon rainforest be found?","Context: The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain ""Amazonas"" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.
+
+Question: In what country can mots of the Amazon rainforest be found?"
+factual_qa_3373,factual_qa,rajpurkar/squad_v2,3373,surface_noise_medium,medium,4,104,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain ""Amazonas"" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.
+
+Question: In what country can most of the Amazon rainforest be found?","Context: The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This reegion includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia wwith 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. Statoes or departments in four nations contain ""Amazonas"" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and mst biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.
+
+Question: In what country can most of the Amazon rainforest be found?"
+factual_qa_3373,factual_qa,rajpurkar/squad_v2,3373,surface_noise_high,high,9,104,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain ""Amazonas"" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.
+
+Question: In what country can most of the Amazon rainforest be found?","Context: The Amazon rainforest (Portuguese: Flioresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; uDtch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South Americwa. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are coveerd by the rainforest. This region includes territory belonging to ninr nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Pueru witj 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French uGiana. States or departments in four nations contain ""Amazonas"" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the word, with an estimated 390 billion individual trees divided into 16,000 species.
+
+Question: In what country can most of the Amazon rainforest be found?"
+factual_qa_7525,factual_qa,rajpurkar/squad_v2,7525,surface_noise_low,low,1,90,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: In economics, notable Nobel Memorial Prize in Economic Sciences winners Milton Friedman, a major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.
+
+Question: What Nobel Memorial Prize in Economic Sciences winner is also a university alumni member?","Context: In economics, notable Nobel Memorial Prize in Economic Sciences winners Milton Friedman, a major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciecnes, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.
+
+Question: What Nobel Memorial Prize in Economic Sciences winner is also a university alumni member?"
+factual_qa_7525,factual_qa,rajpurkar/squad_v2,7525,surface_noise_medium,medium,3,90,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: In economics, notable Nobel Memorial Prize in Economic Sciences winners Milton Friedman, a major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.
+
+Question: What Nobel Memorial Prize in Economic Sciences winner is also a university alumni member?","Context: In economics, notable Nobel Memorial Prize in Economic Sciences winners Milton Friedman, a major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretatino of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomcas Sowell is also an alumnus.
+
+Question: What Nobel Memorial Prize in Economic Sciences winner is also a university alunni member?"
+factual_qa_7525,factual_qa,rajpurkar/squad_v2,7525,surface_noise_high,high,8,90,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: In economics, notable Nobel Memorial Prize in Economic Sciences winners Milton Friedman, a major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.
+
+Question: What Nobel Memorial Prize in Economic Sciences winner is also a university alumni member?","Context: In economics, notable Nobel Memorial Prize in Economic Sciences winners Milto Friedman, a major advsor to Republican U.S. Presidnet Ronald Reagan and Conservative British Prime Minister Margaret Thtcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugelne Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Soeell is aso an alumnus.
+
+Question: What Nobel Memorial Prize in Economixc Sciences winner is also a university alumni member?"
+factual_qa_4029,factual_qa,rajpurkar/squad_v2,4029,surface_noise_low,low,1,69,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Fresno has three large public parks, two in the city limits and one in county land to the southwest. Woodward Park, which features the Shinzen Japanese Gardens, numerous picnic areas and several miles of trails, is in North Fresno and is adjacent to the San Joaquin River Parkway. Roeding Park, near Downtown Fresno, is home to the Fresno Chaffee Zoo, and Rotary Storyland and Playland. Kearney Park is the largest of the Fresno region's park system and is home to historic Kearney Mansion and plays host to the annual Civil War Revisited, the largest reenactment of the Civil War in the west coast of the U.S.
+
+Question: Which park hosts the largest Civil War reenactment on the west coast?","Context: Fresno has three large public parks, two in the city limits and one in county land to the southwest. Woodward Park, which features the Shinzen Japanese Gardens, numerous picnic areas and several miles of trails, is in North Fresno and is adjacent to the San Joaquin River Parkway. Roeding Park, near Downtown Fresno, is home to the Fresno Chaffee Zoo, and Rotay Storyland and Playland. Kearney Park is the largest of the Fresno region's park system and is home to historic Kearney Mansion and plays host to the annual Civil War Revisited, the largest reenactment of the Civil War in the west coast of the U.S.
+
+Question: Which park hosts the largest Civil War reenactment on the west coast?"
+factual_qa_4029,factual_qa,rajpurkar/squad_v2,4029,surface_noise_medium,medium,3,69,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Fresno has three large public parks, two in the city limits and one in county land to the southwest. Woodward Park, which features the Shinzen Japanese Gardens, numerous picnic areas and several miles of trails, is in North Fresno and is adjacent to the San Joaquin River Parkway. Roeding Park, near Downtown Fresno, is home to the Fresno Chaffee Zoo, and Rotary Storyland and Playland. Kearney Park is the largest of the Fresno region's park system and is home to historic Kearney Mansion and plays host to the annual Civil War Revisited, the largest reenactment of the Civil War in the west coast of the U.S.
+
+Question: Which park hosts the largest Civil War reenactment on the west coast?","Context: Fresno has three large public parks, two in the city limits and one in vounty land to the southwest. Woodward Park, which features the Shinzen Japanese Gardens, numerous picnic areas and several miles of trails, is in North Fresno and is adjacent to the San Joaquin River Parkway. Roeding Park, near Downtown Fresmo, is home to the Fresno Chaffee Zoo, and Rotary Storyland and Playland. Kearney Park is the largest of the Fresno region's park system and is home to historic Kearney Mansion and plays host to the annual Civil War Revisited, the largest reenactment of the Civil War in the west coast of the U.S.
+
+Question: Which park hosts the largest Civil War reenactmvent on the west coast?"
+factual_qa_4029,factual_qa,rajpurkar/squad_v2,4029,surface_noise_high,high,6,69,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Context: Fresno has three large public parks, two in the city limits and one in county land to the southwest. Woodward Park, which features the Shinzen Japanese Gardens, numerous picnic areas and several miles of trails, is in North Fresno and is adjacent to the San Joaquin River Parkway. Roeding Park, near Downtown Fresno, is home to the Fresno Chaffee Zoo, and Rotary Storyland and Playland. Kearney Park is the largest of the Fresno region's park system and is home to historic Kearney Mansion and plays host to the annual Civil War Revisited, the largest reenactment of the Civil War in the west coast of the U.S.
+
+Question: Which park hosts the largest Civil War reenactment on the west coast?","Context: Fresno has three large public parks, two in the city limits and one in county land to the southwest. Woodward Park, which features the Shinzen Japanese Gardens, numerous picnic areas and several miles of trails, is in North Fvresno and is adjacrnt to the San Joaquin River Parkway. Roeding Par, near Downtown Fresno, is home to the Fresno Cahffee Zoo, and Rotary Storyland and Playland. Kearney Park is the largest of the Fresno region's park system and is home to historic Kearney Mansion and plays hsot to the annual Civil War Revisited, the largest reenactment of the Vivil War in the west coast of the U.S.
+
+Question: Which park hosts the largest Civil War reenactment on the west coast?"
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,3886,surface_noise_low,low,1,12,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\keft|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,3886,surface_noise_medium,medium,2,12,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\lef|\frac{x}{4}\riht|.$
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,3886,surface_noise_high,high,3,12,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.","Problem: jFind the area of the region enclpsed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: oSlve the problem and provide the final answer."
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,5038,surface_noise_low,low,1,19,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.","Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbets such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,5038,surface_noise_medium,medium,2,19,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.","Problem: Let $a,$ $b,$ $c$ be distinct, nonzeor real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provvide the final answer."
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,5038,surface_noise_high,high,3,19,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.","Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Fin $|abc|.$ Note: Intermeidate Algewbra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,8004,surface_noise_low,low,1,14,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.","Problem: We flip a fari coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,8004,surface_noise_medium,medium,2,14,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.","Problem: We flip a fair coin 10 times. Wat is the probability that we get heads in exsctly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,8004,surface_noise_high,high,3,14,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.","Problem: We flip a fair coin 10 times. Waht is the probability that we get heads in exactly 8 of the 10 flikps?
+
+Instruction: Solve the problem and prvide the final answer."
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,4896,surface_noise_low,low,1,8,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and providr the final answer."
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,4896,surface_noise_medium,medium,2,8,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provdide the final anwer."
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,4896,surface_noise_high,high,3,8,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Fimd the remainder when $6x^4-14x^3-4x^2+2x-26$ is divide by $2x - 6.$
+
+Instruction: Solve the problem and proivde the final answer."
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,5497,surface_noise_low,low,1,9,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: Define the function $f(x) = 2x - 5$. For what valu of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,5497,surface_noise_medium,medium,2,9,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equla to $f^{-1}(x)$?
+
+Instruction: oSlve the problem and provide the final answer."
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,5497,surface_noise_high,high,3,9,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: efine the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Soblve the problem and provide the final aneswer."
+math_reasoning_11297,math_reasoning,nlile/hendrycks-MATH-benchmark,11297,surface_noise_low,low,1,84,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Below is a portion of the graph of a function, $y=g(x)$: [asy] import graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25; pen cqcqcq=rgb(0.75,0.75,0.75); /*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(""2 2""); real gx=1,gy=1; for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs); Label laxis; laxis.p=fontsize(10); xaxis("""",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return -6*sin(x*pi/6);} draw(graph(f1,-6.25,6.25),linewidth(1)); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); [/asy] What is the value of $g(g(-1))$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: Below is a portion of the graph of a function, $y=g(x)$: [asy] import graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25; pen cqcqcq=rgb(0.75,0.75,0.75); /*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(""2 2""); real gx=1,gy=1; for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs); Label laxis; laxis.p=fontsize(10); xaxis("""",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxis,Ste=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return -6*sin(x*pi/6);} draw(graph(f1,-6.25,6.25),linewidth(1)); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); [/asy] What is the value of $g(g(-1))$?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_11297,math_reasoning,nlile/hendrycks-MATH-benchmark,11297,surface_noise_medium,medium,3,84,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Below is a portion of the graph of a function, $y=g(x)$: [asy] import graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25; pen cqcqcq=rgb(0.75,0.75,0.75); /*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(""2 2""); real gx=1,gy=1; for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs); Label laxis; laxis.p=fontsize(10); xaxis("""",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return -6*sin(x*pi/6);} draw(graph(f1,-6.25,6.25),linewidth(1)); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); [/asy] What is the value of $g(g(-1))$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: Below is a portion of the graph of a function, $y=g(x)$: [asy] import graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmni=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25; pen cqcqcq=rgb(0.75,0.75,0.75); /*grid*/ pen gs=kinewidth(0.7)+cqcqcq+lonetype(""2 2""); real gx=1,gy=1; for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs); Label laxis; laxis.p=fontsize(10); xaxis("""",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return -6*sin(x*pi/6);} draw(graph(f1,-6.25,6.25),linewidth(1)); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); [/asy] What is the value of $g(g(-1))$?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_11297,math_reasoning,nlile/hendrycks-MATH-benchmark,11297,surface_noise_high,high,7,84,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Below is a portion of the graph of a function, $y=g(x)$: [asy] import graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25; pen cqcqcq=rgb(0.75,0.75,0.75); /*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(""2 2""); real gx=1,gy=1; for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs); Label laxis; laxis.p=fontsize(10); xaxis("""",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return -6*sin(x*pi/6);} draw(graph(f1,-6.25,6.25),linewidth(1)); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); [/asy] What is the value of $g(g(-1))$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: Below is a portion of the graph of a function, $y=g(x)$: [asy] import garph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25; pen cqcqcq=rgb(0.75,0.75,0.75); /*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(""2 2""); real gx=1,gy=1; for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) rdaw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs); Kabel laxis; alxis.p=fotnsize(10); xaxis("""",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxi,Stpe=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return -6*sin(x*pi/6);} draw(graph(f1,-6.25,6.25),linewidth(1)); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); [/asy] What is the value of $g(g(-1))$?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_11759,math_reasoning,nlile/hendrycks-MATH-benchmark,11759,surface_noise_low,low,1,10,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Find the point in the plane $3x - 4y + 5z = 30$ that is closrst to the point $(1,2,3).$
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_11759,math_reasoning,nlile/hendrycks-MATH-benchmark,11759,surface_noise_medium,medium,2,10,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Finpd the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$
+
+Instruction: Solve the problem and plrovide the final answer."
+math_reasoning_11759,math_reasoning,nlile/hendrycks-MATH-benchmark,11759,surface_noise_high,high,3,10,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Fiknd the peoint in the plane $3x - 4y + 5z = 30$ that is closest to the poit $(1,2,3).$
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_10926,math_reasoning,nlile/hendrycks-MATH-benchmark,10926,surface_noise_low,low,1,13,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: How many units long is a line segment whose enspoints have coordinates $(-3,7)$ and $(2,-5)$?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_10926,math_reasoning,nlile/hendrycks-MATH-benchmark,10926,surface_noise_medium,medium,2,13,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: How many uniuts long is a line segment whose endpoints have coordinaztes $(-3,7)$ and $(2,-5)$?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_10926,math_reasoning,nlile/hendrycks-MATH-benchmark,10926,surface_noise_high,high,3,13,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?
+
+Instruction: Solve the problem and provide the final answer.","Problem: How many units log is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?
+
+Instruction: Sole the problem and proivde the final answer."
+math_reasoning_4807,math_reasoning,nlile/hendrycks-MATH-benchmark,4807,surface_noise_low,low,1,18,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: How many ways can I put down two indistinguishable pieces on an ordinary $8\times 8$ chessboard, if the pieces must either be in the same row or be in the same column?
+
+Instruction: Solve the problem and provide the final answer.","Problem: How many ways can I put down two indistinguishable picees on an ordinary $8\times 8$ chessboard, if the pieces must either be in the same row or be in the same column?
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_4807,math_reasoning,nlile/hendrycks-MATH-benchmark,4807,surface_noise_medium,medium,2,18,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: How many ways can I put down two indistinguishable pieces on an ordinary $8\times 8$ chessboard, if the pieces must either be in the same row or be in the same column?
+
+Instruction: Solve the problem and provide the final answer.","Problem: How nany ways can I put down two indistinguishable pieces on an ordinary $8\times 8$ chessboard, if the pieces must either be in the same row or be in the same column?
+
+Instruction: Solve the problem and provide the final snswer."
+math_reasoning_4807,math_reasoning,nlile/hendrycks-MATH-benchmark,4807,surface_noise_high,high,3,18,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: How many ways can I put down two indistinguishable pieces on an ordinary $8\times 8$ chessboard, if the pieces must either be in the same row or be in the same column?
+
+Instruction: Solve the problem and provide the final answer.","Problem: How many eays can I put down two indistinguishable pieces on an ordinary $8\times 8$ chessboard, if the piecges must either be in the same row or be in the same column?
+
+Instruction: Sozlve the problem and provide the final answer."
+math_reasoning_2873,math_reasoning,nlile/hendrycks-MATH-benchmark,2873,surface_noise_low,low,1,16,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the remainder when $2 \times 12 \times 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divided by $5$.
+
+Instruction: Solve the problem and provide the final answer.","Problem: Find the remainder whexn $2 \times 12 \times 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divided by $5$.
+
+Instruction: Solve the problem and provide the final answer."
+math_reasoning_2873,math_reasoning,nlile/hendrycks-MATH-benchmark,2873,surface_noise_medium,medium,2,16,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the remainder when $2 \times 12 \times 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divided by $5$.
+
+Instruction: Solve the problem and provide the final answer.","Problem: Find the remainder wnhen $2 \times 12 \times 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divided by $5$.
+
+Instruction: Solve the problem and provied the final answer."
+math_reasoning_2873,math_reasoning,nlile/hendrycks-MATH-benchmark,2873,surface_noise_high,high,3,16,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Problem: Find the remainder when $2 \times 12 \times 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divided by $5$.
+
+Instruction: Solve the problem and provide the final answer.","Problem: Find the remainder when $2 \times 12 \tims 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divded by $5$.
+
+Instruction: Sollve the problem and provide the final answer."
+code_generation_75,code_generation,bigcode/humanevalpack,75,surface_noise_low,low,1,20,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5","Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwose.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5"
+code_generation_75,code_generation,bigcode/humanevalpack,75,surface_noise_medium,medium,2,20,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5","Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 rime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5"
+code_generation_75,code_generation,bigcode/humanevalpack,75,surface_noise_high,high,3,20,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5","Write a Pygthon fudnction `is_multiply_prime(a)` to solev the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5"
+code_generation_143,code_generation,bigcode/humanevalpack,143,surface_noise_low,low,1,48,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","Erite a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters"
+code_generation_143,code_generation,bigcode/humanevalpack,143,surface_noise_medium,medium,2,48,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","Write a Python function `words_in_sentence(sentence)` to olve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+wohse lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters"
+code_generation_143,code_generation,bigcode/humanevalpack,143,surface_noise_high,high,4,48,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence comtains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whoae lnegths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for awimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters"
+code_generation_109,code_generation,bigcode/humanevalpack,109,surface_noise_low,low,1,94,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.","Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty tjen return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations."
+code_generation_109,code_generation,bigcode/humanevalpack,109,surface_noise_medium,medium,3,94,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.","Write a kPython function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by peryforming
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the gixven array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations."
+code_generation_109,code_generation,bigcode/humanevalpack,109,surface_noise_high,high,8,94,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.","Write a tPython function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The las element of the array will be moved to
+the starting opsition in the array i.e. 0th inudex.
+If it is possible to obtain the sorted array by performing the abve operation
+then return True else return False.
+If the given array is empty tjen return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasong order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any numbrr of right shift operations."
+code_generation_107,code_generation,bigcode/humanevalpack,107,surface_noise_low,low,1,42,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of thm is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively."
+code_generation_107,code_generation,bigcode/humanevalpack,107,surface_noise_medium,medium,2,42,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall wihin the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is evevn, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively."
+code_generation_107,code_generation,bigcode/humanevalpack,107,surface_noise_high,high,4,42,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","Wprite a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of yhem is even, and two of them are odd.
+Examle 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. for of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively."
+code_generation_49,code_generation,bigcode/humanevalpack,49,surface_noise_low,low,1,14,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1","Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> mosp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1"
+code_generation_49,code_generation,bigcode/humanevalpack,49,surface_noise_medium,medium,2,14,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1","Write a Python funcion `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> nodp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1"
+code_generation_49,code_generation,bigcode/humanevalpack,49,surface_noise_high,high,3,14,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1","Write a Pytjon function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n moduko p (be awpare of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1"
+code_generation_18,code_generation,bigcode/humanevalpack,18,surface_noise_low,low,1,19,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `how_many_times(string: str, substring: str) -> int` to solve the following problem:
+Find how many times a given substring can be found in the original string. Count overlaping cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3","Write a Python function `how_many_times(string: str, substring: str) -> int` to solve the following problem:
+Find how many itmes a given substring can be found in the original string. Count overlaping cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3"
+code_generation_18,code_generation,bigcode/humanevalpack,18,surface_noise_medium,medium,2,19,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `how_many_times(string: str, substring: str) -> int` to solve the following problem:
+Find how many times a given substring can be found in the original string. Count overlaping cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3","Write a Python function `how_many_times(string: str, substring: str) -> int` to solve the following problem:
+Find how many times a given substring can be found in the original sting. Count overlapimg cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3"
+code_generation_18,code_generation,bigcode/humanevalpack,18,surface_noise_high,high,3,19,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `how_many_times(string: str, substring: str) -> int` to solve the following problem:
+Find how many times a given substring can be found in the original string. Count overlaping cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3","Write a Python function `how_many_times(syring: str, substring: str) -> int` to solve the following problem:
+Find how many times a given substring can be found in the originaol strinh. Count overlaping cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3"
+code_generation_138,code_generation,bigcode/humanevalpack,138,surface_noise_low,low,1,15,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `is_equal_to_sum_even(n)` to solve the following problem:
+Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+Example
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True","Write a Python function `is_equal_to_sum_even(n)` to solve the following problem:
+Epvaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+Example
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True"
+code_generation_138,code_generation,bigcode/humanevalpack,138,surface_noise_medium,medium,2,15,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `is_equal_to_sum_even(n)` to solve the following problem:
+Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+Example
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True","Write a Python functiom `is_equal_to_sum_even(n)` to solve the following problem:
+Evaluate whether the given number n can be written as the sum of exactly 4 positive even numers
+Example
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True"
+code_generation_138,code_generation,bigcode/humanevalpack,138,surface_noise_high,high,3,15,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `is_equal_to_sum_even(n)` to solve the following problem:
+Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+Example
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True","Write a Python function `is_equal_to_sum_even(n)` to solve the following problem:
+Evaluate whether the goven number n can be written as the sum of exactly 4 positive even numbrrs
+Exampe
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True"
+code_generation_117,code_generation,bigcode/humanevalpack,117,surface_noise_low,low,1,61,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in order these words appear in the string s.
+If the string s is empty then the function should return an empty list.
+Note: you may assume the input string contains only letters and spaces.
+Examples:
+select_words(""Mary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamb"", 3) ==> [""Mary"", ""lamb""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]","Wrte a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in order these words appear in the string s.
+If the string s is empty then the function should return an empty list.
+Note: you may assume the input string contains only letters and spaces.
+Examples:
+select_words(""Mary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamb"", 3) ==> [""Mary"", ""lamb""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]"
+code_generation_117,code_generation,bigcode/humanevalpack,117,surface_noise_medium,medium,2,61,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in order these words appear in the string s.
+If the string s is empty then the function should return an empty list.
+Note: you may assume the input string contains only letters and spaces.
+Examples:
+select_words(""Mary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamb"", 3) ==> [""Mary"", ""lamb""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]","Write a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in order these words appear in the string s.
+If the string s is empty then the function should return an empty list.
+Note: you may assume the input string contains only letters and spaces.
+Examples:
+select_words(""Mary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamb"", 3) ==> [""Maty"", ""lab""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]"
+code_generation_117,code_generation,bigcode/humanevalpack,117,surface_noise_high,high,5,61,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in order these words appear in the string s.
+If the string s is empty then the function should return an empty list.
+Note: you may assume the input string contains only letters and spaces.
+Examples:
+select_words(""Mary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamb"", 3) ==> [""Mary"", ""lamb""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]","Write a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in ordrr these words appear in the string s.
+If the string s is empty hen the function should return an empty list.
+Note: you may asssume the input string contains only letters and spaces.
+Examples:
+select_words(""uMary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamfb"", 3) ==> [""Mary"", ""lamb""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]"
+code_generation_128,code_generation,bigcode/humanevalpack,128,surface_noise_low,low,1,21,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `prod_signs(arr)` to solve the following problem:
+You are given an array arr of integers and you need to return
+sum of magnitudes of integers multiplied by product of all signs
+of each number in the array, represented by 1, -1 or 0.
+Note: return None for empty arr.
+Example:
+>>> prod_signs([1, 2, 2, -4]) == -9
+>>> prod_signs([0, 1]) == 0
+>>> prod_signs([]) == None","Write a Python function `prod_signs(arr)` to solve the following problem:
+You are given an array arr of integers and you need to return
+sum of magnitudes of integers multiplied by product of all signs
+of each number in the array, represented by 1, -1 or 0.
+Note: return None for empty arr.
+Examplr:
+>>> prod_signs([1, 2, 2, -4]) == -9
+>>> prod_signs([0, 1]) == 0
+>>> prod_signs([]) == None"
+code_generation_128,code_generation,bigcode/humanevalpack,128,surface_noise_medium,medium,2,21,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `prod_signs(arr)` to solve the following problem:
+You are given an array arr of integers and you need to return
+sum of magnitudes of integers multiplied by product of all signs
+of each number in the array, represented by 1, -1 or 0.
+Note: return None for empty arr.
+Example:
+>>> prod_signs([1, 2, 2, -4]) == -9
+>>> prod_signs([0, 1]) == 0
+>>> prod_signs([]) == None","Write a Python function `prod_signs(arr)` to solve the following problem:
+You are given an array arr of inyegers and you need to return
+sum of magnitudes of integers multiplied by product of all signs
+of each numbe in the array, represented by 1, -1 or 0.
+Note: return None for empty arr.
+Example:
+>>> prod_signs([1, 2, 2, -4]) == -9
+>>> prod_signs([0, 1]) == 0
+>>> prod_signs([]) == None"
+code_generation_128,code_generation,bigcode/humanevalpack,128,surface_noise_high,high,3,21,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `prod_signs(arr)` to solve the following problem:
+You are given an array arr of integers and you need to return
+sum of magnitudes of integers multiplied by product of all signs
+of each number in the array, represented by 1, -1 or 0.
+Note: return None for empty arr.
+Example:
+>>> prod_signs([1, 2, 2, -4]) == -9
+>>> prod_signs([0, 1]) == 0
+>>> prod_signs([]) == None","Write a Python function `prod_signs(arr)` to solve the following problem:
+You are given an array arr of integer and you need to return
+sum of magnitudes of inyegers multiplied by product of all signs
+of each number in the array, representde by 1, -1 or 0.
+Note: return None for empty arr.
+Example:
+>>> prod_signs([1, 2, 2, -4]) == -9
+>>> prod_signs([0, 1]) == 0
+>>> prod_signs([]) == None"
+code_generation_25,code_generation,bigcode/humanevalpack,25,surface_noise_low,low,1,35,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `factorize(n: int) -> List[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallest to largest.
+Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]","rWite a Python function `factorize(n: int) -> List[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallest to largest.
+Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]"
+code_generation_25,code_generation,bigcode/humanevalpack,25,surface_noise_medium,medium,2,35,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `factorize(n: int) -> List[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallest to largest.
+Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]","Write a Python function `fcatorize(n: int) -> List[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallst to largest.
+Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]"
+code_generation_25,code_generation,bigcode/humanevalpack,25,surface_noise_high,high,3,35,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Write a Python function `factorize(n: int) -> List[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallest to largest.
+Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]","Write a Python function `factorize(n: int) -> sList[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallest to largest.
+Each of the actors should be listed nmber of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]"
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,surface_noise_low,low,1,7,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","Instruction: Identify and explain the four major ocean currents.
+
+Input: Nboinput"
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,surface_noise_medium,medium,2,7,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","Instruction: Idenitfy and explain the four major ocean currets.
+
+Input: Noinput"
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,surface_noise_high,high,3,7,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","Instruction: Idnetify and explain the ofur major ocean currents.
+
+Input: Noinpu"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,surface_noise_low,low,1,10,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Instruction: Given a list and a value, find the indez of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,surface_noise_medium,medium,2,10,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Instruction: Givrn a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Vale: 10"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,surface_noise_high,high,3,10,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Instruction: Given a list and a value, fidn the index of the gien value in the likst.
+
+Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,surface_noise_low,low,1,8,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","Instruction: Create a earch engine query
+
+Input: Find new resources for learning Spanish"
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,surface_noise_medium,medium,2,8,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","Instruction: Create a search engine query
+
+Input: Fin new resources for learning Spaniish"
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,surface_noise_high,high,3,8,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","Instruction: Creaet a srarch engine query
+
+Input: Find new resources for ldearning Spanish"
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,surface_noise_low,low,1,10,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your vcolleagues."""
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,surface_noise_medium,medium,2,10,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Instruction: Classify the input as a praise or criitcism
+
+Input: ""You should hzave asked for help from your colleagues."""
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,surface_noise_high,high,3,10,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Instruction: Chlassify the input as a praise or criticism
+
+Input: ""You should hvae asked for hel from your colleagues."""
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,surface_noise_low,low,1,25,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past fvie years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million"
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,surface_noise_medium,medium,2,25,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","Instruction: Analyse the goven data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 milloon Year 5: $18 million"
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,surface_noise_high,high,3,25,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a cdompany's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 millino Yera 5: $18 million"
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,35144,surface_noise_low,low,1,11,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importangce of trees."
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,35144,surface_noise_medium,medium,2,11,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","Instruction: Write a rhyming opem tha summarizes the following article.
+
+Input: The article is about the importance of trees."
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,35144,surface_noise_high,high,3,11,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","Instruction: Write a rhyiming poem that ummarizes the following aritcle.
+
+Input: The article is about the importance of trees."
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,10774,surface_noise_low,low,1,12,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do theor homework carefully."
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,10774,surface_noise_medium,medium,2,12,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the studrnts to do their jomework carefully."
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,10774,surface_noise_high,high,3,12,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","Instruction: Parse the given text to zextract a list of all the nouns.
+
+Input: The teache asked the students to do theor homework carefully."
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,50246,surface_noise_low,low,1,15,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: htyps://domoregood.org/2020/07/02/green-business-returns/"
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,50246,surface_noise_medium,medium,2,15,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","Instruction: Summarize the main idea of the following article Input: https://domoregod.org/2020/07/02/green-business-returns/
+
+Input: htts://domoregood.org/2020/07/02/green-business-returns/"
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,50246,surface_noise_high,high,3,15,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","Instruction: Sumamrize the main idea of the following article Input: htpts://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-retursn/"
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,34294,surface_noise_low,low,1,10,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","Instruction: Create a Python funtion which reverses the characters in a string.
+
+Input: String = ""Hello World"""
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,34294,surface_noise_medium,medium,2,10,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","Instruction: Create a Python function wjich reverses the characters in a string.
+
+Input: String = ""Hello Wordl"""
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,34294,surface_noise_high,high,3,10,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","Instruction: Create a Python function which rveerses the characters in a string.
+
+Input: String = ""Hello Wordl"""
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,35341,surface_noise_low,low,1,9,0.0,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.","Instruction: Compose a new vesion of this sentence using active voice.
+
+Input: The painting was completed by him."
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,35341,surface_noise_medium,medium,2,9,0.03,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.","Instruction: Cmopose a new version of this sentence using active voice.
+
+Input: The paintnig was completed by him."
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,35341,surface_noise_high,high,3,9,0.08,rule_based_posix_spelling_error_intensity,Reference 3 POSIX spelling-error operations; Reference 1 PromptRobust character-level perturbations,pending_manual_check,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.","Instruction: Compose a new version of thos senence using active wvoice.
+
+Input: The painting was completed by him."

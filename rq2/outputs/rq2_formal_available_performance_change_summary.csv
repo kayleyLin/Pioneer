@@ -1,0 +1,16 @@
+task_type,perturbation_type,n_items,mean_original_performance,mean_perturbed_performance,mean_absolute_performance_change,mean_pdr,n_items_with_performance_drop
+code_generation,context_injection,10,0.940000,0.900000,0.040000,0.100000,1
+code_generation,formatting_changes,10,0.940000,0.900000,0.040000,0.100000,1
+code_generation,paraphrasing,10,0.940000,0.640000,0.300000,0.300000,3
+code_generation,reordering,10,0.940000,0.920000,0.020000,0.050000,1
+code_generation,surface_noise,10,0.940000,0.900000,0.040000,0.100000,1
+factual_qa,context_injection,10,0.861855,0.886891,-0.025036,-0.045574,0
+factual_qa,formatting_changes,10,0.861855,0.788021,0.073834,0.065144,1
+factual_qa,paraphrasing,10,0.861855,0.531914,0.329941,0.419635,7
+factual_qa,reordering,10,0.861855,0.764170,0.097685,0.110271,3
+factual_qa,surface_noise,10,0.861855,0.863523,-0.001669,-0.006781,0
+math_reasoning,context_injection,10,0.800000,0.760000,0.040000,-0.133333,1
+math_reasoning,formatting_changes,10,0.800000,0.760000,0.040000,-0.116667,2
+math_reasoning,paraphrasing,10,0.800000,0.660000,0.140000,0.250000,3
+math_reasoning,reordering,10,0.800000,0.740000,0.060000,-0.011111,3
+math_reasoning,surface_noise,10,0.800000,0.780000,0.020000,0.027778,1

@@ -1,0 +1,16 @@
+task_type,perturbation_type,n_items,mean_noise_corrected_drift,mean_absolute_performance_change,pearson_drift_performance_change
+code_generation,context_injection,10,0.002075,0.040000,-0.206895
+code_generation,formatting_changes,10,0.004808,0.040000,-0.572964
+code_generation,paraphrasing,10,0.034560,0.300000,0.650357
+code_generation,reordering,10,0.007690,0.020000,0.210501
+code_generation,surface_noise,10,0.001728,0.040000,-0.212427
+factual_qa,context_injection,10,-0.005502,-0.025036,0.061895
+factual_qa,formatting_changes,10,0.026844,0.073834,0.010064
+factual_qa,paraphrasing,10,0.112586,0.329941,0.480695
+factual_qa,reordering,10,0.041203,0.097685,0.194632
+factual_qa,surface_noise,10,-0.006236,-0.001669,-0.444451
+math_reasoning,context_injection,10,0.000390,0.040000,-0.546474
+math_reasoning,formatting_changes,10,-0.001141,0.040000,-0.606590
+math_reasoning,paraphrasing,10,0.005822,0.140000,-0.015417
+math_reasoning,reordering,10,-0.000518,0.060000,-0.491941
+math_reasoning,surface_noise,10,-0.006036,0.020000,0.042583

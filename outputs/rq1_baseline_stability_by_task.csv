@@ -1,0 +1,17 @@
+task_type,n_outputs,n_items,mean_sampling_noise_drift
+code_generation,3,2,0.101139
+code_generation,5,2,0.114736
+code_generation,7,2,0.109904
+code_generation,10,2,0.104084
+factual_qa,3,2,0.114877
+factual_qa,5,2,0.11036
+factual_qa,7,2,0.106667
+factual_qa,10,2,0.099612
+math_reasoning,3,2,0.079696
+math_reasoning,5,2,0.079079
+math_reasoning,7,2,0.072642
+math_reasoning,10,2,0.071905
+open_ended_writing,3,2,0.214043
+open_ended_writing,5,2,0.223886
+open_ended_writing,7,2,0.21917
+open_ended_writing,10,2,0.205369

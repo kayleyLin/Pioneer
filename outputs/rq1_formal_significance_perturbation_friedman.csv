@@ -1,0 +1,5 @@
+task_type,test,n_items,statistic,p_value
+code_generation,friedman_repeated_measures,10,9.04,0.060107
+factual_qa,friedman_repeated_measures,10,21.240642,0.000284
+math_reasoning,friedman_repeated_measures,10,5.12,0.275205
+open_ended_writing,friedman_repeated_measures,10,12.840909,0.01208

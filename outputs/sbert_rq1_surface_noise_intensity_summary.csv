@@ -1,0 +1,13 @@
+task_type,perturbation_type,n_items,mean_noise_corrected_drift,std_noise_corrected_drift,similarity_metric
+code_generation,surface_noise_high,10,0.000288,0.015591,sentence-transformers/all-MiniLM-L6-v2
+code_generation,surface_noise_low,10,-0.005216,0.016531,sentence-transformers/all-MiniLM-L6-v2
+code_generation,surface_noise_medium,10,0.008938,0.020018,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,surface_noise_high,10,0.000853,0.027973,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,surface_noise_low,10,-0.002819,0.02105,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,surface_noise_medium,10,-0.009481,0.027153,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,surface_noise_high,10,-0.016462,0.028844,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,surface_noise_low,10,-0.009355,0.03404,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,surface_noise_medium,10,-0.001748,0.025234,sentence-transformers/all-MiniLM-L6-v2
+open_ended_writing,surface_noise_high,10,0.015819,0.084526,sentence-transformers/all-MiniLM-L6-v2
+open_ended_writing,surface_noise_low,10,0.002918,0.022167,sentence-transformers/all-MiniLM-L6-v2
+open_ended_writing,surface_noise_medium,10,-0.002206,0.043055,sentence-transformers/all-MiniLM-L6-v2

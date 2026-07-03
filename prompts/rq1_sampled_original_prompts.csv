@@ -1,0 +1,206 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,validation,10908,57338255d058e614000b5c10,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?",the City council,20260623
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,validation,6460,5727db85ff5b5019007d96ff,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?",former captain of the Yale football team,20260623
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,validation,6353,5727cd0f4b864d1900163d73,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","new and enlarged bridges, a shuttle service and/or a tram.",20260623
+factual_qa_800,factual_qa,rajpurkar/squad_v2,validation,800,570602fa52bb89140068979f,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?",global,20260623
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,validation,8164,5729f12e3f37b319004785e3,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?",pathogens or pathogen-infected cells,20260623
+factual_qa_2289,factual_qa,rajpurkar/squad_v2,validation,2289,571a49de4faf5e1900b8a94a,"Context: Many major classes of organic molecules in living organisms, such as proteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shells, teeth, and bone. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remain a free element in air without being continuously replenished by the photosynthetic action of living organisms. Another form (allotrope) of oxygen, ozone (O 3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer helps protect the biosphere from ultraviolet radiation, but is a pollutant near the surface where it is a by-product of smog. At even higher low earth orbit altitudes, sufficient atomic oxygen is present to cause erosion for spacecraft.
+
+Question: Oxygen is released in cellular respiration by?",photosynthesis,20260623
+factual_qa_8650,factual_qa,rajpurkar/squad_v2,validation,8650,572949306aef051400154c6b,"Context: Another example of scientific research which suggests that previous estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projected rises in sea levels. When the researchers' analysis was ""applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels. These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001"". This may have been due, in part, to the expanding human understanding of climate.
+
+Question: When was the Third Assessment Report published?",2001,20260623
+factual_qa_3373,factual_qa,rajpurkar/squad_v2,validation,3373,5728349dff5b5019007d9f00,"Context: The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain ""Amazonas"" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.
+
+Question: In what country can most of the Amazon rainforest be found?",Brazil,20260623
+factual_qa_7525,factual_qa,rajpurkar/squad_v2,validation,7525,572870b2ff5b5019007da222,"Context: In economics, notable Nobel Memorial Prize in Economic Sciences winners Milton Friedman, a major advisor to Republican U.S. President Ronald Reagan and Conservative British Prime Minister Margaret Thatcher, George Stigler, Nobel laureate and proponent of regulatory capture theory, Gary Becker, an important contributor to the family economics branch of economics, Herbert A. Simon, responsible for the modern interpretation of the concept of organizational decision-making, Paul Samuelson, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates. American economist, social theorist, political philosopher, and author Thomas Sowell is also an alumnus.
+
+Question: What Nobel Memorial Prize in Economic Sciences winner is also a university alumni member?",Milton Friedman,20260623
+factual_qa_4029,factual_qa,rajpurkar/squad_v2,validation,4029,5725d662ec44d21400f3d68b,"Context: Fresno has three large public parks, two in the city limits and one in county land to the southwest. Woodward Park, which features the Shinzen Japanese Gardens, numerous picnic areas and several miles of trails, is in North Fresno and is adjacent to the San Joaquin River Parkway. Roeding Park, near Downtown Fresno, is home to the Fresno Chaffee Zoo, and Rotary Storyland and Playland. Kearney Park is the largest of the Fresno region's park system and is home to historic Kearney Mansion and plays host to the annual Civil War Revisited, the largest reenactment of the Civil War in the west coast of the U.S.
+
+Question: Which park hosts the largest Civil War reenactment on the west coast?",Kearney Park,20260623
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3886,train/intermediate_algebra/1067.json,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.",480,20260623
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5038,train/intermediate_algebra/1878.json,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.",1,20260623
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,train,8004,train/counting_and_probability/1018.json,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.",\dfrac{45}{1024},20260623
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4896,train/intermediate_algebra/2165.json,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.",52,20260623
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5497,train/algebra/1450.json,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.",5,20260623
+math_reasoning_11297,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11297,test/algebra/469.json,"Problem: Below is a portion of the graph of a function, $y=g(x)$: [asy] import graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25; pen cqcqcq=rgb(0.75,0.75,0.75); /*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(""2 2""); real gx=1,gy=1; for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs); Label laxis; laxis.p=fontsize(10); xaxis("""",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return -6*sin(x*pi/6);} draw(graph(f1,-6.25,6.25),linewidth(1)); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); [/asy] What is the value of $g(g(-1))$?
+
+Instruction: Solve the problem and provide the final answer.",-6,20260623
+math_reasoning_11759,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11759,train/precalculus/1003.json,"Problem: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$
+
+Instruction: Solve the problem and provide the final answer.","\left( \frac{11}{5}, \frac{2}{5}, 5 \right)",20260623
+math_reasoning_10926,math_reasoning,nlile/hendrycks-MATH-benchmark,train,10926,test/algebra/922.json,"Problem: How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?
+
+Instruction: Solve the problem and provide the final answer.",13,20260623
+math_reasoning_4807,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4807,test/prealgebra/1608.json,"Problem: How many ways can I put down two indistinguishable pieces on an ordinary $8\times 8$ chessboard, if the pieces must either be in the same row or be in the same column?
+
+Instruction: Solve the problem and provide the final answer.",448,20260623
+math_reasoning_2873,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2873,train/number_theory/851.json,"Problem: Find the remainder when $2 \times 12 \times 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divided by $5$.
+
+Instruction: Solve the problem and provide the final answer.",4,20260623
+code_generation_75,code_generation,bigcode/humanevalpack,test,75,Python/75,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5","def is_prime(n): for j in range(2,n): if n%j == 0: return False return True for i in range(2,101): if not is_prime(i): continue for j in range(2,101): if not is_prime(j): continue for k in range(2,101): if not is_prime(k): continue if i*j*k == a: return True return False",20260623
+code_generation_143,code_generation,bigcode/humanevalpack,test,143,Python/143,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","new_lst = [] for word in sentence.split(): flg = 0 if len(word) == 1: flg = 1 for i in range(2, len(word)): if len(word)%i == 0: flg = 1 if flg == 0 or len(word) == 2: new_lst.append(word) return "" "".join(new_lst)",20260623
+code_generation_109,code_generation,bigcode/humanevalpack,test,109,Python/109,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.",if len(arr)==0: return True sorted_array=sorted(arr) my_arr=[] min_value=min(arr) min_index=arr.index(min_value) my_arr=arr[min_index:]+arr[0:min_index] for i in range(len(arr)): if my_arr[i]!=sorted_array[i]: return False return True,20260623
+code_generation_107,code_generation,bigcode/humanevalpack,test,107,Python/107,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","def is_palindrome(n): return str(n) == str(n)[::-1] even_palindrome_count = 0 odd_palindrome_count = 0 for i in range(1, n+1): if i%2 == 1 and is_palindrome(i): odd_palindrome_count += 1 elif i%2 == 0 and is_palindrome(i): even_palindrome_count += 1 return (even_palindrome_count, odd_palindrome_count)",20260623
+code_generation_49,code_generation,bigcode/humanevalpack,test,49,Python/49,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1",ret = 1 for i in range(n): ret = (2 * ret) % p return ret,20260623
+code_generation_18,code_generation,bigcode/humanevalpack,test,18,Python/18,"Write a Python function `how_many_times(string: str, substring: str) -> int` to solve the following problem:
+Find how many times a given substring can be found in the original string. Count overlaping cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3",times = 0 for i in range(len(string) - len(substring) + 1): if string[i:i+len(substring)] == substring: times += 1 return times,20260623
+code_generation_138,code_generation,bigcode/humanevalpack,test,138,Python/138,"Write a Python function `is_equal_to_sum_even(n)` to solve the following problem:
+Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+Example
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True",return n%2 == 0 and n >= 8,20260623
+code_generation_117,code_generation,bigcode/humanevalpack,test,117,Python/117,"Write a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in order these words appear in the string s.
+If the string s is empty then the function should return an empty list.
+Note: you may assume the input string contains only letters and spaces.
+Examples:
+select_words(""Mary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamb"", 3) ==> [""Mary"", ""lamb""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]","result = [] for word in s.split(): n_consonants = 0 for i in range(0, len(word)): if word[i].lower() not in [""a"",""e"",""i"",""o"",""u""]: n_consonants += 1 if n_consonants == n: result.append(word) return result",20260623
+code_generation_128,code_generation,bigcode/humanevalpack,test,128,Python/128,"Write a Python function `prod_signs(arr)` to solve the following problem:
+You are given an array arr of integers and you need to return
+sum of magnitudes of integers multiplied by product of all signs
+of each number in the array, represented by 1, -1 or 0.
+Note: return None for empty arr.
+Example:
+>>> prod_signs([1, 2, 2, -4]) == -9
+>>> prod_signs([0, 1]) == 0
+>>> prod_signs([]) == None","if not arr: return None prod = 0 if 0 in arr else (-1) ** len(list(filter(lambda x: x < 0, arr))) return prod * sum([abs(i) for i in arr])",20260623
+code_generation_25,code_generation,bigcode/humanevalpack,test,25,Python/25,"Write a Python function `factorize(n: int) -> List[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallest to largest.
+Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]",import math fact = [] i = 2 while i <= int(math.sqrt(n) + 1): if n % i == 0: fact.append(i) n //= i else: i += 1 if n > 1: fact.append(n) return fact,20260623
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,train,10208,10208,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","The four major ocean currents are the North Atlantic Drift, Gulf Stream, Kuroshio Current, and Rhumb Line. The North Atlantic Drift is a significant western boundary current in the Atlantic Ocean and is part of the North Atlantic Gyre. The Gulf Stream is a warm, swift Atlantic Ocean current that originates in the Gulf of Mexico and flows northeastward toward Europe. The Kuroshio Current is a warm, swift Pacific Ocean current located off the east coast of Japan. Lastly, Rhumb Line is an ocean current that goes in a circle around the world along the same latitude.",20260623
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,train,45338,45338,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10",2,20260623
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,train,11297,11297,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","""new resources learning Spanish""",20260623
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,train,36102,36102,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""",Criticism,20260623
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,train,16258,16258,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","The data shows an overall trend of increasing sales year over year. There was a slight decrease between year 2 and 3, but overall the sales have been steadily increasing.",20260623
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,train,35144,35144,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","Trees do the planet so much good, They freshen the air like they should From the leaves of a tree we take shade And without them, the world would be frayed The branches are swaying with the breeze Providing shelter and giving a peace Without tree these lands would be bare So let's do our part and take care",20260623
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,train,10774,10774,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","[teacher, students, homework]",20260623
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,train,50246,50246,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","This article discusses the benefits of companies providing environmentally friendly services, known as green businesses. It highlights the ways green businesses can create economic value and benefit the environment by reducing emissions, conserving energy, and promoting sustainability. The article also outlines the challenges that may arise when running a green business, from legislative regulations to changing consumer demands.",20260623
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,train,34294,34294,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","def reverse(string): str = """" for i in string: str = i + str return str print(reverse(""Hello World"")) # Output: dlroW olleH",20260623
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,train,35341,35341,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.",He completed the painting.,20260623

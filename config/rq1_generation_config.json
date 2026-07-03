@@ -1,0 +1,12 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "n_samples_per_prompt": 5,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "system_prompt": "You are a helpful assistant. Answer the user's prompt directly.",
+  "active_research_question": "RQ1",
+  "paraphrase_generation_provider": "openai",
+  "paraphrase_generation_model": "gpt-3.5-turbo",
+  "paraphrase_generation_method_source": "Reference 3 POSIX"
+}

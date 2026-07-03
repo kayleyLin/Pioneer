@@ -1,0 +1,17 @@
+task_type,n_outputs,n_items,mean_sampling_noise_drift,similarity_metric
+code_generation,3,2,0.073214,sentence-transformers/all-MiniLM-L6-v2
+code_generation,5,2,0.065846,sentence-transformers/all-MiniLM-L6-v2
+code_generation,7,2,0.062641,sentence-transformers/all-MiniLM-L6-v2
+code_generation,10,2,0.058804,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,3,2,0.041099,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,5,2,0.035543,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,7,2,0.031909,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,10,2,0.031575,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,3,2,0.077373,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,5,2,0.063475,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,7,2,0.061063,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,10,2,0.060591,sentence-transformers/all-MiniLM-L6-v2
+open_ended_writing,3,2,0.178248,sentence-transformers/all-MiniLM-L6-v2
+open_ended_writing,5,2,0.169233,sentence-transformers/all-MiniLM-L6-v2
+open_ended_writing,7,2,0.165099,sentence-transformers/all-MiniLM-L6-v2
+open_ended_writing,10,2,0.168513,sentence-transformers/all-MiniLM-L6-v2

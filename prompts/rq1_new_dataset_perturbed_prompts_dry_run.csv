@@ -1,0 +1,576 @@
+item_id,task_type,dataset_name,source_index,perturbation_type,construction_method,method_reference,semantic_equivalence_status,original_prompt,perturbed_prompt
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw. Question: Who has elected the President of Warsaw since 1990?"
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Question: Who has elected the President of Warsaw since 1990? Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw."
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Please answer the following prompt: - Prompt: Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw. Question: Who has elected the President of Warsaw since 1990?"
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","The following request is provided for a routine model-response comparison. Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw. Question: Who has elected the President of Warsaw since 1990?"
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, whjere already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw. Question: Who has elected the President of Warsaw since 1990?"
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,6460,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?","Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history. Question: What school was Walter Camp a captain for the football team?"
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,6460,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?","Question: What school was Walter Camp a captain for the football team? Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history."
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,6460,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?","Please answer the following prompt: - Prompt: Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history. Question: What school was Walter Camp a captain for the football team?"
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,6460,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?","This prompt is part of a general language-model evaluation. Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history. Question: What school was Walter Camp a captain for the football team?"
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,6460,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?","Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no lnger one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history. Question: What school was Walter Camp a captain for the football team?"
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,6353,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible. Question: What are some proposals to connect campuses?"
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,6353,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","Question: What are some proposals to connect campuses? Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible."
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,6353,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","Please answer the following prompt: - Prompt: Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible. Question: What are some proposals to connect campuses?"
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,6353,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","This prompt is part of a general language-model evaluation. Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible. Question: What are some proposals to connect campuses?"
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,6353,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. lPans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible. Question: What are some proposals to connect campuses?"
+factual_qa_800,factual_qa,rajpurkar/squad_v2,800,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?","Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere. Question: Outside of national recognition, what other kind of recognition do some of the cities get?"
+factual_qa_800,factual_qa,rajpurkar/squad_v2,800,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?","Question: Outside of national recognition, what other kind of recognition do some of the cities get? Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere."
+factual_qa_800,factual_qa,rajpurkar/squad_v2,800,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?","Please answer the following prompt: - Prompt: Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere. Question: Outside of national recognition, what other kind of recognition do some of the cities get?"
+factual_qa_800,factual_qa,rajpurkar/squad_v2,800,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?","This prompt is part of a general language-model evaluation. Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere. Question: Outside of national recognition, what other kind of recognition do some of the cities get?"
+factual_qa_800,factual_qa,rajpurkar/squad_v2,800,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere.
+
+Question: Outside of national recognition, what other kind of recognition do some of the cities get?","Context: Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both nationla and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct areas but as a whole combine to create the southern California atmosphere. Question: Outside of national recognition, what other kind of recognition do some of the cities get?"
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,8164,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?","Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it. Question: Antigen specificity allows responses that are specific to certain types of what?"
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,8164,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?","Question: Antigen specificity allows responses that are specific to certain types of what? Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it."
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,8164,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?","Please answer the following prompt: - Prompt: Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it. Question: Antigen specificity allows responses that are specific to certain types of what?"
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,8164,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?","The following request is provided for a routine model-response comparison. Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it. Question: Antigen specificity allows responses that are specific to certain types of what?"
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,8164,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?","Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eilminate it. Question: Antigen specificity allows responses that are specific to certain types of what?"
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,3886,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.",Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$ Instruction: Solve the problem and provide the final answer.
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,3886,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.",Instruction: Solve the problem and provide the final answer. Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,3886,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.",Please answer the following prompt: - Prompt: Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$ Instruction: Solve the problem and provide the final answer.
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,3886,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.",This item appears in a broader collection of benchmark prompts. Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$ Instruction: Solve the problem and provide the final answer.
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,3886,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.",Problem: Fimd the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$ Instruction: Solve the problem and provide the final answer.
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,5038,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.","Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12. Instruction: Solve the problem and provide the final answer."
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,5038,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.","Instruction: Solve the problem and provide the final answer. Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12."
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,5038,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.","Please answer the following prompt: - Prompt: Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12. Instruction: Solve the problem and provide the final answer."
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,5038,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.","The following request is provided for a routine model-response comparison. Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12. Instruction: Solve the problem and provide the final answer."
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,5038,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.","Problem: Let $a,$ $b,$ $c$ be distinct, nozero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12. Instruction: Solve the problem and provide the final answer."
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,8004,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.",Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips? Instruction: Solve the problem and provide the final answer.
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,8004,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.",Instruction: Solve the problem and provide the final answer. Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,8004,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.",Please answer the following prompt: - Prompt: Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips? Instruction: Solve the problem and provide the final answer.
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,8004,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.",This prompt is part of a general language-model evaluation. Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips? Instruction: Solve the problem and provide the final answer.
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,8004,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.",Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips? Instruction: Solve the protblem and provide the final answer.
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,4896,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.",Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$ Instruction: Solve the problem and provide the final answer.
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,4896,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.",Instruction: Solve the problem and provide the final answer. Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,4896,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.",Please answer the following prompt: - Prompt: Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$ Instruction: Solve the problem and provide the final answer.
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,4896,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.",This item appears in a broader collection of benchmark prompts. Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$ Instruction: Solve the problem and provide the final answer.
+math_reasoning_4896,math_reasoning,nlile/hendrycks-MATH-benchmark,4896,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$
+
+Instruction: Solve the problem and provide the final answer.",Problem: Find the remainder when $6x^4-14x^3-4x^2+2x-26$ is divided by $2x - 6.$ Instruction: oSlve the problem and provide the final answer.
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,5497,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.",Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$? Instruction: Solve the problem and provide the final answer.
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,5497,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.",Instruction: Solve the problem and provide the final answer. Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,5497,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.",Please answer the following prompt: - Prompt: Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$? Instruction: Solve the problem and provide the final answer.
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,5497,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.",This item appears in a broader collection of benchmark prompts. Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$? Instruction: Solve the problem and provide the final answer.
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,5497,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.",Problem: Define the function $f(x) = 2x - 5$. For whuat value of $x$ is $f(x)$ equal to $f^{-1}(x)$? Instruction: Solve the problem and provide the final answer.
+code_generation_75,code_generation,bigcode/humanevalpack,75,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5",Write a Python function `is_multiply_prime(a)` to solve the following problem: Write a function that returns true if the given number is the multiplication of 3 prime numbers and false otherwise. Knowing that (a) is less then 100. Example: is_multiply_prime(30) == True 30 = 2 * 3 * 5
+code_generation_75,code_generation,bigcode/humanevalpack,75,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5",Example: is_multiply_prime(30) == True 30 = 2 * 3 * 5 Write a Python function `is_multiply_prime(a)` to solve the following problem: Write a function that returns true if the given number is the multiplication of 3 prime numbers and false otherwise. Knowing that (a) is less then 100.
+code_generation_75,code_generation,bigcode/humanevalpack,75,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5",Please answer the following prompt: - Prompt: Write a Python function `is_multiply_prime(a)` to solve the following problem: Write a function that returns true if the given number is the multiplication of 3 prime numbers and false otherwise. Knowing that (a) is less then 100. Example: is_multiply_prime(30) == True 30 = 2 * 3 * 5
+code_generation_75,code_generation,bigcode/humanevalpack,75,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5",The following request is provided for a routine model-response comparison. Write a Python function `is_multiply_prime(a)` to solve the following problem: Write a function that returns true if the given number is the multiplication of 3 prime numbers and false otherwise. Knowing that (a) is less then 100. Example: is_multiply_prime(30) == True 30 = 2 * 3 * 5
+code_generation_75,code_generation,bigcode/humanevalpack,75,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5",Write a Python functon `is_multiply_prime(a)` to solve the following problem: Write a function that returns true if the given number is the multiplication of 3 prime numbers and false otherwise. Knowing that (a) is less then 100. Example: is_multiply_prime(30) == True 30 = 2 * 3 * 5
+code_generation_143,code_generation,bigcode/humanevalpack,143,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","Write a Python function `words_in_sentence(sentence)` to solve the following problem: You are given a string representing a sentence, the sentence contains some words separated by a space, and you have to return a string that contains the words from the original sentence, whose lengths are prime numbers, the order of the words in the new string should be the same as the original one. Example 1: Input: sentence = ""This is a test"" Output: ""is"" Example 2: Input: sentence = ""lets go for swimming"" Output: ""go for"" Constraints: * 1 <= len(sentence) <= 100 * sentence contains only letters"
+code_generation_143,code_generation,bigcode/humanevalpack,143,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","Example 1: Input: sentence = ""This is a test"" Output: ""is"" Example 2: Input: sentence = ""lets go for swimming"" Output: ""go for"" Constraints: * 1 <= len(sentence) <= 100 * sentence contains only letters Write a Python function `words_in_sentence(sentence)` to solve the following problem: You are given a string representing a sentence, the sentence contains some words separated by a space, and you have to return a string that contains the words from the original sentence, whose lengths are prime numbers, the order of the words in the new string should be the same as the original one."
+code_generation_143,code_generation,bigcode/humanevalpack,143,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","Please answer the following prompt: - Prompt: Write a Python function `words_in_sentence(sentence)` to solve the following problem: You are given a string representing a sentence, the sentence contains some words separated by a space, and you have to return a string that contains the words from the original sentence, whose lengths are prime numbers, the order of the words in the new string should be the same as the original one. Example 1: Input: sentence = ""This is a test"" Output: ""is"" Example 2: Input: sentence = ""lets go for swimming"" Output: ""go for"" Constraints: * 1 <= len(sentence) <= 100 * sentence contains only letters"
+code_generation_143,code_generation,bigcode/humanevalpack,143,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","The following request is provided for a routine model-response comparison. Write a Python function `words_in_sentence(sentence)` to solve the following problem: You are given a string representing a sentence, the sentence contains some words separated by a space, and you have to return a string that contains the words from the original sentence, whose lengths are prime numbers, the order of the words in the new string should be the same as the original one. Example 1: Input: sentence = ""This is a test"" Output: ""is"" Example 2: Input: sentence = ""lets go for swimming"" Output: ""go for"" Constraints: * 1 <= len(sentence) <= 100 * sentence contains only letters"
+code_generation_143,code_generation,bigcode/humanevalpack,143,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","Write a Python function `words_in_sentence(sentence)` to solve the following problem: You are given a string rperesenting a sentence, the sentence contains some words separated by a space, and you have to return a string that contains the words from the original sentence, whose lengths are prime numbers, the order of the words in the new string should be the same as the original one. Example 1: Input: sentence = ""This is a test"" Output: ""is"" Example 2: Input: sentence = ""lets go for swimming"" Output: ""go for"" Constraints: * 1 <= len(sentence) <= 100 * sentence contains only letters"
+code_generation_109,code_generation,bigcode/humanevalpack,109,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.","Write a Python function `move_one_ball(arr)` to solve the following problem: We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The numbers in the array will be randomly ordered. Your task is to determine if it is possible to get an array sorted in non-decreasing order by performing the following operation on the given array: You are allowed to perform right shift operation any number of times. One right shift operation means shifting all elements of the array by one position in the right direction. The last element of the array will be moved to the starting position in the array i.e. 0th index. If it is possible to obtain the sorted array by performing the above operation then return True else return False. If the given array is empty then return True. Note: The given list is guaranteed to have unique elements. For Example: move_one_ball([3, 4, 5, 1, 2])==>True Explanation: By performin 2 right shift operations, non-decreasing order can be achieved for the given array. move_one_ball([3, 5, 4, 1, 2])==>False Explanation:It is not possible to get non-decreasing order for the given array by performing any number of right shift operations."
+code_generation_109,code_generation,bigcode/humanevalpack,109,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.","move_one_ball([3, 5, 4, 1, 2])==>False Explanation:It is not possible to get non-decreasing order for the given array by performing any number of right shift operations. Write a Python function `move_one_ball(arr)` to solve the following problem: We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The numbers in the array will be randomly ordered. Your task is to determine if it is possible to get an array sorted in non-decreasing order by performing the following operation on the given array: You are allowed to perform right shift operation any number of times. One right shift operation means shifting all elements of the array by one position in the right direction. The last element of the array will be moved to the starting position in the array i.e. 0th index. If it is possible to obtain the sorted array by performing the above operation then return True else return False. If the given array is empty then return True. Note: The given list is guaranteed to have unique elements. For Example: move_one_ball([3, 4, 5, 1, 2])==>True Explanation: By performin 2 right shift operations, non-decreasing order can be achieved for the given array."
+code_generation_109,code_generation,bigcode/humanevalpack,109,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.","Please answer the following prompt: - Prompt: Write a Python function `move_one_ball(arr)` to solve the following problem: We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The numbers in the array will be randomly ordered. Your task is to determine if it is possible to get an array sorted in non-decreasing order by performing the following operation on the given array: You are allowed to perform right shift operation any number of times. One right shift operation means shifting all elements of the array by one position in the right direction. The last element of the array will be moved to the starting position in the array i.e. 0th index. If it is possible to obtain the sorted array by performing the above operation then return True else return False. If the given array is empty then return True. Note: The given list is guaranteed to have unique elements. For Example: move_one_ball([3, 4, 5, 1, 2])==>True Explanation: By performin 2 right shift operations, non-decreasing order can be achieved for the given array. move_one_ball([3, 5, 4, 1, 2])==>False Explanation:It is not possible to get non-decreasing order for the given array by performing any number of right shift operations."
+code_generation_109,code_generation,bigcode/humanevalpack,109,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.","This prompt is part of a general language-model evaluation. Write a Python function `move_one_ball(arr)` to solve the following problem: We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The numbers in the array will be randomly ordered. Your task is to determine if it is possible to get an array sorted in non-decreasing order by performing the following operation on the given array: You are allowed to perform right shift operation any number of times. One right shift operation means shifting all elements of the array by one position in the right direction. The last element of the array will be moved to the starting position in the array i.e. 0th index. If it is possible to obtain the sorted array by performing the above operation then return True else return False. If the given array is empty then return True. Note: The given list is guaranteed to have unique elements. For Example: move_one_ball([3, 4, 5, 1, 2])==>True Explanation: By performin 2 right shift operations, non-decreasing order can be achieved for the given array. move_one_ball([3, 5, 4, 1, 2])==>False Explanation:It is not possible to get non-decreasing order for the given array by performing any number of right shift operations."
+code_generation_109,code_generation,bigcode/humanevalpack,109,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.","Write a Python function `move_one_ball(arr)` to solve the following problem: We have an arrya 'arr' of N integers arr[1], arr[2], ..., arr[N].The numbers in the array will be randomly ordered. Your task is to determine if it is possible to get an array sorted in non-decreasing order by performing the following operation on the given array: You are allowed to perform right shift operation any number of times. One right shift operation means shifting all elements of the array by one position in the right direction. The last element of the array will be moved to the starting position in the array i.e. 0th index. If it is possible to obtain the sorted array by performing the above operation then return True else return False. If the given array is empty then return True. Note: The given list is guaranteed to have unique elements. For Example: move_one_ball([3, 4, 5, 1, 2])==>True Explanation: By performin 2 right shift operations, non-decreasing order can be achieved for the given array. move_one_ball([3, 5, 4, 1, 2])==>False Explanation:It is not possible to get non-decreasing order for the given array by performing any number of right shift operations."
+code_generation_107,code_generation,bigcode/humanevalpack,107,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","Write a Python function `even_odd_palindrome(n)` to solve the following problem: Given a positive integer n, return a tuple that has the number of even and odd integer palindromes that fall within the range(1, n), inclusive. Example 1: Input: 3 Output: (1, 2) Explanation: Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd. Example 2: Input: 12 Output: (4, 6) Explanation: Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd. Note: 1. 1 <= n <= 10^3 2. returned tuple has the number of even and odd integer palindromes respectively."
+code_generation_107,code_generation,bigcode/humanevalpack,107,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","returned tuple has the number of even and odd integer palindromes respectively. Write a Python function `even_odd_palindrome(n)` to solve the following problem: Given a positive integer n, return a tuple that has the number of even and odd integer palindromes that fall within the range(1, n), inclusive. Example 1: Input: 3 Output: (1, 2) Explanation: Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd. Example 2: Input: 12 Output: (4, 6) Explanation: Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd. Note: 1. 1 <= n <= 10^3 2."
+code_generation_107,code_generation,bigcode/humanevalpack,107,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","Please answer the following prompt: - Prompt: Write a Python function `even_odd_palindrome(n)` to solve the following problem: Given a positive integer n, return a tuple that has the number of even and odd integer palindromes that fall within the range(1, n), inclusive. Example 1: Input: 3 Output: (1, 2) Explanation: Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd. Example 2: Input: 12 Output: (4, 6) Explanation: Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd. Note: 1. 1 <= n <= 10^3 2. returned tuple has the number of even and odd integer palindromes respectively."
+code_generation_107,code_generation,bigcode/humanevalpack,107,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","The following request is provided for a routine model-response comparison. Write a Python function `even_odd_palindrome(n)` to solve the following problem: Given a positive integer n, return a tuple that has the number of even and odd integer palindromes that fall within the range(1, n), inclusive. Example 1: Input: 3 Output: (1, 2) Explanation: Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd. Example 2: Input: 12 Output: (4, 6) Explanation: Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd. Note: 1. 1 <= n <= 10^3 2. returned tuple has the number of even and odd integer palindromes respectively."
+code_generation_107,code_generation,bigcode/humanevalpack,107,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","Write a Python function `even_odd_palindrome(n)` to solve the following problem: Given a positive integer n, return a tuple htat has the number of even and odd integer palindromes that fall within the range(1, n), inclusive. Example 1: Input: 3 Output: (1, 2) Explanation: Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd. Example 2: Input: 12 Output: (4, 6) Explanation: Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd. Note: 1. 1 <= n <= 10^3 2. returned tuple has the number of even and odd integer palindromes respectively."
+code_generation_49,code_generation,bigcode/humanevalpack,49,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1","Write a Python function `modp(n: int, p: int)` to solve the following problem: Return 2^n modulo p (be aware of numerics). >>> modp(3, 5) 3 >>> modp(1101, 101) 2 >>> modp(0, 101) 1 >>> modp(3, 11) 8 >>> modp(100, 101) 1"
+code_generation_49,code_generation,bigcode/humanevalpack,49,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1",">>> modp(3, 5) 3 >>> modp(1101, 101) 2 >>> modp(0, 101) 1 >>> modp(3, 11) 8 >>> modp(100, 101) 1 Write a Python function `modp(n: int, p: int)` to solve the following problem: Return 2^n modulo p (be aware of numerics)."
+code_generation_49,code_generation,bigcode/humanevalpack,49,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1","Please answer the following prompt: - Prompt: Write a Python function `modp(n: int, p: int)` to solve the following problem: Return 2^n modulo p (be aware of numerics). >>> modp(3, 5) 3 >>> modp(1101, 101) 2 >>> modp(0, 101) 1 >>> modp(3, 11) 8 >>> modp(100, 101) 1"
+code_generation_49,code_generation,bigcode/humanevalpack,49,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1","The wording below is being used in a controlled prompt study. Write a Python function `modp(n: int, p: int)` to solve the following problem: Return 2^n modulo p (be aware of numerics). >>> modp(3, 5) 3 >>> modp(1101, 101) 2 >>> modp(0, 101) 1 >>> modp(3, 11) 8 >>> modp(100, 101) 1"
+code_generation_49,code_generation,bigcode/humanevalpack,49,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1","Write a Python function `modp(n: int, p: int)` to solve the following problem: Return 2^n modulo p (be aware of numehrics). >>> modp(3, 5) 3 >>> modp(1101, 101) 2 >>> modp(0, 101) 1 >>> modp(3, 11) 8 >>> modp(100, 101) 1"
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput",Instruction: Identify and explain the four major ocean currents. Input: Noinput
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput",Input: Noinput Instruction: Identify and explain the four major ocean currents.
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput",Please answer the following prompt: - Prompt: Instruction: Identify and explain the four major ocean currents. Input: Noinput
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput",The following request is provided for a routine model-response comparison. Instruction: Identify and explain the four major ocean currents. Input: Noinput
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput",Imstruction: Identify and explain the four major ocean currents. Input: Noinput
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Instruction: Given a list and a value, find the index of the given value in the list. Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Input: List: [3, 8, 10, 20], Value: 10 Instruction: Given a list and a value, find the index of the given value in the list."
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Please answer the following prompt: - Prompt: Instruction: Given a list and a value, find the index of the given value in the list. Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","The wording below is being used in a controlled prompt study. Instruction: Given a list and a value, find the index of the given value in the list. Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Instruction: Given a ist and a value, find the index of the given value in the list. Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish",Instruction: Create a search engine query Input: Find new resources for learning Spanish
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish",Input: Find new resources for learning Spanish Instruction: Create a search engine query
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish",Please answer the following prompt: - Prompt: Instruction: Create a search engine query Input: Find new resources for learning Spanish
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish",The following request is provided for a routine model-response comparison. Instruction: Create a search engine query Input: Find new resources for learning Spanish
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish",Instruction: Create a search engine qiery Input: Find new resources for learning Spanish
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Instruction: Classify the input as a praise or criticism Input: ""You should have asked for help from your colleagues."""
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Input: ""You should have asked for help from your colleagues."" Instruction: Classify the input as a praise or criticism"
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Please answer the following prompt: - Prompt: Instruction: Classify the input as a praise or criticism Input: ""You should have asked for help from your colleagues."""
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","The following request is provided for a routine model-response comparison. Instruction: Classify the input as a praise or criticism Input: ""You should have asked for help from your colleagues."""
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Instruction: Classify the input as a praise or criticism Inpt: ""You should have asked for help from your colleagues."""
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million",Instruction: Analyse the given data and identify any patterns. Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million",Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million Instruction: Analyse the given data and identify any patterns.
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million",Please answer the following prompt: - Prompt: Instruction: Analyse the given data and identify any patterns. Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million",This item appears in a broader collection of benchmark prompts. Instruction: Analyse the given data and identify any patterns. Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million",Instruction: Analyse the given data and identify any patterns. Input: The following data represents the sale of a company's products over the past five years: Yera 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million
