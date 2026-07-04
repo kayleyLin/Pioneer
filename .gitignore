@@ -29,6 +29,7 @@ logs/
 *.jpg
 *.jpeg
 *.heic
+writing/
 
 # Local notebooks checkpoints
 .ipynb_checkpoints/
