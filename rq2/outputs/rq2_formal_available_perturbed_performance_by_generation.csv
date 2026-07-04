@@ -17296,7 +17296,7 @@ def is_multiply_prime(a):
 
 # Example usage
 print(is_multiply_prime(30))  # True, since 2 * 3 * 5 = 30
-print(is_multiply_prime(28))  # False, since no three primes multiply to 28",0.000000,,,false,false,humanevalpack_functional_tests,ModuleNotFoundError: No module named 'sympy'
+print(is_multiply_prime(28))  # False, since no three primes multiply to 28",0.000000,,,false,false,humanevalpack_functional_tests,AssertionError
 code_generation_75,code_generation,bigcode/humanevalpack,75,Python/75,3,gpt-4o-mini,perturbed,reordering,"def is_prime(n): for j in range(2,n): if n%j == 0: return False return True for i in range(2,101): if not is_prime(i): continue for j in range(2,101): if not is_prime(j): continue for k in range(2,101): if not is_prime(k): continue if i*j*k == a: return True return False","You can create a Python function `is_multiply_prime(a)` that checks if a given number `a` is the product of three prime numbers. Here's a sample implementation:
 
 ```python
@@ -18521,7 +18521,7 @@ def is_multiply_prime(a):
 
 # Example usage
 print(is_multiply_prime(30))  # True
-print(is_multiply_prime(28))  # False",0.000000,,,false,false,humanevalpack_functional_tests,ModuleNotFoundError: No module named 'sympy'
+print(is_multiply_prime(28))  # False",0.000000,,,false,false,humanevalpack_functional_tests,AssertionError
 code_generation_75,code_generation,bigcode/humanevalpack,75,Python/75,5,gpt-4o-mini,perturbed,surface_noise,"def is_prime(n): for j in range(2,n): if n%j == 0: return False return True for i in range(2,101): if not is_prime(i): continue for j in range(2,101): if not is_prime(j): continue for k in range(2,101): if not is_prime(k): continue if i*j*k == a: return True return False","To determine if a given number \( a \) is the product of three prime numbers, you can follow these steps:
 
 1. Generate a list of all prime numbers less than 100.
@@ -18580,7 +18580,7 @@ def is_multiply_prime(a):
 
 # Example usage
 print(is_multiply_prime(30))  # Output: True
-print(is_multiply_prime(15))  # Output: False",0.000000,,,false,false,humanevalpack_functional_tests,ModuleNotFoundError: No module named 'sympy'
+print(is_multiply_prime(15))  # Output: False",0.000000,,,false,false,humanevalpack_functional_tests,AssertionError
 code_generation_143,code_generation,bigcode/humanevalpack,143,Python/143,1,gpt-4o-mini,perturbed,paraphrasing,"new_lst = [] for word in sentence.split(): flg = 0 if len(word) == 1: flg = 1 for i in range(2, len(word)): if len(word)%i == 0: flg = 1 if flg == 0 or len(word) == 2: new_lst.append(word) return "" "".join(new_lst)","Here’s a Python function named `prime_length_words(sentence)` that extracts words from a given sentence with prime lengths:
 
 ```python

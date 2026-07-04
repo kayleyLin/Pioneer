@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -25,8 +26,8 @@ PERTURBATION_ORDER = [
 ]
 
 
-def ensure_figures_dir() -> None:
-    FIGURES.mkdir(parents=True, exist_ok=True)
+def ensure_figures_dir(figures_dir: Path) -> None:
+    figures_dir.mkdir(parents=True, exist_ok=True)
 
 
 def pivot_table(df: pd.DataFrame, value: str) -> pd.DataFrame:
@@ -65,7 +66,14 @@ def save_heatmap(
 
 
 def main() -> None:
-    ensure_figures_dir()
+    parser = argparse.ArgumentParser(description="Create candidate heatmaps for RQ1/RQ2 reporting.")
+    parser.add_argument("--figures-dir", type=Path, default=FIGURES)
+    args = parser.parse_args()
+    figures_dir = args.figures_dir
+    if not figures_dir.is_absolute():
+        figures_dir = ROOT / figures_dir
+
+    ensure_figures_dir(figures_dir)
 
     summary = pd.read_csv(RQ2_SUMMARY)
     performance = pd.read_csv(RQ2_PERFORMANCE)
@@ -84,7 +92,7 @@ def main() -> None:
 
     save_heatmap(
         drift,
-        FIGURES / "rq1_rq2_noise_corrected_drift_heatmap.png",
+        figures_dir / "rq1_rq2_noise_corrected_drift_heatmap.png",
         "RQ1/RQ2 Predictor: Mean Noise-Corrected Semantic Drift",
         "Mean noise-corrected drift",
         cmap="vlag",
@@ -92,7 +100,7 @@ def main() -> None:
     )
     save_heatmap(
         perf_change,
-        FIGURES / "rq2_performance_change_heatmap.png",
+        figures_dir / "rq2_performance_change_heatmap.png",
         "RQ2 Outcome: Mean Absolute Performance Change",
         "Original performance - perturbed performance",
         cmap="rocket_r",
@@ -100,7 +108,7 @@ def main() -> None:
     )
     save_heatmap(
         pdr,
-        FIGURES / "rq2_pdr_heatmap.png",
+        figures_dir / "rq2_pdr_heatmap.png",
         "RQ2 Literature-Aligned Metric: Mean PDR",
         "Mean performance drop rate",
         cmap="vlag",
@@ -108,7 +116,7 @@ def main() -> None:
     )
     save_heatmap(
         pearson,
-        FIGURES / "rq2_pearson_drift_performance_correlation_heatmap.png",
+        figures_dir / "rq2_pearson_drift_performance_correlation_heatmap.png",
         "RQ2 Association: Pearson Correlation Between Drift And Performance Change",
         "Pearson r",
         cmap="vlag",
@@ -116,7 +124,7 @@ def main() -> None:
     )
     save_heatmap(
         spearman,
-        FIGURES / "rq2_spearman_drift_performance_correlation_heatmap.png",
+        figures_dir / "rq2_spearman_drift_performance_correlation_heatmap.png",
         "RQ2 Association: Spearman Correlation Between Drift And Performance Change",
         "Spearman rho",
         cmap="vlag",
@@ -131,15 +139,15 @@ def main() -> None:
     contrast = perf_z - drift_z
     save_heatmap(
         contrast,
-        FIGURES / "rq2_performance_vs_drift_contrast_heatmap.png",
+        figures_dir / "rq2_performance_vs_drift_contrast_heatmap.png",
         "RQ2 Exploratory Contrast: Performance Change Relative To Semantic Drift",
         "z(performance change) - z(drift)",
         cmap="vlag",
         center=0.0,
     )
 
-    print("Wrote heatmaps to", FIGURES)
-    for path in sorted(FIGURES.glob("*heatmap.png")):
+    print("Wrote heatmaps to", figures_dir)
+    for path in sorted(figures_dir.glob("*heatmap.png")):
         print(path)
 
 

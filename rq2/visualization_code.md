@@ -14,12 +14,25 @@ Run command:
 /opt/anaconda3/bin/python src/27_create_rq_heatmaps.py
 ```
 
+To write a versioned figure set without overwriting older figures:
+
+```bash
+/opt/anaconda3/bin/python src/27_create_rq_heatmaps.py \
+  --figures-dir /Users/wenfenglin/Desktop/Pioneer/figures/2.0
+```
+
 ## Output Folder
 
 All generated figures are saved to:
 
 ```text
 figures/
+```
+
+Current rerun output folder:
+
+```text
+figures/2.0/
 ```
 
 ## Input Files

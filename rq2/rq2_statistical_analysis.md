@@ -20,8 +20,8 @@ Task and perturbation type are treated as categorical factors.
 Dep. Variable:     absolute_performance_change   R-squared:                       0.107
 Model:                                     OLS   Adj. R-squared:                  0.101
 Method:                          Least Squares   F-statistic:                     7.359
-Date:                         Wed, 01 Jul 2026   Prob (F-statistic):            0.00746
-Time:                                 17:18:51   Log-Likelihood:                 3.5522
+Date:                         Sat, 04 Jul 2026   Prob (F-statistic):            0.00746
+Time:                                 05:09:06   Log-Likelihood:                 3.5522
 No. Observations:                          150   AIC:                            -3.104
 Df Residuals:                              148   BIC:                             2.917
 Df Model:                                    1                                         
@@ -51,8 +51,8 @@ Notes:
 Dep. Variable:     absolute_performance_change   R-squared:                       0.220
 Model:                                     OLS   Adj. R-squared:                  0.193
 Method:                          Least Squares   F-statistic:                     3.953
-Date:                         Wed, 01 Jul 2026   Prob (F-statistic):            0.00217
-Time:                                 17:18:51   Log-Likelihood:                 13.652
+Date:                         Sat, 04 Jul 2026   Prob (F-statistic):            0.00217
+Time:                                 05:09:06   Log-Likelihood:                 13.652
 No. Observations:                          150   AIC:                            -15.30
 Df Residuals:                              144   BIC:                             2.760
 Df Model:                                    5                                         
@@ -86,8 +86,8 @@ Notes:
 Dep. Variable:     absolute_performance_change   R-squared:                       0.264
 Model:                                     OLS   Adj. R-squared:                  0.217
 Method:                          Least Squares   F-statistic:                     2.919
-Date:                         Wed, 01 Jul 2026   Prob (F-statistic):            0.00336
-Time:                                 17:18:51   Log-Likelihood:                 18.025
+Date:                         Sat, 04 Jul 2026   Prob (F-statistic):            0.00336
+Time:                                 05:09:06   Log-Likelihood:                 18.025
 No. Observations:                          150   AIC:                            -16.05
 Df Residuals:                              140   BIC:                             14.06
 Df Model:                                    9                                         

@@ -1,5 +1,17 @@
 # RQ2 Final Output
 
+Last rerun: 2026-07-04
+
+Rerun note:
+
+```text
+RQ2 outputs were regenerated from the current formal RQ1 files:
+outputs/rq1_formal_original_generations.csv
+outputs/rq1_formal_perturbed_generations.csv
+
+The perturbed-generation file contains 1000 rows overall, including the 750 objective-task rows used for RQ2.
+```
+
 ## Research Question
 
 RQ2 asks whether semantic drift is associated with task performance change for tasks with objective evaluation criteria.

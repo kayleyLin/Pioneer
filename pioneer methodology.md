@@ -67,7 +67,7 @@ total_sample_size = 40 original prompts
 
 Expanded formal sample prepared after the first statistical analysis:
 
-```text
+```
 random_seed = 20260623
 sample_size = 50 prompts per task type
 total_sample_size = 200 original prompts
