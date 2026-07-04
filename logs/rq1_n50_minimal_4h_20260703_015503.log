@@ -1,0 +1,1772 @@
+===== 2026-07-03 01:55:03 START: prepare remaining baseline prompt files =====
+code_generation: wrote 50 prompts to /Users/wenfenglin/Desktop/Pioneer/prompts/rq1_sampled_original_prompts_n50_code_generation.csv
+open_ended_writing: wrote 50 prompts to /Users/wenfenglin/Desktop/Pioneer/prompts/rq1_sampled_original_prompts_n50_open_ended_writing.csv
+===== 2026-07-03 01:55:03 END: prepare remaining baseline prompt files =====
+===== 2026-07-03 01:55:03 START: baseline original outputs: code_generation =====
+Found 9 existing rows in /Users/wenfenglin/Desktop/Pioneer/outputs/rq1_formal_original_generations_n50_code_generation.csv; resuming.
+[1/250] code_generation_75 sample 1 skipped
+[2/250] code_generation_75 sample 2 skipped
+[3/250] code_generation_75 sample 3 skipped
+[4/250] code_generation_75 sample 4 skipped
+[5/250] code_generation_75 sample 5 skipped
+[6/250] code_generation_143 sample 1 skipped
+[7/250] code_generation_143 sample 2 skipped
+[8/250] code_generation_143 sample 3 skipped
+[9/250] code_generation_143 sample 4 skipped
+[10/250] code_generation_143 sample 5
+[11/250] code_generation_109 sample 1
+[12/250] code_generation_109 sample 2
+[13/250] code_generation_109 sample 3
+[14/250] code_generation_109 sample 4
+[15/250] code_generation_109 sample 5
+[16/250] code_generation_107 sample 1
+[17/250] code_generation_107 sample 2
+[18/250] code_generation_107 sample 3
+[19/250] code_generation_107 sample 4
+[20/250] code_generation_107 sample 5
+[21/250] code_generation_49 sample 1
+[22/250] code_generation_49 sample 2
+[23/250] code_generation_49 sample 3
+[24/250] code_generation_49 sample 4
+[25/250] code_generation_49 sample 5
+[26/250] code_generation_18 sample 1
+[27/250] code_generation_18 sample 2
+[28/250] code_generation_18 sample 3
+[29/250] code_generation_18 sample 4
+[30/250] code_generation_18 sample 5
+[31/250] code_generation_138 sample 1
+[32/250] code_generation_138 sample 2
+[33/250] code_generation_138 sample 3
+[34/250] code_generation_138 sample 4
+[35/250] code_generation_138 sample 5
+[36/250] code_generation_117 sample 1
+[37/250] code_generation_117 sample 2
+[38/250] code_generation_117 sample 3
+[39/250] code_generation_117 sample 4
+[40/250] code_generation_117 sample 5
+[41/250] code_generation_128 sample 1
+[42/250] code_generation_128 sample 2
+[43/250] code_generation_128 sample 3
+[44/250] code_generation_128 sample 4
+[45/250] code_generation_128 sample 5
+[46/250] code_generation_25 sample 1
+[47/250] code_generation_25 sample 2
+[48/250] code_generation_25 sample 3
+[49/250] code_generation_25 sample 4
+[50/250] code_generation_25 sample 5
+[51/250] code_generation_13 sample 1
+[52/250] code_generation_13 sample 2
+[53/250] code_generation_13 sample 3
+[54/250] code_generation_13 sample 4
+[55/250] code_generation_13 sample 5
+[56/250] code_generation_104 sample 1
+[57/250] code_generation_104 sample 2
+[58/250] code_generation_104 sample 3
+[59/250] code_generation_104 sample 4
+[60/250] code_generation_104 sample 5
+[61/250] code_generation_17 sample 1
+[62/250] code_generation_17 sample 2
+[63/250] code_generation_17 sample 3
+[64/250] code_generation_17 sample 4
+[65/250] code_generation_17 sample 5
+[66/250] code_generation_68 sample 1
+[67/250] code_generation_68 sample 2
+[68/250] code_generation_68 sample 3
+[69/250] code_generation_68 sample 4
+[70/250] code_generation_68 sample 5
+[71/250] code_generation_78 sample 1
+[72/250] code_generation_78 sample 2
+[73/250] code_generation_78 sample 3
+[74/250] code_generation_78 sample 4
+[75/250] code_generation_78 sample 5
+[76/250] code_generation_15 sample 1
+[77/250] code_generation_15 sample 2
+[78/250] code_generation_15 sample 3
+[79/250] code_generation_15 sample 4
+[80/250] code_generation_15 sample 5
+[81/250] code_generation_44 sample 1
+[82/250] code_generation_44 sample 2
+[83/250] code_generation_44 sample 3
+[84/250] code_generation_44 sample 4
+[85/250] code_generation_44 sample 5
+[86/250] code_generation_31 sample 1
+[87/250] code_generation_31 sample 2
+[88/250] code_generation_31 sample 3
+[89/250] code_generation_31 sample 4
+[90/250] code_generation_31 sample 5
+[91/250] code_generation_82 sample 1
+[92/250] code_generation_82 sample 2
+[93/250] code_generation_82 sample 3
+[94/250] code_generation_82 sample 4
+[95/250] code_generation_82 sample 5
+[96/250] code_generation_131 sample 1
+[97/250] code_generation_131 sample 2
+[98/250] code_generation_131 sample 3
+[99/250] code_generation_131 sample 4
+[100/250] code_generation_131 sample 5
+[101/250] code_generation_28 sample 1
+[102/250] code_generation_28 sample 2
+[103/250] code_generation_28 sample 3
+[104/250] code_generation_28 sample 4
+[105/250] code_generation_28 sample 5
+[106/250] code_generation_26 sample 1
+[107/250] code_generation_26 sample 2
+[108/250] code_generation_26 sample 3
+[109/250] code_generation_26 sample 4
+[110/250] code_generation_26 sample 5
+[111/250] code_generation_11 sample 1
+[112/250] code_generation_11 sample 2
+[113/250] code_generation_11 sample 3
+[114/250] code_generation_11 sample 4
+[115/250] code_generation_11 sample 5
+[116/250] code_generation_85 sample 1
+[117/250] code_generation_85 sample 2
+[118/250] code_generation_85 sample 3
+[119/250] code_generation_85 sample 4
+[120/250] code_generation_85 sample 5
+[121/250] code_generation_37 sample 1
+[122/250] code_generation_37 sample 2
+[123/250] code_generation_37 sample 3
+[124/250] code_generation_37 sample 4
+[125/250] code_generation_37 sample 5
+[126/250] code_generation_157 sample 1
+[127/250] code_generation_157 sample 2
+[128/250] code_generation_157 sample 3
+[129/250] code_generation_157 sample 4
+[130/250] code_generation_157 sample 5
+[131/250] code_generation_71 sample 1
+[132/250] code_generation_71 sample 2
+[133/250] code_generation_71 sample 3
+[134/250] code_generation_71 sample 4
+[135/250] code_generation_71 sample 5
+[136/250] code_generation_92 sample 1
+[137/250] code_generation_92 sample 2
+[138/250] code_generation_92 sample 3
+[139/250] code_generation_92 sample 4
+[140/250] code_generation_92 sample 5
+[141/250] code_generation_146 sample 1
+[142/250] code_generation_146 sample 2
+[143/250] code_generation_146 sample 3
+[144/250] code_generation_146 sample 4
+[145/250] code_generation_146 sample 5
+[146/250] code_generation_35 sample 1
+[147/250] code_generation_35 sample 2
+[148/250] code_generation_35 sample 3
+[149/250] code_generation_35 sample 4
+[150/250] code_generation_35 sample 5
+[151/250] code_generation_48 sample 1
+[152/250] code_generation_48 sample 2
+[153/250] code_generation_48 sample 3
+[154/250] code_generation_48 sample 4
+[155/250] code_generation_48 sample 5
+[156/250] code_generation_102 sample 1
+[157/250] code_generation_102 sample 2
+[158/250] code_generation_102 sample 3
+[159/250] code_generation_102 sample 4
+[160/250] code_generation_102 sample 5
+[161/250] code_generation_38 sample 1
+[162/250] code_generation_38 sample 2
+[163/250] code_generation_38 sample 3
+[164/250] code_generation_38 sample 4
+[165/250] code_generation_38 sample 5
+[166/250] code_generation_142 sample 1
+[167/250] code_generation_142 sample 2
+[168/250] code_generation_142 sample 3
+[169/250] code_generation_142 sample 4
+[170/250] code_generation_142 sample 5
+[171/250] code_generation_12 sample 1
+[172/250] code_generation_12 sample 2
+[173/250] code_generation_12 sample 3
+[174/250] code_generation_12 sample 4
+[175/250] code_generation_12 sample 5
+[176/250] code_generation_33 sample 1
+[177/250] code_generation_33 sample 2
+[178/250] code_generation_33 sample 3
+[179/250] code_generation_33 sample 4
+[180/250] code_generation_33 sample 5
+[181/250] code_generation_60 sample 1
+[182/250] code_generation_60 sample 2
+[183/250] code_generation_60 sample 3
+[184/250] code_generation_60 sample 4
+[185/250] code_generation_60 sample 5
+[186/250] code_generation_32 sample 1
+[187/250] code_generation_32 sample 2
+[188/250] code_generation_32 sample 3
+[189/250] code_generation_32 sample 4
+[190/250] code_generation_32 sample 5
+[191/250] code_generation_7 sample 1
+[192/250] code_generation_7 sample 2
+[193/250] code_generation_7 sample 3
+[194/250] code_generation_7 sample 4
+[195/250] code_generation_7 sample 5
+[196/250] code_generation_112 sample 1
+[197/250] code_generation_112 sample 2
+[198/250] code_generation_112 sample 3
+[199/250] code_generation_112 sample 4
+[200/250] code_generation_112 sample 5
+[201/250] code_generation_145 sample 1
+[202/250] code_generation_145 sample 2
+[203/250] code_generation_145 sample 3
+[204/250] code_generation_145 sample 4
+[205/250] code_generation_145 sample 5
+[206/250] code_generation_24 sample 1
+[207/250] code_generation_24 sample 2
+[208/250] code_generation_24 sample 3
+[209/250] code_generation_24 sample 4
+[210/250] code_generation_24 sample 5
+[211/250] code_generation_110 sample 1
+[212/250] code_generation_110 sample 2
+[213/250] code_generation_110 sample 3
+[214/250] code_generation_110 sample 4
+[215/250] code_generation_110 sample 5
+[216/250] code_generation_153 sample 1
+[217/250] code_generation_153 sample 2
+[218/250] code_generation_153 sample 3
+[219/250] code_generation_153 sample 4
+[220/250] code_generation_153 sample 5
+[221/250] code_generation_64 sample 1
+[222/250] code_generation_64 sample 2
+[223/250] code_generation_64 sample 3
+[224/250] code_generation_64 sample 4
+[225/250] code_generation_64 sample 5
+[226/250] code_generation_122 sample 1
+[227/250] code_generation_122 sample 2
+[228/250] code_generation_122 sample 3
+[229/250] code_generation_122 sample 4
+[230/250] code_generation_122 sample 5
+[231/250] code_generation_135 sample 1
+[232/250] code_generation_135 sample 2
+[233/250] code_generation_135 sample 3
+[234/250] code_generation_135 sample 4
+[235/250] code_generation_135 sample 5
+[236/250] code_generation_34 sample 1
+[237/250] code_generation_34 sample 2
+[238/250] code_generation_34 sample 3
+[239/250] code_generation_34 sample 4
+[240/250] code_generation_34 sample 5
+[241/250] code_generation_40 sample 1
+[242/250] code_generation_40 sample 2
+[243/250] code_generation_40 sample 3
+[244/250] code_generation_40 sample 4
+[245/250] code_generation_40 sample 5
+[246/250] code_generation_83 sample 1
+[247/250] code_generation_83 sample 2
+[248/250] code_generation_83 sample 3
+[249/250] code_generation_83 sample 4
+[250/250] code_generation_83 sample 5
+Output file now has 250 rows: /Users/wenfenglin/Desktop/Pioneer/outputs/rq1_formal_original_generations_n50_code_generation.csv
+===== 2026-07-03 02:20:43 END: baseline original outputs: code_generation =====
+===== 2026-07-03 02:20:43 START: baseline original outputs: open_ended_writing =====
+[1/250] open_ended_writing_10208 sample 1
+[2/250] open_ended_writing_10208 sample 2
+[3/250] open_ended_writing_10208 sample 3
+[4/250] open_ended_writing_10208 sample 4
+[5/250] open_ended_writing_10208 sample 5
+[6/250] open_ended_writing_45338 sample 1
+[7/250] open_ended_writing_45338 sample 2
+[8/250] open_ended_writing_45338 sample 3
+[9/250] open_ended_writing_45338 sample 4
+[10/250] open_ended_writing_45338 sample 5
+[11/250] open_ended_writing_11297 sample 1
+[12/250] open_ended_writing_11297 sample 2
+[13/250] open_ended_writing_11297 sample 3
+[14/250] open_ended_writing_11297 sample 4
+[15/250] open_ended_writing_11297 sample 5
+[16/250] open_ended_writing_36102 sample 1
+[17/250] open_ended_writing_36102 sample 2
+[18/250] open_ended_writing_36102 sample 3
+[19/250] open_ended_writing_36102 sample 4
+[20/250] open_ended_writing_36102 sample 5
+[21/250] open_ended_writing_16258 sample 1
+[22/250] open_ended_writing_16258 sample 2
+[23/250] open_ended_writing_16258 sample 3
+[24/250] open_ended_writing_16258 sample 4
+[25/250] open_ended_writing_16258 sample 5
+[26/250] open_ended_writing_35144 sample 1
+[27/250] open_ended_writing_35144 sample 2
+[28/250] open_ended_writing_35144 sample 3
+[29/250] open_ended_writing_35144 sample 4
+[30/250] open_ended_writing_35144 sample 5
+[31/250] open_ended_writing_10774 sample 1
+[32/250] open_ended_writing_10774 sample 2
+[33/250] open_ended_writing_10774 sample 3
+[34/250] open_ended_writing_10774 sample 4
+[35/250] open_ended_writing_10774 sample 5
+[36/250] open_ended_writing_50246 sample 1
+[37/250] open_ended_writing_50246 sample 2
+[38/250] open_ended_writing_50246 sample 3
+[39/250] open_ended_writing_50246 sample 4
+[40/250] open_ended_writing_50246 sample 5
+[41/250] open_ended_writing_34294 sample 1
+[42/250] open_ended_writing_34294 sample 2
+[43/250] open_ended_writing_34294 sample 3
+[44/250] open_ended_writing_34294 sample 4
+[45/250] open_ended_writing_34294 sample 5
+[46/250] open_ended_writing_35341 sample 1
+[47/250] open_ended_writing_35341 sample 2
+[48/250] open_ended_writing_35341 sample 3
+[49/250] open_ended_writing_35341 sample 4
+[50/250] open_ended_writing_35341 sample 5
+[51/250] open_ended_writing_45032 sample 1
+[52/250] open_ended_writing_45032 sample 2
+[53/250] open_ended_writing_45032 sample 3
+[54/250] open_ended_writing_45032 sample 4
+[55/250] open_ended_writing_45032 sample 5
+[56/250] open_ended_writing_17839 sample 1
+[57/250] open_ended_writing_17839 sample 2
+[58/250] open_ended_writing_17839 sample 3
+[59/250] open_ended_writing_17839 sample 4
+[60/250] open_ended_writing_17839 sample 5
+[61/250] open_ended_writing_6859 sample 1
+[62/250] open_ended_writing_6859 sample 2
+[63/250] open_ended_writing_6859 sample 3
+[64/250] open_ended_writing_6859 sample 4
+[65/250] open_ended_writing_6859 sample 5
+[66/250] open_ended_writing_35625 sample 1
+[67/250] open_ended_writing_35625 sample 2
+[68/250] open_ended_writing_35625 sample 3
+[69/250] open_ended_writing_35625 sample 4
+[70/250] open_ended_writing_35625 sample 5
+[71/250] open_ended_writing_28710 sample 1
+[72/250] open_ended_writing_28710 sample 2
+[73/250] open_ended_writing_28710 sample 3
+[74/250] open_ended_writing_28710 sample 4
+[75/250] open_ended_writing_28710 sample 5
+[76/250] open_ended_writing_20111 sample 1
+[77/250] open_ended_writing_20111 sample 2
+[78/250] open_ended_writing_20111 sample 3
+[79/250] open_ended_writing_20111 sample 4
+[80/250] open_ended_writing_20111 sample 5
+[81/250] open_ended_writing_2378 sample 1
+[82/250] open_ended_writing_2378 sample 2
+[83/250] open_ended_writing_2378 sample 3
+[84/250] open_ended_writing_2378 sample 4
+[85/250] open_ended_writing_2378 sample 5
+[86/250] open_ended_writing_9613 sample 1
+[87/250] open_ended_writing_9613 sample 2
+[88/250] open_ended_writing_9613 sample 3
+[89/250] open_ended_writing_9613 sample 4
+[90/250] open_ended_writing_9613 sample 5
+[91/250] open_ended_writing_7384 sample 1
+[92/250] open_ended_writing_7384 sample 2
+[93/250] open_ended_writing_7384 sample 3
+[94/250] open_ended_writing_7384 sample 4
+[95/250] open_ended_writing_7384 sample 5
+[96/250] open_ended_writing_1279 sample 1
+[97/250] open_ended_writing_1279 sample 2
+[98/250] open_ended_writing_1279 sample 3
+[99/250] open_ended_writing_1279 sample 4
+[100/250] open_ended_writing_1279 sample 5
+[101/250] open_ended_writing_24950 sample 1
+[102/250] open_ended_writing_24950 sample 2
+[103/250] open_ended_writing_24950 sample 3
+[104/250] open_ended_writing_24950 sample 4
+[105/250] open_ended_writing_24950 sample 5
+[106/250] open_ended_writing_43335 sample 1
+[107/250] open_ended_writing_43335 sample 2
+[108/250] open_ended_writing_43335 sample 3
+[109/250] open_ended_writing_43335 sample 4
+[110/250] open_ended_writing_43335 sample 5
+[111/250] open_ended_writing_41294 sample 1
+[112/250] open_ended_writing_41294 sample 2
+[113/250] open_ended_writing_41294 sample 3
+[114/250] open_ended_writing_41294 sample 4
+[115/250] open_ended_writing_41294 sample 5
+[116/250] open_ended_writing_13047 sample 1
+[117/250] open_ended_writing_13047 sample 2
+[118/250] open_ended_writing_13047 sample 3
+[119/250] open_ended_writing_13047 sample 4
+[120/250] open_ended_writing_13047 sample 5
+[121/250] open_ended_writing_4286 sample 1
+[122/250] open_ended_writing_4286 sample 2
+[123/250] open_ended_writing_4286 sample 3
+[124/250] open_ended_writing_4286 sample 4
+[125/250] open_ended_writing_4286 sample 5
+[126/250] open_ended_writing_35012 sample 1
+[127/250] open_ended_writing_35012 sample 2
+[128/250] open_ended_writing_35012 sample 3
+[129/250] open_ended_writing_35012 sample 4
+[130/250] open_ended_writing_35012 sample 5
+[131/250] open_ended_writing_16598 sample 1
+[132/250] open_ended_writing_16598 sample 2
+[133/250] open_ended_writing_16598 sample 3
+[134/250] open_ended_writing_16598 sample 4
+[135/250] open_ended_writing_16598 sample 5
+[136/250] open_ended_writing_35890 sample 1
+[137/250] open_ended_writing_35890 sample 2
+[138/250] open_ended_writing_35890 sample 3
+[139/250] open_ended_writing_35890 sample 4
+[140/250] open_ended_writing_35890 sample 5
+[141/250] open_ended_writing_32192 sample 1
+[142/250] open_ended_writing_32192 sample 2
+[143/250] open_ended_writing_32192 sample 3
+[144/250] open_ended_writing_32192 sample 4
+[145/250] open_ended_writing_32192 sample 5
+[146/250] open_ended_writing_28407 sample 1
+[147/250] open_ended_writing_28407 sample 2
+[148/250] open_ended_writing_28407 sample 3
+[149/250] open_ended_writing_28407 sample 4
+[150/250] open_ended_writing_28407 sample 5
+[151/250] open_ended_writing_42931 sample 1
+[152/250] open_ended_writing_42931 sample 2
+[153/250] open_ended_writing_42931 sample 3
+[154/250] open_ended_writing_42931 sample 4
+[155/250] open_ended_writing_42931 sample 5
+[156/250] open_ended_writing_25984 sample 1
+[157/250] open_ended_writing_25984 sample 2
+[158/250] open_ended_writing_25984 sample 3
+[159/250] open_ended_writing_25984 sample 4
+[160/250] open_ended_writing_25984 sample 5
+[161/250] open_ended_writing_26882 sample 1
+[162/250] open_ended_writing_26882 sample 2
+[163/250] open_ended_writing_26882 sample 3
+[164/250] open_ended_writing_26882 sample 4
+[165/250] open_ended_writing_26882 sample 5
+[166/250] open_ended_writing_7032 sample 1
+[167/250] open_ended_writing_7032 sample 2
+[168/250] open_ended_writing_7032 sample 3
+[169/250] open_ended_writing_7032 sample 4
+[170/250] open_ended_writing_7032 sample 5
+[171/250] open_ended_writing_27838 sample 1
+[172/250] open_ended_writing_27838 sample 2
+[173/250] open_ended_writing_27838 sample 3
+[174/250] open_ended_writing_27838 sample 4
+[175/250] open_ended_writing_27838 sample 5
+[176/250] open_ended_writing_14306 sample 1
+[177/250] open_ended_writing_14306 sample 2
+[178/250] open_ended_writing_14306 sample 3
+[179/250] open_ended_writing_14306 sample 4
+[180/250] open_ended_writing_14306 sample 5
+[181/250] open_ended_writing_42563 sample 1
+[182/250] open_ended_writing_42563 sample 2
+[183/250] open_ended_writing_42563 sample 3
+[184/250] open_ended_writing_42563 sample 4
+[185/250] open_ended_writing_42563 sample 5
+[186/250] open_ended_writing_6968 sample 1
+[187/250] open_ended_writing_6968 sample 2
+[188/250] open_ended_writing_6968 sample 3
+[189/250] open_ended_writing_6968 sample 4
+[190/250] open_ended_writing_6968 sample 5
+[191/250] open_ended_writing_21063 sample 1
+[192/250] open_ended_writing_21063 sample 2
+[193/250] open_ended_writing_21063 sample 3
+[194/250] open_ended_writing_21063 sample 4
+[195/250] open_ended_writing_21063 sample 5
+[196/250] open_ended_writing_47449 sample 1
+[197/250] open_ended_writing_47449 sample 2
+[198/250] open_ended_writing_47449 sample 3
+[199/250] open_ended_writing_47449 sample 4
+[200/250] open_ended_writing_47449 sample 5
+[201/250] open_ended_writing_501 sample 1
+[202/250] open_ended_writing_501 sample 2
+[203/250] open_ended_writing_501 sample 3
+[204/250] open_ended_writing_501 sample 4
+[205/250] open_ended_writing_501 sample 5
+[206/250] open_ended_writing_44324 sample 1
+[207/250] open_ended_writing_44324 sample 2
+[208/250] open_ended_writing_44324 sample 3
+[209/250] open_ended_writing_44324 sample 4
+[210/250] open_ended_writing_44324 sample 5
+[211/250] open_ended_writing_33898 sample 1
+[212/250] open_ended_writing_33898 sample 2
+[213/250] open_ended_writing_33898 sample 3
+[214/250] open_ended_writing_33898 sample 4
+[215/250] open_ended_writing_33898 sample 5
+[216/250] open_ended_writing_6480 sample 1
+[217/250] open_ended_writing_6480 sample 2
+[218/250] open_ended_writing_6480 sample 3
+[219/250] open_ended_writing_6480 sample 4
+[220/250] open_ended_writing_6480 sample 5
+[221/250] open_ended_writing_12741 sample 1
+[222/250] open_ended_writing_12741 sample 2
+[223/250] open_ended_writing_12741 sample 3
+[224/250] open_ended_writing_12741 sample 4
+[225/250] open_ended_writing_12741 sample 5
+[226/250] open_ended_writing_1043 sample 1
+[227/250] open_ended_writing_1043 sample 2
+[228/250] open_ended_writing_1043 sample 3
+[229/250] open_ended_writing_1043 sample 4
+[230/250] open_ended_writing_1043 sample 5
+[231/250] open_ended_writing_33075 sample 1
+[232/250] open_ended_writing_33075 sample 2
+[233/250] open_ended_writing_33075 sample 3
+[234/250] open_ended_writing_33075 sample 4
+[235/250] open_ended_writing_33075 sample 5
+[236/250] open_ended_writing_20944 sample 1
+[237/250] open_ended_writing_20944 sample 2
+[238/250] open_ended_writing_20944 sample 3
+[239/250] open_ended_writing_20944 sample 4
+[240/250] open_ended_writing_20944 sample 5
+[241/250] open_ended_writing_49476 sample 1
+[242/250] open_ended_writing_49476 sample 2
+[243/250] open_ended_writing_49476 sample 3
+[244/250] open_ended_writing_49476 sample 4
+[245/250] open_ended_writing_49476 sample 5
+[246/250] open_ended_writing_1105 sample 1
+[247/250] open_ended_writing_1105 sample 2
+[248/250] open_ended_writing_1105 sample 3
+[249/250] open_ended_writing_1105 sample 4
+[250/250] open_ended_writing_1105 sample 5
+Output file now has 250 rows: /Users/wenfenglin/Desktop/Pioneer/outputs/rq1_formal_original_generations_n50_open_ended_writing.csv
+===== 2026-07-03 02:36:31 END: baseline original outputs: open_ended_writing =====
+===== 2026-07-03 02:36:31 START: perturbed outputs: factual_qa only =====
+[1/1250] factual_qa_10908 paraphrasing sample 1
+[2/1250] factual_qa_10908 paraphrasing sample 2
+[3/1250] factual_qa_10908 paraphrasing sample 3
+[4/1250] factual_qa_10908 paraphrasing sample 4
+[5/1250] factual_qa_10908 paraphrasing sample 5
+[6/1250] factual_qa_10908 reordering sample 1
+[7/1250] factual_qa_10908 reordering sample 2
+[8/1250] factual_qa_10908 reordering sample 3
+[9/1250] factual_qa_10908 reordering sample 4
+[10/1250] factual_qa_10908 reordering sample 5
+[11/1250] factual_qa_10908 formatting_changes sample 1
+[12/1250] factual_qa_10908 formatting_changes sample 2
+[13/1250] factual_qa_10908 formatting_changes sample 3
+[14/1250] factual_qa_10908 formatting_changes sample 4
+[15/1250] factual_qa_10908 formatting_changes sample 5
+[16/1250] factual_qa_10908 context_injection sample 1
+[17/1250] factual_qa_10908 context_injection sample 2
+[18/1250] factual_qa_10908 context_injection sample 3
+[19/1250] factual_qa_10908 context_injection sample 4
+[20/1250] factual_qa_10908 context_injection sample 5
+[21/1250] factual_qa_10908 surface_noise sample 1
+[22/1250] factual_qa_10908 surface_noise sample 2
+[23/1250] factual_qa_10908 surface_noise sample 3
+[24/1250] factual_qa_10908 surface_noise sample 4
+[25/1250] factual_qa_10908 surface_noise sample 5
+[26/1250] factual_qa_6460 paraphrasing sample 1
+[27/1250] factual_qa_6460 paraphrasing sample 2
+[28/1250] factual_qa_6460 paraphrasing sample 3
+[29/1250] factual_qa_6460 paraphrasing sample 4
+[30/1250] factual_qa_6460 paraphrasing sample 5
+[31/1250] factual_qa_6460 reordering sample 1
+[32/1250] factual_qa_6460 reordering sample 2
+[33/1250] factual_qa_6460 reordering sample 3
+[34/1250] factual_qa_6460 reordering sample 4
+[35/1250] factual_qa_6460 reordering sample 5
+[36/1250] factual_qa_6460 formatting_changes sample 1
+[37/1250] factual_qa_6460 formatting_changes sample 2
+[38/1250] factual_qa_6460 formatting_changes sample 3
+[39/1250] factual_qa_6460 formatting_changes sample 4
+[40/1250] factual_qa_6460 formatting_changes sample 5
+[41/1250] factual_qa_6460 context_injection sample 1
+[42/1250] factual_qa_6460 context_injection sample 2
+[43/1250] factual_qa_6460 context_injection sample 3
+[44/1250] factual_qa_6460 context_injection sample 4
+[45/1250] factual_qa_6460 context_injection sample 5
+[46/1250] factual_qa_6460 surface_noise sample 1
+[47/1250] factual_qa_6460 surface_noise sample 2
+[48/1250] factual_qa_6460 surface_noise sample 3
+[49/1250] factual_qa_6460 surface_noise sample 4
+[50/1250] factual_qa_6460 surface_noise sample 5
+[51/1250] factual_qa_6353 paraphrasing sample 1
+[52/1250] factual_qa_6353 paraphrasing sample 2
+[53/1250] factual_qa_6353 paraphrasing sample 3
+[54/1250] factual_qa_6353 paraphrasing sample 4
+[55/1250] factual_qa_6353 paraphrasing sample 5
+[56/1250] factual_qa_6353 reordering sample 1
+[57/1250] factual_qa_6353 reordering sample 2
+[58/1250] factual_qa_6353 reordering sample 3
+[59/1250] factual_qa_6353 reordering sample 4
+[60/1250] factual_qa_6353 reordering sample 5
+[61/1250] factual_qa_6353 formatting_changes sample 1
+[62/1250] factual_qa_6353 formatting_changes sample 2
+[63/1250] factual_qa_6353 formatting_changes sample 3
+[64/1250] factual_qa_6353 formatting_changes sample 4
+[65/1250] factual_qa_6353 formatting_changes sample 5
+[66/1250] factual_qa_6353 context_injection sample 1
+[67/1250] factual_qa_6353 context_injection sample 2
+[68/1250] factual_qa_6353 context_injection sample 3
+[69/1250] factual_qa_6353 context_injection sample 4
+[70/1250] factual_qa_6353 context_injection sample 5
+[71/1250] factual_qa_6353 surface_noise sample 1
+[72/1250] factual_qa_6353 surface_noise sample 2
+[73/1250] factual_qa_6353 surface_noise sample 3
+[74/1250] factual_qa_6353 surface_noise sample 4
+[75/1250] factual_qa_6353 surface_noise sample 5
+[76/1250] factual_qa_800 paraphrasing sample 1
+[77/1250] factual_qa_800 paraphrasing sample 2
+[78/1250] factual_qa_800 paraphrasing sample 3
+[79/1250] factual_qa_800 paraphrasing sample 4
+[80/1250] factual_qa_800 paraphrasing sample 5
+[81/1250] factual_qa_800 reordering sample 1
+[82/1250] factual_qa_800 reordering sample 2
+[83/1250] factual_qa_800 reordering sample 3
+[84/1250] factual_qa_800 reordering sample 4
+[85/1250] factual_qa_800 reordering sample 5
+[86/1250] factual_qa_800 formatting_changes sample 1
+[87/1250] factual_qa_800 formatting_changes sample 2
+[88/1250] factual_qa_800 formatting_changes sample 3
+[89/1250] factual_qa_800 formatting_changes sample 4
+[90/1250] factual_qa_800 formatting_changes sample 5
+[91/1250] factual_qa_800 context_injection sample 1
+[92/1250] factual_qa_800 context_injection sample 2
+[93/1250] factual_qa_800 context_injection sample 3
+[94/1250] factual_qa_800 context_injection sample 4
+[95/1250] factual_qa_800 context_injection sample 5
+[96/1250] factual_qa_800 surface_noise sample 1
+[97/1250] factual_qa_800 surface_noise sample 2
+[98/1250] factual_qa_800 surface_noise sample 3
+[99/1250] factual_qa_800 surface_noise sample 4
+[100/1250] factual_qa_800 surface_noise sample 5
+[101/1250] factual_qa_8164 paraphrasing sample 1
+[102/1250] factual_qa_8164 paraphrasing sample 2
+[103/1250] factual_qa_8164 paraphrasing sample 3
+[104/1250] factual_qa_8164 paraphrasing sample 4
+[105/1250] factual_qa_8164 paraphrasing sample 5
+[106/1250] factual_qa_8164 reordering sample 1
+[107/1250] factual_qa_8164 reordering sample 2
+[108/1250] factual_qa_8164 reordering sample 3
+[109/1250] factual_qa_8164 reordering sample 4
+[110/1250] factual_qa_8164 reordering sample 5
+[111/1250] factual_qa_8164 formatting_changes sample 1
+[112/1250] factual_qa_8164 formatting_changes sample 2
+[113/1250] factual_qa_8164 formatting_changes sample 3
+[114/1250] factual_qa_8164 formatting_changes sample 4
+[115/1250] factual_qa_8164 formatting_changes sample 5
+[116/1250] factual_qa_8164 context_injection sample 1
+[117/1250] factual_qa_8164 context_injection sample 2
+[118/1250] factual_qa_8164 context_injection sample 3
+[119/1250] factual_qa_8164 context_injection sample 4
+[120/1250] factual_qa_8164 context_injection sample 5
+[121/1250] factual_qa_8164 surface_noise sample 1
+[122/1250] factual_qa_8164 surface_noise sample 2
+[123/1250] factual_qa_8164 surface_noise sample 3
+[124/1250] factual_qa_8164 surface_noise sample 4
+[125/1250] factual_qa_8164 surface_noise sample 5
+[126/1250] factual_qa_2289 paraphrasing sample 1
+[127/1250] factual_qa_2289 paraphrasing sample 2
+[128/1250] factual_qa_2289 paraphrasing sample 3
+[129/1250] factual_qa_2289 paraphrasing sample 4
+[130/1250] factual_qa_2289 paraphrasing sample 5
+[131/1250] factual_qa_2289 reordering sample 1
+[132/1250] factual_qa_2289 reordering sample 2
+[133/1250] factual_qa_2289 reordering sample 3
+[134/1250] factual_qa_2289 reordering sample 4
+[135/1250] factual_qa_2289 reordering sample 5
+[136/1250] factual_qa_2289 formatting_changes sample 1
+[137/1250] factual_qa_2289 formatting_changes sample 2
+[138/1250] factual_qa_2289 formatting_changes sample 3
+[139/1250] factual_qa_2289 formatting_changes sample 4
+[140/1250] factual_qa_2289 formatting_changes sample 5
+[141/1250] factual_qa_2289 context_injection sample 1
+[142/1250] factual_qa_2289 context_injection sample 2
+[143/1250] factual_qa_2289 context_injection sample 3
+[144/1250] factual_qa_2289 context_injection sample 4
+[145/1250] factual_qa_2289 context_injection sample 5
+[146/1250] factual_qa_2289 surface_noise sample 1
+[147/1250] factual_qa_2289 surface_noise sample 2
+[148/1250] factual_qa_2289 surface_noise sample 3
+[149/1250] factual_qa_2289 surface_noise sample 4
+[150/1250] factual_qa_2289 surface_noise sample 5
+[151/1250] factual_qa_8650 paraphrasing sample 1
+[152/1250] factual_qa_8650 paraphrasing sample 2
+[153/1250] factual_qa_8650 paraphrasing sample 3
+[154/1250] factual_qa_8650 paraphrasing sample 4
+[155/1250] factual_qa_8650 paraphrasing sample 5
+[156/1250] factual_qa_8650 reordering sample 1
+[157/1250] factual_qa_8650 reordering sample 2
+[158/1250] factual_qa_8650 reordering sample 3
+[159/1250] factual_qa_8650 reordering sample 4
+[160/1250] factual_qa_8650 reordering sample 5
+[161/1250] factual_qa_8650 formatting_changes sample 1
+[162/1250] factual_qa_8650 formatting_changes sample 2
+[163/1250] factual_qa_8650 formatting_changes sample 3
+[164/1250] factual_qa_8650 formatting_changes sample 4
+[165/1250] factual_qa_8650 formatting_changes sample 5
+[166/1250] factual_qa_8650 context_injection sample 1
+[167/1250] factual_qa_8650 context_injection sample 2
+[168/1250] factual_qa_8650 context_injection sample 3
+[169/1250] factual_qa_8650 context_injection sample 4
+[170/1250] factual_qa_8650 context_injection sample 5
+[171/1250] factual_qa_8650 surface_noise sample 1
+[172/1250] factual_qa_8650 surface_noise sample 2
+[173/1250] factual_qa_8650 surface_noise sample 3
+[174/1250] factual_qa_8650 surface_noise sample 4
+[175/1250] factual_qa_8650 surface_noise sample 5
+[176/1250] factual_qa_3373 paraphrasing sample 1
+[177/1250] factual_qa_3373 paraphrasing sample 2
+[178/1250] factual_qa_3373 paraphrasing sample 3
+[179/1250] factual_qa_3373 paraphrasing sample 4
+[180/1250] factual_qa_3373 paraphrasing sample 5
+[181/1250] factual_qa_3373 reordering sample 1
+[182/1250] factual_qa_3373 reordering sample 2
+[183/1250] factual_qa_3373 reordering sample 3
+[184/1250] factual_qa_3373 reordering sample 4
+[185/1250] factual_qa_3373 reordering sample 5
+[186/1250] factual_qa_3373 formatting_changes sample 1
+[187/1250] factual_qa_3373 formatting_changes sample 2
+[188/1250] factual_qa_3373 formatting_changes sample 3
+[189/1250] factual_qa_3373 formatting_changes sample 4
+[190/1250] factual_qa_3373 formatting_changes sample 5
+[191/1250] factual_qa_3373 context_injection sample 1
+[192/1250] factual_qa_3373 context_injection sample 2
+[193/1250] factual_qa_3373 context_injection sample 3
+[194/1250] factual_qa_3373 context_injection sample 4
+[195/1250] factual_qa_3373 context_injection sample 5
+[196/1250] factual_qa_3373 surface_noise sample 1
+[197/1250] factual_qa_3373 surface_noise sample 2
+[198/1250] factual_qa_3373 surface_noise sample 3
+[199/1250] factual_qa_3373 surface_noise sample 4
+[200/1250] factual_qa_3373 surface_noise sample 5
+[201/1250] factual_qa_7525 paraphrasing sample 1
+[202/1250] factual_qa_7525 paraphrasing sample 2
+[203/1250] factual_qa_7525 paraphrasing sample 3
+[204/1250] factual_qa_7525 paraphrasing sample 4
+[205/1250] factual_qa_7525 paraphrasing sample 5
+[206/1250] factual_qa_7525 reordering sample 1
+[207/1250] factual_qa_7525 reordering sample 2
+[208/1250] factual_qa_7525 reordering sample 3
+[209/1250] factual_qa_7525 reordering sample 4
+[210/1250] factual_qa_7525 reordering sample 5
+[211/1250] factual_qa_7525 formatting_changes sample 1
+[212/1250] factual_qa_7525 formatting_changes sample 2
+[213/1250] factual_qa_7525 formatting_changes sample 3
+[214/1250] factual_qa_7525 formatting_changes sample 4
+[215/1250] factual_qa_7525 formatting_changes sample 5
+[216/1250] factual_qa_7525 context_injection sample 1
+[217/1250] factual_qa_7525 context_injection sample 2
+[218/1250] factual_qa_7525 context_injection sample 3
+[219/1250] factual_qa_7525 context_injection sample 4
+[220/1250] factual_qa_7525 context_injection sample 5
+[221/1250] factual_qa_7525 surface_noise sample 1
+[222/1250] factual_qa_7525 surface_noise sample 2
+[223/1250] factual_qa_7525 surface_noise sample 3
+[224/1250] factual_qa_7525 surface_noise sample 4
+[225/1250] factual_qa_7525 surface_noise sample 5
+[226/1250] factual_qa_4029 paraphrasing sample 1
+[227/1250] factual_qa_4029 paraphrasing sample 2
+[228/1250] factual_qa_4029 paraphrasing sample 3
+[229/1250] factual_qa_4029 paraphrasing sample 4
+[230/1250] factual_qa_4029 paraphrasing sample 5
+[231/1250] factual_qa_4029 reordering sample 1
+[232/1250] factual_qa_4029 reordering sample 2
+[233/1250] factual_qa_4029 reordering sample 3
+[234/1250] factual_qa_4029 reordering sample 4
+[235/1250] factual_qa_4029 reordering sample 5
+[236/1250] factual_qa_4029 formatting_changes sample 1
+[237/1250] factual_qa_4029 formatting_changes sample 2
+[238/1250] factual_qa_4029 formatting_changes sample 3
+[239/1250] factual_qa_4029 formatting_changes sample 4
+[240/1250] factual_qa_4029 formatting_changes sample 5
+[241/1250] factual_qa_4029 context_injection sample 1
+[242/1250] factual_qa_4029 context_injection sample 2
+[243/1250] factual_qa_4029 context_injection sample 3
+[244/1250] factual_qa_4029 context_injection sample 4
+[245/1250] factual_qa_4029 context_injection sample 5
+[246/1250] factual_qa_4029 surface_noise sample 1
+[247/1250] factual_qa_4029 surface_noise sample 2
+[248/1250] factual_qa_4029 surface_noise sample 3
+[249/1250] factual_qa_4029 surface_noise sample 4
+[250/1250] factual_qa_4029 surface_noise sample 5
+[251/1250] factual_qa_10550 paraphrasing sample 1
+[252/1250] factual_qa_10550 paraphrasing sample 2
+[253/1250] factual_qa_10550 paraphrasing sample 3
+[254/1250] factual_qa_10550 paraphrasing sample 4
+[255/1250] factual_qa_10550 paraphrasing sample 5
+[256/1250] factual_qa_10550 reordering sample 1
+[257/1250] factual_qa_10550 reordering sample 2
+[258/1250] factual_qa_10550 reordering sample 3
+[259/1250] factual_qa_10550 reordering sample 4
+[260/1250] factual_qa_10550 reordering sample 5
+[261/1250] factual_qa_10550 formatting_changes sample 1
+[262/1250] factual_qa_10550 formatting_changes sample 2
+[263/1250] factual_qa_10550 formatting_changes sample 3
+[264/1250] factual_qa_10550 formatting_changes sample 4
+[265/1250] factual_qa_10550 formatting_changes sample 5
+[266/1250] factual_qa_10550 context_injection sample 1
+[267/1250] factual_qa_10550 context_injection sample 2
+[268/1250] factual_qa_10550 context_injection sample 3
+[269/1250] factual_qa_10550 context_injection sample 4
+[270/1250] factual_qa_10550 context_injection sample 5
+[271/1250] factual_qa_10550 surface_noise sample 1
+[272/1250] factual_qa_10550 surface_noise sample 2
+[273/1250] factual_qa_10550 surface_noise sample 3
+[274/1250] factual_qa_10550 surface_noise sample 4
+[275/1250] factual_qa_10550 surface_noise sample 5
+[276/1250] factual_qa_3740 paraphrasing sample 1
+[277/1250] factual_qa_3740 paraphrasing sample 2
+[278/1250] factual_qa_3740 paraphrasing sample 3
+[279/1250] factual_qa_3740 paraphrasing sample 4
+[280/1250] factual_qa_3740 paraphrasing sample 5
+[281/1250] factual_qa_3740 reordering sample 1
+[282/1250] factual_qa_3740 reordering sample 2
+[283/1250] factual_qa_3740 reordering sample 3
+[284/1250] factual_qa_3740 reordering sample 4
+[285/1250] factual_qa_3740 reordering sample 5
+[286/1250] factual_qa_3740 formatting_changes sample 1
+[287/1250] factual_qa_3740 formatting_changes sample 2
+[288/1250] factual_qa_3740 formatting_changes sample 3
+[289/1250] factual_qa_3740 formatting_changes sample 4
+[290/1250] factual_qa_3740 formatting_changes sample 5
+[291/1250] factual_qa_3740 context_injection sample 1
+[292/1250] factual_qa_3740 context_injection sample 2
+[293/1250] factual_qa_3740 context_injection sample 3
+[294/1250] factual_qa_3740 context_injection sample 4
+[295/1250] factual_qa_3740 context_injection sample 5
+[296/1250] factual_qa_3740 surface_noise sample 1
+[297/1250] factual_qa_3740 surface_noise sample 2
+[298/1250] factual_qa_3740 surface_noise sample 3
+[299/1250] factual_qa_3740 surface_noise sample 4
+[300/1250] factual_qa_3740 surface_noise sample 5
+[301/1250] factual_qa_3976 paraphrasing sample 1
+[302/1250] factual_qa_3976 paraphrasing sample 2
+[303/1250] factual_qa_3976 paraphrasing sample 3
+[304/1250] factual_qa_3976 paraphrasing sample 4
+[305/1250] factual_qa_3976 paraphrasing sample 5
+[306/1250] factual_qa_3976 reordering sample 1
+[307/1250] factual_qa_3976 reordering sample 2
+[308/1250] factual_qa_3976 reordering sample 3
+[309/1250] factual_qa_3976 reordering sample 4
+[310/1250] factual_qa_3976 reordering sample 5
+[311/1250] factual_qa_3976 formatting_changes sample 1
+[312/1250] factual_qa_3976 formatting_changes sample 2
+[313/1250] factual_qa_3976 formatting_changes sample 3
+[314/1250] factual_qa_3976 formatting_changes sample 4
+[315/1250] factual_qa_3976 formatting_changes sample 5
+[316/1250] factual_qa_3976 context_injection sample 1
+[317/1250] factual_qa_3976 context_injection sample 2
+[318/1250] factual_qa_3976 context_injection sample 3
+[319/1250] factual_qa_3976 context_injection sample 4
+[320/1250] factual_qa_3976 context_injection sample 5
+[321/1250] factual_qa_3976 surface_noise sample 1
+[322/1250] factual_qa_3976 surface_noise sample 2
+[323/1250] factual_qa_3976 surface_noise sample 3
+[324/1250] factual_qa_3976 surface_noise sample 4
+[325/1250] factual_qa_3976 surface_noise sample 5
+[326/1250] factual_qa_684 paraphrasing sample 1
+[327/1250] factual_qa_684 paraphrasing sample 2
+[328/1250] factual_qa_684 paraphrasing sample 3
+[329/1250] factual_qa_684 paraphrasing sample 4
+[330/1250] factual_qa_684 paraphrasing sample 5
+[331/1250] factual_qa_684 reordering sample 1
+[332/1250] factual_qa_684 reordering sample 2
+[333/1250] factual_qa_684 reordering sample 3
+[334/1250] factual_qa_684 reordering sample 4
+[335/1250] factual_qa_684 reordering sample 5
+[336/1250] factual_qa_684 formatting_changes sample 1
+[337/1250] factual_qa_684 formatting_changes sample 2
+[338/1250] factual_qa_684 formatting_changes sample 3
+[339/1250] factual_qa_684 formatting_changes sample 4
+[340/1250] factual_qa_684 formatting_changes sample 5
+[341/1250] factual_qa_684 context_injection sample 1
+[342/1250] factual_qa_684 context_injection sample 2
+[343/1250] factual_qa_684 context_injection sample 3
+[344/1250] factual_qa_684 context_injection sample 4
+[345/1250] factual_qa_684 context_injection sample 5
+[346/1250] factual_qa_684 surface_noise sample 1
+[347/1250] factual_qa_684 surface_noise sample 2
+[348/1250] factual_qa_684 surface_noise sample 3
+[349/1250] factual_qa_684 surface_noise sample 4
+[350/1250] factual_qa_684 surface_noise sample 5
+[351/1250] factual_qa_8302 paraphrasing sample 1
+[352/1250] factual_qa_8302 paraphrasing sample 2
+[353/1250] factual_qa_8302 paraphrasing sample 3
+[354/1250] factual_qa_8302 paraphrasing sample 4
+[355/1250] factual_qa_8302 paraphrasing sample 5
+[356/1250] factual_qa_8302 reordering sample 1
+[357/1250] factual_qa_8302 reordering sample 2
+[358/1250] factual_qa_8302 reordering sample 3
+[359/1250] factual_qa_8302 reordering sample 4
+[360/1250] factual_qa_8302 reordering sample 5
+[361/1250] factual_qa_8302 formatting_changes sample 1
+[362/1250] factual_qa_8302 formatting_changes sample 2
+[363/1250] factual_qa_8302 formatting_changes sample 3
+[364/1250] factual_qa_8302 formatting_changes sample 4
+[365/1250] factual_qa_8302 formatting_changes sample 5
+[366/1250] factual_qa_8302 context_injection sample 1
+[367/1250] factual_qa_8302 context_injection sample 2
+[368/1250] factual_qa_8302 context_injection sample 3
+[369/1250] factual_qa_8302 context_injection sample 4
+[370/1250] factual_qa_8302 context_injection sample 5
+[371/1250] factual_qa_8302 surface_noise sample 1
+[372/1250] factual_qa_8302 surface_noise sample 2
+[373/1250] factual_qa_8302 surface_noise sample 3
+[374/1250] factual_qa_8302 surface_noise sample 4
+[375/1250] factual_qa_8302 surface_noise sample 5
+[376/1250] factual_qa_5359 paraphrasing sample 1
+[377/1250] factual_qa_5359 paraphrasing sample 2
+[378/1250] factual_qa_5359 paraphrasing sample 3
+[379/1250] factual_qa_5359 paraphrasing sample 4
+[380/1250] factual_qa_5359 paraphrasing sample 5
+[381/1250] factual_qa_5359 reordering sample 1
+[382/1250] factual_qa_5359 reordering sample 2
+[383/1250] factual_qa_5359 reordering sample 3
+[384/1250] factual_qa_5359 reordering sample 4
+[385/1250] factual_qa_5359 reordering sample 5
+[386/1250] factual_qa_5359 formatting_changes sample 1
+[387/1250] factual_qa_5359 formatting_changes sample 2
+[388/1250] factual_qa_5359 formatting_changes sample 3
+[389/1250] factual_qa_5359 formatting_changes sample 4
+[390/1250] factual_qa_5359 formatting_changes sample 5
+[391/1250] factual_qa_5359 context_injection sample 1
+[392/1250] factual_qa_5359 context_injection sample 2
+[393/1250] factual_qa_5359 context_injection sample 3
+[394/1250] factual_qa_5359 context_injection sample 4
+[395/1250] factual_qa_5359 context_injection sample 5
+[396/1250] factual_qa_5359 surface_noise sample 1
+[397/1250] factual_qa_5359 surface_noise sample 2
+[398/1250] factual_qa_5359 surface_noise sample 3
+[399/1250] factual_qa_5359 surface_noise sample 4
+[400/1250] factual_qa_5359 surface_noise sample 5
+[401/1250] factual_qa_1292 paraphrasing sample 1
+[402/1250] factual_qa_1292 paraphrasing sample 2
+[403/1250] factual_qa_1292 paraphrasing sample 3
+[404/1250] factual_qa_1292 paraphrasing sample 4
+[405/1250] factual_qa_1292 paraphrasing sample 5
+[406/1250] factual_qa_1292 reordering sample 1
+[407/1250] factual_qa_1292 reordering sample 2
+[408/1250] factual_qa_1292 reordering sample 3
+[409/1250] factual_qa_1292 reordering sample 4
+[410/1250] factual_qa_1292 reordering sample 5
+[411/1250] factual_qa_1292 formatting_changes sample 1
+[412/1250] factual_qa_1292 formatting_changes sample 2
+[413/1250] factual_qa_1292 formatting_changes sample 3
+[414/1250] factual_qa_1292 formatting_changes sample 4
+[415/1250] factual_qa_1292 formatting_changes sample 5
+[416/1250] factual_qa_1292 context_injection sample 1
+[417/1250] factual_qa_1292 context_injection sample 2
+[418/1250] factual_qa_1292 context_injection sample 3
+[419/1250] factual_qa_1292 context_injection sample 4
+[420/1250] factual_qa_1292 context_injection sample 5
+[421/1250] factual_qa_1292 surface_noise sample 1
+[422/1250] factual_qa_1292 surface_noise sample 2
+[423/1250] factual_qa_1292 surface_noise sample 3
+[424/1250] factual_qa_1292 surface_noise sample 4
+[425/1250] factual_qa_1292 surface_noise sample 5
+[426/1250] factual_qa_8326 paraphrasing sample 1
+[427/1250] factual_qa_8326 paraphrasing sample 2
+[428/1250] factual_qa_8326 paraphrasing sample 3
+[429/1250] factual_qa_8326 paraphrasing sample 4
+[430/1250] factual_qa_8326 paraphrasing sample 5
+[431/1250] factual_qa_8326 reordering sample 1
+[432/1250] factual_qa_8326 reordering sample 2
+[433/1250] factual_qa_8326 reordering sample 3
+[434/1250] factual_qa_8326 reordering sample 4
+[435/1250] factual_qa_8326 reordering sample 5
+[436/1250] factual_qa_8326 formatting_changes sample 1
+[437/1250] factual_qa_8326 formatting_changes sample 2
+[438/1250] factual_qa_8326 formatting_changes sample 3
+[439/1250] factual_qa_8326 formatting_changes sample 4
+[440/1250] factual_qa_8326 formatting_changes sample 5
+[441/1250] factual_qa_8326 context_injection sample 1
+[442/1250] factual_qa_8326 context_injection sample 2
+[443/1250] factual_qa_8326 context_injection sample 3
+[444/1250] factual_qa_8326 context_injection sample 4
+[445/1250] factual_qa_8326 context_injection sample 5
+[446/1250] factual_qa_8326 surface_noise sample 1
+[447/1250] factual_qa_8326 surface_noise sample 2
+[448/1250] factual_qa_8326 surface_noise sample 3
+[449/1250] factual_qa_8326 surface_noise sample 4
+[450/1250] factual_qa_8326 surface_noise sample 5
+[451/1250] factual_qa_7854 paraphrasing sample 1
+[452/1250] factual_qa_7854 paraphrasing sample 2
+[453/1250] factual_qa_7854 paraphrasing sample 3
+[454/1250] factual_qa_7854 paraphrasing sample 4
+[455/1250] factual_qa_7854 paraphrasing sample 5
+[456/1250] factual_qa_7854 reordering sample 1
+[457/1250] factual_qa_7854 reordering sample 2
+[458/1250] factual_qa_7854 reordering sample 3
+[459/1250] factual_qa_7854 reordering sample 4
+[460/1250] factual_qa_7854 reordering sample 5
+[461/1250] factual_qa_7854 formatting_changes sample 1
+[462/1250] factual_qa_7854 formatting_changes sample 2
+[463/1250] factual_qa_7854 formatting_changes sample 3
+[464/1250] factual_qa_7854 formatting_changes sample 4
+[465/1250] factual_qa_7854 formatting_changes sample 5
+[466/1250] factual_qa_7854 context_injection sample 1
+[467/1250] factual_qa_7854 context_injection sample 2
+[468/1250] factual_qa_7854 context_injection sample 3
+[469/1250] factual_qa_7854 context_injection sample 4
+[470/1250] factual_qa_7854 context_injection sample 5
+[471/1250] factual_qa_7854 surface_noise sample 1
+[472/1250] factual_qa_7854 surface_noise sample 2
+[473/1250] factual_qa_7854 surface_noise sample 3
+[474/1250] factual_qa_7854 surface_noise sample 4
+[475/1250] factual_qa_7854 surface_noise sample 5
+[476/1250] factual_qa_10038 paraphrasing sample 1
+[477/1250] factual_qa_10038 paraphrasing sample 2
+[478/1250] factual_qa_10038 paraphrasing sample 3
+[479/1250] factual_qa_10038 paraphrasing sample 4
+[480/1250] factual_qa_10038 paraphrasing sample 5
+[481/1250] factual_qa_10038 reordering sample 1
+[482/1250] factual_qa_10038 reordering sample 2
+[483/1250] factual_qa_10038 reordering sample 3
+[484/1250] factual_qa_10038 reordering sample 4
+[485/1250] factual_qa_10038 reordering sample 5
+[486/1250] factual_qa_10038 formatting_changes sample 1
+[487/1250] factual_qa_10038 formatting_changes sample 2
+[488/1250] factual_qa_10038 formatting_changes sample 3
+[489/1250] factual_qa_10038 formatting_changes sample 4
+[490/1250] factual_qa_10038 formatting_changes sample 5
+[491/1250] factual_qa_10038 context_injection sample 1
+[492/1250] factual_qa_10038 context_injection sample 2
+[493/1250] factual_qa_10038 context_injection sample 3
+[494/1250] factual_qa_10038 context_injection sample 4
+[495/1250] factual_qa_10038 context_injection sample 5
+[496/1250] factual_qa_10038 surface_noise sample 1
+[497/1250] factual_qa_10038 surface_noise sample 2
+[498/1250] factual_qa_10038 surface_noise sample 3
+[499/1250] factual_qa_10038 surface_noise sample 4
+[500/1250] factual_qa_10038 surface_noise sample 5
+[501/1250] factual_qa_8077 paraphrasing sample 1
+[502/1250] factual_qa_8077 paraphrasing sample 2
+[503/1250] factual_qa_8077 paraphrasing sample 3
+[504/1250] factual_qa_8077 paraphrasing sample 4
+[505/1250] factual_qa_8077 paraphrasing sample 5
+[506/1250] factual_qa_8077 reordering sample 1
+[507/1250] factual_qa_8077 reordering sample 2
+[508/1250] factual_qa_8077 reordering sample 3
+[509/1250] factual_qa_8077 reordering sample 4
+[510/1250] factual_qa_8077 reordering sample 5
+[511/1250] factual_qa_8077 formatting_changes sample 1
+[512/1250] factual_qa_8077 formatting_changes sample 2
+[513/1250] factual_qa_8077 formatting_changes sample 3
+[514/1250] factual_qa_8077 formatting_changes sample 4
+[515/1250] factual_qa_8077 formatting_changes sample 5
+[516/1250] factual_qa_8077 context_injection sample 1
+[517/1250] factual_qa_8077 context_injection sample 2
+[518/1250] factual_qa_8077 context_injection sample 3
+[519/1250] factual_qa_8077 context_injection sample 4
+[520/1250] factual_qa_8077 context_injection sample 5
+[521/1250] factual_qa_8077 surface_noise sample 1
+[522/1250] factual_qa_8077 surface_noise sample 2
+[523/1250] factual_qa_8077 surface_noise sample 3
+[524/1250] factual_qa_8077 surface_noise sample 4
+[525/1250] factual_qa_8077 surface_noise sample 5
+[526/1250] factual_qa_3339 paraphrasing sample 1
+[527/1250] factual_qa_3339 paraphrasing sample 2
+[528/1250] factual_qa_3339 paraphrasing sample 3
+[529/1250] factual_qa_3339 paraphrasing sample 4
+[530/1250] factual_qa_3339 paraphrasing sample 5
+[531/1250] factual_qa_3339 reordering sample 1
+[532/1250] factual_qa_3339 reordering sample 2
+[533/1250] factual_qa_3339 reordering sample 3
+[534/1250] factual_qa_3339 reordering sample 4
+[535/1250] factual_qa_3339 reordering sample 5
+[536/1250] factual_qa_3339 formatting_changes sample 1
+[537/1250] factual_qa_3339 formatting_changes sample 2
+[538/1250] factual_qa_3339 formatting_changes sample 3
+[539/1250] factual_qa_3339 formatting_changes sample 4
+[540/1250] factual_qa_3339 formatting_changes sample 5
+[541/1250] factual_qa_3339 context_injection sample 1
+[542/1250] factual_qa_3339 context_injection sample 2
+[543/1250] factual_qa_3339 context_injection sample 3
+[544/1250] factual_qa_3339 context_injection sample 4
+[545/1250] factual_qa_3339 context_injection sample 5
+[546/1250] factual_qa_3339 surface_noise sample 1
+[547/1250] factual_qa_3339 surface_noise sample 2
+[548/1250] factual_qa_3339 surface_noise sample 3
+[549/1250] factual_qa_3339 surface_noise sample 4
+[550/1250] factual_qa_3339 surface_noise sample 5
+[551/1250] factual_qa_7187 paraphrasing sample 1
+[552/1250] factual_qa_7187 paraphrasing sample 2
+[553/1250] factual_qa_7187 paraphrasing sample 3
+[554/1250] factual_qa_7187 paraphrasing sample 4
+[555/1250] factual_qa_7187 paraphrasing sample 5
+[556/1250] factual_qa_7187 reordering sample 1
+[557/1250] factual_qa_7187 reordering sample 2
+[558/1250] factual_qa_7187 reordering sample 3
+[559/1250] factual_qa_7187 reordering sample 4
+[560/1250] factual_qa_7187 reordering sample 5
+[561/1250] factual_qa_7187 formatting_changes sample 1
+[562/1250] factual_qa_7187 formatting_changes sample 2
+[563/1250] factual_qa_7187 formatting_changes sample 3
+[564/1250] factual_qa_7187 formatting_changes sample 4
+[565/1250] factual_qa_7187 formatting_changes sample 5
+[566/1250] factual_qa_7187 context_injection sample 1
+[567/1250] factual_qa_7187 context_injection sample 2
+[568/1250] factual_qa_7187 context_injection sample 3
+[569/1250] factual_qa_7187 context_injection sample 4
+[570/1250] factual_qa_7187 context_injection sample 5
+[571/1250] factual_qa_7187 surface_noise sample 1
+[572/1250] factual_qa_7187 surface_noise sample 2
+[573/1250] factual_qa_7187 surface_noise sample 3
+[574/1250] factual_qa_7187 surface_noise sample 4
+[575/1250] factual_qa_7187 surface_noise sample 5
+[576/1250] factual_qa_3095 paraphrasing sample 1
+[577/1250] factual_qa_3095 paraphrasing sample 2
+[578/1250] factual_qa_3095 paraphrasing sample 3
+[579/1250] factual_qa_3095 paraphrasing sample 4
+[580/1250] factual_qa_3095 paraphrasing sample 5
+[581/1250] factual_qa_3095 reordering sample 1
+[582/1250] factual_qa_3095 reordering sample 2
+[583/1250] factual_qa_3095 reordering sample 3
+[584/1250] factual_qa_3095 reordering sample 4
+[585/1250] factual_qa_3095 reordering sample 5
+[586/1250] factual_qa_3095 formatting_changes sample 1
+[587/1250] factual_qa_3095 formatting_changes sample 2
+[588/1250] factual_qa_3095 formatting_changes sample 3
+[589/1250] factual_qa_3095 formatting_changes sample 4
+[590/1250] factual_qa_3095 formatting_changes sample 5
+[591/1250] factual_qa_3095 context_injection sample 1
+[592/1250] factual_qa_3095 context_injection sample 2
+[593/1250] factual_qa_3095 context_injection sample 3
+[594/1250] factual_qa_3095 context_injection sample 4
+[595/1250] factual_qa_3095 context_injection sample 5
+[596/1250] factual_qa_3095 surface_noise sample 1
+[597/1250] factual_qa_3095 surface_noise sample 2
+[598/1250] factual_qa_3095 surface_noise sample 3
+[599/1250] factual_qa_3095 surface_noise sample 4
+[600/1250] factual_qa_3095 surface_noise sample 5
+[601/1250] factual_qa_7699 paraphrasing sample 1
+[602/1250] factual_qa_7699 paraphrasing sample 2
+[603/1250] factual_qa_7699 paraphrasing sample 3
+[604/1250] factual_qa_7699 paraphrasing sample 4
+[605/1250] factual_qa_7699 paraphrasing sample 5
+[606/1250] factual_qa_7699 reordering sample 1
+[607/1250] factual_qa_7699 reordering sample 2
+[608/1250] factual_qa_7699 reordering sample 3
+[609/1250] factual_qa_7699 reordering sample 4
+[610/1250] factual_qa_7699 reordering sample 5
+[611/1250] factual_qa_7699 formatting_changes sample 1
+[612/1250] factual_qa_7699 formatting_changes sample 2
+[613/1250] factual_qa_7699 formatting_changes sample 3
+[614/1250] factual_qa_7699 formatting_changes sample 4
+[615/1250] factual_qa_7699 formatting_changes sample 5
+[616/1250] factual_qa_7699 context_injection sample 1
+[617/1250] factual_qa_7699 context_injection sample 2
+[618/1250] factual_qa_7699 context_injection sample 3
+[619/1250] factual_qa_7699 context_injection sample 4
+[620/1250] factual_qa_7699 context_injection sample 5
+[621/1250] factual_qa_7699 surface_noise sample 1
+[622/1250] factual_qa_7699 surface_noise sample 2
+[623/1250] factual_qa_7699 surface_noise sample 3
+[624/1250] factual_qa_7699 surface_noise sample 4
+[625/1250] factual_qa_7699 surface_noise sample 5
+[626/1250] factual_qa_8989 paraphrasing sample 1
+[627/1250] factual_qa_8989 paraphrasing sample 2
+[628/1250] factual_qa_8989 paraphrasing sample 3
+[629/1250] factual_qa_8989 paraphrasing sample 4
+[630/1250] factual_qa_8989 paraphrasing sample 5
+[631/1250] factual_qa_8989 reordering sample 1
+[632/1250] factual_qa_8989 reordering sample 2
+[633/1250] factual_qa_8989 reordering sample 3
+[634/1250] factual_qa_8989 reordering sample 4
+[635/1250] factual_qa_8989 reordering sample 5
+[636/1250] factual_qa_8989 formatting_changes sample 1
+[637/1250] factual_qa_8989 formatting_changes sample 2
+[638/1250] factual_qa_8989 formatting_changes sample 3
+[639/1250] factual_qa_8989 formatting_changes sample 4
+[640/1250] factual_qa_8989 formatting_changes sample 5
+[641/1250] factual_qa_8989 context_injection sample 1
+[642/1250] factual_qa_8989 context_injection sample 2
+[643/1250] factual_qa_8989 context_injection sample 3
+[644/1250] factual_qa_8989 context_injection sample 4
+[645/1250] factual_qa_8989 context_injection sample 5
+[646/1250] factual_qa_8989 surface_noise sample 1
+[647/1250] factual_qa_8989 surface_noise sample 2
+[648/1250] factual_qa_8989 surface_noise sample 3
+[649/1250] factual_qa_8989 surface_noise sample 4
+[650/1250] factual_qa_8989 surface_noise sample 5
+[651/1250] factual_qa_1302 paraphrasing sample 1
+[652/1250] factual_qa_1302 paraphrasing sample 2
+[653/1250] factual_qa_1302 paraphrasing sample 3
+[654/1250] factual_qa_1302 paraphrasing sample 4
+[655/1250] factual_qa_1302 paraphrasing sample 5
+[656/1250] factual_qa_1302 reordering sample 1
+[657/1250] factual_qa_1302 reordering sample 2
+[658/1250] factual_qa_1302 reordering sample 3
+[659/1250] factual_qa_1302 reordering sample 4
+[660/1250] factual_qa_1302 reordering sample 5
+[661/1250] factual_qa_1302 formatting_changes sample 1
+[662/1250] factual_qa_1302 formatting_changes sample 2
+[663/1250] factual_qa_1302 formatting_changes sample 3
+[664/1250] factual_qa_1302 formatting_changes sample 4
+[665/1250] factual_qa_1302 formatting_changes sample 5
+[666/1250] factual_qa_1302 context_injection sample 1
+[667/1250] factual_qa_1302 context_injection sample 2
+[668/1250] factual_qa_1302 context_injection sample 3
+[669/1250] factual_qa_1302 context_injection sample 4
+[670/1250] factual_qa_1302 context_injection sample 5
+[671/1250] factual_qa_1302 surface_noise sample 1
+[672/1250] factual_qa_1302 surface_noise sample 2
+[673/1250] factual_qa_1302 surface_noise sample 3
+[674/1250] factual_qa_1302 surface_noise sample 4
+[675/1250] factual_qa_1302 surface_noise sample 5
+[676/1250] factual_qa_11559 paraphrasing sample 1
+[677/1250] factual_qa_11559 paraphrasing sample 2
+[678/1250] factual_qa_11559 paraphrasing sample 3
+[679/1250] factual_qa_11559 paraphrasing sample 4
+[680/1250] factual_qa_11559 paraphrasing sample 5
+[681/1250] factual_qa_11559 reordering sample 1
+[682/1250] factual_qa_11559 reordering sample 2
+[683/1250] factual_qa_11559 reordering sample 3
+[684/1250] factual_qa_11559 reordering sample 4
+[685/1250] factual_qa_11559 reordering sample 5
+[686/1250] factual_qa_11559 formatting_changes sample 1
+[687/1250] factual_qa_11559 formatting_changes sample 2
+[688/1250] factual_qa_11559 formatting_changes sample 3
+[689/1250] factual_qa_11559 formatting_changes sample 4
+[690/1250] factual_qa_11559 formatting_changes sample 5
+[691/1250] factual_qa_11559 context_injection sample 1
+[692/1250] factual_qa_11559 context_injection sample 2
+[693/1250] factual_qa_11559 context_injection sample 3
+[694/1250] factual_qa_11559 context_injection sample 4
+[695/1250] factual_qa_11559 context_injection sample 5
+[696/1250] factual_qa_11559 surface_noise sample 1
+[697/1250] factual_qa_11559 surface_noise sample 2
+[698/1250] factual_qa_11559 surface_noise sample 3
+[699/1250] factual_qa_11559 surface_noise sample 4
+[700/1250] factual_qa_11559 surface_noise sample 5
+[701/1250] factual_qa_5525 paraphrasing sample 1
+[702/1250] factual_qa_5525 paraphrasing sample 2
+[703/1250] factual_qa_5525 paraphrasing sample 3
+[704/1250] factual_qa_5525 paraphrasing sample 4
+[705/1250] factual_qa_5525 paraphrasing sample 5
+[706/1250] factual_qa_5525 reordering sample 1
+[707/1250] factual_qa_5525 reordering sample 2
+[708/1250] factual_qa_5525 reordering sample 3
+[709/1250] factual_qa_5525 reordering sample 4
+[710/1250] factual_qa_5525 reordering sample 5
+[711/1250] factual_qa_5525 formatting_changes sample 1
+[712/1250] factual_qa_5525 formatting_changes sample 2
+[713/1250] factual_qa_5525 formatting_changes sample 3
+[714/1250] factual_qa_5525 formatting_changes sample 4
+[715/1250] factual_qa_5525 formatting_changes sample 5
+[716/1250] factual_qa_5525 context_injection sample 1
+[717/1250] factual_qa_5525 context_injection sample 2
+[718/1250] factual_qa_5525 context_injection sample 3
+[719/1250] factual_qa_5525 context_injection sample 4
+[720/1250] factual_qa_5525 context_injection sample 5
+[721/1250] factual_qa_5525 surface_noise sample 1
+[722/1250] factual_qa_5525 surface_noise sample 2
+[723/1250] factual_qa_5525 surface_noise sample 3
+[724/1250] factual_qa_5525 surface_noise sample 4
+[725/1250] factual_qa_5525 surface_noise sample 5
+[726/1250] factual_qa_10197 paraphrasing sample 1
+[727/1250] factual_qa_10197 paraphrasing sample 2
+[728/1250] factual_qa_10197 paraphrasing sample 3
+[729/1250] factual_qa_10197 paraphrasing sample 4
+[730/1250] factual_qa_10197 paraphrasing sample 5
+[731/1250] factual_qa_10197 reordering sample 1
+[732/1250] factual_qa_10197 reordering sample 2
+[733/1250] factual_qa_10197 reordering sample 3
+[734/1250] factual_qa_10197 reordering sample 4
+[735/1250] factual_qa_10197 reordering sample 5
+[736/1250] factual_qa_10197 formatting_changes sample 1
+[737/1250] factual_qa_10197 formatting_changes sample 2
+[738/1250] factual_qa_10197 formatting_changes sample 3
+[739/1250] factual_qa_10197 formatting_changes sample 4
+[740/1250] factual_qa_10197 formatting_changes sample 5
+[741/1250] factual_qa_10197 context_injection sample 1
+[742/1250] factual_qa_10197 context_injection sample 2
+[743/1250] factual_qa_10197 context_injection sample 3
+[744/1250] factual_qa_10197 context_injection sample 4
+[745/1250] factual_qa_10197 context_injection sample 5
+[746/1250] factual_qa_10197 surface_noise sample 1
+[747/1250] factual_qa_10197 surface_noise sample 2
+[748/1250] factual_qa_10197 surface_noise sample 3
+[749/1250] factual_qa_10197 surface_noise sample 4
+[750/1250] factual_qa_10197 surface_noise sample 5
+[751/1250] factual_qa_8049 paraphrasing sample 1
+[752/1250] factual_qa_8049 paraphrasing sample 2
+[753/1250] factual_qa_8049 paraphrasing sample 3
+[754/1250] factual_qa_8049 paraphrasing sample 4
+[755/1250] factual_qa_8049 paraphrasing sample 5
+[756/1250] factual_qa_8049 reordering sample 1
+[757/1250] factual_qa_8049 reordering sample 2
+[758/1250] factual_qa_8049 reordering sample 3
+[759/1250] factual_qa_8049 reordering sample 4
+[760/1250] factual_qa_8049 reordering sample 5
+[761/1250] factual_qa_8049 formatting_changes sample 1
+[762/1250] factual_qa_8049 formatting_changes sample 2
+[763/1250] factual_qa_8049 formatting_changes sample 3
+[764/1250] factual_qa_8049 formatting_changes sample 4
+[765/1250] factual_qa_8049 formatting_changes sample 5
+[766/1250] factual_qa_8049 context_injection sample 1
+[767/1250] factual_qa_8049 context_injection sample 2
+[768/1250] factual_qa_8049 context_injection sample 3
+[769/1250] factual_qa_8049 context_injection sample 4
+[770/1250] factual_qa_8049 context_injection sample 5
+[771/1250] factual_qa_8049 surface_noise sample 1
+[772/1250] factual_qa_8049 surface_noise sample 2
+[773/1250] factual_qa_8049 surface_noise sample 3
+[774/1250] factual_qa_8049 surface_noise sample 4
+[775/1250] factual_qa_8049 surface_noise sample 5
+[776/1250] factual_qa_7048 paraphrasing sample 1
+[777/1250] factual_qa_7048 paraphrasing sample 2
+[778/1250] factual_qa_7048 paraphrasing sample 3
+[779/1250] factual_qa_7048 paraphrasing sample 4
+[780/1250] factual_qa_7048 paraphrasing sample 5
+[781/1250] factual_qa_7048 reordering sample 1
+[782/1250] factual_qa_7048 reordering sample 2
+[783/1250] factual_qa_7048 reordering sample 3
+[784/1250] factual_qa_7048 reordering sample 4
+[785/1250] factual_qa_7048 reordering sample 5
+[786/1250] factual_qa_7048 formatting_changes sample 1
+[787/1250] factual_qa_7048 formatting_changes sample 2
+[788/1250] factual_qa_7048 formatting_changes sample 3
+[789/1250] factual_qa_7048 formatting_changes sample 4
+[790/1250] factual_qa_7048 formatting_changes sample 5
+[791/1250] factual_qa_7048 context_injection sample 1
+[792/1250] factual_qa_7048 context_injection sample 2
+[793/1250] factual_qa_7048 context_injection sample 3
+[794/1250] factual_qa_7048 context_injection sample 4
+[795/1250] factual_qa_7048 context_injection sample 5
+[796/1250] factual_qa_7048 surface_noise sample 1
+[797/1250] factual_qa_7048 surface_noise sample 2
+[798/1250] factual_qa_7048 surface_noise sample 3
+[799/1250] factual_qa_7048 surface_noise sample 4
+[800/1250] factual_qa_7048 surface_noise sample 5
+[801/1250] factual_qa_6819 paraphrasing sample 1
+[802/1250] factual_qa_6819 paraphrasing sample 2
+[803/1250] factual_qa_6819 paraphrasing sample 3
+[804/1250] factual_qa_6819 paraphrasing sample 4
+[805/1250] factual_qa_6819 paraphrasing sample 5
+[806/1250] factual_qa_6819 reordering sample 1
+[807/1250] factual_qa_6819 reordering sample 2
+[808/1250] factual_qa_6819 reordering sample 3
+[809/1250] factual_qa_6819 reordering sample 4
+[810/1250] factual_qa_6819 reordering sample 5
+[811/1250] factual_qa_6819 formatting_changes sample 1
+[812/1250] factual_qa_6819 formatting_changes sample 2
+[813/1250] factual_qa_6819 formatting_changes sample 3
+[814/1250] factual_qa_6819 formatting_changes sample 4
+[815/1250] factual_qa_6819 formatting_changes sample 5
+[816/1250] factual_qa_6819 context_injection sample 1
+[817/1250] factual_qa_6819 context_injection sample 2
+[818/1250] factual_qa_6819 context_injection sample 3
+[819/1250] factual_qa_6819 context_injection sample 4
+[820/1250] factual_qa_6819 context_injection sample 5
+[821/1250] factual_qa_6819 surface_noise sample 1
+[822/1250] factual_qa_6819 surface_noise sample 2
+[823/1250] factual_qa_6819 surface_noise sample 3
+[824/1250] factual_qa_6819 surface_noise sample 4
+[825/1250] factual_qa_6819 surface_noise sample 5
+[826/1250] factual_qa_10779 paraphrasing sample 1
+[827/1250] factual_qa_10779 paraphrasing sample 2
+[828/1250] factual_qa_10779 paraphrasing sample 3
+[829/1250] factual_qa_10779 paraphrasing sample 4
+[830/1250] factual_qa_10779 paraphrasing sample 5
+[831/1250] factual_qa_10779 reordering sample 1
+[832/1250] factual_qa_10779 reordering sample 2
+[833/1250] factual_qa_10779 reordering sample 3
+[834/1250] factual_qa_10779 reordering sample 4
+[835/1250] factual_qa_10779 reordering sample 5
+[836/1250] factual_qa_10779 formatting_changes sample 1
+[837/1250] factual_qa_10779 formatting_changes sample 2
+[838/1250] factual_qa_10779 formatting_changes sample 3
+[839/1250] factual_qa_10779 formatting_changes sample 4
+[840/1250] factual_qa_10779 formatting_changes sample 5
+[841/1250] factual_qa_10779 context_injection sample 1
+[842/1250] factual_qa_10779 context_injection sample 2
+[843/1250] factual_qa_10779 context_injection sample 3
+[844/1250] factual_qa_10779 context_injection sample 4
+[845/1250] factual_qa_10779 context_injection sample 5
+[846/1250] factual_qa_10779 surface_noise sample 1
+[847/1250] factual_qa_10779 surface_noise sample 2
+[848/1250] factual_qa_10779 surface_noise sample 3
+[849/1250] factual_qa_10779 surface_noise sample 4
+[850/1250] factual_qa_10779 surface_noise sample 5
+[851/1250] factual_qa_7989 paraphrasing sample 1
+[852/1250] factual_qa_7989 paraphrasing sample 2
+[853/1250] factual_qa_7989 paraphrasing sample 3
+[854/1250] factual_qa_7989 paraphrasing sample 4
+[855/1250] factual_qa_7989 paraphrasing sample 5
+[856/1250] factual_qa_7989 reordering sample 1
+[857/1250] factual_qa_7989 reordering sample 2
+[858/1250] factual_qa_7989 reordering sample 3
+[859/1250] factual_qa_7989 reordering sample 4
+[860/1250] factual_qa_7989 reordering sample 5
+[861/1250] factual_qa_7989 formatting_changes sample 1
+[862/1250] factual_qa_7989 formatting_changes sample 2
+[863/1250] factual_qa_7989 formatting_changes sample 3
+[864/1250] factual_qa_7989 formatting_changes sample 4
+[865/1250] factual_qa_7989 formatting_changes sample 5
+[866/1250] factual_qa_7989 context_injection sample 1
+[867/1250] factual_qa_7989 context_injection sample 2
+[868/1250] factual_qa_7989 context_injection sample 3
+[869/1250] factual_qa_7989 context_injection sample 4
+[870/1250] factual_qa_7989 context_injection sample 5
+[871/1250] factual_qa_7989 surface_noise sample 1
+[872/1250] factual_qa_7989 surface_noise sample 2
+[873/1250] factual_qa_7989 surface_noise sample 3
+[874/1250] factual_qa_7989 surface_noise sample 4
+[875/1250] factual_qa_7989 surface_noise sample 5
+[876/1250] factual_qa_11773 paraphrasing sample 1
+[877/1250] factual_qa_11773 paraphrasing sample 2
+[878/1250] factual_qa_11773 paraphrasing sample 3
+[879/1250] factual_qa_11773 paraphrasing sample 4
+[880/1250] factual_qa_11773 paraphrasing sample 5
+[881/1250] factual_qa_11773 reordering sample 1
+[882/1250] factual_qa_11773 reordering sample 2
+[883/1250] factual_qa_11773 reordering sample 3
+[884/1250] factual_qa_11773 reordering sample 4
+[885/1250] factual_qa_11773 reordering sample 5
+[886/1250] factual_qa_11773 formatting_changes sample 1
+[887/1250] factual_qa_11773 formatting_changes sample 2
+[888/1250] factual_qa_11773 formatting_changes sample 3
+[889/1250] factual_qa_11773 formatting_changes sample 4
+[890/1250] factual_qa_11773 formatting_changes sample 5
+[891/1250] factual_qa_11773 context_injection sample 1
+[892/1250] factual_qa_11773 context_injection sample 2
+[893/1250] factual_qa_11773 context_injection sample 3
+[894/1250] factual_qa_11773 context_injection sample 4
+[895/1250] factual_qa_11773 context_injection sample 5
+[896/1250] factual_qa_11773 surface_noise sample 1
+[897/1250] factual_qa_11773 surface_noise sample 2
+[898/1250] factual_qa_11773 surface_noise sample 3
+[899/1250] factual_qa_11773 surface_noise sample 4
+[900/1250] factual_qa_11773 surface_noise sample 5
+[901/1250] factual_qa_6442 paraphrasing sample 1
+[902/1250] factual_qa_6442 paraphrasing sample 2
+[903/1250] factual_qa_6442 paraphrasing sample 3
+[904/1250] factual_qa_6442 paraphrasing sample 4
+[905/1250] factual_qa_6442 paraphrasing sample 5
+[906/1250] factual_qa_6442 reordering sample 1
+[907/1250] factual_qa_6442 reordering sample 2
+[908/1250] factual_qa_6442 reordering sample 3
+[909/1250] factual_qa_6442 reordering sample 4
+[910/1250] factual_qa_6442 reordering sample 5
+[911/1250] factual_qa_6442 formatting_changes sample 1
+[912/1250] factual_qa_6442 formatting_changes sample 2
+[913/1250] factual_qa_6442 formatting_changes sample 3
+[914/1250] factual_qa_6442 formatting_changes sample 4
+[915/1250] factual_qa_6442 formatting_changes sample 5
+[916/1250] factual_qa_6442 context_injection sample 1
+[917/1250] factual_qa_6442 context_injection sample 2
+[918/1250] factual_qa_6442 context_injection sample 3
+[919/1250] factual_qa_6442 context_injection sample 4
+[920/1250] factual_qa_6442 context_injection sample 5
+[921/1250] factual_qa_6442 surface_noise sample 1
+[922/1250] factual_qa_6442 surface_noise sample 2
+[923/1250] factual_qa_6442 surface_noise sample 3
+[924/1250] factual_qa_6442 surface_noise sample 4
+[925/1250] factual_qa_6442 surface_noise sample 5
+[926/1250] factual_qa_2682 paraphrasing sample 1
+[927/1250] factual_qa_2682 paraphrasing sample 2
+[928/1250] factual_qa_2682 paraphrasing sample 3
+[929/1250] factual_qa_2682 paraphrasing sample 4
+[930/1250] factual_qa_2682 paraphrasing sample 5
+[931/1250] factual_qa_2682 reordering sample 1
+[932/1250] factual_qa_2682 reordering sample 2
+[933/1250] factual_qa_2682 reordering sample 3
+[934/1250] factual_qa_2682 reordering sample 4
+[935/1250] factual_qa_2682 reordering sample 5
+[936/1250] factual_qa_2682 formatting_changes sample 1
+[937/1250] factual_qa_2682 formatting_changes sample 2
+[938/1250] factual_qa_2682 formatting_changes sample 3
+[939/1250] factual_qa_2682 formatting_changes sample 4
+[940/1250] factual_qa_2682 formatting_changes sample 5
+[941/1250] factual_qa_2682 context_injection sample 1
+[942/1250] factual_qa_2682 context_injection sample 2
+[943/1250] factual_qa_2682 context_injection sample 3
+[944/1250] factual_qa_2682 context_injection sample 4
+[945/1250] factual_qa_2682 context_injection sample 5
+[946/1250] factual_qa_2682 surface_noise sample 1
+[947/1250] factual_qa_2682 surface_noise sample 2
+[948/1250] factual_qa_2682 surface_noise sample 3
+[949/1250] factual_qa_2682 surface_noise sample 4
+[950/1250] factual_qa_2682 surface_noise sample 5
+[951/1250] factual_qa_11262 paraphrasing sample 1
+[952/1250] factual_qa_11262 paraphrasing sample 2
+[953/1250] factual_qa_11262 paraphrasing sample 3
+[954/1250] factual_qa_11262 paraphrasing sample 4
+[955/1250] factual_qa_11262 paraphrasing sample 5
+[956/1250] factual_qa_11262 reordering sample 1
+[957/1250] factual_qa_11262 reordering sample 2
+[958/1250] factual_qa_11262 reordering sample 3
+[959/1250] factual_qa_11262 reordering sample 4
+[960/1250] factual_qa_11262 reordering sample 5
+[961/1250] factual_qa_11262 formatting_changes sample 1
+[962/1250] factual_qa_11262 formatting_changes sample 2
+[963/1250] factual_qa_11262 formatting_changes sample 3
+[964/1250] factual_qa_11262 formatting_changes sample 4
+[965/1250] factual_qa_11262 formatting_changes sample 5
+[966/1250] factual_qa_11262 context_injection sample 1
+[967/1250] factual_qa_11262 context_injection sample 2
+[968/1250] factual_qa_11262 context_injection sample 3
+[969/1250] factual_qa_11262 context_injection sample 4
+[970/1250] factual_qa_11262 context_injection sample 5
+[971/1250] factual_qa_11262 surface_noise sample 1
+[972/1250] factual_qa_11262 surface_noise sample 2
+[973/1250] factual_qa_11262 surface_noise sample 3
+[974/1250] factual_qa_11262 surface_noise sample 4
+[975/1250] factual_qa_11262 surface_noise sample 5
+[976/1250] factual_qa_919 paraphrasing sample 1
+[977/1250] factual_qa_919 paraphrasing sample 2
+[978/1250] factual_qa_919 paraphrasing sample 3
+[979/1250] factual_qa_919 paraphrasing sample 4
+[980/1250] factual_qa_919 paraphrasing sample 5
+[981/1250] factual_qa_919 reordering sample 1
+[982/1250] factual_qa_919 reordering sample 2
+[983/1250] factual_qa_919 reordering sample 3
+[984/1250] factual_qa_919 reordering sample 4
+[985/1250] factual_qa_919 reordering sample 5
+[986/1250] factual_qa_919 formatting_changes sample 1
+[987/1250] factual_qa_919 formatting_changes sample 2
+[988/1250] factual_qa_919 formatting_changes sample 3
+[989/1250] factual_qa_919 formatting_changes sample 4
+[990/1250] factual_qa_919 formatting_changes sample 5
+[991/1250] factual_qa_919 context_injection sample 1
+[992/1250] factual_qa_919 context_injection sample 2
+[993/1250] factual_qa_919 context_injection sample 3
+[994/1250] factual_qa_919 context_injection sample 4
+[995/1250] factual_qa_919 context_injection sample 5
+[996/1250] factual_qa_919 surface_noise sample 1
+[997/1250] factual_qa_919 surface_noise sample 2
+[998/1250] factual_qa_919 surface_noise sample 3
+[999/1250] factual_qa_919 surface_noise sample 4
+[1000/1250] factual_qa_919 surface_noise sample 5
+[1001/1250] factual_qa_720 paraphrasing sample 1
+[1002/1250] factual_qa_720 paraphrasing sample 2
+[1003/1250] factual_qa_720 paraphrasing sample 3
+[1004/1250] factual_qa_720 paraphrasing sample 4
+[1005/1250] factual_qa_720 paraphrasing sample 5
+[1006/1250] factual_qa_720 reordering sample 1
+[1007/1250] factual_qa_720 reordering sample 2
+[1008/1250] factual_qa_720 reordering sample 3
+[1009/1250] factual_qa_720 reordering sample 4
+[1010/1250] factual_qa_720 reordering sample 5
+[1011/1250] factual_qa_720 formatting_changes sample 1
+[1012/1250] factual_qa_720 formatting_changes sample 2
+[1013/1250] factual_qa_720 formatting_changes sample 3
+[1014/1250] factual_qa_720 formatting_changes sample 4
+[1015/1250] factual_qa_720 formatting_changes sample 5
+[1016/1250] factual_qa_720 context_injection sample 1
+[1017/1250] factual_qa_720 context_injection sample 2
+[1018/1250] factual_qa_720 context_injection sample 3
+[1019/1250] factual_qa_720 context_injection sample 4
+[1020/1250] factual_qa_720 context_injection sample 5
+[1021/1250] factual_qa_720 surface_noise sample 1
+[1022/1250] factual_qa_720 surface_noise sample 2
+[1023/1250] factual_qa_720 surface_noise sample 3
+[1024/1250] factual_qa_720 surface_noise sample 4
+[1025/1250] factual_qa_720 surface_noise sample 5
+[1026/1250] factual_qa_9228 paraphrasing sample 1
+[1027/1250] factual_qa_9228 paraphrasing sample 2
+[1028/1250] factual_qa_9228 paraphrasing sample 3
+[1029/1250] factual_qa_9228 paraphrasing sample 4
+[1030/1250] factual_qa_9228 paraphrasing sample 5
+[1031/1250] factual_qa_9228 reordering sample 1
+[1032/1250] factual_qa_9228 reordering sample 2
+[1033/1250] factual_qa_9228 reordering sample 3
+[1034/1250] factual_qa_9228 reordering sample 4
+[1035/1250] factual_qa_9228 reordering sample 5
+[1036/1250] factual_qa_9228 formatting_changes sample 1
+[1037/1250] factual_qa_9228 formatting_changes sample 2
+[1038/1250] factual_qa_9228 formatting_changes sample 3
+[1039/1250] factual_qa_9228 formatting_changes sample 4
+[1040/1250] factual_qa_9228 formatting_changes sample 5
+[1041/1250] factual_qa_9228 context_injection sample 1
+[1042/1250] factual_qa_9228 context_injection sample 2
+[1043/1250] factual_qa_9228 context_injection sample 3
+[1044/1250] factual_qa_9228 context_injection sample 4
+[1045/1250] factual_qa_9228 context_injection sample 5
+[1046/1250] factual_qa_9228 surface_noise sample 1
+[1047/1250] factual_qa_9228 surface_noise sample 2
+[1048/1250] factual_qa_9228 surface_noise sample 3
+[1049/1250] factual_qa_9228 surface_noise sample 4
+[1050/1250] factual_qa_9228 surface_noise sample 5
+[1051/1250] factual_qa_6578 paraphrasing sample 1
+[1052/1250] factual_qa_6578 paraphrasing sample 2
+[1053/1250] factual_qa_6578 paraphrasing sample 3
+[1054/1250] factual_qa_6578 paraphrasing sample 4
+[1055/1250] factual_qa_6578 paraphrasing sample 5
+[1056/1250] factual_qa_6578 reordering sample 1
+[1057/1250] factual_qa_6578 reordering sample 2
+[1058/1250] factual_qa_6578 reordering sample 3
+[1059/1250] factual_qa_6578 reordering sample 4
+[1060/1250] factual_qa_6578 reordering sample 5
+[1061/1250] factual_qa_6578 formatting_changes sample 1
+[1062/1250] factual_qa_6578 formatting_changes sample 2
+[1063/1250] factual_qa_6578 formatting_changes sample 3
+[1064/1250] factual_qa_6578 formatting_changes sample 4
+[1065/1250] factual_qa_6578 formatting_changes sample 5
+[1066/1250] factual_qa_6578 context_injection sample 1
+[1067/1250] factual_qa_6578 context_injection sample 2
+[1068/1250] factual_qa_6578 context_injection sample 3
+[1069/1250] factual_qa_6578 context_injection sample 4
+[1070/1250] factual_qa_6578 context_injection sample 5
+[1071/1250] factual_qa_6578 surface_noise sample 1
+[1072/1250] factual_qa_6578 surface_noise sample 2
+[1073/1250] factual_qa_6578 surface_noise sample 3
+[1074/1250] factual_qa_6578 surface_noise sample 4
+[1075/1250] factual_qa_6578 surface_noise sample 5
+[1076/1250] factual_qa_4277 paraphrasing sample 1
+[1077/1250] factual_qa_4277 paraphrasing sample 2
+[1078/1250] factual_qa_4277 paraphrasing sample 3
+[1079/1250] factual_qa_4277 paraphrasing sample 4
+[1080/1250] factual_qa_4277 paraphrasing sample 5
+[1081/1250] factual_qa_4277 reordering sample 1
+[1082/1250] factual_qa_4277 reordering sample 2
+[1083/1250] factual_qa_4277 reordering sample 3
+[1084/1250] factual_qa_4277 reordering sample 4
+[1085/1250] factual_qa_4277 reordering sample 5
+[1086/1250] factual_qa_4277 formatting_changes sample 1
+[1087/1250] factual_qa_4277 formatting_changes sample 2
+[1088/1250] factual_qa_4277 formatting_changes sample 3
+[1089/1250] factual_qa_4277 formatting_changes sample 4
+[1090/1250] factual_qa_4277 formatting_changes sample 5
+[1091/1250] factual_qa_4277 context_injection sample 1
+[1092/1250] factual_qa_4277 context_injection sample 2
+[1093/1250] factual_qa_4277 context_injection sample 3
+[1094/1250] factual_qa_4277 context_injection sample 4
+[1095/1250] factual_qa_4277 context_injection sample 5
+[1096/1250] factual_qa_4277 surface_noise sample 1
+[1097/1250] factual_qa_4277 surface_noise sample 2
+[1098/1250] factual_qa_4277 surface_noise sample 3
+[1099/1250] factual_qa_4277 surface_noise sample 4
+[1100/1250] factual_qa_4277 surface_noise sample 5
+[1101/1250] factual_qa_11313 paraphrasing sample 1
+[1102/1250] factual_qa_11313 paraphrasing sample 2
+[1103/1250] factual_qa_11313 paraphrasing sample 3
+[1104/1250] factual_qa_11313 paraphrasing sample 4
+[1105/1250] factual_qa_11313 paraphrasing sample 5
+[1106/1250] factual_qa_11313 reordering sample 1
+[1107/1250] factual_qa_11313 reordering sample 2
+[1108/1250] factual_qa_11313 reordering sample 3
+[1109/1250] factual_qa_11313 reordering sample 4
+[1110/1250] factual_qa_11313 reordering sample 5
+[1111/1250] factual_qa_11313 formatting_changes sample 1
+[1112/1250] factual_qa_11313 formatting_changes sample 2
+[1113/1250] factual_qa_11313 formatting_changes sample 3
+[1114/1250] factual_qa_11313 formatting_changes sample 4
+[1115/1250] factual_qa_11313 formatting_changes sample 5
+[1116/1250] factual_qa_11313 context_injection sample 1
+[1117/1250] factual_qa_11313 context_injection sample 2
+[1118/1250] factual_qa_11313 context_injection sample 3
+[1119/1250] factual_qa_11313 context_injection sample 4
+[1120/1250] factual_qa_11313 context_injection sample 5
+[1121/1250] factual_qa_11313 surface_noise sample 1
+[1122/1250] factual_qa_11313 surface_noise sample 2
+[1123/1250] factual_qa_11313 surface_noise sample 3
+[1124/1250] factual_qa_11313 surface_noise sample 4
+[1125/1250] factual_qa_11313 surface_noise sample 5
+[1126/1250] factual_qa_5271 paraphrasing sample 1
+[1127/1250] factual_qa_5271 paraphrasing sample 2
+[1128/1250] factual_qa_5271 paraphrasing sample 3
+[1129/1250] factual_qa_5271 paraphrasing sample 4
+[1130/1250] factual_qa_5271 paraphrasing sample 5
+[1131/1250] factual_qa_5271 reordering sample 1
+[1132/1250] factual_qa_5271 reordering sample 2
+[1133/1250] factual_qa_5271 reordering sample 3
+[1134/1250] factual_qa_5271 reordering sample 4
+[1135/1250] factual_qa_5271 reordering sample 5
+[1136/1250] factual_qa_5271 formatting_changes sample 1
+[1137/1250] factual_qa_5271 formatting_changes sample 2
+[1138/1250] factual_qa_5271 formatting_changes sample 3
+[1139/1250] factual_qa_5271 formatting_changes sample 4
+[1140/1250] factual_qa_5271 formatting_changes sample 5
+[1141/1250] factual_qa_5271 context_injection sample 1
+[1142/1250] factual_qa_5271 context_injection sample 2
+[1143/1250] factual_qa_5271 context_injection sample 3
+[1144/1250] factual_qa_5271 context_injection sample 4
+[1145/1250] factual_qa_5271 context_injection sample 5
+[1146/1250] factual_qa_5271 surface_noise sample 1
+[1147/1250] factual_qa_5271 surface_noise sample 2
+[1148/1250] factual_qa_5271 surface_noise sample 3
+[1149/1250] factual_qa_5271 surface_noise sample 4
+[1150/1250] factual_qa_5271 surface_noise sample 5
+[1151/1250] factual_qa_2022 paraphrasing sample 1
+[1152/1250] factual_qa_2022 paraphrasing sample 2
+[1153/1250] factual_qa_2022 paraphrasing sample 3
+[1154/1250] factual_qa_2022 paraphrasing sample 4
+[1155/1250] factual_qa_2022 paraphrasing sample 5
+[1156/1250] factual_qa_2022 reordering sample 1
+[1157/1250] factual_qa_2022 reordering sample 2
+[1158/1250] factual_qa_2022 reordering sample 3
+[1159/1250] factual_qa_2022 reordering sample 4
+[1160/1250] factual_qa_2022 reordering sample 5
+[1161/1250] factual_qa_2022 formatting_changes sample 1
+[1162/1250] factual_qa_2022 formatting_changes sample 2
+[1163/1250] factual_qa_2022 formatting_changes sample 3
+[1164/1250] factual_qa_2022 formatting_changes sample 4
+[1165/1250] factual_qa_2022 formatting_changes sample 5
+[1166/1250] factual_qa_2022 context_injection sample 1
+[1167/1250] factual_qa_2022 context_injection sample 2
+[1168/1250] factual_qa_2022 context_injection sample 3
+[1169/1250] factual_qa_2022 context_injection sample 4
+[1170/1250] factual_qa_2022 context_injection sample 5
+[1171/1250] factual_qa_2022 surface_noise sample 1
+[1172/1250] factual_qa_2022 surface_noise sample 2
+[1173/1250] factual_qa_2022 surface_noise sample 3
+[1174/1250] factual_qa_2022 surface_noise sample 4
+[1175/1250] factual_qa_2022 surface_noise sample 5
+[1176/1250] factual_qa_3135 paraphrasing sample 1
+[1177/1250] factual_qa_3135 paraphrasing sample 2
+[1178/1250] factual_qa_3135 paraphrasing sample 3
+[1179/1250] factual_qa_3135 paraphrasing sample 4
+[1180/1250] factual_qa_3135 paraphrasing sample 5
+[1181/1250] factual_qa_3135 reordering sample 1
+[1182/1250] factual_qa_3135 reordering sample 2
+[1183/1250] factual_qa_3135 reordering sample 3
+[1184/1250] factual_qa_3135 reordering sample 4
+[1185/1250] factual_qa_3135 reordering sample 5
+[1186/1250] factual_qa_3135 formatting_changes sample 1
+[1187/1250] factual_qa_3135 formatting_changes sample 2
+[1188/1250] factual_qa_3135 formatting_changes sample 3
+[1189/1250] factual_qa_3135 formatting_changes sample 4
+[1190/1250] factual_qa_3135 formatting_changes sample 5
+[1191/1250] factual_qa_3135 context_injection sample 1
+[1192/1250] factual_qa_3135 context_injection sample 2
+[1193/1250] factual_qa_3135 context_injection sample 3
+[1194/1250] factual_qa_3135 context_injection sample 4
+[1195/1250] factual_qa_3135 context_injection sample 5
+[1196/1250] factual_qa_3135 surface_noise sample 1
+[1197/1250] factual_qa_3135 surface_noise sample 2
+[1198/1250] factual_qa_3135 surface_noise sample 3
+[1199/1250] factual_qa_3135 surface_noise sample 4
+[1200/1250] factual_qa_3135 surface_noise sample 5
+[1201/1250] factual_qa_11075 paraphrasing sample 1
+[1202/1250] factual_qa_11075 paraphrasing sample 2
+[1203/1250] factual_qa_11075 paraphrasing sample 3
+[1204/1250] factual_qa_11075 paraphrasing sample 4
+[1205/1250] factual_qa_11075 paraphrasing sample 5
+[1206/1250] factual_qa_11075 reordering sample 1
+[1207/1250] factual_qa_11075 reordering sample 2
+[1208/1250] factual_qa_11075 reordering sample 3
+[1209/1250] factual_qa_11075 reordering sample 4
+[1210/1250] factual_qa_11075 reordering sample 5
+[1211/1250] factual_qa_11075 formatting_changes sample 1
+[1212/1250] factual_qa_11075 formatting_changes sample 2
+[1213/1250] factual_qa_11075 formatting_changes sample 3
+[1214/1250] factual_qa_11075 formatting_changes sample 4
+[1215/1250] factual_qa_11075 formatting_changes sample 5
+[1216/1250] factual_qa_11075 context_injection sample 1
+[1217/1250] factual_qa_11075 context_injection sample 2
+[1218/1250] factual_qa_11075 context_injection sample 3
+[1219/1250] factual_qa_11075 context_injection sample 4
+[1220/1250] factual_qa_11075 context_injection sample 5
+[1221/1250] factual_qa_11075 surface_noise sample 1
+[1222/1250] factual_qa_11075 surface_noise sample 2
+[1223/1250] factual_qa_11075 surface_noise sample 3
+[1224/1250] factual_qa_11075 surface_noise sample 4
+[1225/1250] factual_qa_11075 surface_noise sample 5
+[1226/1250] factual_qa_1601 paraphrasing sample 1
+[1227/1250] factual_qa_1601 paraphrasing sample 2
+[1228/1250] factual_qa_1601 paraphrasing sample 3
+[1229/1250] factual_qa_1601 paraphrasing sample 4
+[1230/1250] factual_qa_1601 paraphrasing sample 5
+[1231/1250] factual_qa_1601 reordering sample 1
+[1232/1250] factual_qa_1601 reordering sample 2
+[1233/1250] factual_qa_1601 reordering sample 3
+[1234/1250] factual_qa_1601 reordering sample 4
+[1235/1250] factual_qa_1601 reordering sample 5
+[1236/1250] factual_qa_1601 formatting_changes sample 1
+[1237/1250] factual_qa_1601 formatting_changes sample 2
+[1238/1250] factual_qa_1601 formatting_changes sample 3
+[1239/1250] factual_qa_1601 formatting_changes sample 4
+[1240/1250] factual_qa_1601 formatting_changes sample 5
+[1241/1250] factual_qa_1601 context_injection sample 1
+[1242/1250] factual_qa_1601 context_injection sample 2
+[1243/1250] factual_qa_1601 context_injection sample 3
+[1244/1250] factual_qa_1601 context_injection sample 4
+[1245/1250] factual_qa_1601 context_injection sample 5
+[1246/1250] factual_qa_1601 surface_noise sample 1
+[1247/1250] factual_qa_1601 surface_noise sample 2
+[1248/1250] factual_qa_1601 surface_noise sample 3
+[1249/1250] factual_qa_1601 surface_noise sample 4
+[1250/1250] factual_qa_1601 surface_noise sample 5
+Output file now has 1250 rows: /Users/wenfenglin/Desktop/Pioneer/outputs/rq1_formal_perturbed_generations_n50_factual_qa.csv
+===== 2026-07-03 03:38:27 END: perturbed outputs: factual_qa only =====
+===== 2026-07-03 03:38:27 START: current row-count summary =====
+outputs/rq1_formal_original_generations_n50_factual_qa.csv: 250 rows
+outputs/rq1_formal_original_generations_n50_math_reasoning.csv: 250 rows
+outputs/rq1_formal_original_generations_n50_code_generation.csv: 250 rows
+outputs/rq1_formal_original_generations_n50_open_ended_writing.csv: 250 rows
+prompts/rq1_formal_perturbed_prompts_n50_factual_qa.csv: 250 rows
+outputs/rq1_formal_perturbed_generations_n50_factual_qa.csv: 1250 rows
+===== 2026-07-03 03:38:27 END: current row-count summary =====

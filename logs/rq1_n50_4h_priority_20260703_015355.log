@@ -1,0 +1,7 @@
+===== 2026-07-03 01:53:55 START: prepare task-specific n50 prompt files =====
+factual_qa: wrote 50 prompts to /Users/wenfenglin/Desktop/Pioneer/prompts/rq1_sampled_original_prompts_n50_factual_qa.csv; datasets={'rajpurkar/squad_v2': 50}
+math_reasoning: wrote 50 prompts to /Users/wenfenglin/Desktop/Pioneer/prompts/rq1_sampled_original_prompts_n50_math_reasoning.csv; datasets={'nlile/hendrycks-MATH-benchmark': 50}
+code_generation: wrote 50 prompts to /Users/wenfenglin/Desktop/Pioneer/prompts/rq1_sampled_original_prompts_n50_code_generation.csv; datasets={'bigcode/humanevalpack': 50}
+open_ended_writing: wrote 50 prompts to /Users/wenfenglin/Desktop/Pioneer/prompts/rq1_sampled_original_prompts_n50_open_ended_writing.csv; datasets={'tatsu-lab/alpaca': 50}
+===== 2026-07-03 01:53:55 END: prepare task-specific n50 prompt files =====
+===== 2026-07-03 01:53:55 START: baseline original outputs: code_generation =====
