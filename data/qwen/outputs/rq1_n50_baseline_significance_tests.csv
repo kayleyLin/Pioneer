@@ -1,0 +1,4 @@
+test,statistic,p_value,interpretation
+one_way_anova,4.547795,0.004178614828,tests mean baseline drift differences across task types
+kruskal_wallis,21.397008,8.7066209e-05,nonparametric check for baseline drift differences across task types
+levene_median,2.88277,0.036992664232,checks equality of variance across task types

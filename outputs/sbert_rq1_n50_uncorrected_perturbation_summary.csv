@@ -6,12 +6,12 @@ code_generation,reordering,50,0.068036,0.024821,sentence-transformers/all-MiniLM
 code_generation,surface_noise,50,0.065047,0.028121,sentence-transformers/all-MiniLM-L6-v2
 factual_qa,context_injection,50,0.033774,0.038235,sentence-transformers/all-MiniLM-L6-v2
 factual_qa,formatting_changes,50,0.041347,0.0548,sentence-transformers/all-MiniLM-L6-v2
-factual_qa,paraphrasing,50,0.215026,0.102461,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,paraphrasing,50,0.113085,0.080694,sentence-transformers/all-MiniLM-L6-v2
 factual_qa,reordering,50,0.072802,0.068076,sentence-transformers/all-MiniLM-L6-v2
 factual_qa,surface_noise,50,0.030653,0.038142,sentence-transformers/all-MiniLM-L6-v2
 math_reasoning,context_injection,50,0.09324,0.057656,sentence-transformers/all-MiniLM-L6-v2
 math_reasoning,formatting_changes,50,0.090301,0.053245,sentence-transformers/all-MiniLM-L6-v2
-math_reasoning,paraphrasing,50,0.126221,0.084892,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,paraphrasing,50,0.107644,0.070275,sentence-transformers/all-MiniLM-L6-v2
 math_reasoning,reordering,50,0.090151,0.055143,sentence-transformers/all-MiniLM-L6-v2
 math_reasoning,surface_noise,50,0.09109,0.054584,sentence-transformers/all-MiniLM-L6-v2
 open_ended_writing,context_injection,50,0.073308,0.056571,sentence-transformers/all-MiniLM-L6-v2
