@@ -12,7 +12,7 @@ factual_qa,surface_noise,50,0.060639,0.085535,sentence-transformers/all-MiniLM-L
 math_reasoning,context_injection,50,0.186939,0.085309,sentence-transformers/all-MiniLM-L6-v2
 math_reasoning,formatting_changes,50,0.189905,0.082772,sentence-transformers/all-MiniLM-L6-v2
 math_reasoning,paraphrasing,50,0.22121,0.104617,sentence-transformers/all-MiniLM-L6-v2
-math_reasoning,reordering,50,0.194254,0.086091,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,reordering,50,0.194255,0.086091,sentence-transformers/all-MiniLM-L6-v2
 math_reasoning,surface_noise,50,0.185669,0.086025,sentence-transformers/all-MiniLM-L6-v2
 open_ended_writing,context_injection,50,0.133928,0.094036,sentence-transformers/all-MiniLM-L6-v2
 open_ended_writing,formatting_changes,50,0.139591,0.112083,sentence-transformers/all-MiniLM-L6-v2

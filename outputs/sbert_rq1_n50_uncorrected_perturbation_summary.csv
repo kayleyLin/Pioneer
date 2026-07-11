@@ -3,7 +3,7 @@ code_generation,context_injection,50,0.065558,0.029266,sentence-transformers/all
 code_generation,formatting_changes,50,0.064411,0.026001,sentence-transformers/all-MiniLM-L6-v2
 code_generation,paraphrasing,50,0.077531,0.045542,sentence-transformers/all-MiniLM-L6-v2
 code_generation,reordering,50,0.068036,0.024821,sentence-transformers/all-MiniLM-L6-v2
-code_generation,surface_noise,50,0.065047,0.028121,sentence-transformers/all-MiniLM-L6-v2
+code_generation,surface_noise,50,0.065048,0.028121,sentence-transformers/all-MiniLM-L6-v2
 factual_qa,context_injection,50,0.033774,0.038235,sentence-transformers/all-MiniLM-L6-v2
 factual_qa,formatting_changes,50,0.041347,0.0548,sentence-transformers/all-MiniLM-L6-v2
 factual_qa,paraphrasing,50,0.113085,0.080694,sentence-transformers/all-MiniLM-L6-v2
