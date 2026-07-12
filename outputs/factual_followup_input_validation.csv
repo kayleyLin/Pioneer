@@ -1,0 +1,142 @@
+branch,check,expected,actual,status,details
+outputs,file_exists:original_generations:factual_qa,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\rq1_formal_original_generations_n50_factual_qa.csv
+outputs,original_item_count:factual_qa,50,50,PASS,
+outputs,original_sample_cells:factual_qa,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,original_duplicate_sample_rows:factual_qa,0,0,PASS,
+outputs,original_empty_outputs:factual_qa,0,0,PASS,
+outputs,file_exists:original_generations:math_reasoning,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\rq1_formal_original_generations_n50_math_reasoning.csv
+outputs,original_item_count:math_reasoning,50,50,PASS,
+outputs,original_sample_cells:math_reasoning,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,original_duplicate_sample_rows:math_reasoning,0,0,PASS,
+outputs,original_empty_outputs:math_reasoning,0,0,PASS,
+outputs,file_exists:original_generations:code_generation,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\rq1_formal_original_generations_n50_code_generation.csv
+outputs,original_item_count:code_generation,50,50,PASS,
+outputs,original_sample_cells:code_generation,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,original_duplicate_sample_rows:code_generation,0,0,PASS,
+outputs,original_empty_outputs:code_generation,0,0,PASS,
+outputs,file_exists:original_generations:open_ended_writing,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\rq1_formal_original_generations_n50_open_ended_writing.csv
+outputs,original_item_count:open_ended_writing,50,50,PASS,
+outputs,original_sample_cells:open_ended_writing,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,original_duplicate_sample_rows:open_ended_writing,0,0,PASS,
+outputs,original_empty_outputs:open_ended_writing,0,0,PASS,
+outputs,original_generation_total_rows,1000,1000,PASS,
+outputs,file_exists:perturbed_generations:factual_qa,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\rq1_formal_perturbed_generations_n50_factual_qa.csv
+outputs,perturbed_item_count:factual_qa:context_injection,50,50,PASS,
+outputs,perturbed_sample_cells:factual_qa:context_injection,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:factual_qa:context_injection,0,0,PASS,
+outputs,perturbed_empty_outputs:factual_qa:context_injection,0,0,PASS,
+outputs,perturbed_item_count:factual_qa:formatting_changes,50,50,PASS,
+outputs,perturbed_sample_cells:factual_qa:formatting_changes,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:factual_qa:formatting_changes,0,0,PASS,
+outputs,perturbed_empty_outputs:factual_qa:formatting_changes,0,0,PASS,
+outputs,perturbed_item_count:factual_qa:paraphrasing,50,50,PASS,
+outputs,perturbed_sample_cells:factual_qa:paraphrasing,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:factual_qa:paraphrasing,0,0,PASS,
+outputs,perturbed_empty_outputs:factual_qa:paraphrasing,0,0,PASS,
+outputs,perturbed_item_count:factual_qa:reordering,50,50,PASS,
+outputs,perturbed_sample_cells:factual_qa:reordering,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:factual_qa:reordering,0,0,PASS,
+outputs,perturbed_empty_outputs:factual_qa:reordering,0,0,PASS,
+outputs,perturbed_item_count:factual_qa:surface_noise,50,50,PASS,
+outputs,perturbed_sample_cells:factual_qa:surface_noise,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:factual_qa:surface_noise,0,0,PASS,
+outputs,perturbed_empty_outputs:factual_qa:surface_noise,0,0,PASS,
+outputs,file_exists:perturbed_generations:math_reasoning,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\rq1_formal_perturbed_generations_n50_math_reasoning.csv
+outputs,perturbed_item_count:math_reasoning:context_injection,50,50,PASS,
+outputs,perturbed_sample_cells:math_reasoning:context_injection,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:math_reasoning:context_injection,0,0,PASS,
+outputs,perturbed_empty_outputs:math_reasoning:context_injection,0,0,PASS,
+outputs,perturbed_item_count:math_reasoning:formatting_changes,50,50,PASS,
+outputs,perturbed_sample_cells:math_reasoning:formatting_changes,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:math_reasoning:formatting_changes,0,0,PASS,
+outputs,perturbed_empty_outputs:math_reasoning:formatting_changes,0,0,PASS,
+outputs,perturbed_item_count:math_reasoning:paraphrasing,50,50,PASS,
+outputs,perturbed_sample_cells:math_reasoning:paraphrasing,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:math_reasoning:paraphrasing,0,0,PASS,
+outputs,perturbed_empty_outputs:math_reasoning:paraphrasing,0,0,PASS,
+outputs,perturbed_item_count:math_reasoning:reordering,50,50,PASS,
+outputs,perturbed_sample_cells:math_reasoning:reordering,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:math_reasoning:reordering,0,0,PASS,
+outputs,perturbed_empty_outputs:math_reasoning:reordering,0,0,PASS,
+outputs,perturbed_item_count:math_reasoning:surface_noise,50,50,PASS,
+outputs,perturbed_sample_cells:math_reasoning:surface_noise,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:math_reasoning:surface_noise,0,0,PASS,
+outputs,perturbed_empty_outputs:math_reasoning:surface_noise,0,0,PASS,
+outputs,file_exists:perturbed_generations:code_generation,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\rq1_formal_perturbed_generations_n50_code_generation.csv
+outputs,perturbed_item_count:code_generation:context_injection,50,50,PASS,
+outputs,perturbed_sample_cells:code_generation:context_injection,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:code_generation:context_injection,0,0,PASS,
+outputs,perturbed_empty_outputs:code_generation:context_injection,0,0,PASS,
+outputs,perturbed_item_count:code_generation:formatting_changes,50,50,PASS,
+outputs,perturbed_sample_cells:code_generation:formatting_changes,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:code_generation:formatting_changes,0,0,PASS,
+outputs,perturbed_empty_outputs:code_generation:formatting_changes,0,0,PASS,
+outputs,perturbed_item_count:code_generation:paraphrasing,50,50,PASS,
+outputs,perturbed_sample_cells:code_generation:paraphrasing,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:code_generation:paraphrasing,0,0,PASS,
+outputs,perturbed_empty_outputs:code_generation:paraphrasing,0,0,PASS,
+outputs,perturbed_item_count:code_generation:reordering,50,50,PASS,
+outputs,perturbed_sample_cells:code_generation:reordering,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:code_generation:reordering,0,0,PASS,
+outputs,perturbed_empty_outputs:code_generation:reordering,0,0,PASS,
+outputs,perturbed_item_count:code_generation:surface_noise,50,50,PASS,
+outputs,perturbed_sample_cells:code_generation:surface_noise,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:code_generation:surface_noise,0,0,PASS,
+outputs,perturbed_empty_outputs:code_generation:surface_noise,0,0,PASS,
+outputs,file_exists:perturbed_generations:open_ended_writing,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\rq1_formal_perturbed_generations_n50_open_ended_writing.csv
+outputs,perturbed_item_count:open_ended_writing:context_injection,50,50,PASS,
+outputs,perturbed_sample_cells:open_ended_writing:context_injection,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:open_ended_writing:context_injection,0,0,PASS,
+outputs,perturbed_empty_outputs:open_ended_writing:context_injection,0,0,PASS,
+outputs,perturbed_item_count:open_ended_writing:formatting_changes,50,50,PASS,
+outputs,perturbed_sample_cells:open_ended_writing:formatting_changes,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:open_ended_writing:formatting_changes,0,0,PASS,
+outputs,perturbed_empty_outputs:open_ended_writing:formatting_changes,0,0,PASS,
+outputs,perturbed_item_count:open_ended_writing:paraphrasing,50,50,PASS,
+outputs,perturbed_sample_cells:open_ended_writing:paraphrasing,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:open_ended_writing:paraphrasing,0,0,PASS,
+outputs,perturbed_empty_outputs:open_ended_writing:paraphrasing,0,0,PASS,
+outputs,perturbed_item_count:open_ended_writing:reordering,50,50,PASS,
+outputs,perturbed_sample_cells:open_ended_writing:reordering,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:open_ended_writing:reordering,0,0,PASS,
+outputs,perturbed_empty_outputs:open_ended_writing:reordering,0,0,PASS,
+outputs,perturbed_item_count:open_ended_writing:surface_noise,50,50,PASS,
+outputs,perturbed_sample_cells:open_ended_writing:surface_noise,50 cells with 5 samples,0,PASS,actual reports bad cell count
+outputs,perturbed_duplicate_sample_rows:open_ended_writing:surface_noise,0,0,PASS,
+outputs,perturbed_empty_outputs:open_ended_writing:surface_noise,0,0,PASS,
+outputs,perturbed_generation_total_rows,5000,5000,PASS,
+outputs,file_exists:sbert_effects_by_item,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\sbert_rq1_n50_perturbation_effects_by_item.csv
+outputs,sbert_effects_total_rows,1000,1000,PASS,
+outputs,sbert_effects_cell_rows:factual_qa:context_injection,50,50,PASS,
+outputs,sbert_effects_cell_rows:factual_qa:formatting_changes,50,50,PASS,
+outputs,sbert_effects_cell_rows:factual_qa:paraphrasing,50,50,PASS,
+outputs,sbert_effects_cell_rows:factual_qa:reordering,50,50,PASS,
+outputs,sbert_effects_cell_rows:factual_qa:surface_noise,50,50,PASS,
+outputs,sbert_effects_cell_rows:math_reasoning:context_injection,50,50,PASS,
+outputs,sbert_effects_cell_rows:math_reasoning:formatting_changes,50,50,PASS,
+outputs,sbert_effects_cell_rows:math_reasoning:paraphrasing,50,50,PASS,
+outputs,sbert_effects_cell_rows:math_reasoning:reordering,50,50,PASS,
+outputs,sbert_effects_cell_rows:math_reasoning:surface_noise,50,50,PASS,
+outputs,sbert_effects_cell_rows:code_generation:context_injection,50,50,PASS,
+outputs,sbert_effects_cell_rows:code_generation:formatting_changes,50,50,PASS,
+outputs,sbert_effects_cell_rows:code_generation:paraphrasing,50,50,PASS,
+outputs,sbert_effects_cell_rows:code_generation:reordering,50,50,PASS,
+outputs,sbert_effects_cell_rows:code_generation:surface_noise,50,50,PASS,
+outputs,sbert_effects_cell_rows:open_ended_writing:context_injection,50,50,PASS,
+outputs,sbert_effects_cell_rows:open_ended_writing:formatting_changes,50,50,PASS,
+outputs,sbert_effects_cell_rows:open_ended_writing:paraphrasing,50,50,PASS,
+outputs,sbert_effects_cell_rows:open_ended_writing:reordering,50,50,PASS,
+outputs,sbert_effects_cell_rows:open_ended_writing:surface_noise,50,50,PASS,
+outputs,file_exists:sbert_perturbation_summary,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\outputs\sbert_rq1_n50_perturbation_summary.csv
+outputs,sbert_summary_total_rows,20,20,PASS,
+outputs,file_exists:original_factual_qa_prompts,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\prompts\rq1_sampled_original_prompts_n50_factual_qa.csv
+outputs,factual_original_prompt_items,50,50,PASS,
+outputs,factual_reference_answer_missing,0,0,PASS,
+outputs,factual_original_prompt_duplicate_items,0,0,PASS,
+outputs,file_exists:perturbed_factual_qa_prompts,exists,exists,PASS,D:\pioneer_kayley_llm\Pioneer\prompts\rq1_formal_perturbed_prompts_n50_factual_qa_fixed.csv
+outputs,factual_paraphrase_prompt_rows,50,50,PASS,
+outputs,factual_paraphrase_prompt_items,50,50,PASS,
+outputs,factual_paraphrase_prompt_missing_text,0,0,PASS,
+outputs,factual_paraphrase_prompt_full_context_question_rows,50,50,PASS,paraphrasing perturbed_prompt must contain full Context and Question without a prefix
+outputs,factual_paraphrase_context_mismatch_rows,0,0,PASS,
+outputs,factual_paraphrase_rewrite_prefix_rows,0,0,PASS,

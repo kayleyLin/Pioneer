@@ -1,0 +1,13 @@
+x,y,n,spearman_rho,p_value
+answer_tail_containment_delta,noise_corrected_drift,50,-0.5674731052868736,1.7278243456825693e-05
+math_token_recall,noise_corrected_drift,49,-0.5645592185347584,2.3857996478624637e-05
+number_recall,noise_corrected_drift,48,-0.5473207595227688,5.680277027520218e-05
+answer_containment_delta,noise_corrected_drift,50,-0.5105903469516888,0.00015160263820634905
+problem_content_recall,noise_corrected_drift,50,-0.40781133711786227,0.0032853498302850555
+answer_token_f1_delta,noise_corrected_drift,50,-0.3821848739495798,0.0061639800513276135
+problem_length_delta_tokens,noise_corrected_drift,50,-0.30944158901015467,0.028762895148703033
+prompt_content_recall,noise_corrected_drift,50,-0.28989962592514285,0.04113808691565581
+prompt_length_delta_tokens,noise_corrected_drift,50,-0.18214197704282475,0.20551891771761735
+latex_segment_recall,noise_corrected_drift,43,-0.18393206096750708,0.2377266517647876
+perturbed_has_template_artifact,noise_corrected_drift,50,0.1396387340998644,0.3334588936979968
+output_length_delta_tokens,noise_corrected_drift,50,-0.021944777911164462,0.8797655899409524

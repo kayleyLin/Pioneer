@@ -1,0 +1,27 @@
+item_id,task_type,dataset_name,source_index,perturbation_type,sample_id,model_name,temperature,top_p,max_output_tokens,original_prompt,perturbed_prompt,output_text
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,reordering,1,qwen-plus,0.7,0.9,,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Question: Who has elected the President of Warsaw since 1990?
+
+Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.","Since 1990, the **President of Warsaw** (i.e., the mayor) has been elected by:
+
+- **The Warsaw City Council** (1990–1994 and 1999–2002),  
+- **The District Council of Centrum** (indirectly, 1994–1999): during this period, the mayor of the Centrum district — elected by the Centrum district council (which itself was elected by Centrum residents) — automatically became President of Warsaw,  
+- **All citizens of Warsaw** (since 2002): direct popular election by universal suffrage.
+
+So, to answer directly:  
+🔹 **From 1990 to 1994**, and **from 1999 to 2002**, the President of Warsaw was **elected by the Warsaw City Council**.  
+🔹 **From 1994 to 1999**, the President was **elected indirectly via the Centrum district council**, whose members were elected by Centrum residents only.  
+🔹 **Since 2002**, the President has been **elected directly by all eligible voters in Warsaw**."
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,10908,paraphrasing,1,qwen-plus,0.7,0.9,,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?","Since 1990, who has been responsible for electing the President of Warsaw?","Since 1990, the President of Warsaw has been elected directly by the residents of Warsaw through universal, direct, and secret ballot. This change followed the democratic reforms in Poland after the fall of communism. Prior to 1990, the city’s leadership was appointed by the central government or selected by local councils under the communist system.
+
+The first direct election for the President of Warsaw took place in 1990, won by Hanna Gronkiewicz-Waltz (though she assumed office in 1994—note: there was an interim period; the *first direct election* was held in **1994**, not 1990). Correction: While the legal framework for direct mayoral elections was established in 1990 with the *Act on Municipal Self-Government*, the **first direct election for the President of Warsaw occurred in 1994**, following the implementation of the new local government law effective January 1, 1992, and subsequent electoral preparations.
+
+✅ So, to be precise:  
+**Since 1994**, the President of Warsaw has been **elected directly by the citizens of Warsaw**.  
+Before that (1990–1994), the city’s head was the *Chairman of the Warsaw City Council*, chosen by the council members—not directly elected.
+
+Thus, the correct answer is:  
+**Since 1994, the residents of Warsaw have been responsible for electing the President of Warsaw through direct popular vote.**"

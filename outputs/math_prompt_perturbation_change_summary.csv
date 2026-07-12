@@ -1,0 +1,6 @@
+perturbation_type,n_items,label_changed_rate,research_question_label_rate,rewrite_label_rate,code_artifact_rate,template_artifact_rate,asy_removed_rate,mean_prompt_content_recall,mean_prompt_content_jaccard,mean_problem_content_recall,mean_problem_content_jaccard,mean_math_token_recall,mean_number_recall,mean_latex_segment_recall,mean_prompt_length_delta_tokens,mean_problem_length_delta_tokens
+paraphrasing,50,1.0,0.24,0.02,0.14,0.32,0.14,0.5316263732882994,0.38775340501830835,0.6513989771208037,0.4301496411051538,0.7705855935447772,0.7764563652721548,0.6708421423537703,-17.38,-13.74
+surface_noise,50,0.18,0.0,0.0,0.0,0.0,0.0,0.965578523609486,0.9247062613265442,0.9808656539538894,0.9053046601567093,0.995229260535383,1.0,0.952325581395349,0.0,1.14
+formatting_changes,50,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.8722759384503999,1.0,1.0,1.0,1.0,1.0,6.0,0.0
+context_injection,50,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.761259290870658,1.0,1.0,1.0,1.0,1.0,10.6,0.0
+reordering,50,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0

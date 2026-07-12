@@ -1,0 +1,6 @@
+perturbation_type,n_items,mean_problem_content_recall,mean_problem_content_jaccard,mean_prompt_content_recall,mean_math_token_recall,mean_number_recall,mean_problem_length_delta_tokens
+paraphrasing,50,0.7533088803009855,0.49807469274659155,0.8335652019398619,0.9256309450187,0.9487847222222222,7.02
+surface_noise,50,0.9810143467643467,0.9060600532271178,0.9657960352566083,0.995229260535383,1.0,1.14
+formatting_changes,50,1.0,1.0,1.0,1.0,1.0,0.0
+context_injection,50,1.0,1.0,1.0,1.0,1.0,0.0
+reordering,50,1.0,1.0,1.0,1.0,1.0,0.0

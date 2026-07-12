@@ -1,0 +1,4 @@
+group,n_items,mean_prompt_mean_logprob_delta,negative_prompt_mean_logprob_delta_count,mean_prompt_math_logprob_delta,negative_prompt_math_logprob_delta_count,mean_reference_mean_logprob_delta,negative_reference_mean_logprob_delta_count,mean_reference_math_logprob_delta,negative_reference_math_logprob_delta_count,mean_generated_mean_logprob_delta,negative_generated_mean_logprob_delta_count,mean_generated_math_logprob_delta,negative_generated_math_logprob_delta_count
+all,44,nan,0,nan,0,nan,0,nan,0,0.0007711276436703433,20,0.006864016978750166,19
+shared_high,7,nan,0,nan,0,nan,0,nan,0,-0.017636183007604108,5,-0.03741035561998169,5
+non_shared,37,nan,0,nan,0,nan,0,nan,0,0.004253591820938482,15,0.0152402496325643,14
