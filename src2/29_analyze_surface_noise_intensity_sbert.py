@@ -1,0 +1,263 @@
+"""Analyze surface-noise intensity outputs with Sentence-BERT.
+
+Inputs:
+    outputs/rq1_formal_original_generations.csv
+    outputs/rq1_surface_noise_intensity_generations.csv
+
+Outputs:
+    outputs/sbert_rq1_surface_noise_intensity_by_item.csv
+    outputs/sbert_rq1_surface_noise_intensity_summary.csv
+    outputs/sbert_rq1_surface_noise_intensity_heatmap.csv
+    figures/attempt/rq1_surface_noise_intensity_heatmap.png
+"""
+
+import csv
+import math
+import os
+from collections import defaultdict
+from itertools import combinations, product
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+from sentence_transformers import SentenceTransformer
+from sentence_transformers.util import cos_sim
+
+
+ROOT = Path(__file__).resolve().parents[1]
+MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+
+ORIGINAL_GENERATIONS = ROOT / "outputs" / "rq1_formal_original_generations.csv"
+PERTURBED_GENERATIONS = ROOT / "outputs" / "rq1_surface_noise_intensity_generations.csv"
+BY_ITEM = ROOT / "outputs" / "sbert_rq1_surface_noise_intensity_by_item.csv"
+SUMMARY = ROOT / "outputs" / "sbert_rq1_surface_noise_intensity_summary.csv"
+HEATMAP = ROOT / "outputs" / "sbert_rq1_surface_noise_intensity_heatmap.csv"
+FIGURE = ROOT / "figures" / "attempt" / "rq1_surface_noise_intensity_heatmap.png"
+MAX_SAMPLE_ID = int(os.environ.get("RQ1_SURFACE_NOISE_N_SAMPLES", "3"))
+
+INTENSITY_ORDER = [
+    "surface_noise_low",
+    "surface_noise_medium",
+    "surface_noise_high",
+]
+TASK_ORDER = [
+    "factual_qa",
+    "math_reasoning",
+    "code_generation",
+    "open_ended_writing",
+]
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8") as file:
+        return list(csv.DictReader(file))
+
+
+def write_csv(path: Path, rows: list[dict], fieldnames: list[str]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def mean(values: list[float]) -> float:
+    return sum(values) / len(values) if values else 0.0
+
+
+def sample_std(values: list[float]) -> float:
+    if len(values) < 2:
+        return 0.0
+    avg = mean(values)
+    variance = sum((value - avg) ** 2 for value in values) / (len(values) - 1)
+    return math.sqrt(variance)
+
+
+class SimilarityModel:
+    def __init__(self) -> None:
+        print(f"Loading Sentence-BERT model: {MODEL_NAME}")
+        self.model = SentenceTransformer(MODEL_NAME)
+        self.cache = {}
+
+    def encode(self, text: str):
+        if text not in self.cache:
+            self.cache[text] = self.model.encode(text, convert_to_tensor=True)
+        return self.cache[text]
+
+    def similarity(self, text_a: str, text_b: str) -> float:
+        emb_a = self.encode(text_a)
+        emb_b = self.encode(text_b)
+        return float(cos_sim(emb_a, emb_b)[0][0])
+
+    def within_similarity(self, outputs: list[str]) -> float:
+        return mean(
+            [
+                self.similarity(output_a, output_b)
+                for output_a, output_b in combinations(outputs, 2)
+            ]
+        )
+
+    def cross_similarity(
+        self, original_outputs: list[str], perturbed_outputs: list[str]
+    ) -> float:
+        return mean(
+            [
+                self.similarity(original_output, perturbed_output)
+                for original_output, perturbed_output in product(
+                    original_outputs, perturbed_outputs
+                )
+            ]
+        )
+
+
+def save_heatmap(summary_rows: list[dict]) -> None:
+    summary = pd.DataFrame(summary_rows)
+    heatmap = summary.pivot(
+        index="perturbation_type",
+        columns="task_type",
+        values="mean_noise_corrected_drift",
+    )
+    heatmap = heatmap.reindex(index=INTENSITY_ORDER, columns=TASK_ORDER)
+    heatmap.to_csv(HEATMAP)
+
+    plt.figure(figsize=(9, 4.8))
+    max_abs = max(abs(float(heatmap.min().min())), abs(float(heatmap.max().max())), 0.01)
+    sns.heatmap(
+        heatmap,
+        annot=True,
+        fmt=".3f",
+        cmap="RdBu_r",
+        center=0,
+        vmin=-max_abs,
+        vmax=max_abs,
+        linewidths=0.5,
+        linecolor="white",
+        cbar_kws={"label": "Noise-corrected output drift"},
+    )
+    plt.title("RQ1 Exploratory: Surface Noise Intensity")
+    plt.xlabel("Task type")
+    plt.ylabel("Surface-noise intensity")
+    plt.xticks(rotation=25, ha="right")
+    plt.yticks(rotation=0)
+    plt.tight_layout()
+    FIGURE.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(FIGURE, dpi=220)
+    plt.close()
+
+
+def main() -> None:
+    for path in [ORIGINAL_GENERATIONS, PERTURBED_GENERATIONS]:
+        if not path.exists():
+            raise SystemExit(f"Missing input file: {path}")
+
+    original_rows = [
+        row
+        for row in read_csv(ORIGINAL_GENERATIONS)
+        if int(row["sample_id"]) <= MAX_SAMPLE_ID
+    ]
+    perturbed_rows = [
+        row
+        for row in read_csv(PERTURBED_GENERATIONS)
+        if int(row["sample_id"]) <= MAX_SAMPLE_ID
+    ]
+    print(f"Using sample_id <= {MAX_SAMPLE_ID} for this exploratory analysis.")
+    sim_model = SimilarityModel()
+
+    original_by_item: dict[str, list[str]] = defaultdict(list)
+    task_by_item: dict[str, str] = {}
+    for row in original_rows:
+        original_by_item[row["item_id"]].append(row["output_text"])
+        task_by_item[row["item_id"]] = row["task_type"]
+
+    baseline_by_item = {
+        item_id: sim_model.within_similarity(outputs)
+        for item_id, outputs in original_by_item.items()
+    }
+
+    perturbed_by_group: dict[tuple[str, str], list[str]] = defaultdict(list)
+    for row in perturbed_rows:
+        perturbed_by_group[(row["item_id"], row["perturbation_type"])].append(
+            row["output_text"]
+        )
+
+    item_rows: list[dict] = []
+    for (item_id, perturbation_type), perturbed_outputs in sorted(
+        perturbed_by_group.items()
+    ):
+        original_outputs = original_by_item[item_id]
+        baseline_similarity = baseline_by_item[item_id]
+        perturbation_similarity = sim_model.cross_similarity(
+            original_outputs, perturbed_outputs
+        )
+        drift = baseline_similarity - perturbation_similarity
+        item_rows.append(
+            {
+                "item_id": item_id,
+                "task_type": task_by_item[item_id],
+                "perturbation_type": perturbation_type,
+                "n_original_outputs": len(original_outputs),
+                "n_perturbed_outputs": len(perturbed_outputs),
+                "baseline_similarity": round(baseline_similarity, 6),
+                "perturbation_similarity": round(perturbation_similarity, 6),
+                "noise_corrected_drift": round(drift, 6),
+                "similarity_metric": MODEL_NAME,
+            }
+        )
+
+    grouped: dict[tuple[str, str], list[float]] = defaultdict(list)
+    for row in item_rows:
+        grouped[(row["task_type"], row["perturbation_type"])].append(
+            row["noise_corrected_drift"]
+        )
+
+    summary_rows: list[dict] = []
+    for (task_type, perturbation_type), values in sorted(grouped.items()):
+        summary_rows.append(
+            {
+                "task_type": task_type,
+                "perturbation_type": perturbation_type,
+                "n_items": len(values),
+                "mean_noise_corrected_drift": round(mean(values), 6),
+                "std_noise_corrected_drift": round(sample_std(values), 6),
+                "similarity_metric": MODEL_NAME,
+            }
+        )
+
+    write_csv(
+        BY_ITEM,
+        item_rows,
+        [
+            "item_id",
+            "task_type",
+            "perturbation_type",
+            "n_original_outputs",
+            "n_perturbed_outputs",
+            "baseline_similarity",
+            "perturbation_similarity",
+            "noise_corrected_drift",
+            "similarity_metric",
+        ],
+    )
+    write_csv(
+        SUMMARY,
+        summary_rows,
+        [
+            "task_type",
+            "perturbation_type",
+            "n_items",
+            "mean_noise_corrected_drift",
+            "std_noise_corrected_drift",
+            "similarity_metric",
+        ],
+    )
+    save_heatmap(summary_rows)
+
+    print(f"Wrote item-level results to {BY_ITEM}")
+    print(f"Wrote summary to {SUMMARY}")
+    print(f"Wrote heatmap CSV to {HEATMAP}")
+    print(f"Wrote heatmap figure to {FIGURE}")
+
+
+if __name__ == "__main__":
+    main()
