@@ -1,0 +1,469 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+code_generation_75,code_generation,bigcode/humanevalpack,test,75,Python/75,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5","def is_prime(n): for j in range(2,n): if n%j == 0: return False return True for i in range(2,101): if not is_prime(i): continue for j in range(2,101): if not is_prime(j): continue for k in range(2,101): if not is_prime(k): continue if i*j*k == a: return True return False",20260623
+code_generation_143,code_generation,bigcode/humanevalpack,test,143,Python/143,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","new_lst = [] for word in sentence.split(): flg = 0 if len(word) == 1: flg = 1 for i in range(2, len(word)): if len(word)%i == 0: flg = 1 if flg == 0 or len(word) == 2: new_lst.append(word) return "" "".join(new_lst)",20260623
+code_generation_109,code_generation,bigcode/humanevalpack,test,109,Python/109,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.",if len(arr)==0: return True sorted_array=sorted(arr) my_arr=[] min_value=min(arr) min_index=arr.index(min_value) my_arr=arr[min_index:]+arr[0:min_index] for i in range(len(arr)): if my_arr[i]!=sorted_array[i]: return False return True,20260623
+code_generation_107,code_generation,bigcode/humanevalpack,test,107,Python/107,"Write a Python function `even_odd_palindrome(n)` to solve the following problem:
+Given a positive integer n, return a tuple that has the number of even and odd
+integer palindromes that fall within the range(1, n), inclusive.
+Example 1:
+Input: 3
+Output: (1, 2)
+Explanation:
+Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+Example 2:
+Input: 12
+Output: (4, 6)
+Explanation:
+Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+Note:
+1. 1 <= n <= 10^3
+2. returned tuple has the number of even and odd integer palindromes respectively.","def is_palindrome(n): return str(n) == str(n)[::-1] even_palindrome_count = 0 odd_palindrome_count = 0 for i in range(1, n+1): if i%2 == 1 and is_palindrome(i): odd_palindrome_count += 1 elif i%2 == 0 and is_palindrome(i): even_palindrome_count += 1 return (even_palindrome_count, odd_palindrome_count)",20260623
+code_generation_49,code_generation,bigcode/humanevalpack,test,49,Python/49,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1",ret = 1 for i in range(n): ret = (2 * ret) % p return ret,20260623
+code_generation_18,code_generation,bigcode/humanevalpack,test,18,Python/18,"Write a Python function `how_many_times(string: str, substring: str) -> int` to solve the following problem:
+Find how many times a given substring can be found in the original string. Count overlaping cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3",times = 0 for i in range(len(string) - len(substring) + 1): if string[i:i+len(substring)] == substring: times += 1 return times,20260623
+code_generation_138,code_generation,bigcode/humanevalpack,test,138,Python/138,"Write a Python function `is_equal_to_sum_even(n)` to solve the following problem:
+Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+Example
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True",return n%2 == 0 and n >= 8,20260623
+code_generation_117,code_generation,bigcode/humanevalpack,test,117,Python/117,"Write a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in order these words appear in the string s.
+If the string s is empty then the function should return an empty list.
+Note: you may assume the input string contains only letters and spaces.
+Examples:
+select_words(""Mary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamb"", 3) ==> [""Mary"", ""lamb""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]","result = [] for word in s.split(): n_consonants = 0 for i in range(0, len(word)): if word[i].lower() not in [""a"",""e"",""i"",""o"",""u""]: n_consonants += 1 if n_consonants == n: result.append(word) return result",20260623
+code_generation_128,code_generation,bigcode/humanevalpack,test,128,Python/128,"Write a Python function `prod_signs(arr)` to solve the following problem:
+You are given an array arr of integers and you need to return
+sum of magnitudes of integers multiplied by product of all signs
+of each number in the array, represented by 1, -1 or 0.
+Note: return None for empty arr.
+Example:
+>>> prod_signs([1, 2, 2, -4]) == -9
+>>> prod_signs([0, 1]) == 0
+>>> prod_signs([]) == None","if not arr: return None prod = 0 if 0 in arr else (-1) ** len(list(filter(lambda x: x < 0, arr))) return prod * sum([abs(i) for i in arr])",20260623
+code_generation_25,code_generation,bigcode/humanevalpack,test,25,Python/25,"Write a Python function `factorize(n: int) -> List[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallest to largest.
+Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]",import math fact = [] i = 2 while i <= int(math.sqrt(n) + 1): if n % i == 0: fact.append(i) n //= i else: i += 1 if n > 1: fact.append(n) return fact,20260623
+code_generation_13,code_generation,bigcode/humanevalpack,test,13,Python/13,"Write a Python function `greatest_common_divisor(a: int, b: int) -> int` to solve the following problem:
+Return a greatest common divisor of two integers a and b
+>>> greatest_common_divisor(3, 5)
+1
+>>> greatest_common_divisor(25, 15)
+5","while b: a, b = b, a % b return a",20260623
+code_generation_104,code_generation,bigcode/humanevalpack,test,104,Python/104,"Write a Python function `unique_digits(x)` to solve the following problem:
+Given a list of positive integers x. return a sorted list of all
+elements that hasn't any even digit.
+Note: Returned list should be sorted in increasing order.
+For example:
+>>> unique_digits([15, 33, 1422, 1])
+[1, 15, 33]
+>>> unique_digits([152, 323, 1422, 10])
+[]",odd_digit_elements = [] for i in x: if all (int(c) % 2 == 1 for c in str(i)): odd_digit_elements.append(i) return sorted(odd_digit_elements),20260623
+code_generation_17,code_generation,bigcode/humanevalpack,test,17,Python/17,"Write a Python function `parse_music(music_string: str) -> List[int]` to solve the following problem:
+Input to this function is a string representing musical notes in a special ASCII format.
+Your task is to parse this string and return list of integers corresponding to how many beats does each
+not last.
+Here is a legend:
+'o' - whole note, lasts four beats
+'o|' - half note, lasts two beats
+'.|' - quater note, lasts one beat
+>>> parse_music('o o| .| o| o| .| .| .| .| o o')
+[4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]","note_map = {'o': 4, 'o|': 2, '.|': 1} return [note_map[x] for x in music_string.split(' ') if x]",20260623
+code_generation_68,code_generation,bigcode/humanevalpack,test,68,Python/68,"Write a Python function `pluck(arr)` to solve the following problem:
+""Given an array representing a branch of a tree that has non-negative integer nodes
+your task is to pluck one of the nodes and return it.
+The plucked node should be the node with the smallest even value.
+If multiple nodes with the same smallest even value are found return the node that has smallest index.
+The plucked node should be returned in a list, [ smalest_value, its index ],
+If there are no even values or the given array is empty, return [].
+Example 1:
+Input: [4,2,3]
+Output: [2, 1]
+Explanation: 2 has the smallest even value, and 2 has the smallest index.
+Example 2:
+Input: [1,2,3]
+Output: [2, 1]
+Explanation: 2 has the smallest even value, and 2 has the smallest index.
+Example 3:
+Input: []
+Output: []
+Example 4:
+Input: [5, 0, 3, 0, 4, 2]
+Output: [0, 1]
+Explanation: 0 is the smallest value, but  there are two zeros,
+so we will choose the first zero, which has the smallest index.
+Constraints:
+* 1 <= nodes.length <= 10000
+* 0 <= node.value","if(len(arr) == 0): return [] evens = list(filter(lambda x: x%2 == 0, arr)) if(evens == []): return [] return [min(evens), arr.index(min(evens))]",20260623
+code_generation_78,code_generation,bigcode/humanevalpack,test,78,Python/78,"Write a Python function `hex_key(num)` to solve the following problem:
+You have been tasked to write a function that receives
+a hexadecimal number as a string and counts the number of hexadecimal
+digits that are primes (prime number, or a prime, is a natural number
+greater than 1 that is not a product of two smaller natural numbers).
+Hexadecimal digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+Prime numbers are 2, 3, 5, 7, 11, 13, 17,...
+So you have to determine a number of the following digits: 2, 3, 5, 7,
+B (=decimal 11), D (=decimal 13).
+Note: you may assume the input is always correct or empty string,
+and symbols A,B,C,D,E,F are always uppercase.
+Examples:
+For num = ""AB"" the output should be 1.
+For num = ""1077E"" the output should be 2.
+For num = ""ABED1A33"" the output should be 4.
+For num = ""123456789ABCDEF0"" the output should be 6.
+For num = ""2020"" the output should be 2.","primes = ('2', '3', '5', '7', 'B', 'D') total = 0 for i in range(0, len(num)): if num[i] in primes: total += 1 return total",20260623
+code_generation_15,code_generation,bigcode/humanevalpack,test,15,Python/15,"Write a Python function `string_sequence(n: int) -> str` to solve the following problem:
+Return a string containing space-delimited numbers starting from 0 upto n inclusive.
+>>> string_sequence(0)
+'0'
+>>> string_sequence(5)
+'0 1 2 3 4 5'",return ' '.join([str(x) for x in range(n + 1)]),20260623
+code_generation_44,code_generation,bigcode/humanevalpack,test,44,Python/44,"Write a Python function `change_base(x: int, base: int)` to solve the following problem:
+Change numerical base of input number x to base.
+return string representation after the conversion.
+base numbers are less than 10.
+>>> change_base(8, 3)
+'22'
+>>> change_base(8, 2)
+'1000'
+>>> change_base(7, 2)
+'111'","ret = """" while x > 0: ret = str(x % base) + ret x //= base return ret",20260623
+code_generation_31,code_generation,bigcode/humanevalpack,test,31,Python/31,"Write a Python function `is_prime(n)` to solve the following problem:
+Return true if a given number is prime, and false otherwise.
+>>> is_prime(6)
+False
+>>> is_prime(101)
+True
+>>> is_prime(11)
+True
+>>> is_prime(13441)
+True
+>>> is_prime(61)
+True
+>>> is_prime(4)
+False
+>>> is_prime(1)
+False","if n < 2: return False for k in range(2, n - 1): if n % k == 0: return False return True",20260623
+code_generation_82,code_generation,bigcode/humanevalpack,test,82,Python/82,"Write a Python function `prime_length(string)` to solve the following problem:
+Write a function that takes a string and returns True if the string
+length is a prime number or False otherwise
+Examples
+prime_length('Hello') == True
+prime_length('abcdcba') == True
+prime_length('kittens') == True
+prime_length('orange') == False","l = len(string) if l == 0 or l == 1: return False for i in range(2, l): if l % i == 0: return False return True",20260623
+code_generation_131,code_generation,bigcode/humanevalpack,test,131,Python/131,"Write a Python function `digits(n)` to solve the following problem:
+Given a positive integer n, return the product of the odd digits.
+Return 0 if all digits are even.
+For example:
+digits(1)  == 1
+digits(4)  == 0
+digits(235) == 15",product = 1 odd_count = 0 for digit in str(n): int_digit = int(digit) if int_digit%2 == 1: product= product*int_digit odd_count+=1 if odd_count ==0: return 0 else: return product,20260623
+code_generation_28,code_generation,bigcode/humanevalpack,test,28,Python/28,"Write a Python function `concatenate(strings: List[str]) -> str` to solve the following problem:
+Concatenate list of strings into a single string
+>>> concatenate([])
+''
+>>> concatenate(['a', 'b', 'c'])
+'abc'",return ''.join(strings),20260623
+code_generation_26,code_generation,bigcode/humanevalpack,test,26,Python/26,"Write a Python function `remove_duplicates(numbers: List[int]) -> List[int]` to solve the following problem:
+From a list of integers, remove all elements that occur more than once.
+Keep order of elements left the same as in the input.
+>>> remove_duplicates([1, 2, 3, 2, 4])
+[1, 3, 4]",import collections c = collections.Counter(numbers) return [n for n in numbers if c[n] <= 1],20260623
+code_generation_11,code_generation,bigcode/humanevalpack,test,11,Python/11,"Write a Python function `string_xor(a: str, b: str) -> str` to solve the following problem:
+Input are two strings a and b consisting only of 1s and 0s.
+Perform binary XOR on these inputs and return result also as a string.
+>>> string_xor('010', '110')
+'100'","def xor(i, j): if i == j: return '0' else: return '1' return ''.join(xor(x, y) for x, y in zip(a, b))",20260623
+code_generation_85,code_generation,bigcode/humanevalpack,test,85,Python/85,"Write a Python function `add(lst)` to solve the following problem:
+Given a non-empty list of integers lst. add the even elements that are at odd indices..
+Examples:
+add([4, 2, 6, 7]) ==> 2","return sum([lst[i] for i in range(1, len(lst), 2) if lst[i]%2 == 0])",20260623
+code_generation_37,code_generation,bigcode/humanevalpack,test,37,Python/37,"Write a Python function `sort_even(l: list)` to solve the following problem:
+This function takes a list l and returns a list l' such that
+l' is identical to l in the odd indicies, while its values at the even indicies are equal
+to the values of the even indicies of l, but sorted.
+>>> sort_even([1, 2, 3])
+[1, 2, 3]
+>>> sort_even([5, 6, 3, 4])
+[3, 6, 5, 4]","evens = l[::2] odds = l[1::2] evens.sort() ans = [] for e, o in zip(evens, odds): ans.extend([e, o]) if len(evens) > len(odds): ans.append(evens[-1]) return ans",20260623
+code_generation_157,code_generation,bigcode/humanevalpack,test,157,Python/157,"Write a Python function `right_angle_triangle(a, b, c)` to solve the following problem:
+Given the lengths of the three sides of a triangle. Return True if the three
+sides form a right-angled triangle, False otherwise.
+A right-angled triangle is a triangle in which one angle is right angle or
+90 degree.
+Example:
+right_angle_triangle(3, 4, 5) == True
+right_angle_triangle(1, 2, 3) == False",return a*a == b*b + c*c or b*b == a*a + c*c or c*c == a*a + b*b,20260623
+code_generation_71,code_generation,bigcode/humanevalpack,test,71,Python/71,"Write a Python function `triangle_area(a, b, c)` to solve the following problem:
+Given the lengths of the three sides of a triangle. Return the area of
+the triangle rounded to 2 decimal points if the three sides form a valid triangle.
+Otherwise return -1
+Three sides make a valid triangle when the sum of any two sides is greater
+than the third side.
+Example:
+triangle_area(3, 4, 5) == 6.00
+triangle_area(1, 2, 10) == -1","if a + b <= c or a + c <= b or b + c <= a: return -1 s = (a + b + c)/2 area = (s * (s - a) * (s - b) * (s - c)) ** 0.5 area = round(area, 2) return area",20260623
+code_generation_92,code_generation,bigcode/humanevalpack,test,92,Python/92,"Write a Python function `any_int(x, y, z)` to solve the following problem:
+Create a function that takes 3 numbers.
+Returns true if one of the numbers is equal to the sum of the other two, and all numbers are integers.
+Returns false in any other cases.
+Examples
+any_int(5, 2, 7) ➞ True
+any_int(3, 2, 2) ➞ False
+any_int(3, -2, 1) ➞ True
+any_int(3.6, -2.2, 2) ➞ False","if isinstance(x,int) and isinstance(y,int) and isinstance(z,int): if (x+y==z) or (x+z==y) or (y+z==x): return True return False return False",20260623
+code_generation_146,code_generation,bigcode/humanevalpack,test,146,Python/146,"Write a Python function `specialFilter(nums)` to solve the following problem:
+Write a function that takes an array of numbers as input and returns
+the number of elements in the array that are greater than 10 and both
+first and last digits of a number are odd (1, 3, 5, 7, 9).
+For example:
+specialFilter([15, -73, 14, -15]) => 1
+specialFilter([33, -2, -3, 45, 21, 109]) => 2","count = 0 for num in nums: if num > 10: odd_digits = (1, 3, 5, 7, 9) number_as_string = str(num) if int(number_as_string[0]) in odd_digits and int(number_as_string[-1]) in odd_digits: count += 1 return count",20260623
+code_generation_35,code_generation,bigcode/humanevalpack,test,35,Python/35,"Write a Python function `max_element(l: list)` to solve the following problem:
+Return maximum element in the list.
+>>> max_element([1, 2, 3])
+3
+>>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+123",m = l[0] for e in l: if e > m: m = e return m,20260623
+code_generation_48,code_generation,bigcode/humanevalpack,test,48,Python/48,"Write a Python function `is_palindrome(text: str)` to solve the following problem:
+Checks if given string is a palindrome
+>>> is_palindrome('')
+True
+>>> is_palindrome('aba')
+True
+>>> is_palindrome('aaaaa')
+True
+>>> is_palindrome('zbcd')
+False",for i in range(len(text)): if text[i] != text[len(text) - 1 - i]: return False return True,20260623
+code_generation_102,code_generation,bigcode/humanevalpack,test,102,Python/102,"Write a Python function `choose_num(x, y)` to solve the following problem:
+This function takes two positive numbers x and y and returns the
+biggest even integer number that is in the range [x, y] inclusive. If
+there's no such number, then the function should return -1.
+For example:
+choose_num(12, 15) = 14
+choose_num(13, 12) = -1",if x > y: return -1 if y % 2 == 0: return y if x == y: return -1 return y - 1,20260623
+code_generation_38,code_generation,bigcode/humanevalpack,test,38,Python/38,"Write a Python function `decode_cyclic(s: str)` to solve the following problem:
+takes as input string encoded with encode_cyclic function. Returns decoded string.",return encode_cyclic(encode_cyclic(s)),20260623
+code_generation_142,code_generation,bigcode/humanevalpack,test,142,Python/142,"Write a Python function `sum_squares(lst)` to solve the following problem:
+""
+This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a
+multiple of 3 and will cube the integer entry if its index is a multiple of 4 and not a multiple of 3. The function will not
+change the entries in the list whose indexes are not a multiple of 3 or 4. The function shall then return the sum of all entries.
+Examples:
+For lst = [1,2,3] the output should be 6
+For lst = []  the output should be 0
+For lst = [-1,-5,2,-1,-5]  the output should be -126",result =[] for i in range(len(lst)): if i %3 == 0: result.append(lst[i]**2) elif i % 4 == 0 and i%3 != 0: result.append(lst[i]**3) else: result.append(lst[i]) return sum(result),20260623
+code_generation_12,code_generation,bigcode/humanevalpack,test,12,Python/12,"Write a Python function `longest(strings: List[str]) -> Optional[str]` to solve the following problem:
+Out of list of strings, return the longest one. Return the first one in case of multiple
+strings of the same length. Return None in case the input list is empty.
+>>> longest([])
+>>> longest(['a', 'b', 'c'])
+'a'
+>>> longest(['a', 'bb', 'ccc'])
+'ccc'",if not strings: return None maxlen = max(len(x) for x in strings) for s in strings: if len(s) == maxlen: return s,20260623
+code_generation_33,code_generation,bigcode/humanevalpack,test,33,Python/33,"Write a Python function `sort_third(l: list)` to solve the following problem:
+This function takes a list l and returns a list l' such that
+l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal
+to the values of the corresponding indicies of l, but sorted.
+>>> sort_third([1, 2, 3])
+[1, 2, 3]
+>>> sort_third([5, 6, 3, 4, 8, 9, 2])
+[2, 6, 3, 4, 8, 9, 5]",l = list(l) l[::3] = sorted(l[::3]) return l,20260623
+code_generation_60,code_generation,bigcode/humanevalpack,test,60,Python/60,"Write a Python function `sum_to_n(n: int)` to solve the following problem:
+sum_to_n is a function that sums numbers from 1 to n.
+>>> sum_to_n(30)
+465
+>>> sum_to_n(100)
+5050
+>>> sum_to_n(5)
+15
+>>> sum_to_n(10)
+55
+>>> sum_to_n(1)
+1",return sum(range(n + 1)),20260623
+code_generation_32,code_generation,bigcode/humanevalpack,test,32,Python/32,"Write a Python function `find_zero(xs: list)` to solve the following problem:
+xs are coefficients of a polynomial.
+find_zero find x such that poly(x) = 0.
+find_zero returns only only zero point, even if there are many.
+Moreover, find_zero only takes list xs having even number of coefficients
+and largest non zero coefficient as it guarantees
+a solution.
+>>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x
+-0.5
+>>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3
+1.0","begin, end = -1., 1. while poly(xs, begin) * poly(xs, end) > 0: begin *= 2.0 end *= 2.0 while end - begin > 1e-10: center = (begin + end) / 2.0 if poly(xs, center) * poly(xs, begin) > 0: begin = center else: end = center return begin",20260623
+code_generation_7,code_generation,bigcode/humanevalpack,test,7,Python/7,"Write a Python function `filter_by_substring(strings: List[str], substring: str) -> List[str]` to solve the following problem:
+Filter an input list of strings only for ones that contain given substring
+>>> filter_by_substring([], 'a')
+[]
+>>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')
+['abc', 'bacd', 'array']",return [x for x in strings if substring in x],20260623
+code_generation_112,code_generation,bigcode/humanevalpack,test,112,Python/112,"Write a Python function `reverse_delete(s,c)` to solve the following problem:
+Task
+We are given two strings s and c, you have to deleted all the characters in s that are equal to any character in c
+then check if the result string is palindrome.
+A string is called palindrome if it reads the same backward as forward.
+You should return a tuple containing the result string and True/False for the check.
+Example
+For s = ""abcde"", c = ""ae"", the result should be ('bcd',False)
+For s = ""abcdef"", c = ""b""  the result should be ('acdef',False)
+For s = ""abcdedcba"", c = ""ab"", the result should be ('cdedc',True)","s = ''.join([char for char in s if char not in c]) return (s,s[::-1] == s)",20260623
+code_generation_145,code_generation,bigcode/humanevalpack,test,145,Python/145,"Write a Python function `order_by_points(nums)` to solve the following problem:
+Write a function which sorts the given list of integers
+in ascending order according to the sum of their digits.
+Note: if there are several items with similar sum of their digits,
+order them based on their index in original list.
+For example:
+>>> order_by_points([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+>>> order_by_points([]) == []","def digits_sum(n): neg = 1 if n < 0: n, neg = -1 * n, -1 n = [int(i) for i in str(n)] n[0] = n[0] * neg return sum(n) return sorted(nums, key=digits_sum)",20260623
+code_generation_24,code_generation,bigcode/humanevalpack,test,24,Python/24,"Write a Python function `largest_divisor(n: int) -> int` to solve the following problem:
+For a given number n, find the largest number that divides n evenly, smaller than n
+>>> largest_divisor(15)
+5",for i in reversed(range(n)): if n % i == 0: return i,20260623
+code_generation_110,code_generation,bigcode/humanevalpack,test,110,Python/110,"Write a Python function `exchange(lst1, lst2)` to solve the following problem:
+In this problem, you will implement a function that takes two lists of numbers,
+and determines whether it is possible to perform an exchange of elements
+between them to make lst1 a list of only even numbers.
+There is no limit on the number of exchanged elements between lst1 and lst2.
+If it is possible to exchange elements between the lst1 and lst2 to make
+all the elements of lst1 to be even, return ""YES"".
+Otherwise, return ""NO"".
+For example:
+exchange([1, 2, 3, 4], [1, 2, 3, 4]) => ""YES""
+exchange([1, 2, 3, 4], [1, 5, 3, 4]) => ""NO""
+It is assumed that the input lists will be non-empty.","odd = 0 even = 0 for i in lst1: if i%2 == 1: odd += 1 for i in lst2: if i%2 == 0: even += 1 if even >= odd: return ""YES"" return ""NO""",20260623
+code_generation_153,code_generation,bigcode/humanevalpack,test,153,Python/153,"Write a Python function `Strongest_Extension(class_name, extensions)` to solve the following problem:
+You will be given the name of a class (a string) and a list of extensions.
+The extensions are to be used to load additional classes to the class. The
+strength of the extension is as follows: Let CAP be the number of the uppercase
+letters in the extension's name, and let SM be the number of lowercase letters
+in the extension's name, the strength is given by the fraction CAP - SM.
+You should find the strongest extension and return a string in this
+format: ClassName.StrongestExtensionName.
+If there are two or more extensions with the same strength, you should
+choose the one that comes first in the list.
+For example, if you are given ""Slices"" as the class and a list of the
+extensions: ['SErviNGSliCes', 'Cheese', 'StuFfed'] then you should
+return 'Slices.SErviNGSliCes' since 'SErviNGSliCes' is the strongest extension
+(its strength is -1).
+Example:
+for Strongest_Extension('my_class', ['AA', 'Be', 'CC']) == 'my_class.AA'","strong = extensions[0] my_val = len([x for x in extensions[0] if x.isalpha() and x.isupper()]) - len([x for x in extensions[0] if x.isalpha() and x.islower()]) for s in extensions: val = len([x for x in s if x.isalpha() and x.isupper()]) - len([x for x in s if x.isalpha() and x.islower()]) if val > my_val: strong = s my_val = val ans = class_name + ""."" + strong return ans",20260623
+code_generation_64,code_generation,bigcode/humanevalpack,test,64,Python/64,"Write a Python function `vowels_count(s)` to solve the following problem:
+Write a function vowels_count which takes a string representing
+a word as input and returns the number of vowels in the string.
+Vowels in this case are 'a', 'e', 'i', 'o', 'u'. Here, 'y' is also a
+vowel, but only when it is at the end of the given word.
+Example:
+>>> vowels_count(""abcde"")
+2
+>>> vowels_count(""ACEDY"")
+3","vowels = ""aeiouAEIOU"" n_vowels = sum(c in vowels for c in s) if s[-1] == 'y' or s[-1] == 'Y': n_vowels += 1 return n_vowels",20260623
+code_generation_122,code_generation,bigcode/humanevalpack,test,122,Python/122,"Write a Python function `add_elements(arr, k)` to solve the following problem:
+Given a non-empty array of integers arr and an integer k, return
+the sum of the elements with at most two digits from the first k elements of arr.
+Example:
+Input: arr = [111,21,3,4000,5,6,7,8,9], k = 4
+Output: 24 # sum of 21 + 3
+Constraints:
+1. 1 <= len(arr) <= 100
+2. 1 <= k <= len(arr)",return sum(elem for elem in arr[:k] if len(str(elem)) <= 2),20260623
+code_generation_135,code_generation,bigcode/humanevalpack,test,135,Python/135,"Write a Python function `can_arrange(arr)` to solve the following problem:
+Create a function which returns the largest index of an element which
+is not greater than or equal to the element immediately preceding it. If
+no such element exists then return -1. The given array will not contain
+duplicate values.
+Examples:
+can_arrange([1,2,4,3,5]) = 3
+can_arrange([1,2,3]) = -1",ind=-1 i=1 while i<len(arr): if arr[i]<arr[i-1]: ind=i i+=1 return ind,20260623
+code_generation_34,code_generation,bigcode/humanevalpack,test,34,Python/34,"Write a Python function `unique(l: list)` to solve the following problem:
+Return sorted unique elements in a list
+>>> unique([5, 3, 5, 2, 3, 3, 9, 0, 123])
+[0, 2, 3, 5, 9, 123]",return sorted(list(set(l))),20260623
+code_generation_40,code_generation,bigcode/humanevalpack,test,40,Python/40,"Write a Python function `triples_sum_to_zero(l: list)` to solve the following problem:
+triples_sum_to_zero takes a list of integers as an input.
+it returns True if there are three distinct elements in the list that
+sum to zero, and False otherwise.
+>>> triples_sum_to_zero([1, 3, 5, 0])
+False
+>>> triples_sum_to_zero([1, 3, -2, 1])
+True
+>>> triples_sum_to_zero([1, 2, 3, 7])
+False
+>>> triples_sum_to_zero([2, 4, -5, 3, 9, 7])
+True
+>>> triples_sum_to_zero([1])
+False","for i in range(len(l)): for j in range(i + 1, len(l)): for k in range(j + 1, len(l)): if l[i] + l[j] + l[k] == 0: return True return False",20260623
+code_generation_83,code_generation,bigcode/humanevalpack,test,83,Python/83,"Write a Python function `starts_one_ends(n)` to solve the following problem:
+Given a positive integer n, return the count of the numbers of n-digit
+positive integers that start or end with 1.",if n == 1: return 1 return 18 * (10 ** (n - 2)),20260623

@@ -1,0 +1,10 @@
+item_id,task_type,dataset_name,source_index,perturbation_type,construction_method,method_reference,semantic_equivalence_status,original_prompt,perturbed_prompt
+math_reasoning_5201,math_reasoning,nlile/hendrycks-MATH-benchmark,5201,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Problem: For $\pi\leq\theta<2\pi$, let \[ P=\dfrac12\cos\theta-\dfrac14\sin2\theta-\dfrac18\cos3\theta+\dfrac1{16}\sin4\theta+\dfrac1{32}\cos5\theta-\dfrac1{64}\sin6\theta-\dfrac1{128}\cos7\theta+\dotsb \]and \[ Q=1-\dfrac12\sin\theta-\dfrac14\cos2\theta+\dfrac1{8}\sin3\theta+\dfrac1{16}\cos4\theta-\dfrac1{32}\sin5\theta-\dfrac1{64}\cos6\theta+\dfrac1{128}\sin7\theta +\dotsb\]so that $\frac PQ = \frac{2\sqrt2}7$. Find $\sin\theta.$
+
+Instruction: Solve the problem and provide the final answer.","Problem: Given $\pi\leq\theta<2\pi$, consider two series: 
+\[ P=\dfrac12\cos\theta-\dfrac14\sin2\theta-\dfrac18\cos3\theta+\dfrac1{16}\sin4\theta+\dfrac1{32}\cos5\theta-\dfrac1{64}\sin6\theta-\dfrac1{128}\cos7\theta+\dotsb \]
+and 
+\[ Q=1-\dfrac12\sin\theta-\dfrac14\cos2\theta+\dfrac1{8}\sin3\theta+\dfrac1{16}\cos4\theta-\dfrac1{32}\sin5\theta-\dfrac1{64}\cos6\theta+\dfrac1{128}\sin7\theta +\dotsb\]
+Given that $\frac{P}{Q} = \frac{2\sqrt2}{7}$, determine the value of $\sin\theta.$
+
+Instruction: Solve the problem and provide the final answer."
