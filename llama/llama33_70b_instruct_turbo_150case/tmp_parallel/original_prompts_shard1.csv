@@ -1,0 +1,137 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+factual_qa_10908,factual_qa,rajpurkar/squad_v2,validation,10908,57338255d058e614000b5c10,"Context: The mayor of Warsaw is called President. Generally, in Poland, the mayors of bigger cities are called presidents – i.e. such cities, which have over 100,000 people or these, where already was president before 1990. The first Warsaw President was Jan Andrzej Menich (1695–1696). Between 1975 and 1990 the Warsaw Presidents was simultaneously the Warsaw Voivode. Since 1990 the President of Warsaw had been elected by the City council. In the years of 1994–1999 the mayor of the district Centrum automatically was designated as the President of Warsaw: the mayor of Centrum was elected by the district council of Centrum and the council was elected only by the Centrum residents. Since 2002 the President of Warsaw is elected by all of the citizens of Warsaw.
+
+Question: Who has elected the President of Warsaw since 1990?",the City council,20260623
+factual_qa_2289,factual_qa,rajpurkar/squad_v2,validation,2289,571a49de4faf5e1900b8a94a,"Context: Many major classes of organic molecules in living organisms, such as proteins, nucleic acids, carbohydrates, and fats, contain oxygen, as do the major inorganic compounds that are constituents of animal shells, teeth, and bone. Most of the mass of living organisms is oxygen as it is a part of water, the major constituent of lifeforms. Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water. It is too chemically reactive to remain a free element in air without being continuously replenished by the photosynthetic action of living organisms. Another form (allotrope) of oxygen, ozone (O 3), strongly absorbs UVB radiation and consequently the high-altitude ozone layer helps protect the biosphere from ultraviolet radiation, but is a pollutant near the surface where it is a by-product of smog. At even higher low earth orbit altitudes, sufficient atomic oxygen is present to cause erosion for spacecraft.
+
+Question: Oxygen is released in cellular respiration by?",photosynthesis,20260623
+factual_qa_10550,factual_qa,rajpurkar/squad_v2,validation,10550,5730b541396df919000962c3,"Context: The First British Empire was based on mercantilism, and involved colonies and holdings primarily in North America, the Caribbean, and India. Its growth was reversed by the loss of the American colonies in 1776. Britain made compensating gains in India, Australia, and in constructing an informal economic empire through control of trade and finance in Latin America after the independence of Spanish and Portuguese colonies about 1820. By the 1840s, Britain had adopted a highly successful policy of free trade that gave it dominance in the trade of much of the world. After losing its first Empire to the Americans, Britain then turned its attention towards Asia, Africa, and the Pacific. Following the defeat of Napoleonic France in 1815, Britain enjoyed a century of almost unchallenged dominance and expanded its imperial holdings around the globe. Increasing degrees of internal autonomy were granted to its white settler colonies in the 20th century.
+
+Question: When did Great Britain lose its colonies in North America?",1776,20260623
+factual_qa_5359,factual_qa,rajpurkar/squad_v2,validation,5359,5726ef73f1498d1400e8f062,"Context: Of particular concern with Internet pharmacies is the ease with which people, youth in particular, can obtain controlled substances (e.g., Vicodin, generically known as hydrocodone) via the Internet without a prescription issued by a doctor/practitioner who has an established doctor-patient relationship. There are many instances where a practitioner issues a prescription, brokered by an Internet server, for a controlled substance to a ""patient"" s/he has never met.[citation needed] In the United States, in order for a prescription for a controlled substance to be valid, it must be issued for a legitimate medical purpose by a licensed practitioner acting in the course of legitimate doctor-patient relationship. The filling pharmacy has a corresponding responsibility to ensure that the prescription is valid. Often, individual state laws outline what defines a valid patient-doctor relationship.
+
+Question: What is an example of a controlled substance?","Vicodin, generically known as hydrocodone",20260623
+factual_qa_8077,factual_qa,rajpurkar/squad_v2,validation,8077,5728fb002ca10214002dab6b,"Context: Several barriers protect organisms from infection, including mechanical, chemical, and biological barriers. The waxy cuticle of many leaves, the exoskeleton of insects, the shells and membranes of externally deposited eggs, and skin are examples of mechanical barriers that are the first line of defense against infection. However, as organisms cannot be completely sealed from their environments, other systems act to protect body openings such as the lungs, intestines, and the genitourinary tract. In the lungs, coughing and sneezing mechanically eject pathogens and other irritants from the respiratory tract. The flushing action of tears and urine also mechanically expels pathogens, while mucus secreted by the respiratory and gastrointestinal tract serves to trap and entangle microorganisms.
+
+Question: What is an example of a mechanical barrier on leaves?",The waxy cuticle,20260623
+factual_qa_8989,factual_qa,rajpurkar/squad_v2,validation,8989,5729a26d6aef05140015505d,"Context: In particular, this norm gets smaller when a number is multiplied by p, in sharp contrast to the usual absolute value (also referred to as the infinite prime). While completing Q (roughly, filling the gaps) with respect to the absolute value yields the field of real numbers, completing with respect to the p-adic norm |−|p yields the field of p-adic numbers. These are essentially all possible ways to complete Q, by Ostrowski's theorem. Certain arithmetic questions related to Q or more general global fields may be transferred back and forth to the completed (or local) fields. This local-global principle again underlines the importance of primes to number theory.
+
+Question: What principle highlights the significance of primes in number theory",local-global principle,20260623
+factual_qa_8049,factual_qa,rajpurkar/squad_v2,validation,8049,5728f6446aef0514001548e5,"Context: The immune system protects organisms from infection with layered defenses of increasing specificity. In simple terms, physical barriers prevent pathogens such as bacteria and viruses from entering the organism. If a pathogen breaches these barriers, the innate immune system provides an immediate, but non-specific response. Innate immune systems are found in all plants and animals. If pathogens successfully evade the innate response, vertebrates possess a second layer of protection, the adaptive immune system, which is activated by the innate response. Here, the immune system adapts its response during an infection to improve its recognition of the pathogen. This improved response is then retained after the pathogen has been eliminated, in the form of an immunological memory, and allows the adaptive immune system to mount faster and stronger attacks each time this pathogen is encountered.
+
+Question: What immune system is activated by the innate response?",adaptive immune system,20260623
+factual_qa_11773,factual_qa,rajpurkar/squad_v2,validation,11773,573796edc3c5551400e51f35,"Context: The strong force only acts directly upon elementary particles. However, a residual of the force is observed between hadrons (the best known example being the force that acts between nucleons in atomic nuclei) as the nuclear force. Here the strong force acts indirectly, transmitted as gluons, which form part of the virtual pi and rho mesons, which classically transmit the nuclear force (see this topic for more). The failure of many searches for free quarks has shown that the elementary particles affected are not directly observable. This phenomenon is called color confinement.
+
+Question: What is the force between nucleons?",nuclear,20260623
+factual_qa_720,factual_qa,rajpurkar/squad_v2,validation,720,5705f09e75f01819005e77a5,"Context: Subsequently, Californios (dissatisfied with inequitable taxes and land laws) and pro-slavery southerners in the lightly populated ""Cow Counties"" of southern California attempted three times in the 1850s to achieve a separate statehood or territorial status separate from Northern California. The last attempt, the Pico Act of 1859, was passed by the California State Legislature and signed by the State governor John B. Weller. It was approved overwhelmingly by nearly 75% of voters in the proposed Territory of Colorado. This territory was to include all the counties up to the then much larger Tulare County (that included what is now Kings, most of Kern, and part of Inyo counties) and San Luis Obispo County. The proposal was sent to Washington, D.C. with a strong advocate in Senator Milton Latham. However, the secession crisis following the election of Abraham Lincoln in 1860 led to the proposal never coming to a vote.
+
+Question: What was the name given to the regions in which the pro - slavery southerners lived?",Cow Counties,20260623
+factual_qa_5271,factual_qa,rajpurkar/squad_v2,validation,5271,5726e08e5951b619008f8110,"Context: In most countries, the dispensary is subject to pharmacy legislation; with requirements for storage conditions, compulsory texts, equipment, etc., specified in legislation. Where it was once the case that pharmacists stayed within the dispensary compounding/dispensing medications, there has been an increasing trend towards the use of trained pharmacy technicians while the pharmacist spends more time communicating with patients. Pharmacy technicians are now more dependent upon automation to assist them in their new role dealing with patients' prescriptions and patient safety issues.
+
+Question: What responsibilities were pharmacy technicians formerly limited to?",within the dispensary compounding/dispensing medications,20260623
+math_reasoning_3886,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3886,train/intermediate_algebra/1067.json,"Problem: Find the area of the region enclosed by the graph of $|x-60|+|y|=\left|\frac{x}{4}\right|.$
+
+Instruction: Solve the problem and provide the final answer.",480,20260623
+math_reasoning_11297,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11297,test/algebra/469.json,"Problem: Below is a portion of the graph of a function, $y=g(x)$: [asy] import graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25; pen cqcqcq=rgb(0.75,0.75,0.75); /*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(""2 2""); real gx=1,gy=1; for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs); Label laxis; laxis.p=fontsize(10); xaxis("""",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return -6*sin(x*pi/6);} draw(graph(f1,-6.25,6.25),linewidth(1)); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle); [/asy] What is the value of $g(g(-1))$?
+
+Instruction: Solve the problem and provide the final answer.",-6,20260623
+math_reasoning_10051,math_reasoning,nlile/hendrycks-MATH-benchmark,train,10051,train/prealgebra/81.json,"Problem: The isosceles triangle and the square shown here have the same area in square units. What is the height of the triangle, $h$, in terms of the side length of the square, $s$? [asy] draw((0,0)--(0,10)--(10,10)--(10,0)--cycle); fill((0,0)--(17,5)--(0,10)--cycle,white); draw((0,0)--(17,5)--(0,10)--cycle); label(""$s$"",(5,10),N); label(""$h$"",(6,5),N); draw((0,5)--(17,5),dashed); draw((0,5.5)--(0.5,5.5)--(0.5,5)); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",2s,20260623
+math_reasoning_1650,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1650,train/algebra/1758.json,"Problem: In the equation $\frac{1}{j} + \frac{1}{k} = \frac{1}{3}$, both $j$ and $k$ are positive integers. What is the sum of all possible values for $k$?
+
+Instruction: Solve the problem and provide the final answer.",22,20260623
+math_reasoning_4880,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4880,train/intermediate_algebra/855.json,"Problem: A real number $a$ is chosen randomly and uniformly from the interval $[-20, 18]$. Find the probability that the roots of the polynomial \[x^4 + 2ax^3 + (2a - 2)x^2 + (-4a + 3)x - 2\]are all real.
+
+Instruction: Solve the problem and provide the final answer.",\frac{18}{19},20260623
+math_reasoning_2652,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2652,test/algebra/1880.json,"Problem: If $s$ is an integer and the root(s) of the quadratic expression $\frac{1}{2}x^2+sx-\frac{1}{2}$ are integers, find the sum of all possible values of $s$.
+
+Instruction: Solve the problem and provide the final answer.",0,20260623
+math_reasoning_9765,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9765,train/number_theory/754.json,"Problem: Find the terminating decimal expansion of $\frac{11}{125}$.
+
+Instruction: Solve the problem and provide the final answer.",0.088,20260623
+math_reasoning_6164,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6164,test/counting_and_probability/381.json,"Problem: How many distinct three-letter sequences with at least one $``T""$ can be formed by using three of the six letters of $TARGET?$ One such sequence is $``T-R-T.""$
+
+Instruction: Solve the problem and provide the final answer.",48,20260623
+math_reasoning_10682,math_reasoning,nlile/hendrycks-MATH-benchmark,train,10682,test/algebra/2283.json,"Problem: If $r$, $s$, and $t$ are constants such that $\frac{x^{r-2}\cdot y^{2s}\cdot z^{3t+1}}{x^{2r}\cdot y^{s-4}\cdot z^{2t-3}}=xyz$ for all non-zero $x$, $y$, and $z$, then solve for $r^s\cdot t$. Express your answer as a fraction.
+
+Instruction: Solve the problem and provide the final answer.",\frac{1}{9},20260623
+math_reasoning_11055,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11055,test/number_theory/47.json,"Problem: What positive five-digit whole number with an 8 in the ten-thousands place is a perfect cube?
+
+Instruction: Solve the problem and provide the final answer.","85,\!184",20260623
+code_generation_75,code_generation,bigcode/humanevalpack,test,75,Python/75,"Write a Python function `is_multiply_prime(a)` to solve the following problem:
+Write a function that returns true if the given number is the multiplication of 3 prime numbers
+and false otherwise.
+Knowing that (a) is less then 100.
+Example:
+is_multiply_prime(30) == True
+30 = 2 * 3 * 5","def is_prime(n): for j in range(2,n): if n%j == 0: return False return True for i in range(2,101): if not is_prime(i): continue for j in range(2,101): if not is_prime(j): continue for k in range(2,101): if not is_prime(k): continue if i*j*k == a: return True return False",20260623
+code_generation_18,code_generation,bigcode/humanevalpack,test,18,Python/18,"Write a Python function `how_many_times(string: str, substring: str) -> int` to solve the following problem:
+Find how many times a given substring can be found in the original string. Count overlaping cases.
+>>> how_many_times('', 'a')
+0
+>>> how_many_times('aaa', 'a')
+3
+>>> how_many_times('aaaa', 'aa')
+3",times = 0 for i in range(len(string) - len(substring) + 1): if string[i:i+len(substring)] == substring: times += 1 return times,20260623
+code_generation_13,code_generation,bigcode/humanevalpack,test,13,Python/13,"Write a Python function `greatest_common_divisor(a: int, b: int) -> int` to solve the following problem:
+Return a greatest common divisor of two integers a and b
+>>> greatest_common_divisor(3, 5)
+1
+>>> greatest_common_divisor(25, 15)
+5","while b: a, b = b, a % b return a",20260623
+code_generation_15,code_generation,bigcode/humanevalpack,test,15,Python/15,"Write a Python function `string_sequence(n: int) -> str` to solve the following problem:
+Return a string containing space-delimited numbers starting from 0 upto n inclusive.
+>>> string_sequence(0)
+'0'
+>>> string_sequence(5)
+'0 1 2 3 4 5'",return ' '.join([str(x) for x in range(n + 1)]),20260623
+code_generation_28,code_generation,bigcode/humanevalpack,test,28,Python/28,"Write a Python function `concatenate(strings: List[str]) -> str` to solve the following problem:
+Concatenate list of strings into a single string
+>>> concatenate([])
+''
+>>> concatenate(['a', 'b', 'c'])
+'abc'",return ''.join(strings),20260623
+code_generation_157,code_generation,bigcode/humanevalpack,test,157,Python/157,"Write a Python function `right_angle_triangle(a, b, c)` to solve the following problem:
+Given the lengths of the three sides of a triangle. Return True if the three
+sides form a right-angled triangle, False otherwise.
+A right-angled triangle is a triangle in which one angle is right angle or
+90 degree.
+Example:
+right_angle_triangle(3, 4, 5) == True
+right_angle_triangle(1, 2, 3) == False",return a*a == b*b + c*c or b*b == a*a + c*c or c*c == a*a + b*b,20260623
+code_generation_48,code_generation,bigcode/humanevalpack,test,48,Python/48,"Write a Python function `is_palindrome(text: str)` to solve the following problem:
+Checks if given string is a palindrome
+>>> is_palindrome('')
+True
+>>> is_palindrome('aba')
+True
+>>> is_palindrome('aaaaa')
+True
+>>> is_palindrome('zbcd')
+False",for i in range(len(text)): if text[i] != text[len(text) - 1 - i]: return False return True,20260623
+code_generation_33,code_generation,bigcode/humanevalpack,test,33,Python/33,"Write a Python function `sort_third(l: list)` to solve the following problem:
+This function takes a list l and returns a list l' such that
+l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal
+to the values of the corresponding indicies of l, but sorted.
+>>> sort_third([1, 2, 3])
+[1, 2, 3]
+>>> sort_third([5, 6, 3, 4, 8, 9, 2])
+[2, 6, 3, 4, 8, 9, 5]",l = list(l) l[::3] = sorted(l[::3]) return l,20260623
+code_generation_145,code_generation,bigcode/humanevalpack,test,145,Python/145,"Write a Python function `order_by_points(nums)` to solve the following problem:
+Write a function which sorts the given list of integers
+in ascending order according to the sum of their digits.
+Note: if there are several items with similar sum of their digits,
+order them based on their index in original list.
+For example:
+>>> order_by_points([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]
+>>> order_by_points([]) == []","def digits_sum(n): neg = 1 if n < 0: n, neg = -1 * n, -1 n = [int(i) for i in str(n)] n[0] = n[0] * neg return sum(n) return sorted(nums, key=digits_sum)",20260623
+code_generation_122,code_generation,bigcode/humanevalpack,test,122,Python/122,"Write a Python function `add_elements(arr, k)` to solve the following problem:
+Given a non-empty array of integers arr and an integer k, return
+the sum of the elements with at most two digits from the first k elements of arr.
+Example:
+Input: arr = [111,21,3,4000,5,6,7,8,9], k = 4
+Output: 24 # sum of 21 + 3
+Constraints:
+1. 1 <= len(arr) <= 100
+2. 1 <= k <= len(arr)",return sum(elem for elem in arr[:k] if len(str(elem)) <= 2),20260623

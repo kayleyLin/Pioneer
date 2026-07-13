@@ -1,0 +1,152 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+factual_qa_8164,factual_qa,rajpurkar/squad_v2,validation,8164,5729f12e3f37b319004785e3,"Context: The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is ""remembered"" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific ""non-self"" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by ""memory cells"". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.
+
+Question: Antigen specificity allows responses that are specific to certain types of what?",pathogens or pathogen-infected cells,20260623
+factual_qa_4029,factual_qa,rajpurkar/squad_v2,validation,4029,5725d662ec44d21400f3d68b,"Context: Fresno has three large public parks, two in the city limits and one in county land to the southwest. Woodward Park, which features the Shinzen Japanese Gardens, numerous picnic areas and several miles of trails, is in North Fresno and is adjacent to the San Joaquin River Parkway. Roeding Park, near Downtown Fresno, is home to the Fresno Chaffee Zoo, and Rotary Storyland and Playland. Kearney Park is the largest of the Fresno region's park system and is home to historic Kearney Mansion and plays host to the annual Civil War Revisited, the largest reenactment of the Civil War in the west coast of the U.S.
+
+Question: Which park hosts the largest Civil War reenactment on the west coast?",Kearney Park,20260623
+factual_qa_8302,factual_qa,rajpurkar/squad_v2,validation,8302,5729ffda1d046914007796b2,"Context: Long-term active memory is acquired following infection by activation of B and T cells. Active immunity can also be generated artificially, through vaccination. The principle behind vaccination (also called immunization) is to introduce an antigen from a pathogen in order to stimulate the immune system and develop specific immunity against that particular pathogen without causing disease associated with that organism. This deliberate induction of an immune response is successful because it exploits the natural specificity of the immune system, as well as its inducibility. With infectious disease remaining one of the leading causes of death in the human population, vaccination represents the most effective manipulation of the immune system mankind has developed.
+
+Question: Vaccination exploits what feature of the human immune system in order to be successful?",natural specificity of the immune system,20260623
+factual_qa_10038,factual_qa,rajpurkar/squad_v2,validation,10038,57300e2604bcaa1900d770b8,"Context: The Islamic Republic has also maintained its hold on power in Iran in spite of US economic sanctions, and has created or assisted like-minded Shia terrorist groups in Iraq, Egypt, Syria, Jordan (SCIRI) and Lebanon (Hezbollah) (two Muslim countries that also have large Shiite populations). During the 2006 Israel-Lebanon conflict, the Iranian government enjoyed something of a resurgence in popularity amongst the predominantly Sunni ""Arab street,"" due to its support for Hezbollah and to President Mahmoud Ahmadinejad's vehement opposition to the United States and his call that Israel shall vanish.
+
+Question: What type of sanctions has the US directed at Iran?",economic,20260623
+factual_qa_7699,factual_qa,rajpurkar/squad_v2,validation,7699,57286dfa2ca10214002da332,"Context: Kublai's government faced financial difficulties after 1279. Wars and construction projects had drained the Mongol treasury. Efforts to raise and collect tax revenues were plagued by corruption and political scandals. Mishandled military expeditions followed the financial problems. Kublai's second invasion of Japan in 1281 failed because of an inauspicious typhoon. Kublai botched his campaigns against Annam, Champa, and Java, but won a Pyrrhic victory against Burma. The expeditions were hampered by disease, an inhospitable climate, and a tropical terrain unsuitable for the mounted warfare of the Mongols. The Tran dynasty which ruled Annam (Dai Viet) crushed and defeated the Mongols at the Battle of Bạch Đằng (1288). The Chinese region of Fujian was the original home of the Chinese Tran (Chen) clan before they migrated under Trần Kinh (陳京, Chén Jīng) to Dai Viet and whose descendants established the Trần dynasty which ruled Vietnam Đại Việt, and certain members of the clan could still speak Chinese such as when a Yuan dynasty envoy had a meeting with the Chinese-speaking Trần prince Trần Quốc Tuấn (later King Trần Hưng Đạo) in 1282. Professor Liam Kelley noted that people from Song dynasty China like Zhao Zhong and Xu Zongdao fled to Tran dynasty ruled Vietnam after the Mongol invasion of the Song and they helped the Tran fight against the Mongol invasion. The Tran dynasty originated from the Fujian region of China as did the Daoist cleric Xu Zongdao who recorded the Mongol invasion and referred to them as ""Northern bandits"". Annam, Burma, and Champa recognized Mongol hegemony and established tributary relations with the Yuan dynasty.
+
+Question: When was Kublai's administration running out of money?",after 1279,20260623
+factual_qa_10197,factual_qa,rajpurkar/squad_v2,validation,10197,57302cd004bcaa1900d772d9,"Context: Originating as the Jama'at al-Tawhid wal-Jihad in 1999, it pledged allegiance to al-Qaeda in 2004, participated in the Iraqi insurgency that followed the March 2003 invasion of Iraq by Western forces, joined the fight in the Syrian Civil War beginning in March 2011, and was expelled from al-Qaeda in early 2014, (which complained of its failure to consult and ""notorious intransigence""). The group gained prominence after it drove Iraqi government forces out of key cities in western Iraq in a 2014 offensive. The group is adept at social media, posting Internet videos of beheadings of soldiers, civilians, journalists and aid workers, and is known for its destruction of cultural heritage sites. The United Nations has held ISIL responsible for human rights abuses and war crimes, and Amnesty International has reported ethnic cleansing by the group on a ""historic scale"". The group has been designated a terrorist organisation by the United Nations, the European Union and member states, the United States, India, Indonesia, Turkey, Saudi Arabia, Syria and other countries.
+
+Question: When did the Syrian Civil War begin?",March 2011,20260623
+factual_qa_7989,factual_qa,rajpurkar/squad_v2,validation,7989,572885023acd2414000dfa83,"Context: The reason for the order of the classes and the reason why people were placed in a certain class was the date they surrendered to the Mongols, and had nothing to do with their ethnicity. The earlier they surrendered to the Mongols, the higher they were placed, the more the held out, the lower they were ranked. The Northern Chinese were ranked higher and Southern Chinese were ranked lower because southern China withstood and fought to the last before caving in. Major commerce during this era gave rise to favorable conditions for private southern Chinese manufacturers and merchants.
+
+Question: Which part of China had people ranked higher in the class system?",Northern,20260623
+factual_qa_919,factual_qa,rajpurkar/squad_v2,validation,919,5706143575f01819005e7950,"Context: Professional sports teams in Southern California include teams from the NFL (Los Angeles Rams, San Diego Chargers); NBA (Los Angeles Lakers, Los Angeles Clippers); MLB (Los Angeles Dodgers, Los Angeles Angels of Anaheim, San Diego Padres); NHL (Los Angeles Kings, Anaheim Ducks); and MLS (LA Galaxy).
+
+Question: The Los Angeles Rams are an example of what kind of sports team?",NFL,20260623
+factual_qa_11313,factual_qa,rajpurkar/squad_v2,validation,11313,5733f5264776f419006615a4,"Context: An early important political response to the opening of hostilities was the convening of the Albany Congress in June and July, 1754. The goal of the congress was to formalize a unified front in trade and negotiations with various Indians, since allegiance of the various tribes and nations was seen to be pivotal in the success in the war that was unfolding. The plan that the delegates agreed to was never ratified by the colonial legislatures nor approved of by the crown. Nevertheless, the format of the congress and many specifics of the plan became the prototype for confederation during the War of Independence.
+
+Question: What was the goal of congress?","formalize a unified front in trade and negotiations with various Indians, since allegiance of the various tribes and nations was seen to be pivotal",20260623
+factual_qa_1601,factual_qa,rajpurkar/squad_v2,validation,1601,571095a8a58dae1900cd6a76,"Context: The first Huguenots to leave France sought freedom from persecution in Switzerland and the Netherlands.[citation needed] A group of Huguenots was part of the French colonisers who arrived in Brazil in 1555 to found France Antarctique. A couple of ships with around 500 people arrived at the Guanabara Bay, present-day Rio de Janeiro, and settled in a small island. A fort, named Fort Coligny, was built to protect them from attack from the Portuguese troops and Brazilian Native Americans. It was an attempt to establish a French colony in South America. The fort was destroyed in 1560 by the Portuguese, who captured part of the Huguenots. The Portuguese threatened the prisoners with death if they did not convert to Catholicism. The Huguenots of Guanabara, as they are now known, produced a declaration of faith to express their beliefs to the Portuguese. This was their death sentence. This document, the Guanabara Confession of Faith, became the first Protestant confession of faith in the whole of the Americas.[citation needed]
+
+Question: What were the first two destinations of Huguenot emigres?",Switzerland and the Netherlands,20260623
+math_reasoning_5497,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5497,train/algebra/1450.json,"Problem: Define the function $f(x) = 2x - 5$. For what value of $x$ is $f(x)$ equal to $f^{-1}(x)$?
+
+Instruction: Solve the problem and provide the final answer.",5,20260623
+math_reasoning_2873,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2873,train/number_theory/851.json,"Problem: Find the remainder when $2 \times 12 \times 22 \times 32 \times \ldots \times 72 \times 82 \times 92$ is divided by $5$.
+
+Instruction: Solve the problem and provide the final answer.",4,20260623
+math_reasoning_338,math_reasoning,nlile/hendrycks-MATH-benchmark,train,338,train/precalculus/530.json,"Problem: A paper equilateral triangle $ABC$ has side length 12. The paper triangle is folded so that vertex $A$ touches a point on side $\overline{BC}$ a distance 9 from point $B$. Find the square of the length of the line segment along which the triangle is folded. [asy] import cse5; size(12cm); pen tpen = defaultpen + 1.337; real a = 39/5.0; real b = 39/7.0; pair B = MP(""B"", (0,0), dir(200)); pair A = MP(""A"", (9,0), dir(-80)); pair C = MP(""C"", (12,0), dir(-20)); pair K = (6,10.392); pair M = (a*B+(12-a)*K) / 12; pair N = (b*C+(12-b)*K) / 12; draw(B--M--N--C--cycle, tpen); fill(M--A--N--cycle, mediumgrey); draw(M--A--N--cycle); pair shift = (-20.13, 0); pair B1 = MP(""B"", B+shift, dir(200)); pair A1 = MP(""A"", K+shift, dir(90)); pair C1 = MP(""C"", C+shift, dir(-20)); draw(A1--B1--C1--cycle, tpen);[/asy]
+
+Instruction: Solve the problem and provide the final answer.",\frac{59319}{1225},20260623
+math_reasoning_2817,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2817,train/precalculus/699.json,"Problem: Let point $O$ be the origin of a three-dimensional coordinate system, and let points $A,$ $B,$ and $C$ be located on the positive $x,$ $y,$ and $z$ axes, respectively. If $OA = \sqrt[4]{75}$ and $\angle BAC = 30^\circ,$ then compute the area of triangle $ABC.$
+
+Instruction: Solve the problem and provide the final answer.",\frac{5}{2},20260623
+math_reasoning_5408,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5408,test/precalculus/184.json,"Problem: There exists a real number $k$ such that the equation \[\begin{pmatrix} 4 \\ -1 \end{pmatrix} + t \begin{pmatrix} 5 \\ 2 \end{pmatrix} = \begin{pmatrix} 8 \\ k \end{pmatrix} + s \begin{pmatrix} -15 \\ -6 \end{pmatrix}\]has infinitely many solutions in $t$ and $s$. Find $k$.
+
+Instruction: Solve the problem and provide the final answer.",\frac{3}{5},20260623
+math_reasoning_7372,math_reasoning,nlile/hendrycks-MATH-benchmark,train,7372,train/algebra/2006.json,"Problem: For what values of $z$ is $z^2-40z+340\le 4$? Express your answer in interval notation.
+
+Instruction: Solve the problem and provide the final answer.","[12,28]",20260623
+math_reasoning_10521,math_reasoning,nlile/hendrycks-MATH-benchmark,train,10521,train/number_theory/1219.json,"Problem: During a year when Thanksgiving is on Thursday, November 23, on what day of the week does December 23 occur?
+
+Instruction: Solve the problem and provide the final answer.",\text{Saturday},20260623
+math_reasoning_190,math_reasoning,nlile/hendrycks-MATH-benchmark,train,190,train/precalculus/1118.json,"Problem: Let $\theta$ be the smallest acute angle for which $\sin \theta,$ $\sin 2 \theta,$ $\sin 3 \theta$ form an arithmetic progression, in some order. Find $\cos \theta.$
+
+Instruction: Solve the problem and provide the final answer.",\frac{3}{4},20260623
+math_reasoning_2891,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2891,test/geometry/574.json,"Problem: In isosceles triangle $ABC$, if $BC$ is extended to a point $X$ such that $AC = CX$, what is the number of degrees in the measure of angle $AXC$? [asy] size(220); pair B, A = B + dir(40), C = A + dir(-40), X = C + dir(0); draw(C--A--B--X--A); draw(A/2+.1*dir(-30)--A/2-.1*dir(-30)); draw((A+C)/2+.1*dir(30)--(A+C)/2-.1*dir(30)); label(""A"",A,N); label(""C"",C,S); label(""B"",B,S); label(""X"",X,S); label(""$30^{\circ}$"",B+.1*dir(0),NE); draw(arc(B,1/3,0,40)); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",15,20260623
+math_reasoning_6746,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6746,test/intermediate_algebra/1323.json,"Problem: Suppose the function $f(x,y,z)=xyz$ is defined for $x+y+z=7$, $x,y,z \ge 0$. What is the range of $f$?
+
+Instruction: Solve the problem and provide the final answer.","\left[0,\frac{343}{27}\right]",20260623
+code_generation_49,code_generation,bigcode/humanevalpack,test,49,Python/49,"Write a Python function `modp(n: int, p: int)` to solve the following problem:
+Return 2^n modulo p (be aware of numerics).
+>>> modp(3, 5)
+3
+>>> modp(1101, 101)
+2
+>>> modp(0, 101)
+1
+>>> modp(3, 11)
+8
+>>> modp(100, 101)
+1",ret = 1 for i in range(n): ret = (2 * ret) % p return ret,20260623
+code_generation_25,code_generation,bigcode/humanevalpack,test,25,Python/25,"Write a Python function `factorize(n: int) -> List[int]` to solve the following problem:
+Return list of prime factors of given integer in the order from smallest to largest.
+Each of the factors should be listed number of times corresponding to how many times it appeares in factorization.
+Input number should be equal to the product of all factors
+>>> factorize(8)
+[2, 2, 2]
+>>> factorize(25)
+[5, 5]
+>>> factorize(70)
+[2, 5, 7]",import math fact = [] i = 2 while i <= int(math.sqrt(n) + 1): if n % i == 0: fact.append(i) n //= i else: i += 1 if n > 1: fact.append(n) return fact,20260623
+code_generation_78,code_generation,bigcode/humanevalpack,test,78,Python/78,"Write a Python function `hex_key(num)` to solve the following problem:
+You have been tasked to write a function that receives
+a hexadecimal number as a string and counts the number of hexadecimal
+digits that are primes (prime number, or a prime, is a natural number
+greater than 1 that is not a product of two smaller natural numbers).
+Hexadecimal digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+Prime numbers are 2, 3, 5, 7, 11, 13, 17,...
+So you have to determine a number of the following digits: 2, 3, 5, 7,
+B (=decimal 11), D (=decimal 13).
+Note: you may assume the input is always correct or empty string,
+and symbols A,B,C,D,E,F are always uppercase.
+Examples:
+For num = ""AB"" the output should be 1.
+For num = ""1077E"" the output should be 2.
+For num = ""ABED1A33"" the output should be 4.
+For num = ""123456789ABCDEF0"" the output should be 6.
+For num = ""2020"" the output should be 2.","primes = ('2', '3', '5', '7', 'B', 'D') total = 0 for i in range(0, len(num)): if num[i] in primes: total += 1 return total",20260623
+code_generation_131,code_generation,bigcode/humanevalpack,test,131,Python/131,"Write a Python function `digits(n)` to solve the following problem:
+Given a positive integer n, return the product of the odd digits.
+Return 0 if all digits are even.
+For example:
+digits(1)  == 1
+digits(4)  == 0
+digits(235) == 15",product = 1 odd_count = 0 for digit in str(n): int_digit = int(digit) if int_digit%2 == 1: product= product*int_digit odd_count+=1 if odd_count ==0: return 0 else: return product,20260623
+code_generation_37,code_generation,bigcode/humanevalpack,test,37,Python/37,"Write a Python function `sort_even(l: list)` to solve the following problem:
+This function takes a list l and returns a list l' such that
+l' is identical to l in the odd indicies, while its values at the even indicies are equal
+to the values of the even indicies of l, but sorted.
+>>> sort_even([1, 2, 3])
+[1, 2, 3]
+>>> sort_even([5, 6, 3, 4])
+[3, 6, 5, 4]","evens = l[::2] odds = l[1::2] evens.sort() ans = [] for e, o in zip(evens, odds): ans.extend([e, o]) if len(evens) > len(odds): ans.append(evens[-1]) return ans",20260623
+code_generation_35,code_generation,bigcode/humanevalpack,test,35,Python/35,"Write a Python function `max_element(l: list)` to solve the following problem:
+Return maximum element in the list.
+>>> max_element([1, 2, 3])
+3
+>>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+123",m = l[0] for e in l: if e > m: m = e return m,20260623
+code_generation_12,code_generation,bigcode/humanevalpack,test,12,Python/12,"Write a Python function `longest(strings: List[str]) -> Optional[str]` to solve the following problem:
+Out of list of strings, return the longest one. Return the first one in case of multiple
+strings of the same length. Return None in case the input list is empty.
+>>> longest([])
+>>> longest(['a', 'b', 'c'])
+'a'
+>>> longest(['a', 'bb', 'ccc'])
+'ccc'",if not strings: return None maxlen = max(len(x) for x in strings) for s in strings: if len(s) == maxlen: return s,20260623
+code_generation_112,code_generation,bigcode/humanevalpack,test,112,Python/112,"Write a Python function `reverse_delete(s,c)` to solve the following problem:
+Task
+We are given two strings s and c, you have to deleted all the characters in s that are equal to any character in c
+then check if the result string is palindrome.
+A string is called palindrome if it reads the same backward as forward.
+You should return a tuple containing the result string and True/False for the check.
+Example
+For s = ""abcde"", c = ""ae"", the result should be ('bcd',False)
+For s = ""abcdef"", c = ""b""  the result should be ('acdef',False)
+For s = ""abcdedcba"", c = ""ab"", the result should be ('cdedc',True)","s = ''.join([char for char in s if char not in c]) return (s,s[::-1] == s)",20260623
+code_generation_64,code_generation,bigcode/humanevalpack,test,64,Python/64,"Write a Python function `vowels_count(s)` to solve the following problem:
+Write a function vowels_count which takes a string representing
+a word as input and returns the number of vowels in the string.
+Vowels in this case are 'a', 'e', 'i', 'o', 'u'. Here, 'y' is also a
+vowel, but only when it is at the end of the given word.
+Example:
+>>> vowels_count(""abcde"")
+2
+>>> vowels_count(""ACEDY"")
+3","vowels = ""aeiouAEIOU"" n_vowels = sum(c in vowels for c in s) if s[-1] == 'y' or s[-1] == 'Y': n_vowels += 1 return n_vowels",20260623
+code_generation_83,code_generation,bigcode/humanevalpack,test,83,Python/83,"Write a Python function `starts_one_ends(n)` to solve the following problem:
+Given a positive integer n, return the count of the numbers of n-digit
+positive integers that start or end with 1.",if n == 1: return 1 return 18 * (10 ** (n - 2)),20260623

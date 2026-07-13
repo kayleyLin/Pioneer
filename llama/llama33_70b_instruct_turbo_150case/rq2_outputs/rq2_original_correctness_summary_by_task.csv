@@ -1,0 +1,4 @@
+task_type,n_outputs,n_correct,n_incorrect,n_unlabeled_correctness,n_manual_review,correct_rate_auto_only,mean_performance_score
+code_generation,250,219,31,0,0,0.876000,0.876000
+factual_qa,250,0,0,250,0,,0.883192
+math_reasoning,250,187,63,0,0,0.748000,0.748000

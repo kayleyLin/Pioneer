@@ -1,0 +1,1427 @@
+item_id,task_type,dataset_name,source_index,perturbation_type,construction_method,method_reference,semantic_equivalence_status,original_prompt,perturbed_prompt
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput",Task: Identify and provide explanations for the four primary ocean currents.
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","Input: Noinput
+
+Instruction: Identify and explain the four major ocean currents."
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","Please answer the following prompt:
+
+- Prompt: Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput"
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","The following request is provided for a routine model-response comparison.
+
+Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput"
+open_ended_writing_10208,open_ended_writing,tatsu-lab/alpaca,10208,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Identify and explain the four major ocean currents.
+
+Input: Noinput","Imstruction: Identify and explain the four major ocean currents.
+
+Input: Noinput"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Task: Determine the index of a specified value within a provided list.
+
+Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Input: List: [3, 8, 10, 20], Value: 10
+
+Instruction: Given a list and a value, find the index of the given value in the list."
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Please answer the following prompt:
+
+- Prompt: Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","The wording below is being used in a controlled prompt study.
+
+Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_45338,open_ended_writing,tatsu-lab/alpaca,45338,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Given a list and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10","Instruction: Given a ist and a value, find the index of the given value in the list.
+
+Input: List: [3, 8, 10, 20], Value: 10"
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish",Generate a search engine query to discover fresh learning materials for Spanish.
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","Input: Find new resources for learning Spanish
+
+Instruction: Create a search engine query"
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","Please answer the following prompt:
+
+- Prompt: Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish"
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","The following request is provided for a routine model-response comparison.
+
+Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish"
+open_ended_writing_11297,open_ended_writing,tatsu-lab/alpaca,11297,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Create a search engine query
+
+Input: Find new resources for learning Spanish","Instruction: Create a search engine qiery
+
+Input: Find new resources for learning Spanish"
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Task: Categorize the input as either praise or criticism.
+
+Input: ""You should have sought assistance from your coworkers."""
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Input: ""You should have asked for help from your colleagues.""
+
+Instruction: Classify the input as a praise or criticism"
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Please answer the following prompt:
+
+- Prompt: Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues."""
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","The following request is provided for a routine model-response comparison.
+
+Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues."""
+open_ended_writing_36102,open_ended_writing,tatsu-lab/alpaca,36102,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Classify the input as a praise or criticism
+
+Input: ""You should have asked for help from your colleagues.""","Instruction: Classify the input as a praise or criticism
+
+Inpt: ""You should have asked for help from your colleagues."""
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","Task: Examine the provided data to detect any trends.
+
+Input: The provided data showcases the revenue generated by a company's products for the last five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million"
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million
+
+Instruction: Analyse the given data and identify any patterns."
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","Please answer the following prompt:
+
+- Prompt: Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million"
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million"
+open_ended_writing_16258,open_ended_writing,tatsu-lab/alpaca,16258,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Year 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million","Instruction: Analyse the given data and identify any patterns.
+
+Input: The following data represents the sale of a company's products over the past five years: Yera 1: $10 million Year 2: $15 million Year 3: $14 million Year 4: $17 million Year 5: $18 million"
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,35144,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.",Compose a rhyming poem that encapsulates the significance of trees as discussed in the article.
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,35144,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","Input: The article is about the importance of trees.
+
+Instruction: Write a rhyming poem that summarizes the following article."
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,35144,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","Please answer the following prompt:
+
+- Prompt: Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees."
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,35144,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","The wording below is being used in a controlled prompt study.
+
+Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees."
+open_ended_writing_35144,open_ended_writing,tatsu-lab/alpaca,35144,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Write a rhyming poem that summarizes the following article.
+
+Input: The article is about the importance of trees.","Instruction: Write a rhyming poem tat summarizes the following article.
+
+Input: The article is about the importance of trees."
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,10774,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","Task: Identify all the nouns present in the provided text.
+
+Text: The teacher asked the students to do their homework carefully."
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,10774,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","Input: The teacher asked the students to do their homework carefully.
+
+Instruction: Parse the given text to extract a list of all the nouns."
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,10774,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","Please answer the following prompt:
+
+- Prompt: Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully."
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,10774,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","The wording below is being used in a controlled prompt study.
+
+Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully."
+open_ended_writing_10774,open_ended_writing,tatsu-lab/alpaca,10774,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teacher asked the students to do their homework carefully.","Instruction: Parse the given text to extract a list of all the nouns.
+
+Input: The teaucher asked the students to do their homework carefully."
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,50246,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/",Summarize the primary concept of the article found at the following URL: https://domoregood.org/2020/07/02/green-business-returns/
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,50246,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Instruction: Summarize the main idea of the following article"
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,50246,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","Please answer the following prompt:
+
+- Prompt: Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/"
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,50246,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","This prompt is part of a general language-model evaluation.
+
+Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/"
+open_ended_writing_50246,open_ended_writing,tatsu-lab/alpaca,50246,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/green-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/","Instruction: Summarize the main idea of the following article Input: https://domoregood.org/2020/07/02/greepn-business-returns/
+
+Input: https://domoregood.org/2020/07/02/green-business-returns/"
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,34294,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","Write a Python function that reverses the characters in a given string.
+
+Input: String = ""Hello World"""
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,34294,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","Input: String = ""Hello World""
+
+Instruction: Create a Python function which reverses the characters in a string."
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,34294,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","Please answer the following prompt:
+
+- Prompt: Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World"""
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,34294,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","This prompt is part of a general language-model evaluation.
+
+Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World"""
+open_ended_writing_34294,open_ended_writing,tatsu-lab/alpaca,34294,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Create a Python function which reverses the characters in a string.
+
+Input: String = ""Hello World""","Instruction: Create a Python function which reverses the charactders in a string.
+
+Input: String = ""Hello World"""
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,35341,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.","Rewrite the prompt while keeping the meaning intact:
+
+Task: Create a new sentence with active voice to describe his completion of the painting.
+
+Example Input: He completed the painting."
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,35341,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.","Input: The painting was completed by him.
+
+Instruction: Compose a new version of this sentence using active voice."
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,35341,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.","Please answer the following prompt:
+
+- Prompt: Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him."
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,35341,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.","The wording below is being used in a controlled prompt study.
+
+Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him."
+open_ended_writing_35341,open_ended_writing,tatsu-lab/alpaca,35341,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Compose a new version of this sentence using active voice.
+
+Input: The painting was completed by him.","Instruction: Compoae a new version of this sentence using active voice.
+
+Input: The painting was completed by him."
+open_ended_writing_45032,open_ended_writing,tatsu-lab/alpaca,45032,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterdam, Netherlands","Describe the weather conditions in Amsterdam, Netherlands."
+open_ended_writing_45032,open_ended_writing,tatsu-lab/alpaca,45032,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterdam, Netherlands","Input: Amsterdam, Netherlands
+
+Instruction: Describe the weather conditions in the given location."
+open_ended_writing_45032,open_ended_writing,tatsu-lab/alpaca,45032,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterdam, Netherlands","Please answer the following prompt:
+
+- Prompt: Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterdam, Netherlands"
+open_ended_writing_45032,open_ended_writing,tatsu-lab/alpaca,45032,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterdam, Netherlands","The wording below is being used in a controlled prompt study.
+
+Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterdam, Netherlands"
+open_ended_writing_45032,open_ended_writing,tatsu-lab/alpaca,45032,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterdam, Netherlands","Instruction: Describe the weather conditions in the given location.
+
+Input: Amsterkdam, Netherlands"
+open_ended_writing_17839,open_ended_writing,tatsu-lab/alpaca,17839,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Search the Internet and find an interesting quote related to the given topic.
+
+Input: Determining success","Find a compelling quote online that pertains to the topic of ""Determining success."""
+open_ended_writing_17839,open_ended_writing,tatsu-lab/alpaca,17839,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Search the Internet and find an interesting quote related to the given topic.
+
+Input: Determining success","Input: Determining success
+
+Instruction: Search the Internet and find an interesting quote related to the given topic."
+open_ended_writing_17839,open_ended_writing,tatsu-lab/alpaca,17839,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Search the Internet and find an interesting quote related to the given topic.
+
+Input: Determining success","Please answer the following prompt:
+
+- Prompt: Instruction: Search the Internet and find an interesting quote related to the given topic.
+
+Input: Determining success"
+open_ended_writing_17839,open_ended_writing,tatsu-lab/alpaca,17839,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Search the Internet and find an interesting quote related to the given topic.
+
+Input: Determining success","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Search the Internet and find an interesting quote related to the given topic.
+
+Input: Determining success"
+open_ended_writing_17839,open_ended_writing,tatsu-lab/alpaca,17839,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Search the Internet and find an interesting quote related to the given topic.
+
+Input: Determining success","Instruction: Search the Internet and fimd an interesting quote related to the given topic.
+
+Input: Determining success"
+open_ended_writing_6859,open_ended_writing,tatsu-lab/alpaca,6859,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant.
+
+Input: 2, 4, 4, 4, 2","Task: Categorize a series of numbers as ascending, descending, or constant.
+
+Input: 2, 4, 4, 4, 2"
+open_ended_writing_6859,open_ended_writing,tatsu-lab/alpaca,6859,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant.
+
+Input: 2, 4, 4, 4, 2","Input: 2, 4, 4, 4, 2
+
+Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant."
+open_ended_writing_6859,open_ended_writing,tatsu-lab/alpaca,6859,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant.
+
+Input: 2, 4, 4, 4, 2","Please answer the following prompt:
+
+- Prompt: Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant.
+
+Input: 2, 4, 4, 4, 2"
+open_ended_writing_6859,open_ended_writing,tatsu-lab/alpaca,6859,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant.
+
+Input: 2, 4, 4, 4, 2","The following request is provided for a routine model-response comparison.
+
+Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant.
+
+Input: 2, 4, 4, 4, 2"
+open_ended_writing_6859,open_ended_writing,tatsu-lab/alpaca,6859,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Given a sequence of numbers, classify it as either increasing, decreasing, or constant.
+
+Input: 2, 4, 4, 4, 2","Instruction: Given a sequence of numbers, classify it as either increasing, dcereasing, or constant.
+
+Input: 2, 4, 4, 4, 2"
+open_ended_writing_35625,open_ended_writing,tatsu-lab/alpaca,35625,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Find which of these words does not belong:
+
+Input: Stir, Pressure, Jump","Identify the word that does not belong among the following: Stir, Pressure, Jump."
+open_ended_writing_35625,open_ended_writing,tatsu-lab/alpaca,35625,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Find which of these words does not belong:
+
+Input: Stir, Pressure, Jump","Input: Stir, Pressure, Jump
+
+Instruction: Find which of these words does not belong:"
+open_ended_writing_35625,open_ended_writing,tatsu-lab/alpaca,35625,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Find which of these words does not belong:
+
+Input: Stir, Pressure, Jump","Please answer the following prompt:
+
+- Prompt: Instruction: Find which of these words does not belong:
+
+Input: Stir, Pressure, Jump"
+open_ended_writing_35625,open_ended_writing,tatsu-lab/alpaca,35625,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Find which of these words does not belong:
+
+Input: Stir, Pressure, Jump","The following request is provided for a routine model-response comparison.
+
+Instruction: Find which of these words does not belong:
+
+Input: Stir, Pressure, Jump"
+open_ended_writing_35625,open_ended_writing,tatsu-lab/alpaca,35625,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Find which of these words does not belong:
+
+Input: Stir, Pressure, Jump","Instruction: Find which of thes words does not belong:
+
+Input: Stir, Pressure, Jump"
+open_ended_writing_28710,open_ended_writing,tatsu-lab/alpaca,28710,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Generate an expression that evaluates to non-zero if the given number is even.
+
+Input: 5","Generate an expression that results in a non-zero value if the provided number is even.
+
+Input: 5"
+open_ended_writing_28710,open_ended_writing,tatsu-lab/alpaca,28710,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Generate an expression that evaluates to non-zero if the given number is even.
+
+Input: 5","Input: 5
+
+Instruction: Generate an expression that evaluates to non-zero if the given number is even."
+open_ended_writing_28710,open_ended_writing,tatsu-lab/alpaca,28710,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Generate an expression that evaluates to non-zero if the given number is even.
+
+Input: 5","Please answer the following prompt:
+
+- Prompt: Instruction: Generate an expression that evaluates to non-zero if the given number is even.
+
+Input: 5"
+open_ended_writing_28710,open_ended_writing,tatsu-lab/alpaca,28710,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Generate an expression that evaluates to non-zero if the given number is even.
+
+Input: 5","This prompt is part of a general language-model evaluation.
+
+Instruction: Generate an expression that evaluates to non-zero if the given number is even.
+
+Input: 5"
+open_ended_writing_28710,open_ended_writing,tatsu-lab/alpaca,28710,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Generate an expression that evaluates to non-zero if the given number is even.
+
+Input: 5","Instruction: Generate an expressyion that evaluates to non-zero if the given number is even.
+
+Input: 5"
+open_ended_writing_20111,open_ended_writing,tatsu-lab/alpaca,20111,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Write a restaurant review for a Mexican food establishment.
+
+Input: The TexMex Restaurant","Task: Provide a review for a TexMex restaurant. 
+
+Input: The TexMex Restaurant"
+open_ended_writing_20111,open_ended_writing,tatsu-lab/alpaca,20111,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Write a restaurant review for a Mexican food establishment.
+
+Input: The TexMex Restaurant","Input: The TexMex Restaurant
+
+Instruction: Write a restaurant review for a Mexican food establishment."
+open_ended_writing_20111,open_ended_writing,tatsu-lab/alpaca,20111,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Write a restaurant review for a Mexican food establishment.
+
+Input: The TexMex Restaurant","Please answer the following prompt:
+
+- Prompt: Instruction: Write a restaurant review for a Mexican food establishment.
+
+Input: The TexMex Restaurant"
+open_ended_writing_20111,open_ended_writing,tatsu-lab/alpaca,20111,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Write a restaurant review for a Mexican food establishment.
+
+Input: The TexMex Restaurant","The wording below is being used in a controlled prompt study.
+
+Instruction: Write a restaurant review for a Mexican food establishment.
+
+Input: The TexMex Restaurant"
+open_ended_writing_20111,open_ended_writing,tatsu-lab/alpaca,20111,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Write a restaurant review for a Mexican food establishment.
+
+Input: The TexMex Restaurant","Instruction: Write a restaurant reviw for a Mexican food establishment.
+
+Input: The TexMex Restaurant"
+open_ended_writing_2378,open_ended_writing,tatsu-lab/alpaca,2378,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology.",Reverse engineer a content marketing strategy tailored for a new start-up specializing in AI and machine learning technology.
+open_ended_writing_2378,open_ended_writing,tatsu-lab/alpaca,2378,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology.","Input: The start-up specializes in AI and machine learning technology.
+
+Instruction: Reverse engineer a content marketing strategy for a new start-up."
+open_ended_writing_2378,open_ended_writing,tatsu-lab/alpaca,2378,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology.","Please answer the following prompt:
+
+- Prompt: Instruction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology."
+open_ended_writing_2378,open_ended_writing,tatsu-lab/alpaca,2378,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology.","The wording below is being used in a controlled prompt study.
+
+Instruction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology."
+open_ended_writing_2378,open_ended_writing,tatsu-lab/alpaca,2378,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology.","Instrugction: Reverse engineer a content marketing strategy for a new start-up.
+
+Input: The start-up specializes in AI and machine learning technology."
+open_ended_writing_9613,open_ended_writing,tatsu-lab/alpaca,9613,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]","Write a JavaScript code to eliminate all duplicate elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]"
+open_ended_writing_9613,open_ended_writing,tatsu-lab/alpaca,9613,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]","Input: [1, 2, 3, 2, 4, 3]
+
+Instruction: Write a JavaScript program to remove all duplicated elements from an array."
+open_ended_writing_9613,open_ended_writing,tatsu-lab/alpaca,9613,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]","Please answer the following prompt:
+
+- Prompt: Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]"
+open_ended_writing_9613,open_ended_writing,tatsu-lab/alpaca,9613,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]","This prompt is part of a general language-model evaluation.
+
+Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]"
+open_ended_writing_9613,open_ended_writing,tatsu-lab/alpaca,9613,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Input: [1, 2, 3, 2, 4, 3]","Instruction: Write a JavaScript program to remove all duplicated elements from an array.
+
+Imput: [1, 2, 3, 2, 4, 3]"
+open_ended_writing_7384,open_ended_writing,tatsu-lab/alpaca,7384,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines.","Task: Add an expression of pleasure or relief to the given sentence.
+
+Input: I hit all the deadlines, thankfully."
+open_ended_writing_7384,open_ended_writing,tatsu-lab/alpaca,7384,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines.","Input: I hit all the deadlines.
+
+Instruction: Add an expression of pleasure or relief to this sentence."
+open_ended_writing_7384,open_ended_writing,tatsu-lab/alpaca,7384,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines.","Please answer the following prompt:
+
+- Prompt: Instruction: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines."
+open_ended_writing_7384,open_ended_writing,tatsu-lab/alpaca,7384,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines.","The following request is provided for a routine model-response comparison.
+
+Instruction: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines."
+open_ended_writing_7384,open_ended_writing,tatsu-lab/alpaca,7384,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines.","Instructipon: Add an expression of pleasure or relief to this sentence.
+
+Input: I hit all the deadlines."
+open_ended_writing_1279,open_ended_writing,tatsu-lab/alpaca,1279,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Distance: 400 miles",Determine the approximate duration it will take to travel a distance of 400 miles while driving at a speed of 80 miles per hour.
+open_ended_writing_1279,open_ended_writing,tatsu-lab/alpaca,1279,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Distance: 400 miles","Input: Distance: 400 miles
+
+Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour."
+open_ended_writing_1279,open_ended_writing,tatsu-lab/alpaca,1279,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Distance: 400 miles","Please answer the following prompt:
+
+- Prompt: Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Distance: 400 miles"
+open_ended_writing_1279,open_ended_writing,tatsu-lab/alpaca,1279,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Distance: 400 miles","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Distance: 400 miles"
+open_ended_writing_1279,open_ended_writing,tatsu-lab/alpaca,1279,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Distance: 400 miles","Instruction: Calculate the estimated time it would take to reach a destination driving at a speed of 80 miles per hour.
+
+Input: Ditance: 400 miles"
+open_ended_writing_24950,open_ended_writing,tatsu-lab/alpaca,24950,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors.
+
+Input: I enjoyed to eat some caek.","Revise the sentence ""I enjoyed to eat some caek"" to correct any spelling, grammar, or stylistic errors."
+open_ended_writing_24950,open_ended_writing,tatsu-lab/alpaca,24950,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors.
+
+Input: I enjoyed to eat some caek.","Input: I enjoyed to eat some caek.
+
+Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors."
+open_ended_writing_24950,open_ended_writing,tatsu-lab/alpaca,24950,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors.
+
+Input: I enjoyed to eat some caek.","Please answer the following prompt:
+
+- Prompt: Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors.
+
+Input: I enjoyed to eat some caek."
+open_ended_writing_24950,open_ended_writing,tatsu-lab/alpaca,24950,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors.
+
+Input: I enjoyed to eat some caek.","This prompt is part of a general language-model evaluation.
+
+Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors.
+
+Input: I enjoyed to eat some caek."
+open_ended_writing_24950,open_ended_writing,tatsu-lab/alpaca,24950,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Edit the following sentence to remove any spelling, grammar, or stylistic errors.
+
+Input: I enjoyed to eat some caek.","Instruction: Edit the following sentence to remove any spelling, grammyar, or stylistic errors.
+
+Input: I enjoyed to eat some caek."
+open_ended_writing_43335,open_ended_writing,tatsu-lab/alpaca,43335,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster","Task: Organize the given steps to ensure efficient and effective completion of the task.
+
+Steps: 1. Clean the board 2. Apply the glue 3. Place the poster"
+open_ended_writing_43335,open_ended_writing,tatsu-lab/alpaca,43335,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster","Input: 1. Clean the board 2. Apply the glue 3. Place the poster
+
+Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner."
+open_ended_writing_43335,open_ended_writing,tatsu-lab/alpaca,43335,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster","Please answer the following prompt:
+
+- Prompt: Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster"
+open_ended_writing_43335,open_ended_writing,tatsu-lab/alpaca,43335,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster","The wording below is being used in a controlled prompt study.
+
+Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster"
+open_ended_writing_43335,open_ended_writing,tatsu-lab/alpaca,43335,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Arrange the following instructions in a way that would allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster","Instruction: Arrange the following instructions in a way that wqould allow someone to complete the task in an efficient and effective manner.
+
+Input: 1. Clean the board 2. Apply the glue 3. Place the poster"
+open_ended_writing_41294,open_ended_writing,tatsu-lab/alpaca,41294,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Generate a tweet to promote the following product.
+
+Input: Product: Outdoor camping gear","Task: Create a promotional tweet for the outdoor camping gear product. 
+
+Input: Product: Outdoor camping gear"
+open_ended_writing_41294,open_ended_writing,tatsu-lab/alpaca,41294,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Generate a tweet to promote the following product.
+
+Input: Product: Outdoor camping gear","Input: Product: Outdoor camping gear
+
+Instruction: Generate a tweet to promote the following product."
+open_ended_writing_41294,open_ended_writing,tatsu-lab/alpaca,41294,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Generate a tweet to promote the following product.
+
+Input: Product: Outdoor camping gear","Please answer the following prompt:
+
+- Prompt: Instruction: Generate a tweet to promote the following product.
+
+Input: Product: Outdoor camping gear"
+open_ended_writing_41294,open_ended_writing,tatsu-lab/alpaca,41294,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Generate a tweet to promote the following product.
+
+Input: Product: Outdoor camping gear","The wording below is being used in a controlled prompt study.
+
+Instruction: Generate a tweet to promote the following product.
+
+Input: Product: Outdoor camping gear"
+open_ended_writing_41294,open_ended_writing,tatsu-lab/alpaca,41294,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Generate a tweet to promote the following product.
+
+Input: Product: Outdoor camping gear","Instruction: Generate a twqeet to promote the following product.
+
+Input: Product: Outdoor camping gear"
+open_ended_writing_13047,open_ended_writing,tatsu-lab/alpaca,13047,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Select the correct answer based on the context of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______.","Task: Choose the appropriate word to fill in the blank based on the context provided in the sentence.
+
+Sentence: He was extremely upset as all his work in the kitchen had been ______."
+open_ended_writing_13047,open_ended_writing,tatsu-lab/alpaca,13047,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Select the correct answer based on the context of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______.","Input: He was very frustrated because all his efforts in the kitchen had gone ______.
+
+Instruction: Select the correct answer based on the context of the sentence."
+open_ended_writing_13047,open_ended_writing,tatsu-lab/alpaca,13047,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Select the correct answer based on the context of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______.","Please answer the following prompt:
+
+- Prompt: Instruction: Select the correct answer based on the context of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______."
+open_ended_writing_13047,open_ended_writing,tatsu-lab/alpaca,13047,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Select the correct answer based on the context of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______.","This prompt is part of a general language-model evaluation.
+
+Instruction: Select the correct answer based on the context of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______."
+open_ended_writing_13047,open_ended_writing,tatsu-lab/alpaca,13047,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Select the correct answer based on the context of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______.","Instruction: Select the correct answer based on the contjext of the sentence.
+
+Input: He was very frustrated because all his efforts in the kitchen had gone ______."
+open_ended_writing_4286,open_ended_writing,tatsu-lab/alpaca,4286,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Describe the system architecture of a web browser.
+
+Input: NoInput","Rewrite the prompt:
+
+Task: Explain the system architecture of a web browser.
+
+Input: NoInput"
+open_ended_writing_4286,open_ended_writing,tatsu-lab/alpaca,4286,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Describe the system architecture of a web browser.
+
+Input: NoInput","Input: NoInput
+
+Instruction: Describe the system architecture of a web browser."
+open_ended_writing_4286,open_ended_writing,tatsu-lab/alpaca,4286,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Describe the system architecture of a web browser.
+
+Input: NoInput","Please answer the following prompt:
+
+- Prompt: Instruction: Describe the system architecture of a web browser.
+
+Input: NoInput"
+open_ended_writing_4286,open_ended_writing,tatsu-lab/alpaca,4286,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Describe the system architecture of a web browser.
+
+Input: NoInput","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Describe the system architecture of a web browser.
+
+Input: NoInput"
+open_ended_writing_4286,open_ended_writing,tatsu-lab/alpaca,4286,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Describe the system architecture of a web browser.
+
+Input: NoInput","Instruction: Describe the system architecature of a web browser.
+
+Input: NoInput"
+open_ended_writing_35012,open_ended_writing,tatsu-lab/alpaca,35012,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Write a function to determine whether or not a given number is a perfect square.
+
+Input: No input","Task: Create a function that checks if a specified number is a perfect square.
+
+Input: No input"
+open_ended_writing_35012,open_ended_writing,tatsu-lab/alpaca,35012,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Write a function to determine whether or not a given number is a perfect square.
+
+Input: No input","Input: No input
+
+Instruction: Write a function to determine whether or not a given number is a perfect square."
+open_ended_writing_35012,open_ended_writing,tatsu-lab/alpaca,35012,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Write a function to determine whether or not a given number is a perfect square.
+
+Input: No input","Please answer the following prompt:
+
+- Prompt: Instruction: Write a function to determine whether or not a given number is a perfect square.
+
+Input: No input"
+open_ended_writing_35012,open_ended_writing,tatsu-lab/alpaca,35012,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Write a function to determine whether or not a given number is a perfect square.
+
+Input: No input","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Write a function to determine whether or not a given number is a perfect square.
+
+Input: No input"
+open_ended_writing_35012,open_ended_writing,tatsu-lab/alpaca,35012,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Write a function to determine whether or not a given number is a perfect square.
+
+Input: No input","Instruction: Write a function to determine whether or not a given nimber is a perfect square.
+
+Input: No input"
+open_ended_writing_16598,open_ended_writing,tatsu-lab/alpaca,16598,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Given two sets of data, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11","Task: Identify the values in each set that do not appear in the other set.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11"
+open_ended_writing_16598,open_ended_writing,tatsu-lab/alpaca,16598,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Given two sets of data, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11","Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11
+
+Instruction: Given two sets of data, identify the values from each set that are not common to the other."
+open_ended_writing_16598,open_ended_writing,tatsu-lab/alpaca,16598,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Given two sets of data, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11","Please answer the following prompt:
+
+- Prompt: Instruction: Given two sets of data, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11"
+open_ended_writing_16598,open_ended_writing,tatsu-lab/alpaca,16598,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Given two sets of data, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11","This prompt is part of a general language-model evaluation.
+
+Instruction: Given two sets of data, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11"
+open_ended_writing_16598,open_ended_writing,tatsu-lab/alpaca,16598,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Given two sets of data, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11","Instruction: Given two sets of dat, identify the values from each set that are not common to the other.
+
+Input: Set A: 1, 4, 6, 9, 11 Set B: 3, 7, 9, 11"
+open_ended_writing_35890,open_ended_writing,tatsu-lab/alpaca,35890,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children","Combine the sentences ""It takes a village to raise a child"" and ""When it comes to raising healthy children"" to create a coherent and grammatically correct paragraph."
+open_ended_writing_35890,open_ended_writing,tatsu-lab/alpaca,35890,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children","Input: It takes a village to raise a child When it comes to raising healthy children
+
+Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph."
+open_ended_writing_35890,open_ended_writing,tatsu-lab/alpaca,35890,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children","Please answer the following prompt:
+
+- Prompt: Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children"
+open_ended_writing_35890,open_ended_writing,tatsu-lab/alpaca,35890,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children"
+open_ended_writing_35890,open_ended_writing,tatsu-lab/alpaca,35890,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children","Instqruction: Piece the following sentences together to form a fluent and grammatically correct paragraph.
+
+Input: It takes a village to raise a child When it comes to raising healthy children"
+open_ended_writing_32192,open_ended_writing,tatsu-lab/alpaca,32192,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United States",Generate a timeline illustrating the major events in the history of women's rights in the United States.
+open_ended_writing_32192,open_ended_writing,tatsu-lab/alpaca,32192,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United States","Input: The history of women's rights in the United States
+
+Instruction: Create a timeline that shows the key events of the given history."
+open_ended_writing_32192,open_ended_writing,tatsu-lab/alpaca,32192,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United States","Please answer the following prompt:
+
+- Prompt: Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United States"
+open_ended_writing_32192,open_ended_writing,tatsu-lab/alpaca,32192,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United States","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United States"
+open_ended_writing_32192,open_ended_writing,tatsu-lab/alpaca,32192,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United States","Instruction: Create a timeline that shows the key events of the given history.
+
+Input: The history of women's rights in the United Stayes"
+open_ended_writing_28407,open_ended_writing,tatsu-lab/alpaca,28407,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.",Investigation: What is implied in the article regarding the impact of technology on the environment?
+open_ended_writing_28407,open_ended_writing,tatsu-lab/alpaca,28407,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.","Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.
+
+Instruction: What does this article suggest about the role of technology in the environment?"
+open_ended_writing_28407,open_ended_writing,tatsu-lab/alpaca,28407,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.","Please answer the following prompt:
+
+- Prompt: Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper."
+open_ended_writing_28407,open_ended_writing,tatsu-lab/alpaca,28407,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.","The wording below is being used in a controlled prompt study.
+
+Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper."
+open_ended_writing_28407,open_ended_writing,tatsu-lab/alpaca,28407,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article Content: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.","Instruction: What does this article suggest about the role of technology in the environment?
+
+Input: Article Title: Technology and the Environment Article ontent: Technology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper."
+open_ended_writing_42931,open_ended_writing,tatsu-lab/alpaca,42931,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Paraphrase the sentence to remove the cliche.
+
+Input: Time waits for no one.","Rephrase the following sentence to eliminate the overused expression:
+
+Input: Time does not wait for anyone."
+open_ended_writing_42931,open_ended_writing,tatsu-lab/alpaca,42931,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Paraphrase the sentence to remove the cliche.
+
+Input: Time waits for no one.","Input: Time waits for no one.
+
+Instruction: Paraphrase the sentence to remove the cliche."
+open_ended_writing_42931,open_ended_writing,tatsu-lab/alpaca,42931,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Paraphrase the sentence to remove the cliche.
+
+Input: Time waits for no one.","Please answer the following prompt:
+
+- Prompt: Instruction: Paraphrase the sentence to remove the cliche.
+
+Input: Time waits for no one."
+open_ended_writing_42931,open_ended_writing,tatsu-lab/alpaca,42931,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Paraphrase the sentence to remove the cliche.
+
+Input: Time waits for no one.","This prompt is part of a general language-model evaluation.
+
+Instruction: Paraphrase the sentence to remove the cliche.
+
+Input: Time waits for no one."
+open_ended_writing_42931,open_ended_writing,tatsu-lab/alpaca,42931,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Paraphrase the sentence to remove the cliche.
+
+Input: Time waits for no one.","Instruction: Paraphrase the sentence to remvoe the cliche.
+
+Input: Time waits for no one."
+open_ended_writing_25984,open_ended_writing,tatsu-lab/alpaca,25984,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely.",Rewrite the sentence to convey a strong opinion rather than a fact.
+open_ended_writing_25984,open_ended_writing,tatsu-lab/alpaca,25984,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely.","Input: Traffic lights help keep traffic flowing safely.
+
+Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact."
+open_ended_writing_25984,open_ended_writing,tatsu-lab/alpaca,25984,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely.","Please answer the following prompt:
+
+- Prompt: Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely."
+open_ended_writing_25984,open_ended_writing,tatsu-lab/alpaca,25984,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely.","The following request is provided for a routine model-response comparison.
+
+Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely."
+open_ended_writing_25984,open_ended_writing,tatsu-lab/alpaca,25984,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Rewrite the sentence so that it expresses a strong opinion instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely.","Instruction: Rewrite the sentence so that it expresses a strong opinino instead of a fact.
+
+Input: Traffic lights help keep traffic flowing safely."
+open_ended_writing_26882,open_ended_writing,tatsu-lab/alpaca,26882,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapes were brown in color.","Rewrite the following sentence in the active voice:
+
+Input: The color of the drapes was brown."
+open_ended_writing_26882,open_ended_writing,tatsu-lab/alpaca,26882,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapes were brown in color.","Input: The drapes were brown in color.
+
+Instruction: Rewrite the first sentence to make it active voice."
+open_ended_writing_26882,open_ended_writing,tatsu-lab/alpaca,26882,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapes were brown in color.","Please answer the following prompt:
+
+- Prompt: Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapes were brown in color."
+open_ended_writing_26882,open_ended_writing,tatsu-lab/alpaca,26882,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapes were brown in color.","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapes were brown in color."
+open_ended_writing_26882,open_ended_writing,tatsu-lab/alpaca,26882,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapes were brown in color.","Instruction: Rewrite the first sentence to make it active voice.
+
+Input: The drapehs were brown in color."
+open_ended_writing_7032,open_ended_writing,tatsu-lab/alpaca,7032,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Make a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though","Rewrite the prompt while keeping the same meaning:
+
+Task: Generate a set of 5 sentence openers utilizing the provided conjunction.
+
+Input: Conjunction: Even though"
+open_ended_writing_7032,open_ended_writing,tatsu-lab/alpaca,7032,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Make a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though","Input: Conjunction: Even though
+
+Instruction: Make a list of 5 sentence starters that use the given conjunction."
+open_ended_writing_7032,open_ended_writing,tatsu-lab/alpaca,7032,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Make a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though","Please answer the following prompt:
+
+- Prompt: Instruction: Make a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though"
+open_ended_writing_7032,open_ended_writing,tatsu-lab/alpaca,7032,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Make a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Make a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though"
+open_ended_writing_7032,open_ended_writing,tatsu-lab/alpaca,7032,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Make a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though","Instruction: ake a list of 5 sentence starters that use the given conjunction.
+
+Input: Conjunction: Even though"
+open_ended_writing_27838,open_ended_writing,tatsu-lab/alpaca,27838,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Write an algorithm that takes three numbers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15","Develop an algorithm that computes the average of three input numbers.
+
+Input: A = 5, B = 10, C = 15"
+open_ended_writing_27838,open_ended_writing,tatsu-lab/alpaca,27838,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Write an algorithm that takes three numbers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15","Input: Integer A = 5, Integer B = 10, Integer C = 15
+
+Instruction: Write an algorithm that takes three numbers as input and returns their average."
+open_ended_writing_27838,open_ended_writing,tatsu-lab/alpaca,27838,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Write an algorithm that takes three numbers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15","Please answer the following prompt:
+
+- Prompt: Instruction: Write an algorithm that takes three numbers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15"
+open_ended_writing_27838,open_ended_writing,tatsu-lab/alpaca,27838,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Write an algorithm that takes three numbers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15","This prompt is part of a general language-model evaluation.
+
+Instruction: Write an algorithm that takes three numbers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15"
+open_ended_writing_27838,open_ended_writing,tatsu-lab/alpaca,27838,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Write an algorithm that takes three numbers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15","Instruction: Write an algorithm that takes three nmubers as input and returns their average.
+
+Input: Integer A = 5, Integer B = 10, Integer C = 15"
+open_ended_writing_14306,open_ended_writing,tatsu-lab/alpaca,14306,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Find the surface area of a cylinder
+
+Input: Radius: 5 cm Height: 7 cm",Calculate the surface area of a cylinder with a radius of 5 cm and a height of 7 cm.
+open_ended_writing_14306,open_ended_writing,tatsu-lab/alpaca,14306,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Find the surface area of a cylinder
+
+Input: Radius: 5 cm Height: 7 cm","Input: Radius: 5 cm Height: 7 cm
+
+Instruction: Find the surface area of a cylinder"
+open_ended_writing_14306,open_ended_writing,tatsu-lab/alpaca,14306,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Find the surface area of a cylinder
+
+Input: Radius: 5 cm Height: 7 cm","Please answer the following prompt:
+
+- Prompt: Instruction: Find the surface area of a cylinder
+
+Input: Radius: 5 cm Height: 7 cm"
+open_ended_writing_14306,open_ended_writing,tatsu-lab/alpaca,14306,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Find the surface area of a cylinder
+
+Input: Radius: 5 cm Height: 7 cm","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Find the surface area of a cylinder
+
+Input: Radius: 5 cm Height: 7 cm"
+open_ended_writing_14306,open_ended_writing,tatsu-lab/alpaca,14306,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Find the surface area of a cylinder
+
+Input: Radius: 5 cm Height: 7 cm","Instruction: Find the surface area of a cylidner
+
+Input: Radius: 5 cm Height: 7 cm"
+open_ended_writing_42563,open_ended_writing,tatsu-lab/alpaca,42563,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Construct a compound word using the following two words:
+
+Input: Computer, science","Task: Form a compound word by combining the two given words:
+
+Words: Computer, science
+
+Example function signature: `construct_compound_word(""computer"", ""science"")`"
+open_ended_writing_42563,open_ended_writing,tatsu-lab/alpaca,42563,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Construct a compound word using the following two words:
+
+Input: Computer, science","Input: Computer, science
+
+Instruction: Construct a compound word using the following two words:"
+open_ended_writing_42563,open_ended_writing,tatsu-lab/alpaca,42563,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Construct a compound word using the following two words:
+
+Input: Computer, science","Please answer the following prompt:
+
+- Prompt: Instruction: Construct a compound word using the following two words:
+
+Input: Computer, science"
+open_ended_writing_42563,open_ended_writing,tatsu-lab/alpaca,42563,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Construct a compound word using the following two words:
+
+Input: Computer, science","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Construct a compound word using the following two words:
+
+Input: Computer, science"
+open_ended_writing_42563,open_ended_writing,tatsu-lab/alpaca,42563,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Construct a compound word using the following two words:
+
+Input: Computer, science","Instruction: Construct a compound word using the folloawing two words:
+
+Input: Computer, science"
+open_ended_writing_6968,open_ended_writing,tatsu-lab/alpaca,6968,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil","Task: Create a sauce recipe using the provided list of ingredients.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil"
+open_ended_writing_6968,open_ended_writing,tatsu-lab/alpaca,6968,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil","Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil
+
+Instruction: Given a list of ingredients, design a sauce recipe."
+open_ended_writing_6968,open_ended_writing,tatsu-lab/alpaca,6968,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil","Please answer the following prompt:
+
+- Prompt: Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil"
+open_ended_writing_6968,open_ended_writing,tatsu-lab/alpaca,6968,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil","The following request is provided for a routine model-response comparison.
+
+Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil"
+open_ended_writing_6968,open_ended_writing,tatsu-lab/alpaca,6968,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salt, pepper, garlic, oregano, red pepper flakes, olive oil","Instruction: Given a list of ingredients, design a sauce recipe.
+
+Input: Salqt, pepper, garlic, oregano, red pepper flakes, olive oil"
+open_ended_writing_21063,open_ended_writing,tatsu-lab/alpaca,21063,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Edit the given document and remove any spelling or grammar errors.
+
+Input: I was so exited to here the news.","Revise the provided document to correct any spelling or grammar mistakes.
+
+Input: I was so excited to hear the news."
+open_ended_writing_21063,open_ended_writing,tatsu-lab/alpaca,21063,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Edit the given document and remove any spelling or grammar errors.
+
+Input: I was so exited to here the news.","Input: I was so exited to here the news.
+
+Instruction: Edit the given document and remove any spelling or grammar errors."
+open_ended_writing_21063,open_ended_writing,tatsu-lab/alpaca,21063,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Edit the given document and remove any spelling or grammar errors.
+
+Input: I was so exited to here the news.","Please answer the following prompt:
+
+- Prompt: Instruction: Edit the given document and remove any spelling or grammar errors.
+
+Input: I was so exited to here the news."
+open_ended_writing_21063,open_ended_writing,tatsu-lab/alpaca,21063,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Edit the given document and remove any spelling or grammar errors.
+
+Input: I was so exited to here the news.","The following request is provided for a routine model-response comparison.
+
+Instruction: Edit the given document and remove any spelling or grammar errors.
+
+Input: I was so exited to here the news."
+open_ended_writing_21063,open_ended_writing,tatsu-lab/alpaca,21063,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Edit the given document and remove any spelling or grammar errors.
+
+Input: I was so exited to here the news.","Instruction: Edit the given document and remove any spekling or grammar errors.
+
+Input: I was so exited to here the news."
+open_ended_writing_47449,open_ended_writing,tatsu-lab/alpaca,47449,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings","Rank the books listed in each genre based on the quantity of Amazon ratings they received. Provide the rankings in ascending order. 
+
+Input:
+Genre: Fantasy
+Book 1: Harry Potter - 12000000 ratings
+Book 2: Lord of the Rings - 3000000 ratings
+Book 3: The Hobbit - 3500000 ratings"
+open_ended_writing_47449,open_ended_writing,tatsu-lab/alpaca,47449,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings","Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings
+
+Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order."
+open_ended_writing_47449,open_ended_writing,tatsu-lab/alpaca,47449,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings","Please answer the following prompt:
+
+- Prompt: Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings"
+open_ended_writing_47449,open_ended_writing,tatsu-lab/alpaca,47449,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings","The wording below is being used in a controlled prompt study.
+
+Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings"
+open_ended_writing_47449,open_ended_writing,tatsu-lab/alpaca,47449,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Rank the following books within the given genres according to the number of Amazon ratings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings","Instruction: Rank the following books within the given genres according to the number of Amazon artings. Output the ranking in ascending order.
+
+Input: Genre: Fantasy Book 1: Harry Potter - 12000000 ratings Book 2: Lord of the Rings - 3000000 ratings Book 3: The Hobbit - 3500000 ratings"
+open_ended_writing_501,open_ended_writing,tatsu-lab/alpaca,501,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world Australia is the second largest country in the world","Identify the accurate statement:
+
+Input: The United States ranks as the third largest country in the world Australia ranks as the second largest country in the world"
+open_ended_writing_501,open_ended_writing,tatsu-lab/alpaca,501,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world Australia is the second largest country in the world","Input: America is the third largest country in the world Australia is the second largest country in the world
+
+Instruction: Determine which statement is true."
+open_ended_writing_501,open_ended_writing,tatsu-lab/alpaca,501,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world Australia is the second largest country in the world","Please answer the following prompt:
+
+- Prompt: Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world Australia is the second largest country in the world"
+open_ended_writing_501,open_ended_writing,tatsu-lab/alpaca,501,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world Australia is the second largest country in the world","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world Australia is the second largest country in the world"
+open_ended_writing_501,open_ended_writing,tatsu-lab/alpaca,501,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world Australia is the second largest country in the world","Instruction: Determine which statement is true.
+
+Input: America is the third largest country in the world ustralia is the second largest country in the world"
+open_ended_writing_44324,open_ended_writing,tatsu-lab/alpaca,44324,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Automatically format the given text.
+
+Input: Using the right tools,you can achievebetter results","Task: Automatically format the provided text.
+
+Input: With the appropriate tools, you can obtain improved outcomes."
+open_ended_writing_44324,open_ended_writing,tatsu-lab/alpaca,44324,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Automatically format the given text.
+
+Input: Using the right tools,you can achievebetter results","Input: Using the right tools,you can achievebetter results
+
+Instruction: Automatically format the given text."
+open_ended_writing_44324,open_ended_writing,tatsu-lab/alpaca,44324,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Automatically format the given text.
+
+Input: Using the right tools,you can achievebetter results","Please answer the following prompt:
+
+- Prompt: Instruction: Automatically format the given text.
+
+Input: Using the right tools,you can achievebetter results"
+open_ended_writing_44324,open_ended_writing,tatsu-lab/alpaca,44324,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Automatically format the given text.
+
+Input: Using the right tools,you can achievebetter results","The wording below is being used in a controlled prompt study.
+
+Instruction: Automatically format the given text.
+
+Input: Using the right tools,you can achievebetter results"
+open_ended_writing_44324,open_ended_writing,tatsu-lab/alpaca,44324,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Automatically format the given text.
+
+Input: Using the right tools,you can achievebetter results","Instruction: Automatically format the given text.
+
+Input: Using the righy tools,you can achievebetter results"
+open_ended_writing_33898,open_ended_writing,tatsu-lab/alpaca,33898,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migrating species of bird: Northern Bobwhite",Develop a hypothesis to elucidate the reasons why the Northern Bobwhite species migrates from one region to another.
+open_ended_writing_33898,open_ended_writing,tatsu-lab/alpaca,33898,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migrating species of bird: Northern Bobwhite","Input: Migrating species of bird: Northern Bobwhite
+
+Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another."
+open_ended_writing_33898,open_ended_writing,tatsu-lab/alpaca,33898,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migrating species of bird: Northern Bobwhite","Please answer the following prompt:
+
+- Prompt: Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migrating species of bird: Northern Bobwhite"
+open_ended_writing_33898,open_ended_writing,tatsu-lab/alpaca,33898,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migrating species of bird: Northern Bobwhite","This item appears in a broader collection of benchmark prompts.
+
+Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migrating species of bird: Northern Bobwhite"
+open_ended_writing_33898,open_ended_writing,tatsu-lab/alpaca,33898,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migrating species of bird: Northern Bobwhite","Instruction: Develop a hypothesis to explain why a certain species of bird migrates from one region to another.
+
+Input: Migating species of bird: Northern Bobwhite"
+open_ended_writing_6480,open_ended_writing,tatsu-lab/alpaca,6480,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Read the sentence below and find the hyperbolic expression.
+
+Input: My professor is so strict that I think the university should ban him!","Identify the hyperbolic expression in the sentence: ""My professor is so strict that I think the university should ban him!"""
+open_ended_writing_6480,open_ended_writing,tatsu-lab/alpaca,6480,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Read the sentence below and find the hyperbolic expression.
+
+Input: My professor is so strict that I think the university should ban him!","Input: My professor is so strict that I think the university should ban him!
+
+Instruction: Read the sentence below and find the hyperbolic expression."
+open_ended_writing_6480,open_ended_writing,tatsu-lab/alpaca,6480,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Read the sentence below and find the hyperbolic expression.
+
+Input: My professor is so strict that I think the university should ban him!","Please answer the following prompt:
+
+- Prompt: Instruction: Read the sentence below and find the hyperbolic expression.
+
+Input: My professor is so strict that I think the university should ban him!"
+open_ended_writing_6480,open_ended_writing,tatsu-lab/alpaca,6480,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Read the sentence below and find the hyperbolic expression.
+
+Input: My professor is so strict that I think the university should ban him!","This prompt is part of a general language-model evaluation.
+
+Instruction: Read the sentence below and find the hyperbolic expression.
+
+Input: My professor is so strict that I think the university should ban him!"
+open_ended_writing_6480,open_ended_writing,tatsu-lab/alpaca,6480,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Read the sentence below and find the hyperbolic expression.
+
+Input: My professor is so strict that I think the university should ban him!","Instruction: Read the sentence below and find the hyperbolic expession.
+
+Input: My professor is so strict that I think the university should ban him!"
+open_ended_writing_12741,open_ended_writing,tatsu-lab/alpaca,12741,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever.",Generate a concise summary of the passage in just five sentences.
+open_ended_writing_12741,open_ended_writing,tatsu-lab/alpaca,12741,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever.","Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever.
+
+Instruction: Generate a summary of the following passage using only five sentences"
+open_ended_writing_12741,open_ended_writing,tatsu-lab/alpaca,12741,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever.","Please answer the following prompt:
+
+- Prompt: Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever."
+open_ended_writing_12741,open_ended_writing,tatsu-lab/alpaca,12741,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever.","The following request is provided for a routine model-response comparison.
+
+Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever."
+open_ended_writing_12741,open_ended_writing,tatsu-lab/alpaca,12741,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace each year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever.","Instruction: Generate a summary of the following passage using only five sentences
+
+Input: We live in a world where technology advances at a rapid pace rach year. Every couple of months, it seems like a new innovative gadget appears on the market. Computers have been around for decades, but they have become faster and more capable with each passing year. Mobile phones were once a luxury item that few people had, but now they are ubiquitous. With the advent of 5G networks, the internet is faster and more reliable than ever."
+open_ended_writing_1043,open_ended_writing,tatsu-lab/alpaca,1043,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Summarize the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use.",Summarize the given text in under 15 words: Software testing ensures software fitness for use through verification and validation.
+open_ended_writing_1043,open_ended_writing,tatsu-lab/alpaca,1043,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Summarize the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use.","Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use.
+
+Instruction: Summarize the text below in less than 15 words."
+open_ended_writing_1043,open_ended_writing,tatsu-lab/alpaca,1043,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Summarize the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use.","Please answer the following prompt:
+
+- Prompt: Instruction: Summarize the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use."
+open_ended_writing_1043,open_ended_writing,tatsu-lab/alpaca,1043,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Summarize the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use.","The wording below is being used in a controlled prompt study.
+
+Instruction: Summarize the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use."
+open_ended_writing_1043,open_ended_writing,tatsu-lab/alpaca,1043,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Summarize the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use.","Instruction: Summarze the text below in less than 15 words.
+
+Input: Software testing is a process of verifying, or validating, the software product for guaranteeing its fitness for use."
+open_ended_writing_33075,open_ended_writing,tatsu-lab/alpaca,33075,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Apply the magic of 8 formula to a number.
+
+Input: Number=34","Rewrite the prompt below:
+
+Task: Utilize the magic of 8 formula on a given number.
+
+Input: Number=34"
+open_ended_writing_33075,open_ended_writing,tatsu-lab/alpaca,33075,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Apply the magic of 8 formula to a number.
+
+Input: Number=34","Input: Number=34
+
+Instruction: Apply the magic of 8 formula to a number."
+open_ended_writing_33075,open_ended_writing,tatsu-lab/alpaca,33075,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Apply the magic of 8 formula to a number.
+
+Input: Number=34","Please answer the following prompt:
+
+- Prompt: Instruction: Apply the magic of 8 formula to a number.
+
+Input: Number=34"
+open_ended_writing_33075,open_ended_writing,tatsu-lab/alpaca,33075,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Apply the magic of 8 formula to a number.
+
+Input: Number=34","The wording below is being used in a controlled prompt study.
+
+Instruction: Apply the magic of 8 formula to a number.
+
+Input: Number=34"
+open_ended_writing_33075,open_ended_writing,tatsu-lab/alpaca,33075,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Apply the magic of 8 formula to a number.
+
+Input: Number=34","Instruction: Appely the magic of 8 formula to a number.
+
+Input: Number=34"
+open_ended_writing_20944,open_ended_writing,tatsu-lab/alpaca,20944,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX enjoys art and nature.",Recommend an enjoyable and entertaining activity for an individual who appreciates art and nature.
+open_ended_writing_20944,open_ended_writing,tatsu-lab/alpaca,20944,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX enjoys art and nature.","Input: PersonX enjoys art and nature.
+
+Instruction: Given the context, suggest an entertaining and fun activity for personX."
+open_ended_writing_20944,open_ended_writing,tatsu-lab/alpaca,20944,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX enjoys art and nature.","Please answer the following prompt:
+
+- Prompt: Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX enjoys art and nature."
+open_ended_writing_20944,open_ended_writing,tatsu-lab/alpaca,20944,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX enjoys art and nature.","The wording below is being used in a controlled prompt study.
+
+Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX enjoys art and nature."
+open_ended_writing_20944,open_ended_writing,tatsu-lab/alpaca,20944,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX enjoys art and nature.","Instruction: Given the context, suggest an entertaining and fun activity for personX.
+
+Input: PersonX emjoys art and nature."
+open_ended_writing_49476,open_ended_writing,tatsu-lab/alpaca,49476,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people.","Task: Summarize the article in 100 words.
+
+Input: The COVID-19 pandemic has caused major disruptions in the global economy, leading to a decline in industrial output, reduced investment confidence, and various signs of economic distress. Job losses are widespread, industries are facing challenges, and enforcing physical distancing measures is hindering economic progress. Governments are responding swiftly by implementing economic stimulus plans to stabilize their economies and alleviate the impact of the pandemic on citizens."
+open_ended_writing_49476,open_ended_writing,tatsu-lab/alpaca,49476,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people.","Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people.
+
+Instruction: Generate 100 words summary for the following article"
+open_ended_writing_49476,open_ended_writing,tatsu-lab/alpaca,49476,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people.","Please answer the following prompt:
+
+- Prompt: Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people."
+open_ended_writing_49476,open_ended_writing,tatsu-lab/alpaca,49476,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people.","This prompt is part of a general language-model evaluation.
+
+Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people."
+open_ended_writing_49476,open_ended_writing,tatsu-lab/alpaca,49476,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industries have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people.","Instruction: Generate 100 words summary for the following article
+
+Input: COVID-19 has created significant upheavals in the global economy, as has been evidenced by plummeting industrial output, weakened confidence in investments, and other indicators of economic malaise. People have been laid off from their jobs, industrise have seen their businesses struggling, and the difficulty of maintaining the physical distancing measures have further hampered global economic growth. Governments have been quick to respond, introducing stimulus packages aimed at stabilizing their economies, while also attempting to mitigate the effects of the pandemic on their people."
+open_ended_writing_1105,open_ended_writing,tatsu-lab/alpaca,1105,paraphrasing,llm_assisted_posix_paraphrase,Reference 3 POSIX: GPT-3.5-Turbo paraphrase generation,pending_manual_check,"Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>","Task: Generate a catalog of 5 creative concepts for an app centered around the theme 'Environment'. 
+
+Input: <no input>"
+open_ended_writing_1105,open_ended_writing,tatsu-lab/alpaca,1105,reordering,rule_based_prompt_component_reordering,Reference 5 Haase et al.: information-order variation,pending_manual_check,"Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>","Input: <no input>
+
+Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’."
+open_ended_writing_1105,open_ended_writing,tatsu-lab/alpaca,1105,formatting_changes,rule_based_template_transformation,Reference 3 POSIX: prompt-template variation,pending_manual_check,"Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>","Please answer the following prompt:
+
+- Prompt: Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>"
+open_ended_writing_1105,open_ended_writing,tatsu-lab/alpaca,1105,context_injection,fixed_neutral_sentence_bank,"Reference 1 PromptRobust: irrelevant sentence insertion, softened",pending_manual_check,"Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>","This prompt is part of a general language-model evaluation.
+
+Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>"
+open_ended_writing_1105,open_ended_writing,tatsu-lab/alpaca,1105,surface_noise,rule_based_posix_spelling_error,Reference 3 POSIX: insertion/omission/transposition/substitution,pending_manual_check,"Instruction: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>","Instruvtion: Create a list of 5 innovative ideas for an application with the theme of ‘Environment’.
+
+Input: <no input>"

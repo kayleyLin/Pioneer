@@ -1,0 +1,162 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+factual_qa_6353,factual_qa,rajpurkar/squad_v2,validation,6353,5727cd0f4b864d1900163d73,"Context: Harvard has purchased tracts of land in Allston, a walk across the Charles River from Cambridge, with the intent of major expansion southward. The university now owns approximately fifty percent more land in Allston than in Cambridge. Proposals to connect the Cambridge campus with the new Allston campus include new and enlarged bridges, a shuttle service and/or a tram. Plans also call for sinking part of Storrow Drive (at Harvard's expense) for replacement with park land and pedestrian access to the Charles River, as well as the construction of bike paths, and buildings throughout the Allston campus. The institution asserts that such expansion will benefit not only the school, but surrounding community, pointing to such features as the enhanced transit infrastructure, possible shuttles open to the public, and park space which will also be publicly accessible.
+
+Question: What are some proposals to connect campuses?","new and enlarged bridges, a shuttle service and/or a tram.",20260623
+factual_qa_3373,factual_qa,rajpurkar/squad_v2,validation,3373,5728349dff5b5019007d9f00,"Context: The Amazon rainforest (Portuguese: Floresta Amazônica or Amazônia; Spanish: Selva Amazónica, Amazonía or usually Amazonia; French: Forêt amazonienne; Dutch: Amazoneregenwoud), also known in English as Amazonia or the Amazon Jungle, is a moist broadleaf forest that covers most of the Amazon basin of South America. This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest. This region includes territory belonging to nine nations. The majority of the forest is contained within Brazil, with 60% of the rainforest, followed by Peru with 13%, Colombia with 10%, and with minor amounts in Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. States or departments in four nations contain ""Amazonas"" in their names. The Amazon represents over half of the planet's remaining rainforests, and comprises the largest and most biodiverse tract of tropical rainforest in the world, with an estimated 390 billion individual trees divided into 16,000 species.
+
+Question: In what country can most of the Amazon rainforest be found?",Brazil,20260623
+factual_qa_3976,factual_qa,rajpurkar/squad_v2,validation,3976,5725ce4d38643c19005acd4e,"Context: Fresno (/ˈfrɛznoʊ/ FREZ-noh), the county seat of Fresno County, is a city in the U.S. state of California. As of 2015, the city's population was 520,159, making it the fifth-largest city in California, the largest inland city in California and the 34th-largest in the nation. Fresno is in the center of the San Joaquin Valley and is the largest city in the Central Valley, which contains the San Joaquin Valley. It is approximately 220 miles (350 km) northwest of Los Angeles, 170 miles (270 km) south of the state capital, Sacramento, or 185 miles (300 km) south of San Francisco. The name Fresno means ""ash tree"" in Spanish, and an ash leaf is featured on the city's flag.
+
+Question: How far is Fresno from Los Angeles?",220 miles (350 km),20260623
+factual_qa_8326,factual_qa,rajpurkar/squad_v2,validation,8326,572a03086aef0514001551a2,"Context: Anti-inflammatory drugs are often used to control the effects of inflammation. Glucocorticoids are the most powerful of these drugs; however, these drugs can have many undesirable side effects, such as central obesity, hyperglycemia, osteoporosis, and their use must be tightly controlled. Lower doses of anti-inflammatory drugs are often used in conjunction with cytotoxic or immunosuppressive drugs such as methotrexate or azathioprine. Cytotoxic drugs inhibit the immune response by killing dividing cells such as activated T cells. However, the killing is indiscriminate and other constantly dividing cells and their organs are affected, which causes toxic side effects. Immunosuppressive drugs such as cyclosporin prevent T cells from responding to signals correctly by inhibiting signal transduction pathways.
+
+Question: What are the most powerful class of anti-inflammatory drugs?",Glucocorticoids,20260623
+factual_qa_7187,factual_qa,rajpurkar/squad_v2,validation,7187,572a20816aef0514001552e5,"Context: Robert Nozick argued that government redistributes wealth by force (usually in the form of taxation), and that the ideal moral society would be one where all individuals are free from force. However, Nozick recognized that some modern economic inequalities were the result of forceful taking of property, and a certain amount of redistribution would be justified to compensate for this force but not because of the inequalities themselves. John Rawls argued in A Theory of Justice that inequalities in the distribution of wealth are only justified when they improve society as a whole, including the poorest members. Rawls does not discuss the full implications of his theory of justice. Some see Rawls's argument as a justification for capitalism since even the poorest members of society theoretically benefit from increased innovations under capitalism; others believe only a strong welfare state can satisfy Rawls's theory of justice.
+
+Question: What is the usual form of the government's wealth redistribution?",taxation,20260623
+factual_qa_11559,factual_qa,rajpurkar/squad_v2,validation,11559,573750f51c45671900574467,"Context: Newton's Second Law asserts the direct proportionality of acceleration to force and the inverse proportionality of acceleration to mass. Accelerations can be defined through kinematic measurements. However, while kinematics are well-described through reference frame analysis in advanced physics, there are still deep questions that remain as to what is the proper definition of mass. General relativity offers an equivalence between space-time and mass, but lacking a coherent theory of quantum gravity, it is unclear as to how or whether this connection is relevant on microscales. With some justification, Newton's second law can be taken as a quantitative definition of mass by writing the law as an equality; the relative units of force and mass then are fixed.
+
+Question: What describes the proportionality of acceleration to force and mass?",Newton's Second Law,20260623
+factual_qa_6819,factual_qa,rajpurkar/squad_v2,validation,6819,5727f05b4b864d190016406a,"Context: An important factor in the creation of inequality is variation in individuals' access to education. Education, especially in an area where there is a high demand for workers, creates high wages for those with this education, however, increases in education first increase and then decrease growth as well as income inequality. As a result, those who are unable to afford an education, or choose not to pursue optional education, generally receive much lower wages. The justification for this is that a lack of education leads directly to lower incomes, and thus lower aggregate savings and investment. Conversely, education raises incomes and promotes growth because it helps to unleash the productive potential of the poor.
+
+Question: What does less education lead to when working?",lower wages,20260623
+factual_qa_2682,factual_qa,rajpurkar/squad_v2,validation,2682,571ce6655efbb31900334e35,"Context: Oxygen gas (O 2) can be toxic at elevated partial pressures, leading to convulsions and other health problems.[j] Oxygen toxicity usually begins to occur at partial pressures more than 50 kilopascals (kPa), equal to about 50% oxygen composition at standard pressure or 2.5 times the normal sea-level O 2 partial pressure of about 21 kPa. This is not a problem except for patients on mechanical ventilators, since gas supplied through oxygen masks in medical applications is typically composed of only 30%–50% O 2 by volume (about 30 kPa at standard pressure). (although this figure also is subject to wide variation, depending on type of mask).
+
+Question: At what point does oxygen toxicity begin to happen?",50 kilopascals,20260623
+factual_qa_6578,factual_qa,rajpurkar/squad_v2,validation,6578,572815d9ff5b5019007d9cbf,"Context: During Reconstruction and the Gilded Age, Jacksonville and nearby St. Augustine became popular winter resorts for the rich and famous. Visitors arrived by steamboat and later by railroad. President Grover Cleveland attended the Sub-Tropical Exposition in the city on February 22, 1888 during his trip to Florida. This highlighted the visibility of the state as a worthy place for tourism. The city's tourism, however, was dealt major blows in the late 19th century by yellow fever outbreaks. In addition, extension of the Florida East Coast Railway further south drew visitors to other areas. From 1893 to 1938 Jacksonville was the site of the Florida Old Confederate Soldiers and Sailors Home with a nearby cemetery.
+
+Question: What drew would-be Jacksonville tourists to other Florida destinations?",extension of the Florida East Coast Railway further south,20260623
+factual_qa_3135,factual_qa,rajpurkar/squad_v2,validation,3135,57269bb8708984140094cb96,"Context: Although it is generally accepted that EU law has primacy, not all EU laws give citizens standing to bring claims: that is, not all EU laws have ""direct effect"". In Van Gend en Loos v Nederlandse Administratie der Belastingen it was held that the provisions of the Treaties (and EU Regulations) are directly effective, if they are (1) clear and unambiguous (2) unconditional, and (3) did not require EU or national authorities to take further action to implement them. Van Gend en Loos, a postal company, claimed that what is now TFEU article 30 prevented the Dutch Customs Authorities charging tariffs, when it imported urea-formaldehyde plastics from Germany to the Netherlands. After a Dutch court made a reference, the Court of Justice held that even though the Treaties did not ""expressly"" confer a right on citizens or companies to bring claims, they could do so. Historically, international treaties had only allowed states to have legal claims for their enforcement, but the Court of Justice proclaimed ""the Community constitutes a new legal order of international law"". Because article 30 clearly, unconditionally and immediately stated that no quantitative restrictions could be placed on trade, without a good justification, Van Gend en Loos could recover the money it paid for the tariff. EU Regulations are the same as Treaty provisions in this sense, because as TFEU article 288 states, they are ‘directly applicable in all Member States’. Moreover, member states comes under a duty not to replicate Regulations in their own law, in order to prevent confusion. For instance, in Commission v Italy the Court of Justice held that Italy had breached a duty under the Treaties, both by failing to operate a scheme to pay farmers a premium to slaughter cows (to reduce dairy overproduction), and by reproducing the rules in a decree with various additions. ""Regulations,"" held the Court of Justice, ""come into force solely by virtue of their publication"" and implementation could have the effect of ""jeopardizing their simultaneous and uniform application in the whole of the Union."" On the other hand, some Regulations may themselves expressly require implementing measures, in which case those specific rules should be followed.
+
+Question: Which TEFU article states that no quantitative restrictions can be placed on trade?",article 30,20260623
+math_reasoning_8004,math_reasoning,nlile/hendrycks-MATH-benchmark,train,8004,train/counting_and_probability/1018.json,"Problem: We flip a fair coin 10 times. What is the probability that we get heads in exactly 8 of the 10 flips?
+
+Instruction: Solve the problem and provide the final answer.",\dfrac{45}{1024},20260623
+math_reasoning_10926,math_reasoning,nlile/hendrycks-MATH-benchmark,train,10926,test/algebra/922.json,"Problem: How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?
+
+Instruction: Solve the problem and provide the final answer.",13,20260623
+math_reasoning_1600,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1600,test/precalculus/30.json,"Problem: Below is the graph of $y = a \sin (bx + c)$ for some positive constants $a,$ $b,$ and $c.$ Find $a.$ [asy]import TrigMacros; size(300); real f(real x) { return 2*sin(4*x + pi/2); } draw(graph(f,-pi,pi,n=700,join=operator ..),red); trig_axes(-pi,pi,-3,3,pi/2,1); layer(); rm_trig_labels(-2,2, 2); label(""$1$"", (0,1), E); label(""$2$"", (0,2), E); label(""$-1$"", (0,-1), E); label(""$-2$"", (0,-2), E); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",2,20260623
+math_reasoning_7390,math_reasoning,nlile/hendrycks-MATH-benchmark,train,7390,train/precalculus/759.json,"Problem: Simplify \[\frac{\tan 30^\circ + \tan 40^\circ + \tan 50^\circ + \tan 60^\circ}{\cos 20^\circ}.\]
+
+Instruction: Solve the problem and provide the final answer.",\frac{8 \sqrt{3}}{3},20260623
+math_reasoning_9599,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9599,train/counting_and_probability/5086.json,"Problem: Let $N$ be the number of ordered pairs of nonempty sets $\mathcal{A}$ and $\mathcal{B}$ that have the following properties: $\mathcal{A} \cup \mathcal{B} = \{1,2,3,4,5,6,7,8,9,10,11,12\}$, $\mathcal{A} \cap \mathcal{B} = \emptyset$, The number of elements of $\mathcal{A}$ is not an element of $\mathcal{A}$, The number of elements of $\mathcal{B}$ is not an element of $\mathcal{B}$. Find $N$.
+
+Instruction: Solve the problem and provide the final answer.",772,20260623
+math_reasoning_5912,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5912,test/geometry/310.json,"Problem: Compute $\sin 30^\circ$.
+
+Instruction: Solve the problem and provide the final answer.",\frac{1}{2},20260623
+math_reasoning_4965,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4965,train/geometry/441.json,"Problem: What is the area, in square units, of a regular hexagon inscribed in a circle whose area is $324\pi$ square units? Express your answer in simplest radical form.
+
+Instruction: Solve the problem and provide the final answer.",486 \sqrt{3},20260623
+math_reasoning_1121,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1121,test/algebra/1017.json,"Problem: Four distinct integers $a$, $b$, $c$ and $d$ have the property that when added in pairs, the sums 10, 18, 19, 20, 21, and 29 are obtained. What are the four integers in increasing order? (place a comma and then a space between each integer)
+
+Instruction: Solve the problem and provide the final answer.","4,6,14,15",20260623
+math_reasoning_2166,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2166,test/geometry/507.json,"Problem: A square has sides of length 2. Set $\cal S$ is the set of all line segments that have length 2 and whose endpoints are on adjacent sides of the square. The midpoints of the line segments in set $\cal S$ enclose a region whose area to the nearest hundredth is $k$. Find $100k$.
+
+Instruction: Solve the problem and provide the final answer.",86,20260623
+math_reasoning_5594,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5594,train/algebra/717.json,"Problem: If $x^2- 2x = 0$ and $x \neq 0$, what is the value of $x$?
+
+Instruction: Solve the problem and provide the final answer.",2,20260623
+code_generation_109,code_generation,bigcode/humanevalpack,test,109,Python/109,"Write a Python function `move_one_ball(arr)` to solve the following problem:
+We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
+numbers in the array will be randomly ordered. Your task is to determine if
+it is possible to get an array sorted in non-decreasing order by performing
+the following operation on the given array:
+You are allowed to perform right shift operation any number of times.
+One right shift operation means shifting all elements of the array by one
+position in the right direction. The last element of the array will be moved to
+the starting position in the array i.e. 0th index.
+If it is possible to obtain the sorted array by performing the above operation
+then return True else return False.
+If the given array is empty then return True.
+Note: The given list is guaranteed to have unique elements.
+For Example:
+move_one_ball([3, 4, 5, 1, 2])==>True
+Explanation: By performin 2 right shift operations, non-decreasing order can
+be achieved for the given array.
+move_one_ball([3, 5, 4, 1, 2])==>False
+Explanation:It is not possible to get non-decreasing order for the given
+array by performing any number of right shift operations.",if len(arr)==0: return True sorted_array=sorted(arr) my_arr=[] min_value=min(arr) min_index=arr.index(min_value) my_arr=arr[min_index:]+arr[0:min_index] for i in range(len(arr)): if my_arr[i]!=sorted_array[i]: return False return True,20260623
+code_generation_117,code_generation,bigcode/humanevalpack,test,117,Python/117,"Write a Python function `select_words(s, n)` to solve the following problem:
+Given a string s and a natural number n, you have been tasked to implement
+a function that returns a list of all words from string s that contain exactly
+n consonants, in order these words appear in the string s.
+If the string s is empty then the function should return an empty list.
+Note: you may assume the input string contains only letters and spaces.
+Examples:
+select_words(""Mary had a little lamb"", 4) ==> [""little""]
+select_words(""Mary had a little lamb"", 3) ==> [""Mary"", ""lamb""]
+select_words(""simple white space"", 2) ==> []
+select_words(""Hello world"", 4) ==> [""world""]
+select_words(""Uncle sam"", 3) ==> [""Uncle""]","result = [] for word in s.split(): n_consonants = 0 for i in range(0, len(word)): if word[i].lower() not in [""a"",""e"",""i"",""o"",""u""]: n_consonants += 1 if n_consonants == n: result.append(word) return result",20260623
+code_generation_17,code_generation,bigcode/humanevalpack,test,17,Python/17,"Write a Python function `parse_music(music_string: str) -> List[int]` to solve the following problem:
+Input to this function is a string representing musical notes in a special ASCII format.
+Your task is to parse this string and return list of integers corresponding to how many beats does each
+not last.
+Here is a legend:
+'o' - whole note, lasts four beats
+'o|' - half note, lasts two beats
+'.|' - quater note, lasts one beat
+>>> parse_music('o o| .| o| o| .| .| .| .| o o')
+[4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]","note_map = {'o': 4, 'o|': 2, '.|': 1} return [note_map[x] for x in music_string.split(' ') if x]",20260623
+code_generation_31,code_generation,bigcode/humanevalpack,test,31,Python/31,"Write a Python function `is_prime(n)` to solve the following problem:
+Return true if a given number is prime, and false otherwise.
+>>> is_prime(6)
+False
+>>> is_prime(101)
+True
+>>> is_prime(11)
+True
+>>> is_prime(13441)
+True
+>>> is_prime(61)
+True
+>>> is_prime(4)
+False
+>>> is_prime(1)
+False","if n < 2: return False for k in range(2, n - 1): if n % k == 0: return False return True",20260623
+code_generation_11,code_generation,bigcode/humanevalpack,test,11,Python/11,"Write a Python function `string_xor(a: str, b: str) -> str` to solve the following problem:
+Input are two strings a and b consisting only of 1s and 0s.
+Perform binary XOR on these inputs and return result also as a string.
+>>> string_xor('010', '110')
+'100'","def xor(i, j): if i == j: return '0' else: return '1' return ''.join(xor(x, y) for x, y in zip(a, b))",20260623
+code_generation_92,code_generation,bigcode/humanevalpack,test,92,Python/92,"Write a Python function `any_int(x, y, z)` to solve the following problem:
+Create a function that takes 3 numbers.
+Returns true if one of the numbers is equal to the sum of the other two, and all numbers are integers.
+Returns false in any other cases.
+Examples
+any_int(5, 2, 7) ➞ True
+any_int(3, 2, 2) ➞ False
+any_int(3, -2, 1) ➞ True
+any_int(3.6, -2.2, 2) ➞ False","if isinstance(x,int) and isinstance(y,int) and isinstance(z,int): if (x+y==z) or (x+z==y) or (y+z==x): return True return False return False",20260623
+code_generation_38,code_generation,bigcode/humanevalpack,test,38,Python/38,"Write a Python function `decode_cyclic(s: str)` to solve the following problem:
+takes as input string encoded with encode_cyclic function. Returns decoded string.",return encode_cyclic(encode_cyclic(s)),20260623
+code_generation_32,code_generation,bigcode/humanevalpack,test,32,Python/32,"Write a Python function `find_zero(xs: list)` to solve the following problem:
+xs are coefficients of a polynomial.
+find_zero find x such that poly(x) = 0.
+find_zero returns only only zero point, even if there are many.
+Moreover, find_zero only takes list xs having even number of coefficients
+and largest non zero coefficient as it guarantees
+a solution.
+>>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x
+-0.5
+>>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3
+1.0","begin, end = -1., 1. while poly(xs, begin) * poly(xs, end) > 0: begin *= 2.0 end *= 2.0 while end - begin > 1e-10: center = (begin + end) / 2.0 if poly(xs, center) * poly(xs, begin) > 0: begin = center else: end = center return begin",20260623
+code_generation_110,code_generation,bigcode/humanevalpack,test,110,Python/110,"Write a Python function `exchange(lst1, lst2)` to solve the following problem:
+In this problem, you will implement a function that takes two lists of numbers,
+and determines whether it is possible to perform an exchange of elements
+between them to make lst1 a list of only even numbers.
+There is no limit on the number of exchanged elements between lst1 and lst2.
+If it is possible to exchange elements between the lst1 and lst2 to make
+all the elements of lst1 to be even, return ""YES"".
+Otherwise, return ""NO"".
+For example:
+exchange([1, 2, 3, 4], [1, 2, 3, 4]) => ""YES""
+exchange([1, 2, 3, 4], [1, 5, 3, 4]) => ""NO""
+It is assumed that the input lists will be non-empty.","odd = 0 even = 0 for i in lst1: if i%2 == 1: odd += 1 for i in lst2: if i%2 == 0: even += 1 if even >= odd: return ""YES"" return ""NO""",20260623
+code_generation_34,code_generation,bigcode/humanevalpack,test,34,Python/34,"Write a Python function `unique(l: list)` to solve the following problem:
+Return sorted unique elements in a list
+>>> unique([5, 3, 5, 2, 3, 3, 9, 0, 123])
+[0, 2, 3, 5, 9, 123]",return sorted(list(set(l))),20260623

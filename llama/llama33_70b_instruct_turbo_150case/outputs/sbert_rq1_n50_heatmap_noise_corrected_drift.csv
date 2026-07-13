@@ -1,0 +1,6 @@
+perturbation_type,code_generation,factual_qa,math_reasoning,open_ended_writing
+paraphrasing,0.023244,0.138648,0.0316,0.133915
+reordering,0.003268,0.092111,0.003357,0.037947
+formatting_changes,0.001611,0.025341,0.004011,0.023402
+context_injection,0.002302,0.011327,0.006033,0.001747
+surface_noise,0.005638,0.010097,0.000156,0.003846

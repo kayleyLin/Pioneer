@@ -1,0 +1,13 @@
+x,y,n,spearman_rho,p_value
+cue_disruption,noise_corrected_drift,50,0.23277975776873028,0.10377876911355408
+critical_cue_preservation,noise_corrected_drift,50,-0.23277975776873028,0.10377876911355408
+question_content_recall,noise_corrected_drift,50,-0.2218451990364954,0.12153312247449354
+capitalized_phrase_recall,noise_corrected_drift,29,-0.267679818898603,0.16035949785475045
+wh_word_preserved,noise_corrected_drift,49,-0.15199388217650392,0.2971505773694922
+question_context_content_overlap_delta,noise_corrected_drift,50,0.26264857794166896,0.06536824985513877
+question_context_content_overlap_loss,noise_corrected_drift,50,-0.26264857794166896,0.06536824985513877
+factual_score_delta,noise_corrected_drift,50,-0.430921052631579,0.001783846791356888
+containment_rate_delta,noise_corrected_drift,50,-0.0057643237389771096,0.9683089496372291
+output_length_delta_tokens,noise_corrected_drift,50,0.4442203337975594,0.0012306568708851263
+cue_disruption,factual_score_delta,50,-0.15363175502398127,0.28678386722189825
+question_content_recall,factual_score_delta,50,0.1332572274906549,0.3562356518308286

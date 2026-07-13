@@ -1,0 +1,146 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+factual_qa_6460,factual_qa,rajpurkar/squad_v2,validation,6460,5727db85ff5b5019007d96ff,"Context: Harvard's athletic rivalry with Yale is intense in every sport in which they meet, coming to a climax each fall in the annual football meeting, which dates back to 1875 and is usually called simply ""The Game"". While Harvard's football team is no longer one of the country's best as it often was a century ago during football's early days (it won the Rose Bowl in 1920), both it and Yale have influenced the way the game is played. In 1903, Harvard Stadium introduced a new era into football with the first-ever permanent reinforced concrete stadium of its kind in the country. The stadium's structure actually played a role in the evolution of the college game. Seeking to reduce the alarming number of deaths and serious injuries in the sport, Walter Camp (former captain of the Yale football team), suggested widening the field to open up the game. But the stadium was too narrow to accommodate a wider playing surface. So, other steps had to be taken. Camp would instead support revolutionary new rules for the 1906 season. These included legalizing the forward pass, perhaps the most significant rule change in the sport's history.
+
+Question: What school was Walter Camp a captain for the football team?",former captain of the Yale football team,20260623
+factual_qa_8650,factual_qa,rajpurkar/squad_v2,validation,8650,572949306aef051400154c6b,"Context: Another example of scientific research which suggests that previous estimates by the IPCC, far from overstating dangers and risks, have actually understated them is a study on projected rises in sea levels. When the researchers' analysis was ""applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels. These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001"". This may have been due, in part, to the expanding human understanding of climate.
+
+Question: When was the Third Assessment Report published?",2001,20260623
+factual_qa_3740,factual_qa,rajpurkar/squad_v2,validation,3740,572647d0708984140094c14e,"Context: Like sponges and cnidarians, ctenophores have two main layers of cells that sandwich a middle layer of jelly-like material, which is called the mesoglea in cnidarians and ctenophores; more complex animals have three main cell layers and no intermediate jelly-like layer. Hence ctenophores and cnidarians have traditionally been labelled diploblastic, along with sponges. Both ctenophores and cnidarians have a type of muscle that, in more complex animals, arises from the middle cell layer, and as a result some recent text books classify ctenophores as triploblastic, while others still regard them as diploblastic.
+
+Question: Ctenophores, cnidarians and what other group are labelled diploblastic?",sponges,20260623
+factual_qa_1292,factual_qa,rajpurkar/squad_v2,validation,1292,570d391fb3d812140066d578,"Context: The Victorian Alps in the northeast are the coldest part of Victoria. The Alps are part of the Great Dividing Range mountain system extending east-west through the centre of Victoria. Average temperatures are less than 9 °C (48 °F) in winter and below 0 °C (32 °F) in the highest parts of the ranges. The state's lowest minimum temperature of −11.7 °C (10.9 °F) was recorded at Omeo on 13 June 1965, and again at Falls Creek on 3 July 1970. Temperature extremes for the state are listed in the table below:
+
+Question: What is the temperature in the highest portion of the mountain range in winter?",below 0 °C,20260623
+factual_qa_3339,factual_qa,rajpurkar/squad_v2,validation,3339,5726c19add62a815002e8f8a,"Context: In 2006, a toxic waste spill off the coast of Côte d'Ivoire, from a European ship, prompted the Commission to look into legislation against toxic waste. Environment Commissioner Stavros Dimas stated that ""Such highly toxic waste should never have left the European Union"". With countries such as Spain not even having a crime against shipping toxic waste, Franco Frattini, the Justice, Freedom and Security Commissioner, proposed with Dimas to create criminal sentences for ""ecological crimes"". The competence for the Union to do this was contested in 2005 at the Court of Justice resulting in a victory for the Commission. That ruling set a precedent that the Commission, on a supranational basis, may legislate in criminal law – something never done before. So far, the only other proposal has been the draft intellectual property rights directive. Motions were tabled in the European Parliament against that legislation on the basis that criminal law should not be an EU competence, but was rejected at vote. However, in October 2007, the Court of Justice ruled that the Commission could not propose what the criminal sanctions could be, only that there must be some.
+
+Question: In which year did a toxic waste spill from a European ship prompt the Commission to look into legislation against waste?",2006,20260623
+factual_qa_1302,factual_qa,rajpurkar/squad_v2,validation,1302,570d4030fed7b91900d45da2,"Context: Rail transport in Victoria is provided by several private and public railway operators who operate over government-owned lines. Major operators include: Metro Trains Melbourne which runs an extensive, electrified, passenger system throughout Melbourne and suburbs; V/Line which is now owned by the Victorian Government, operates a concentrated service to major regional centres, as well as long distance services on other lines; Pacific National, CFCL Australia which operate freight services; Great Southern Rail which operates The Overland Melbourne—Adelaide; and NSW TrainLink which operates XPTs Melbourne—Sydney.
+
+Question: What type of rail line is Pacific National?",freight services,20260623
+factual_qa_7048,factual_qa,rajpurkar/squad_v2,validation,7048,572a0d21af94a219006aa783,"Context: Central Banking economist Raghuram Rajan argues that ""systematic economic inequalities, within the United States and around the world, have created deep financial 'fault lines' that have made [financial] crises more likely to happen than in the past"" – the Financial crisis of 2007–08 being the most recent example. To compensate for stagnating and declining purchasing power, political pressure has developed to extend easier credit to the lower and middle income earners – particularly to buy homes – and easier credit in general to keep unemployment rates low. This has given the American economy a tendency to go ""from bubble to bubble"" fueled by unsustainable monetary stimulation.
+
+Question: What is Raghuram Rajan's career?",economist,20260623
+factual_qa_6442,factual_qa,rajpurkar/squad_v2,validation,6442,5727d9c43acd2414000dee18,"Context: Harvard has been highly ranked by many university rankings. In particular, it has consistently topped the Academic Ranking of World Universities (ARWU) since 2003, and the THE World Reputation Rankings since 2011, when the first time such league tables were published. When the QS and Times were published in partnership as the THE-QS World University Rankings during 2004-2009, Harvard had also been regarded the first in every year. The University's undergraduate program has been continuously among the top two in the U.S. News & World Report. In 2014, Harvard topped the University Ranking by Academic Performance (URAP). It was ranked 8th on the 2013-2014 PayScale College Salary Report and 14th on the 2013 PayScale College Education Value Rankings. From a poll done by The Princeton Review, Harvard is the second most commonly named ""dream college"", both for students and parents in 2013, and was the first nominated by parents in 2009. In 2011, the Mines ParisTech : Professional Ranking World Universities ranked Harvard 1st university in the world in terms of number of alumni holding CEO position in Fortune Global 500 companies.
+
+Question: Beginning in what year was Harvard on top of the World Reputation Rankings?",2011,20260623
+factual_qa_9228,factual_qa,rajpurkar/squad_v2,validation,9228,572ff430a23a5019007fcbaa,"Context: The Lower Rhine flows through North Rhine-Westphalia. Its banks are usually heavily populated and industrialized, in particular the agglomerations Cologne, Düsseldorf and Ruhr area. Here the Rhine flows through the largest conurbation in Germany, the Rhine-Ruhr region. One of the most important cities in this region is Duisburg with the largest river port in Europe (Duisport). The region downstream of Duisburg is more agricultural. In Wesel, 30 km downstream of Duisburg, is located the western end of the second east-west shipping route, the Wesel-Datteln Canal, which runs parallel to the Lippe. Between Emmerich and Cleves the Emmerich Rhine Bridge, the longest suspension bridge in Germany, crosses the 400 m wide river. Near Krefeld, the river crosses the Uerdingen line, the line which separates the areas where Low German and High German are spoken.
+
+Question: What is the region called that is the largest conurbation of the Rhine?",Rhine-Ruhr,20260623
+factual_qa_2022,factual_qa,rajpurkar/squad_v2,validation,2022,571153422419e3140095557e,"Context: Trevithick continued his own experiments using a trio of locomotives, concluding with the Catch Me Who Can in 1808. Only four years later, the successful twin-cylinder locomotive Salamanca by Matthew Murray was used by the edge railed rack and pinion Middleton Railway. In 1825 George Stephenson built the Locomotion for the Stockton and Darlington Railway. This was the first public steam railway in the world and then in 1829, he built The Rocket which was entered in and won the Rainhill Trials. The Liverpool and Manchester Railway opened in 1830 making exclusive use of steam power for both passenger and freight trains.
+
+Question: Who designed Salamanca?",Matthew Murray,20260623
+math_reasoning_5038,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5038,train/intermediate_algebra/1878.json,"Problem: Let $a,$ $b,$ $c$ be distinct, nonzero real numbers such that \[a + \frac{1}{b} = b + \frac{1}{c} = c + \frac{1}{a}.\]Find $|abc|.$ Note: Intermediate Algebra writing problem, week 12.
+
+Instruction: Solve the problem and provide the final answer.",1,20260623
+math_reasoning_11759,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11759,train/precalculus/1003.json,"Problem: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$
+
+Instruction: Solve the problem and provide the final answer.","\left( \frac{11}{5}, \frac{2}{5}, 5 \right)",20260623
+math_reasoning_3402,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3402,test/number_theory/618.json,"Problem: Euler discovered that the polynomial $p(n) = n^2 - n + 41$ yields prime numbers for many small positive integer values of $n$. What is the smallest positive integer $n$ for which $p(n)$ and $p(n+1)$ share a common factor greater than $1$?
+
+Instruction: Solve the problem and provide the final answer.",41,20260623
+math_reasoning_467,math_reasoning,nlile/hendrycks-MATH-benchmark,train,467,train/precalculus/962.json,"Problem: Find $\tan \left( -\frac{3 \pi}{4} \right).$
+
+Instruction: Solve the problem and provide the final answer.",1,20260623
+math_reasoning_3374,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3374,test/counting_and_probability/1010.json,"Problem: In how many ways can one write the numbers 1, 2, 3, 4, 5, and 6 in a row so that given any number in the row, all of its divisors (not including itself) appear to its left?
+
+Instruction: Solve the problem and provide the final answer.",25,20260623
+math_reasoning_2832,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2832,train/intermediate_algebra/2009.json,"Problem: Let \[f(x) = \frac{2x + 3}{kx - 2}.\]Find all real numbers $k$ so that $f^{-1}(x) = f(x).$
+
+Instruction: Solve the problem and provide the final answer.","(-\infty,-\frac{4}{3}) \cup (-\frac{4}{3},\infty)",20260623
+math_reasoning_3336,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3336,train/algebra/2275.json,"Problem: The graphs of four functions, labelled (2) through (5), are shown below. Note that the domain of function (3) is $$\{-5,-4,-3,-2,-1,0,1,2\}.$$ Find the product of the labels of the functions which are invertible. [asy] size(8cm); defaultpen(linewidth(.7pt)+fontsize(8pt)); import graph; picture pic1,pic2,pic3,pic4; draw(pic1,(-8,0)--(8,0),Arrows(4)); draw(pic1,(0,-8)--(0,8),Arrows(4)); draw(pic2,(-8,0)--(8,0),Arrows(4)); draw(pic2,(0,-8)--(0,8),Arrows(4)); draw(pic3,(-8,0)--(8,0),Arrows(4)); draw(pic3,(0,-8)--(0,8),Arrows(4)); draw(pic4,(-8,0)--(8,0),Arrows(4)); draw(pic4,(0,-8)--(0,8),Arrows(4)); real f(real x) {return x^2-2x;} real h(real x) {return -atan(x);} real k(real x) {return 4/x;} real x; draw(pic1,graph(f,-2,4),Arrows(4)); draw(pic3,graph(h,-8,8),Arrows(4)); draw(pic4,graph(k,-8,-0.125*4),Arrows(4)); draw(pic4,graph(k,0.125*4,8),Arrows(4)); dot(pic2,(-5,3)); dot(pic2,(-4,5)); dot(pic2,(-3,1)); dot(pic2,(-2,0)); dot(pic2,(-1,2)); dot(pic2,(0,-4)); dot(pic2,(1,-3)); dot(pic2,(2,-2)); label(pic1,""(2)"",(0,-9)); label(pic2,""(3)"",(0,-9)); label(pic3,""(4)"",(0,-9)); label(pic4,""(5)"",(0,-9)); add(pic1); add(shift(20)*pic2); add(shift(0,-20)*pic3); add(shift(20,-20)*pic4); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",60,20260623
+math_reasoning_6807,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6807,train/algebra/721.json,"Problem: Evaluate $\lfloor0.999\rfloor+\lceil2.001\rceil$.
+
+Instruction: Solve the problem and provide the final answer.",3,20260623
+math_reasoning_9083,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9083,train/algebra/24888.json,"Problem: Simplify $(2x)^4 + (3x)(x^3)$.
+
+Instruction: Solve the problem and provide the final answer.",19x^4,20260623
+math_reasoning_7546,math_reasoning,nlile/hendrycks-MATH-benchmark,train,7546,train/intermediate_algebra/978.json,"Problem: The function $f(x)$ satisfies \[f(x + y) = f(x) f(y)\]for all real numbers $x$ and $y.$ Find all possible values of $f(0).$ Enter all the possible values, separated by commas.
+
+Instruction: Solve the problem and provide the final answer.","0,1",20260623
+code_generation_143,code_generation,bigcode/humanevalpack,test,143,Python/143,"Write a Python function `words_in_sentence(sentence)` to solve the following problem:
+You are given a string representing a sentence,
+the sentence contains some words separated by a space,
+and you have to return a string that contains the words from the original sentence,
+whose lengths are prime numbers,
+the order of the words in the new string should be the same as the original one.
+Example 1:
+Input: sentence = ""This is a test""
+Output: ""is""
+Example 2:
+Input: sentence = ""lets go for swimming""
+Output: ""go for""
+Constraints:
+* 1 <= len(sentence) <= 100
+* sentence contains only letters","new_lst = [] for word in sentence.split(): flg = 0 if len(word) == 1: flg = 1 for i in range(2, len(word)): if len(word)%i == 0: flg = 1 if flg == 0 or len(word) == 2: new_lst.append(word) return "" "".join(new_lst)",20260623
+code_generation_138,code_generation,bigcode/humanevalpack,test,138,Python/138,"Write a Python function `is_equal_to_sum_even(n)` to solve the following problem:
+Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers
+Example
+is_equal_to_sum_even(4) == False
+is_equal_to_sum_even(6) == False
+is_equal_to_sum_even(8) == True",return n%2 == 0 and n >= 8,20260623
+code_generation_104,code_generation,bigcode/humanevalpack,test,104,Python/104,"Write a Python function `unique_digits(x)` to solve the following problem:
+Given a list of positive integers x. return a sorted list of all
+elements that hasn't any even digit.
+Note: Returned list should be sorted in increasing order.
+For example:
+>>> unique_digits([15, 33, 1422, 1])
+[1, 15, 33]
+>>> unique_digits([152, 323, 1422, 10])
+[]",odd_digit_elements = [] for i in x: if all (int(c) % 2 == 1 for c in str(i)): odd_digit_elements.append(i) return sorted(odd_digit_elements),20260623
+code_generation_44,code_generation,bigcode/humanevalpack,test,44,Python/44,"Write a Python function `change_base(x: int, base: int)` to solve the following problem:
+Change numerical base of input number x to base.
+return string representation after the conversion.
+base numbers are less than 10.
+>>> change_base(8, 3)
+'22'
+>>> change_base(8, 2)
+'1000'
+>>> change_base(7, 2)
+'111'","ret = """" while x > 0: ret = str(x % base) + ret x //= base return ret",20260623
+code_generation_26,code_generation,bigcode/humanevalpack,test,26,Python/26,"Write a Python function `remove_duplicates(numbers: List[int]) -> List[int]` to solve the following problem:
+From a list of integers, remove all elements that occur more than once.
+Keep order of elements left the same as in the input.
+>>> remove_duplicates([1, 2, 3, 2, 4])
+[1, 3, 4]",import collections c = collections.Counter(numbers) return [n for n in numbers if c[n] <= 1],20260623
+code_generation_71,code_generation,bigcode/humanevalpack,test,71,Python/71,"Write a Python function `triangle_area(a, b, c)` to solve the following problem:
+Given the lengths of the three sides of a triangle. Return the area of
+the triangle rounded to 2 decimal points if the three sides form a valid triangle.
+Otherwise return -1
+Three sides make a valid triangle when the sum of any two sides is greater
+than the third side.
+Example:
+triangle_area(3, 4, 5) == 6.00
+triangle_area(1, 2, 10) == -1","if a + b <= c or a + c <= b or b + c <= a: return -1 s = (a + b + c)/2 area = (s * (s - a) * (s - b) * (s - c)) ** 0.5 area = round(area, 2) return area",20260623
+code_generation_102,code_generation,bigcode/humanevalpack,test,102,Python/102,"Write a Python function `choose_num(x, y)` to solve the following problem:
+This function takes two positive numbers x and y and returns the
+biggest even integer number that is in the range [x, y] inclusive. If
+there's no such number, then the function should return -1.
+For example:
+choose_num(12, 15) = 14
+choose_num(13, 12) = -1",if x > y: return -1 if y % 2 == 0: return y if x == y: return -1 return y - 1,20260623
+code_generation_60,code_generation,bigcode/humanevalpack,test,60,Python/60,"Write a Python function `sum_to_n(n: int)` to solve the following problem:
+sum_to_n is a function that sums numbers from 1 to n.
+>>> sum_to_n(30)
+465
+>>> sum_to_n(100)
+5050
+>>> sum_to_n(5)
+15
+>>> sum_to_n(10)
+55
+>>> sum_to_n(1)
+1",return sum(range(n + 1)),20260623
+code_generation_24,code_generation,bigcode/humanevalpack,test,24,Python/24,"Write a Python function `largest_divisor(n: int) -> int` to solve the following problem:
+For a given number n, find the largest number that divides n evenly, smaller than n
+>>> largest_divisor(15)
+5",for i in reversed(range(n)): if n % i == 0: return i,20260623
+code_generation_135,code_generation,bigcode/humanevalpack,test,135,Python/135,"Write a Python function `can_arrange(arr)` to solve the following problem:
+Create a function which returns the largest index of an element which
+is not greater than or equal to the element immediately preceding it. If
+no such element exists then return -1. The given array will not contain
+duplicate values.
+Examples:
+can_arrange([1,2,4,3,5]) = 3
+can_arrange([1,2,3]) = -1",ind=-1 i=1 while i<len(arr): if arr[i]<arr[i-1]: ind=i i+=1 return ind,20260623

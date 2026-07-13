@@ -1,0 +1,298 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+factual_qa_2060,factual_qa,rajpurkar/squad_v2,validation,2060,571156152419e3140095559b,"Context: The historical measure of a steam engine's energy efficiency was its ""duty"". The concept of duty was first introduced by Watt in order to illustrate how much more efficient his engines were over the earlier Newcomen designs. Duty is the number of foot-pounds of work delivered by burning one bushel (94 pounds) of coal. The best examples of Newcomen designs had a duty of about 7 million, but most were closer to 5 million. Watt's original low-pressure designs were able to deliver duty as high as 25 million, but averaged about 17. This was a three-fold improvement over the average Newcomen design. Early Watt engines equipped with high-pressure steam improved this to 65 million.
+
+Question: How was the efficiency of a steam engine typically evaluated?",duty,20260623
+factual_qa_11005,factual_qa,rajpurkar/squad_v2,validation,11005,57339dd94776f41900660ecd,"Context: Several commemorative events take place every year. Gatherings of thousands of people on the banks of the Vistula on Midsummer’s Night for a festival called Wianki (Polish for Wreaths) have become a tradition and a yearly event in the programme of cultural events in Warsaw. The festival traces its roots to a peaceful pagan ritual where maidens would float their wreaths of herbs on the water to predict when they would be married, and to whom. By the 19th century this tradition had become a festive event, and it continues today. The city council organize concerts and other events. Each Midsummer’s Eve, apart from the official floating of wreaths, jumping over fires, looking for the fern flower, there are musical performances, dignitaries' speeches, fairs and fireworks by the river bank.
+
+Question: How man people gather along the banks of the Vistula for the Wianki festival?",thousands,20260623
+factual_qa_204,factual_qa,rajpurkar/squad_v2,validation,204,56de52614396321400ee27fc,"Context: At Saint Evroul, a tradition of singing had developed and the choir achieved fame in Normandy. Under the Norman abbot Robert de Grantmesnil, several monks of Saint-Evroul fled to southern Italy, where they were patronised by Robert Guiscard and established a Latin monastery at Sant'Eufemia. There they continued the tradition of singing.
+
+Question: What monastery did the Saint-Evroul monks establish in Italy?",Latin monastery at Sant'Eufemia.,20260623
+factual_qa_1726,factual_qa,rajpurkar/squad_v2,validation,1726,5711119cb654c5140001fae5,"Context: The bulk of Huguenot émigrés relocated to Protestant European nations such as England, Wales, Scotland, Denmark, Sweden, Switzerland, the Dutch Republic, the Electorate of Brandenburg and Electorate of the Palatinate in the Holy Roman Empire, the Duchy of Prussia, the Channel Islands, and Ireland. They also spread beyond Europe to the Dutch Cape Colony in South Africa, the Dutch East Indies, the Caribbean, and several of the English colonies of North America, and Quebec, where they were accepted and allowed to worship freely.
+
+Question: What area in South Africa accepted Huguenot colonists?",Dutch Cape Colony,20260623
+factual_qa_3011,factual_qa,rajpurkar/squad_v2,validation,3011,57268e2bf1498d1400e8e3b3,"Context: The principal Treaties that form the European Union began with common rules for coal and steel, and then atomic energy, but more complete and formal institutions were established through the Treaty of Rome 1957 and the Maastricht Treaty 1992 (now: TFEU). Minor amendments were made during the 1960s and 1970s. Major amending treaties were signed to complete the development of a single, internal market in the Single European Act 1986, to further the development of a more social Europe in the Treaty of Amsterdam 1997, and to make minor amendments to the relative power of member states in the EU institutions in the Treaty of Nice 2001 and the Treaty of Lisbon 2007. Since its establishment, more member states have joined through a series of accession treaties, from the UK, Ireland, Denmark and Norway in 1972 (though Norway did not end up joining), Greece in 1979, Spain and Portugal 1985, Austria, Finland, Norway and Sweden in 1994 (though again Norway failed to join, because of lack of support in the referendum), the Czech Republic, Cyprus, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Slovakia and Slovenia in 2004, Romania and Bulgaria in 2007 and Croatia in 2013. Greenland signed a Treaty in 1985 giving it a special status.
+
+Question: When did Denmark join the EU?",1972,20260623
+factual_qa_5441,factual_qa,rajpurkar/squad_v2,validation,5441,5726fa525951b619008f83fa,"Context: The two symbols most commonly associated with pharmacy in English-speaking countries are the mortar and pestle and the ℞ (recipere) character, which is often written as ""Rx"" in typed text. The show globe was also used until the early 20th century. Pharmacy organizations often use other symbols, such as the Bowl of Hygieia which is often used in the Netherlands, conical measures, and caduceuses in their logos. Other symbols are common in different countries: the green Greek cross in France, Argentina, the United Kingdom, Belgium, Ireland, Italy, Spain, and India, the increasingly rare Gaper in the Netherlands, and a red stylized letter A in Germany and Austria (from Apotheke, the German word for pharmacy, from the same Greek root as the English word 'apothecary').
+
+Question: What countries use a red stylized A to signify pharmacy?",Germany and Austria,20260623
+factual_qa_3503,factual_qa,rajpurkar/squad_v2,validation,3503,5729ef266aef05140015511c,"Context: Terra preta (black earth), which is distributed over large areas in the Amazon forest, is now widely accepted as a product of indigenous soil management. The development of this fertile soil allowed agriculture and silviculture in the previously hostile environment; meaning that large portions of the Amazon rainforest are probably the result of centuries of human management, rather than naturally occurring as has previously been supposed. In the region of the Xingu tribe, remains of some of these large settlements in the middle of the Amazon forest were found in 2003 by Michael Heckenberger and colleagues of the University of Florida. Among those were evidence of roads, bridges and large plazas.
+
+Question: What type of soil is considered a product of soil management by indigenous peoples in the Amazon Forest?",Terra preta (black earth),20260623
+factual_qa_9646,factual_qa,rajpurkar/squad_v2,validation,9646,572fc49d04bcaa1900d76ccd,"Context: Each sitting day, normally at 5 pm, MSPs decide on all the motions and amendments that have been moved that day. This ""Decision Time"" is heralded by the sounding of the division bell, which is heard throughout the Parliamentary campus and alerts MSPs who are not in the chamber to return and vote. At Decision Time, the Presiding Officer puts questions on the motions and amendments by reading out the name of the motion or amendment as well as the proposer and asking ""Are we all agreed?"", to which the chamber first votes orally. If there is audible dissent, the Presiding Officer announces ""There will be a division"" and members vote by means of electronic consoles on their desks. Each MSP has a unique access card with a microchip which, when inserted into the console, identifies them and allows them to vote. As a result, the outcome of each division is known in seconds.
+
+Question: What do MSPs who are not in the chamber when the division bell rings return to do?",vote,20260623
+factual_qa_3024,factual_qa,rajpurkar/squad_v2,validation,3024,57268f2bf1498d1400e8e3c5,"Context: Following the Nice Treaty, there was an attempt to reform the constitutional law of the European Union and make it more transparent; this would have also produced a single constitutional document. However, as a result of the referendum in France and the referendum in the Netherlands, the 2004 Treaty establishing a Constitution for Europe never came into force. Instead, the Lisbon Treaty was enacted. Its substance was very similar to the proposed constitutional treaty, but it was formally an amending treaty, and – though it significantly altered the existing treaties – it did not completely replace them.
+
+Question: What was an additional projected effect of the attempted reform?",this would have also produced a single constitutional document,20260623
+factual_qa_1142,factual_qa,rajpurkar/squad_v2,validation,1142,57097c8fed30961900e841f4,"Context: The Daily Mail newspaper reported in 2012 that the UK government's benefits agency was checking claimants' ""Sky TV bills to establish if a woman in receipt of benefits as a single mother is wrongly claiming to be living alone"" – as, it claimed, subscription to sports channels would betray a man's presence in the household. In December, the UK’s parliament heard a claim that a subscription to BSkyB was ‘often damaging’, along with alcohol, tobacco and gambling. Conservative MP Alec Shelbrooke was proposing the payments of benefits and tax credits on a ""Welfare Cash Card"", in the style of the Supplemental Nutrition Assistance Program, that could be used to buy only ""essentials"".
+
+Question: what did the UK parliment hear that a subscription to BSkyB was?",often damaging,20260623
+factual_qa_3634,factual_qa,rajpurkar/squad_v2,validation,3634,572a0b101d046914007796ed,"Context: In 2005, parts of the Amazon basin experienced the worst drought in one hundred years, and there were indications that 2006 could have been a second successive year of drought. A July 23, 2006 article in the UK newspaper The Independent reported Woods Hole Research Center results showing that the forest in its present form could survive only three years of drought. Scientists at the Brazilian National Institute of Amazonian Research argue in the article that this drought response, coupled with the effects of deforestation on regional climate, are pushing the rainforest towards a ""tipping point"" where it would irreversibly start to die. It concludes that the forest is on the brink of being turned into savanna or desert, with catastrophic consequences for the world's climate.
+
+Question: What might the Amazon forest become if it passes the tipping point and starts to die?",savanna or desert,20260623
+factual_qa_5646,factual_qa,rajpurkar/squad_v2,validation,5646,5728e5f43acd2414000e0173,"Context: In cases where the criminalized behavior is pure speech, civil disobedience can consist simply of engaging in the forbidden speech. An example would be WBAI's broadcasting the track ""Filthy Words"" from a George Carlin comedy album, which eventually led to the 1978 Supreme Court case of FCC v. Pacifica Foundation. Threatening government officials is another classic way of expressing defiance toward the government and unwillingness to stand for its policies. For example, Joseph Haas was arrested for allegedly sending an email to the Lebanon, New Hampshire city councilors stating, ""Wise up or die.""
+
+Question: How can you protest against the government in an individual way?",Threatening government officials,20260623
+factual_qa_1000,factual_qa,rajpurkar/squad_v2,validation,1000,570953a7efce8f15003a7dff,"Context: In 2007, BSkyB and Virgin Media became involved in a dispute over the carriage of Sky channels on cable TV. The failure to renew the existing carriage agreements negotiated with NTL and Telewest resulted in Virgin Media removing the basic channels from the network on 1 March 2007. Virgin Media claimed that BSkyB had substantially increased the asking price for the channels, a claim which BSkyB denied, on the basis that their new deal offered ""substantially more value"" by including HD channels and Video On Demand content which was not previously carried by cable.
+
+Question: What channels were removed from the network in March of 2007?",basic channels,20260623
+factual_qa_9960,factual_qa,rajpurkar/squad_v2,validation,9960,572fffb1b2c2fd14005686fa,"Context: Iqbal expressed fears that not only would secularism and secular nationalism weaken the spiritual foundations of Islam and Muslim society, but that India's Hindu-majority population would crowd out Muslim heritage, culture and political influence. In his travels to Egypt, Afghanistan, Palestine and Syria, he promoted ideas of greater Islamic political co-operation and unity, calling for the shedding of nationalist differences. Sir Muhammad Iqbal was elected president of the Muslim League in 1930 at its session in Allahabad as well as for the session in Lahore in 1932. In his Allahabad Address on 29 December 1930, Iqbal outlined a vision of an independent state for Muslim-majority provinces in northwestern India. This address later inspired the Pakistan movement.
+
+Question: Iqbal worried that India's mostly Hindu population would do what to Muslim heritage and culture?",crowd out,20260623
+factual_qa_4928,factual_qa,rajpurkar/squad_v2,validation,4928,572667e2f1498d1400e8de91,"Context: The principle of inclusions and components states that, with sedimentary rocks, if inclusions (or clasts) are found in a formation, then the inclusions must be older than the formation that contains them. For example, in sedimentary rocks, it is common for gravel from an older formation to be ripped up and included in a newer layer. A similar situation with igneous rocks occurs when xenoliths are found. These foreign bodies are picked up as magma or lava flows, and are incorporated, later to cool in the matrix. As a result, xenoliths are older than the rock which contains them.
+
+Question: Xenoliths are picked up by what and deposited into the matrix of igneous rocks?",magma or lava flows,20260623
+factual_qa_7672,factual_qa,rajpurkar/squad_v2,validation,7672,57286bb84b864d19001649ca,"Context: Kublai Khan promoted commercial, scientific, and cultural growth. He supported the merchants of the Silk Road trade network by protecting the Mongol postal system, constructing infrastructure, providing loans that financed trade caravans, and encouraging the circulation of paper banknotes (鈔, Chao). Pax Mongolica, Mongol peace, enabled the spread of technologies, commodities, and culture between China and the West. Kublai expanded the Grand Canal from southern China to Daidu in the north. Mongol rule was cosmopolitan under Kublai Khan. He welcomed foreign visitors to his court, such as the Venetian merchant Marco Polo, who wrote the most influential European account of Yuan China. Marco Polo's travels would later inspire many others like Christopher Columbus to chart a passage to the Far East in search of its legendary wealth.
+
+Question: Where did the Grand Canal start?",southern China,20260623
+factual_qa_8751,factual_qa,rajpurkar/squad_v2,validation,8751,57297547af94a219006aa45f,"Context: Most early Greeks did not even consider 1 to be a number, so they could not consider it to be a prime. By the Middle Ages and Renaissance many mathematicians included 1 as the first prime number. In the mid-18th century Christian Goldbach listed 1 as the first prime in his famous correspondence with Leonhard Euler -- who did not agree. In the 19th century many mathematicians still considered the number 1 to be a prime. For example, Derrick Norman Lehmer's list of primes up to 10,006,721, reprinted as late as 1956, started with 1 as its first prime. Henri Lebesgue is said to be the last professional mathematician to call 1 prime. By the early 20th century, mathematicians began to accept that 1 is not a prime number, but rather forms its own special category as a ""unit"".
+
+Question: What type of number do modern mathematicians consider 1 to be?","its own special category as a ""unit""",20260623
+factual_qa_8226,factual_qa,rajpurkar/squad_v2,validation,8226,5729f8516aef05140015516c,"Context: Newborn infants have no prior exposure to microbes and are particularly vulnerable to infection. Several layers of passive protection are provided by the mother. During pregnancy, a particular type of antibody, called IgG, is transported from mother to baby directly across the placenta, so human babies have high levels of antibodies even at birth, with the same range of antigen specificities as their mother. Breast milk or colostrum also contains antibodies that are transferred to the gut of the infant and protect against bacterial infections until the newborn can synthesize its own antibodies. This is passive immunity because the fetus does not actually make any memory cells or antibodies—it only borrows them. This passive immunity is usually short-term, lasting from a few days up to several months. In medicine, protective passive immunity can also be transferred artificially from one individual to another via antibody-rich serum.
+
+Question: Newborns are vulnerable to infection because they have no previous exposure to what?",microbes,20260623
+factual_qa_7118,factual_qa,rajpurkar/squad_v2,validation,7118,572a18a4af94a219006aa7e0,"Context: Some theories developed in the 1970s established possible avenues through which inequality may have a positive effect on economic development. According to a 1955 review, savings by the wealthy, if these increase with inequality, were thought to offset reduced consumer demand. A 2013 report on Nigeria suggests that growth has risen with increased income inequality. Some theories popular from the 1950s to 2011 incorrectly stated that inequality had a positive effect on economic development. Analyses based on comparing yearly equality figures to yearly growth rates were misleading because it takes several years for effects to manifest as changes to economic growth. IMF economists found a strong association between lower levels of inequality in developing countries and sustained periods of economic growth. Developing countries with high inequality have ""succeeded in initiating growth at high rates for a few years"" but ""longer growth spells are robustly associated with more equality in the income distribution.""
+
+Question: According to a 1955 review, what were savings by the wealthy thought to offset?",reduced consumer demand,20260623
+factual_qa_10227,factual_qa,rajpurkar/squad_v2,validation,10227,57302faa04bcaa1900d77314,"Context: Greater London has over 900,000 Muslims, (most of South Asian origins and concentrated in the East London boroughs of Newham, Tower Hamlets and Waltham Forest), and among them are some with a strong Islamist outlook. Their presence, combined with a perceived British policy of allowing them free rein, heightened by exposés such as the 2007 Channel 4 documentary programme Undercover Mosque, has given rise to the term Londonistan. Following the 9/11 attacks, however, Abu Hamza al-Masri, the imam of the Finsbury Park Mosque, was arrested and charged with incitement to terrorism which has caused many Islamists to leave the UK to avoid internment.[citation needed]
+
+Question: The perceived British policy of being hands off of its Muslim population has resulted in what derogatory term for London?",Londonistan,20260623
+math_reasoning_4913,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4913,train/counting_and_probability/801.json,"Problem: In the game Deal or No Deal, participants choose a box at random from a set of $26,$ one containing each of the following values: \begin{tabular}{|c|c|}\hline\$.01&\$1,000\\\hline\$1&\$5,000\\\hline\$5&\$10,000\\\hline\$10&\$25,000\\\hline\$25&\$50,000\\\hline\$50&\$75,000\\\hline\$75&\$100,000\\\hline\$100&\$200,000\\\hline\$200&\$300,000\\\hline\$300&\$400,000\\\hline\$400&\$500,000\\\hline\$500&\$750,000\\\hline\$750&\$1,000,000\\\hline\end{tabular} After choosing a box, participants eliminate other boxes by opening them, showing the amount of money in the box to the crowd, and then removing that box (and its money!) from the game. What is the minimum number of boxes a participant needs to eliminate in order to have a half chance of holding at least $\$100,\!000$ as his or her chosen box?
+
+Instruction: Solve the problem and provide the final answer.",12,20260623
+math_reasoning_11776,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11776,test/number_theory/287.json,"Problem: Let $S$ be the set of all integers $k$ such that, if $k$ is in $S$, then $\frac{17k}{66}$ and $\frac{13k}{105}$ are terminating decimals. What is the smallest integer in $S$ that is greater than 2010?
+
+Instruction: Solve the problem and provide the final answer.",2079,20260623
+math_reasoning_8592,math_reasoning,nlile/hendrycks-MATH-benchmark,train,8592,train/algebra/593.json,"Problem: A shirt regularly priced at $\$30$ is on sale for $20\%$ off. Mary has a coupon that will take another $25\%$ off of the sale price. What single percent discount would give the same final price as the two successive discounts?
+
+Instruction: Solve the problem and provide the final answer.",40\%,20260623
+math_reasoning_10530,math_reasoning,nlile/hendrycks-MATH-benchmark,train,10530,train/intermediate_algebra/579.json,"Problem: A line whose $y$-intercept is $(0,5)$ intersects the ellipse $9x^2 + 16y^2 = 144.$ Find all possible slopes of this line.
+
+Instruction: Solve the problem and provide the final answer.","(-\infty,-1] \cup [1,\infty)",20260623
+math_reasoning_3150,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3150,test/counting_and_probability/721.json,"Problem: Bin $A$ has one white ball and four black balls. Bin $B$ has three balls labeled $\$1$ and one ball labeled $\$7$. Bin $W$ has five balls labeled $\$8$ and one ball labeled $\$500$. A game is played as follows: a ball is randomly selected from bin $A$. If it is black, then a ball is randomly selected from bin $B$; otherwise, if the original ball is white, then a ball is randomly selected from bin $W$. You win the amount printed on the second ball selected. What is your expected win?
+
+Instruction: Solve the problem and provide the final answer.",\$20,20260623
+math_reasoning_9282,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9282,test/geometry/996.json,"Problem: In trapezoid $ABCD$ with bases $\overline{AB}$ and $\overline{CD}$, we have $AB = 52$, $BC = 12$, $CD = 39$, and $DA = 5$. What is the area of $ABCD$? [asy] pair A,B,C,D; A=(0,0); B=(4,0); C=(3.3,1); D=(0.3,1); label(""$A$"",A,S); label(""$B$"",B,S); label(""$C$"",C,N); label(""$D$"",D,N); label(""52"",(2,0),S); label(""39"",(1.8,1),N); label(""5"",(0.15,0.5),W); label(""12"",(3.65,0.5),E); draw(A--B--C--D--cycle); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",210,20260623
+math_reasoning_4831,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4831,test/counting_and_probability/785.json,"Problem: Determine the number of ways to arrange the letters of the word THAT.
+
+Instruction: Solve the problem and provide the final answer.",12,20260623
+math_reasoning_5587,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5587,train/algebra/274.json,"Problem: The quadratic $x^2-3x+9=x+41$ has two solutions. What is the positive difference between these solutions?
+
+Instruction: Solve the problem and provide the final answer.",12,20260623
+math_reasoning_3634,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3634,test/counting_and_probability/258.json,"Problem: How many positive integers are less than $100\pi$?
+
+Instruction: Solve the problem and provide the final answer.",314,20260623
+math_reasoning_11237,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11237,train/algebra/2263.json,"Problem: Let $a^2=\frac{16}{44}$ and $b^2=\frac{(2+\sqrt{5})^2}{11}$, where $a$ is a negative real number and $b$ is a positive real number. If $(a+b)^3$ can be expressed in the simplified form $\frac{x\sqrt{y}}{z}$ where $x$, $y$, and $z$ are positive integers, what is the value of the sum $x+y+z$?
+
+Instruction: Solve the problem and provide the final answer.",181,20260623
+math_reasoning_7148,math_reasoning,nlile/hendrycks-MATH-benchmark,train,7148,train/algebra/1269.json,"Problem: Evaluate the sum \[\frac{1}{3^1} + \frac{2}{3^2} + \frac{3}{3^3} + \cdots + \frac{k}{3^k} + \cdots \]
+
+Instruction: Solve the problem and provide the final answer.",\frac{3}{4},20260623
+math_reasoning_8216,math_reasoning,nlile/hendrycks-MATH-benchmark,train,8216,train/algebra/2032.json,"Problem: There are 3 complex numbers $a+bi$, $c+di$, and $e+fi$. If $b=3$, $e=-a-c$, and the sum of the numbers is $2i$, find $d+f$.
+
+Instruction: Solve the problem and provide the final answer.",-1,20260623
+math_reasoning_1431,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1431,train/intermediate_algebra/651.json,"Problem: Find the sum of the roots of the equation \[(2x^3 + x^2 - 8x + 20)(5x^3 - 25x^2 + 19) = 0.\]
+
+Instruction: Solve the problem and provide the final answer.",\tfrac{9}{2},20260623
+math_reasoning_1309,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1309,train/prealgebra/939.json,"Problem: Find the smallest positive integer divisible by $10$, $11$, and $12$.
+
+Instruction: Solve the problem and provide the final answer.",660,20260623
+math_reasoning_985,math_reasoning,nlile/hendrycks-MATH-benchmark,train,985,test/precalculus/626.json,"Problem: Given $\mathbf{A} = \begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix},$ there exist positive real numbers $x$ and $y$ such that \[(x \mathbf{I} + y \mathbf{A})^2 = \mathbf{A}.\]Enter the ordered pair $(x,y).$
+
+Instruction: Solve the problem and provide the final answer.","\left( \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}} \right)",20260623
+math_reasoning_1683,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1683,test/intermediate_algebra/735.json,"Problem: Let $(x,y)$ be a pair of real numbers satisfying \[ 56x + 33y = \frac{-y}{x^2+y^2}, \qquad \text{and} \qquad 33x-56y = \frac{x}{x^2+y^2}. \]Determine the value of $|x| + |y|$.
+
+Instruction: Solve the problem and provide the final answer.",\frac{11}{65},20260623
+math_reasoning_2325,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2325,train/number_theory/1293.json,"Problem: Let $A$ be the set of all numbers which can be represented as the sum of three consecutive positive integers. What is the greatest common divisor of all numbers in $A$?
+
+Instruction: Solve the problem and provide the final answer.",3,20260623
+math_reasoning_3012,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3012,test/algebra/994.json,"Problem: A line goes through point $A(9, 1)$, point $B(19, k)$ and point $C(7, 0)$. What is the value of $k$?
+
+Instruction: Solve the problem and provide the final answer.",6,20260623
+math_reasoning_7393,math_reasoning,nlile/hendrycks-MATH-benchmark,train,7393,train/counting_and_probability/567.json,"Problem: A rectangle has a perimeter of 64 inches and each side has an integer length. How many non-congruent rectangles meet these criteria?
+
+Instruction: Solve the problem and provide the final answer.",16,20260623
+math_reasoning_8247,math_reasoning,nlile/hendrycks-MATH-benchmark,train,8247,train/intermediate_algebra/92.json,"Problem: Compute the sum of the number $10 - \sqrt{2018}$ and its radical conjugate.
+
+Instruction: Solve the problem and provide the final answer.",20,20260623
+code_generation_96,code_generation,bigcode/humanevalpack,test,96,Python/96,"Write a Python function `count_up_to(n)` to solve the following problem:
+Implement a function that takes an non-negative integer and returns an array of the first n
+integers that are prime numbers and less than n.
+for example:
+count_up_to(5) => [2,3]
+count_up_to(11) => [2,3,5,7]
+count_up_to(0) => []
+count_up_to(20) => [2,3,5,7,11,13,17,19]
+count_up_to(1) => []
+count_up_to(18) => [2,3,5,7,11,13,17]","primes = [] for i in range(2, n): is_prime = True for j in range(2, i): if i % j == 0: is_prime = False break if is_prime: primes.append(i) return primes",20260623
+code_generation_116,code_generation,bigcode/humanevalpack,test,116,Python/116,"Write a Python function `sort_array(arr)` to solve the following problem:
+In this Kata, you have to sort an array of non-negative integers according to
+number of ones in their binary representation in ascending order.
+For similar number of ones, sort based on decimal value.
+It must be implemented like this:
+>>> sort_array([1, 5, 2, 3, 4]) == [1, 2, 3, 4, 5]
+>>> sort_array([-2, -3, -4, -5, -6]) == [-6, -5, -4, -3, -2]
+>>> sort_array([1, 0, 2, 3, 4]) [0, 1, 2, 3, 4]","return sorted(sorted(arr), key=lambda x: bin(x)[2:].count('1'))",20260623
+code_generation_99,code_generation,bigcode/humanevalpack,test,99,Python/99,"Write a Python function `closest_integer(value)` to solve the following problem:
+Create a function that takes a value (string) representing a number
+and returns the closest integer to it. If the number is equidistant
+from two integers, round it away from zero.
+Examples
+>>> closest_integer(""10"")
+10
+>>> closest_integer(""15.3"")
+15
+Note:
+Rounding away from zero means that if the given number is equidistant
+from two integers, the one you should return is the one that is the
+farthest from zero. For example closest_integer(""14.5"") should
+return 15 and closest_integer(""-14.5"") should return -15.","from math import floor, ceil if value.count('.') == 1: # remove trailing zeros while (value[-1] == '0'): value = value[:-1] num = float(value) if value[-2:] == '.5': if num > 0: res = ceil(num) else: res = floor(num) elif len(value) > 0: res = int(round(num)) else: res = 0 return res",20260623
+code_generation_36,code_generation,bigcode/humanevalpack,test,36,Python/36,"Write a Python function `fizz_buzz(n: int)` to solve the following problem:
+Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.
+>>> fizz_buzz(50)
+0
+>>> fizz_buzz(78)
+2
+>>> fizz_buzz(79)
+3","ns = [] for i in range(n): if i % 11 == 0 or i % 13 == 0: ns.append(i) s = ''.join(list(map(str, ns))) ans = 0 for c in s: ans += (c == '7') return ans",20260623
+code_generation_126,code_generation,bigcode/humanevalpack,test,126,Python/126,"Write a Python function `is_sorted(lst)` to solve the following problem:
+Given a list of numbers, return whether or not they are sorted
+in ascending order. If list has more than 1 duplicate of the same
+number, return False. Assume no negative numbers and only integers.
+Examples
+is_sorted([5]) ➞ True
+is_sorted([1, 2, 3, 4, 5]) ➞ True
+is_sorted([1, 3, 2, 4, 5]) ➞ False
+is_sorted([1, 2, 3, 4, 5, 6]) ➞ True
+is_sorted([1, 2, 3, 4, 5, 6, 7]) ➞ True
+is_sorted([1, 3, 2, 4, 5, 6, 7]) ➞ False
+is_sorted([1, 2, 2, 3, 3, 4]) ➞ True
+is_sorted([1, 2, 2, 2, 3, 4]) ➞ False","count_digit = dict([(i, 0) for i in lst]) for i in lst: count_digit[i]+=1 if any(count_digit[i] > 2 for i in lst): return False if all(lst[i-1] <= lst[i] for i in range(1, len(lst))): return True else: return False",20260623
+code_generation_158,code_generation,bigcode/humanevalpack,test,158,Python/158,"Write a Python function `find_max(words)` to solve the following problem:
+Write a function that accepts a list of strings.
+The list contains different words. Return the word with maximum number
+of unique characters. If multiple strings have maximum number of unique
+characters, return the one which comes first in lexicographical order.
+find_max([""name"", ""of"", ""string""]) == ""string""
+find_max([""name"", ""enam"", ""game""]) == ""enam""
+find_max([""aaaaaaa"", ""bb"" ,""cc""]) == """"aaaaaaa""","return sorted(words, key = lambda x: (-len(set(x)), x))[0]",20260623
+code_generation_10,code_generation,bigcode/humanevalpack,test,10,Python/10,"Write a Python function `make_palindrome(string: str) -> str` to solve the following problem:
+Find the shortest palindrome that begins with a supplied string.
+Algorithm idea is simple:
+- Find the longest postfix of supplied string that is a palindrome.
+- Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.
+>>> make_palindrome('')
+''
+>>> make_palindrome('cat')
+'catac'
+>>> make_palindrome('cata')
+'catac'",if not string: return '' beginning_of_suffix = 0 while not is_palindrome(string[beginning_of_suffix:]): beginning_of_suffix += 1 return string + string[:beginning_of_suffix][::-1],20260623
+code_generation_20,code_generation,bigcode/humanevalpack,test,20,Python/20,"Write a Python function `find_closest_elements(numbers: List[float]) -> Tuple[float, float]` to solve the following problem:
+From a supplied list of numbers (of length at least two) select and return two that are the closest to each
+other and return them in order (smaller number, larger number).
+>>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.2])
+(2.0, 2.2)
+>>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.0])
+(2.0, 2.0)","closest_pair = None distance = None for idx, elem in enumerate(numbers): for idx2, elem2 in enumerate(numbers): if idx != idx2: if distance is None: distance = abs(elem - elem2) closest_pair = tuple(sorted([elem, elem2])) else: new_distance = abs(elem - elem2) if new_distance < distance: distance = new_distance closest_pair = tuple(sorted([elem, elem2])) return closest_pair",20260623
+code_generation_59,code_generation,bigcode/humanevalpack,test,59,Python/59,"Write a Python function `largest_prime_factor(n: int)` to solve the following problem:
+Return the largest prime factor of n. Assume n > 1 and is not a prime.
+>>> largest_prime_factor(13195)
+29
+>>> largest_prime_factor(2048)
+2","def is_prime(k): if k < 2: return False for i in range(2, k - 1): if k % i == 0: return False return True largest = 1 for j in range(2, n + 1): if n % j == 0 and is_prime(j): largest = max(largest, j) return largest",20260623
+code_generation_94,code_generation,bigcode/humanevalpack,test,94,Python/94,"Write a Python function `skjkasdkd(lst)` to solve the following problem:
+You are given a list of integers.
+You need to find the largest prime value and return the sum of its digits.
+Examples:
+For lst = [0,3,2,1,3,5,7,4,5,5,5,2,181,32,4,32,3,2,32,324,4,3] the output should be 10
+For lst = [1,0,1,8,2,4597,2,1,3,40,1,2,1,2,4,2,5,1] the output should be 25
+For lst = [1,3,1,32,5107,34,83278,109,163,23,2323,32,30,1,9,3] the output should be 13
+For lst = [0,724,32,71,99,32,6,0,5,91,83,0,5,6] the output should be 11
+For lst = [0,81,12,3,1,21] the output should be 3
+For lst = [0,8,1,2,1,7] the output should be 7","def isPrime(n): for i in range(2,int(n**0.5)+1): if n%i==0: return False return True maxx = 0 i = 0 while i < len(lst): if(lst[i] > maxx and isPrime(lst[i])): maxx = lst[i] i+=1 result = sum(int(digit) for digit in str(maxx)) return result",20260623
+code_generation_58,code_generation,bigcode/humanevalpack,test,58,Python/58,"Write a Python function `common(l1: list, l2: list)` to solve the following problem:
+Return sorted unique common elements for two lists.
+>>> common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])
+[1, 5, 653]
+>>> common([5, 3, 2, 8], [3, 2])
+[2, 3]",ret = set() for e1 in l1: for e2 in l2: if e1 == e2: ret.add(e1) return sorted(list(ret)),20260623
+code_generation_41,code_generation,bigcode/humanevalpack,test,41,Python/41,"Write a Python function `car_race_collision(n: int)` to solve the following problem:
+Imagine a road that's a perfectly straight infinitely long line.
+n cars are driving left to right;  simultaneously, a different set of n cars
+are driving right to left.   The two sets of cars start out being very far from
+each other.  All cars move in the same speed.  Two cars are said to collide
+when a car that's moving left to right hits a car that's moving right to left.
+However, the cars are infinitely sturdy and strong; as a result, they continue moving
+in their trajectory as if they did not collide.
+This function outputs the number of such collisions.",return n**2,20260623
+code_generation_14,code_generation,bigcode/humanevalpack,test,14,Python/14,"Write a Python function `all_prefixes(string: str) -> List[str]` to solve the following problem:
+Return list of all prefixes from shortest to longest of the input string
+>>> all_prefixes('abc')
+['a', 'ab', 'abc']",result = [] for i in range(len(string)): result.append(string[:i+1]) return result,20260623
+code_generation_118,code_generation,bigcode/humanevalpack,test,118,Python/118,"Write a Python function `get_closest_vowel(word)` to solve the following problem:
+You are given a word. Your task is to find the closest vowel that stands between
+two consonants from the right side of the word (case sensitive).
+Vowels in the beginning and ending doesn't count. Return empty string if you didn't
+find any vowel met the above condition.
+You may assume that the given string contains English letter only.
+Example:
+get_closest_vowel(""yogurt"") ==> ""u""
+get_closest_vowel(""FULL"") ==> ""U""
+get_closest_vowel(""quick"") ==> """"
+get_closest_vowel(""ab"") ==> """"","if len(word) < 3: return """" vowels = {""a"", ""e"", ""i"", ""o"", ""u"", ""A"", ""E"", 'O', 'U', 'I'} for i in range(len(word)-2, 0, -1): if word[i] in vowels: if (word[i+1] not in vowels) and (word[i-1] not in vowels): return word[i] return """"",20260623
+code_generation_90,code_generation,bigcode/humanevalpack,test,90,Python/90,"Write a Python function `next_smallest(lst)` to solve the following problem:
+You are given a list of integers.
+Write a function next_smallest() that returns the 2nd smallest element of the list.
+Return None if there is no such element.
+next_smallest([1, 2, 3, 4, 5]) == 2
+next_smallest([5, 1, 4, 3, 2]) == 2
+next_smallest([]) == None
+next_smallest([1, 1]) == None",lst = sorted(set(lst)) return None if len(lst) < 2 else lst[1],20260623
+code_generation_89,code_generation,bigcode/humanevalpack,test,89,Python/89,"Write a Python function `encrypt(s)` to solve the following problem:
+Create a function encrypt that takes a string as an argument and
+returns a string encrypted with the alphabet being rotated.
+The alphabet should be rotated in a manner such that the letters
+shift down by two multiplied to two places.
+For example:
+encrypt('hi') returns 'lm'
+encrypt('asdfghjkl') returns 'ewhjklnop'
+encrypt('gf') returns 'kj'
+encrypt('et') returns 'ix'",d = 'abcdefghijklmnopqrstuvwxyz' out = '' for c in s: if c in d: out += d[(d.index(c)+2*2) % 26] else: out += c return out,20260623
+code_generation_144,code_generation,bigcode/humanevalpack,test,144,Python/144,"Write a Python function `simplify(x, n)` to solve the following problem:
+Your task is to implement a function that will simplify the expression
+x * n. The function returns True if x * n evaluates to a whole number and False
+otherwise. Both x and n, are string representation of a fraction, and have the following format,
+<numerator>/<denominator> where both numerator and denominator are positive whole numbers.
+You can assume that x, and n are valid fractions, and do not have zero as denominator.
+simplify(""1/5"", ""5/1"") = True
+simplify(""1/6"", ""2/1"") = False
+simplify(""7/10"", ""10/2"") = False","a, b = x.split(""/"") c, d = n.split(""/"") numerator = int(a) * int(c) denom = int(b) * int(d) if (numerator/denom == int(numerator/denom)): return True return False",20260623
+code_generation_77,code_generation,bigcode/humanevalpack,test,77,Python/77,"Write a Python function `iscube(a)` to solve the following problem:
+Write a function that takes an integer a and returns True
+if this ingeger is a cube of some integer number.
+Note: you may assume the input is always valid.
+Examples:
+iscube(1) ==> True
+iscube(2) ==> False
+iscube(-1) ==> True
+iscube(64) ==> True
+iscube(0) ==> True
+iscube(180) ==> False",a = abs(a) return int(round(a ** (1. / 3))) ** 3 == a,20260623
+code_generation_53,code_generation,bigcode/humanevalpack,test,53,Python/53,"Write a Python function `add(x: int, y: int)` to solve the following problem:
+Add two numbers x and y
+>>> add(2, 3)
+5
+>>> add(5, 7)
+12",return x + y,20260623
+code_generation_73,code_generation,bigcode/humanevalpack,test,73,Python/73,"Write a Python function `smallest_change(arr)` to solve the following problem:
+Given an array arr of integers, find the minimum number of elements that
+need to be changed to make the array palindromic. A palindromic array is an array that
+is read the same backwards and forwards. In one change, you can change one element to any other element.
+For example:
+smallest_change([1,2,3,5,4,7,9,6]) == 4
+smallest_change([1, 2, 3, 4, 3, 2, 2]) == 1
+smallest_change([1, 2, 3, 2, 1]) == 0",ans = 0 for i in range(len(arr) // 2): if arr[i] != arr[len(arr) - i - 1]: ans += 1 return ans,20260623

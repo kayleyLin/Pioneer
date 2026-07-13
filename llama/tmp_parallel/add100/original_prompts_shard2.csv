@@ -1,0 +1,315 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+factual_qa_436,factual_qa,rajpurkar/squad_v2,validation,436,56e1c4fce3433e1400423151,"Context: Other important complexity classes include BPP, ZPP and RP, which are defined using probabilistic Turing machines; AC and NC, which are defined using Boolean circuits; and BQP and QMA, which are defined using quantum Turing machines. #P is an important complexity class of counting problems (not decision problems). Classes like IP and AM are defined using Interactive proof systems. ALL is the class of all decision problems.
+
+Question: What is the expression used to represent a complexity class of counting problems?",#P,20260623
+factual_qa_349,factual_qa,rajpurkar/squad_v2,validation,349,56e1b355e3433e14004230b2,"Context: However, some computational problems are easier to analyze in terms of more unusual resources. For example, a non-deterministic Turing machine is a computational model that is allowed to branch out to check many different possibilities at once. The non-deterministic Turing machine has very little to do with how we physically want to compute algorithms, but its branching exactly captures many of the mathematical models we want to analyze, so that non-deterministic time is a very important resource in analyzing computational problems.
+
+Question: A non-deterministic Turing machine has the ability to capture what facet of useful analysis?",mathematical models,20260623
+factual_qa_1370,factual_qa,rajpurkar/squad_v2,validation,1370,570d4c3bfed7b91900d45e34,"Context: In 1854 at Ballarat there was an armed rebellion against the government of Victoria by miners protesting against mining taxes (the ""Eureka Stockade""). This was crushed by British troops, but the discontents prompted colonial authorities to reform the administration (particularly reducing the hated mining licence fees) and extend the franchise. Within a short time, the Imperial Parliament granted Victoria responsible government with the passage of the Colony of Victoria Act 1855. Some of the leaders of the Eureka rebellion went on to become members of the Victorian Parliament.
+
+Question: What did colonial authorities reduce because of the Ballarat revolt?",mining licence fees,20260623
+factual_qa_939,factual_qa,rajpurkar/squad_v2,validation,939,570614ff52bb89140068988b,"Context: College sports are also popular in southern California. The UCLA Bruins and the USC Trojans both field teams in NCAA Division I in the Pac-12 Conference, and there is a longtime rivalry between the schools.
+
+Question: The Bruins belong to which college?",UCLA,20260623
+factual_qa_8201,factual_qa,rajpurkar/squad_v2,validation,8201,5729f5a03f37b31900478606,"Context: Gamma delta T cells (γδ T cells) possess an alternative T cell receptor (TCR) as opposed to CD4+ and CD8+ (αβ) T cells and share the characteristics of helper T cells, cytotoxic T cells and NK cells. The conditions that produce responses from γδ T cells are not fully understood. Like other 'unconventional' T cell subsets bearing invariant TCRs, such as CD1d-restricted Natural Killer T cells, γδ T cells straddle the border between innate and adaptive immunity. On one hand, γδ T cells are a component of adaptive immunity as they rearrange TCR genes to produce receptor diversity and can also develop a memory phenotype. On the other hand, the various subsets are also part of the innate immune system, as restricted TCR or NK receptors may be used as pattern recognition receptors. For example, large numbers of human Vγ9/Vδ2 T cells respond within hours to common molecules produced by microbes, and highly restricted Vδ1+ T cells in epithelia respond to stressed epithelial cells.
+
+Question: Gamma delta T cells have a different version of what receptor?",alternative T cell receptor (TCR),20260623
+factual_qa_1173,factual_qa,rajpurkar/squad_v2,validation,1173,570d2556fed7b91900d45c4a,"Context: Immigrants arrived from all over the world to search for gold, especially from Ireland and China. Many Chinese miners worked in Victoria, and their legacy is particularly strong in Bendigo and its environs. Although there was some racism directed at them, there was not the level of anti-Chinese violence that was seen at the Lambing Flat riots in New South Wales. However, there was a riot at Buckland Valley near Bright in 1857. Conditions on the gold fields were cramped and unsanitary; an outbreak of typhoid at Buckland Valley in 1854 killed over 1,000 miners.
+
+Question: How many miners died in the typhoid outbreak of 1854?","over 1,000",20260623
+factual_qa_3920,factual_qa,rajpurkar/squad_v2,validation,3920,57268a37f1498d1400e8e33d,"Context: Ctenophores used to be regarded as ""dead ends"" in marine food chains because it was thought their low ratio of organic matter to salt and water made them a poor diet for other animals. It is also often difficult to identify the remains of ctenophores in the guts of possible predators, although the combs sometimes remain intact long enough to provide a clue. Detailed investigation of chum salmon, Oncorhynchus keta, showed that these fish digest ctenophores 20 times as fast as an equal weight of shrimps, and that ctenophores can provide a good diet if there are enough of them around. Beroids prey mainly on other ctenophores. Some jellyfish and turtles eat large quantities of ctenophores, and jellyfish may temporarily wipe out ctenophore populations. Since ctenophores and jellyfish often have large seasonal variations in population, most fish that prey on them are generalists, and may have a greater effect on populations than the specialist jelly-eaters. This is underlined by an observation of herbivorous fishes deliberately feeding on gelatinous zooplankton during blooms in the Red Sea. The larvae of some sea anemones are parasites on ctenophores, as are the larvae of some flatworms that parasitize fish when they reach adulthood.
+
+Question: What is the oncorhynchus also called?",chum salmon,20260623
+factual_qa_6848,factual_qa,rajpurkar/squad_v2,validation,6848,5727f2714b864d1900164074,"Context: During the mass high school education movement from 1910–1940, there was an increase in skilled workers, which led to a decrease in the price of skilled labor. High school education during the period was designed to equip students with necessary skill sets to be able to perform at work. In fact, it differs from the present high school education, which is regarded as a stepping-stone to acquire college and advanced degrees. This decrease in wages caused a period of compression and decreased inequality between skilled and unskilled workers. Education is very important for the growth of the economy, however educational inequality in gender also influence towards the economy. Lagerlof and Galor stated that gender inequality in education can result to low economic growth, and continued gender inequality in education, thus creating a poverty trap. It is suggested that a large gap in male and female education may indicate backwardness and so may be associated with lower economic growth, which can explain why there is economic inequality between countries.
+
+Question: What impact did the high school education movement have on the wages of skilled workers?",decrease,20260623
+factual_qa_11086,factual_qa,rajpurkar/squad_v2,validation,11086,5733a6ac4776f41900660f5a,"Context: Tamara de Lempicka was a famous artist born in Warsaw. She was born Maria Górska in Warsaw to wealthy parents and in 1916 married a Polish lawyer Tadeusz Łempicki. Better than anyone else she represented the Art Deco style in painting and art. Nathan Alterman, the Israeli poet, was born in Warsaw, as was Moshe Vilenski, the Israeli composer, lyricist, and pianist, who studied music at the Warsaw Conservatory. Warsaw was the beloved city of Isaac Bashevis Singer, which he described in many of his novels: Warsaw has just now been destroyed. No one will ever see the Warsaw I knew. Let me just write about it. Let this Warsaw not disappear forever, he commented.
+
+Question: What did Lempicka represent better than anyone else?",the Art Deco style,20260623
+factual_qa_6595,factual_qa,rajpurkar/squad_v2,validation,6595,57281940ff5b5019007d9d45,"Context: In the 1910s, New York–based filmmakers were attracted to Jacksonville's warm climate, exotic locations, excellent rail access, and cheap labor. Over the course of the decade, more than 30 silent film studios were established, earning Jacksonville the title of ""Winter Film Capital of the World"". However, the emergence of Hollywood as a major film production center ended the city's film industry. One converted movie studio site, Norman Studios, remains in Arlington; It has been converted to the Jacksonville Silent Film Museum at Norman Studios.
+
+Question: What type of movies were produced in Jacksonville's 30 studios?",silent film,20260623
+factual_qa_2308,factual_qa,rajpurkar/squad_v2,validation,2308,571c3e8cdd7acb1400e4c0a9,"Context: In the late 17th century, Robert Boyle proved that air is necessary for combustion. English chemist John Mayow (1641–1679) refined this work by showing that fire requires only a part of air that he called spiritus nitroaereus or just nitroaereus. In one experiment he found that placing either a mouse or a lit candle in a closed container over water caused the water to rise and replace one-fourteenth of the air's volume before extinguishing the subjects. From this he surmised that nitroaereus is consumed in both respiration and combustion.
+
+Question: Besides combustion, for what other action did Mayow show nitroaereus responsible?",respiration,20260623
+factual_qa_6407,factual_qa,rajpurkar/squad_v2,validation,6407,5727d4922ca10214002d977e,"Context: Harvard's academic programs operate on a semester calendar beginning in early September and ending in mid-May. Undergraduates typically take four half-courses per term and must maintain a four-course rate average to be considered full-time. In many concentrations, students can elect to pursue a basic program or an honors-eligible program requiring a senior thesis and/or advanced course work. Students graduating in the top 4–5% of the class are awarded degrees summa cum laude, students in the next 15% of the class are awarded magna cum laude, and the next 30% of the class are awarded cum laude. Harvard has chapters of academic honor societies such as Phi Beta Kappa and various committees and departments also award several hundred named prizes annually. Harvard, along with other universities, has been accused of grade inflation, although there is evidence that the quality of the student body and its motivation have also increased. Harvard College reduced the number of students who receive Latin honors from 90% in 2004 to 60% in 2005. Moreover, the honors of ""John Harvard Scholar"" and ""Harvard College Scholar"" will now be given only to the top 5 percent and the next 5 percent of each class.
+
+Question: What are the top 4-5% graduating students honored with?",summa cum laude,20260623
+factual_qa_4242,factual_qa,rajpurkar/squad_v2,validation,4242,5725ff8238643c19005acf4b,"Context: Passenger rail service is provided by Amtrak San Joaquins. The main passenger rail station is the recently renovated historic Santa Fe Railroad Depot in Downtown Fresno. The Bakersfield-Stockton mainlines of the Burlington Northern Santa Fe Railway and Union Pacific Railroad railroads cross in Fresno, and both railroads maintain railyards within the city; the San Joaquin Valley Railroad also operates former Southern Pacific branchlines heading west and south out of the city. The city of Fresno is planned to serve the future California High Speed Rail.
+
+Question: What two railroads have railyards in the city of Fresno?",Burlington Northern Santa Fe Railway and Union Pacific Railroad,20260623
+factual_qa_4332,factual_qa,rajpurkar/squad_v2,validation,4332,57263677ec44d21400f3dc4b,"Context: Baran developed the concept of distributed adaptive message block switching during his research at the RAND Corporation for the US Air Force into survivable communications networks, first presented to the Air Force in the summer of 1961 as briefing B-265, later published as RAND report P-2626 in 1962, and finally in report RM 3420 in 1964. Report P-2626 described a general architecture for a large-scale, distributed, survivable communications network. The work focuses on three key ideas: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets, and delivery of these messages by store and forward switching.
+
+Question: What things did the network concentrate on","use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets",20260623
+factual_qa_1717,factual_qa,rajpurkar/squad_v2,validation,1717,5710f4b8b654c5140001fa47,"Context: Prince Louis de Condé, along with his sons Daniel and Osias,[citation needed] arranged with Count Ludwig von Nassau-Saarbrücken to establish a Huguenot community in present-day Saarland in 1604. The Count supported mercantilism and welcomed technically skilled immigrants into his lands, regardless of their religion. The Condés established a thriving glass-making works, which provided wealth to the principality for many years. Other founding families created enterprises based on textiles and such traditional Huguenot occupations in France. The community and its congregation remain active to this day, with descendants of many of the founding families still living in the region. Some members of this community emigrated to the United States in the 1890s.
+
+Question: What industry did the nobleman establish with this settlement?",glass-making,20260623
+factual_qa_9814,factual_qa,rajpurkar/squad_v2,validation,9814,572fda6fb2c2fd140056850b,"Context: The total number of seats in the Parliament are allocated to parties proportionally to the number of votes received in the second vote of the ballot using the d'Hondt method. For example, to determine who is awarded the first list seat, the number of list votes cast for each party is divided by one plus the number of seats the party won in the region (at this point just constituency seats). The party with the highest quotient is awarded the seat, which is then added to its constituency seats in allocating the second seat. This is repeated iteratively until all available list seats are allocated.
+
+Question: How are the total numbers of seats allocated to parties?",proportionally to the number of votes received,20260623
+factual_qa_3682,factual_qa,rajpurkar/squad_v2,validation,3682,5725c57a89a1e219009abe60,"Context: Most species are hermaphrodites—a single animal can produce both eggs and sperm, meaning it can fertilize its own egg, not needing a mate. Some are simultaneous hermaphrodites, which can produce both eggs and sperm at the same time. Others are sequential hermaphrodites, in which the eggs and sperm mature at different times. Fertilization is generally external, although platyctenids' eggs are fertilized inside their parents' bodies and kept there until they hatch. The young are generally planktonic and in most species look like miniature cydippids, gradually changing into their adult shapes as they grow. The exceptions are the beroids, whose young are miniature beroids with large mouths and no tentacles, and the platyctenids, whose young live as cydippid-like plankton until they reach near-adult size, but then sink to the bottom and rapidly metamorphose into the adult form. In at least some species, juveniles are capable of reproduction before reaching the adult size and shape. The combination of hermaphroditism and early reproduction enables small populations to grow at an explosive rate.
+
+Question: What type of hermaphrodite produces egg and sperm at different times?",sequential,20260623
+factual_qa_3483,factual_qa,rajpurkar/squad_v2,validation,3483,5725cbb289a1e219009abed2,"Context: The first European to travel the length of the Amazon River was Francisco de Orellana in 1542. The BBC's Unnatural Histories presents evidence that Orellana, rather than exaggerating his claims as previously thought, was correct in his observations that a complex civilization was flourishing along the Amazon in the 1540s. It is believed that the civilization was later devastated by the spread of diseases from Europe, such as smallpox. Since the 1970s, numerous geoglyphs have been discovered on deforested land dating between AD 0–1250, furthering claims about Pre-Columbian civilizations. Ondemar Dias is accredited with first discovering the geoglyphs in 1977 and Alceu Ranzi with furthering their discovery after flying over Acre. The BBC's Unnatural Histories presented evidence that the Amazon rainforest, rather than being a pristine wilderness, has been shaped by man for at least 11,000 years through practices such as forest gardening and terra preta.
+
+Question: Who was the first European to travel the Amazon River?",Francisco de Orellana,20260623
+factual_qa_1902,factual_qa,rajpurkar/squad_v2,validation,1902,57113be3a58dae1900cd6d2c,"Context: In 1781 James Watt patented a steam engine that produced continuous rotary motion. Watt's ten-horsepower engines enabled a wide range of manufacturing machinery to be powered. The engines could be sited anywhere that water and coal or wood fuel could be obtained. By 1883, engines that could provide 10,000 hp had become feasible. The stationary steam engine was a key component of the Industrial Revolution, allowing factories to locate where water power was unavailable. The atmospheric engines of Newcomen and Watt were large compared to the amount of power they produced, but high pressure steam engines were light enough to be applied to vehicles such as traction engines and the railway locomotives.
+
+Question: What was the steam engine an important component of?",Industrial Revolution,20260623
+factual_qa_7652,factual_qa,rajpurkar/squad_v2,validation,7652,572869b84b864d19001649b0,"Context: Kublai's government after 1262 was a compromise between preserving Mongol interests in China and satisfying the demands of his Chinese subjects. He instituted the reforms proposed by his Chinese advisers by centralizing the bureaucracy, expanding the circulation of paper money, and maintaining the traditional monopolies on salt and iron. He restored the Imperial Secretariat and left the local administrative structure of past Chinese dynasties unchanged. However, Kublai rejected plans to revive the Confucian imperial examinations and divided Yuan society into three, later four, classes with the Han Chinese occupying the lowest rank. Kublai's Chinese advisers still wielded significant power in the government, but their official rank was nebulous.
+
+Question: What administrative division did Kublai leave unmodified?",local administrative structure of past Chinese dynasties,20260623
+math_reasoning_6895,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6895,train/counting_and_probability/273.json,"Problem: How many ways are there to put 4 balls in 3 boxes if the balls are not distinguishable and neither are the boxes?
+
+Instruction: Solve the problem and provide the final answer.",4,20260623
+math_reasoning_5734,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5734,train/precalculus/473.json,"Problem: Let $P$ be a point in coordinate space, where all the coordinates of $P$ are positive. The line between the origin and $P$ is drawn. The angle between this line and the $x$-, $y$-, and $z$-axis are $\alpha,$ $\beta,$ and $\gamma,$ respectively. If $\cos \alpha = \frac{1}{3}$ and $\cos \beta = \frac{1}{5},$ then determine $\cos \gamma.$ [asy] import three; size(180); currentprojection = perspective(6,3,2); triple I = (1,0,0), J = (0,1,0), K = (0,0,1), O = (0,0,0); triple V = (3,2,2), P; P = (2.5*I + 2.5*V/abs(V))/2; draw(1.1*I..1.5*P/abs(P)..1.5*V/abs(V)); label(""$\alpha$"", 1.5*P/abs(P), NW); P = (2.5*J + 2.5*V/abs(V))/2; draw(1.5*J..1.5*P/abs(P)..1.5*V/abs(V)); label(""$\beta$"", 1.5*P/abs(P), NE); P = (2.5*K + 2.5*V/abs(V))/2; draw(1.5*K..1.5*P/abs(P)..1.5*V/abs(V)); label(""$\gamma$"", 1.5*P/abs(P), E); draw(O--5.5*V/abs(V)); draw(O--3*I, Arrow3(6)); draw(O--3*J, Arrow3(6)); draw(O--3*K, Arrow3(6)); label(""$x$"", 3.2*I); label(""$y$"", 3.2*J); label(""$z$"", 3.2*K); dot(""$P$"", 5.5*V/abs(V), NE); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",\frac{\sqrt{191}}{15},20260623
+math_reasoning_2258,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2258,train/intermediate_algebra/1344.json,"Problem: Express the following sum as a simple fraction in lowest terms. $$\frac{1}{1\times2} + \frac{1}{2\times3} + \frac{1}{3\times4} + \frac{1}{4\times5} + \frac{1}{5\times6}$$
+
+Instruction: Solve the problem and provide the final answer.",\frac{5}{6},20260623
+math_reasoning_11000,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11000,train/geometry/368.json,"Problem: A circular spinner for a game has a radius of 5 cm. The probability of winning on one spin of this spinner is $\frac{2}{5}$. What is the area, in sq cm, of the WIN sector? Express your answer in terms of $\pi$. [asy]import graph; draw(Circle((0,0),25),black); draw((0,0)--(7,18),Arrow); draw((0,0)--(0,25)); draw((0,0)--(15,-20)); label(""WIN"",(10,10),S); label(""LOSE"",(-8,-8),N); dot((0,0)); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",10\pi,20260623
+math_reasoning_6731,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6731,test/algebra/412.json,"Problem: The sum of two numbers is 25 and their difference is 11. What is the larger of the two numbers?
+
+Instruction: Solve the problem and provide the final answer.",18,20260623
+math_reasoning_6146,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6146,test/algebra/552.json,"Problem: What is the domain of the function $$f(x) = \frac{(2x-3)(2x+5)}{(3x-9)(3x+6)}~?$$ Express your answer as an interval or as a union of intervals.
+
+Instruction: Solve the problem and provide the final answer.","(-\infty,-2)\cup (-2,3)\cup (3,\infty)",20260623
+math_reasoning_6739,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6739,test/number_theory/881.json,"Problem: Your friend has over 200 stamps. He has a stamp book where he can put 30 stamps on each page. He has placed the stamps in his stamp book in such a way that the only page which is not completely filled with stamps is the last one. The last page has 5 stamps in it. What is the smallest number of stamps your friend can have?
+
+Instruction: Solve the problem and provide the final answer.",215,20260623
+math_reasoning_1505,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1505,train/algebra/2069.json,"Problem: Rationalize the denominator of $\frac{1+\sqrt{3}}{1-\sqrt{3}}$. When you write your answer in the form $A+B\sqrt{C}$, where $A$, $B$, and $C$ are integers, what is $ABC$?
+
+Instruction: Solve the problem and provide the final answer.",6,20260623
+math_reasoning_5749,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5749,train/algebra/2337.json,"Problem: The first three stages of a pattern are shown below, in which each line segment represents a toothpick. If the pattern continues such that at each successive stage, three toothpicks are added to the previous arrangement, how many toothpicks are necessary to create the arrangement for the 250th stage? [asy] size(150); defaultpen(linewidth(0.7)); void drawSquare(pair A){ draw((A.x + 0.1,A.y)--(A.x + 0.9,A.y)); draw((A.x,A.y + 0.1)--(A.x,A.y + 0.9)); draw((A.x + 1,A.y + 0.1)--(A.x + 1,A.y + 0.9)); draw((A.x + 0.1,A.y + 1)--(A.x + 0.9,A.y + 1)); } int k = 0; for(int i = 1; i <= 3; ++i){ for(int j = 0; j < i; ++j){ drawSquare((k,0)); ++k; } draw((k+0.1,0.5)--(k+0.9,0.5),EndArrow); ++k; } label(""$\cdots$"",(k,0.5)); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",751,20260623
+math_reasoning_11625,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11625,train/geometry/6218.json,"Problem: [asy] draw((0,0)--(2,2)--(5/2,1/2)--(2,0)--cycle,dot); MP(""A"",(0,0),W);MP(""B"",(2,2),N);MP(""C"",(5/2,1/2),SE);MP(""D"",(2,0),S); MP(""a"",(1,0),N);MP(""b"",(17/8,1/8),N); [/asy] In the accompanying figure, segments $AB$ and $CD$ are parallel, the measure of angle $D$ is twice that of angle $B$, and the measures of segments $AD$ and $CD$ are $a$ and $b$ respectively. Then the measure of $AB$ is equal to $\text{(A) } \tfrac{1}{2}a+2b\quad \text{(B) } \tfrac{3}{2}b+\tfrac{3}{4}a\quad \text{(C) } 2a-b\quad \text{(D) } 4b-\tfrac{1}{2}a\quad \text{(E) } a+b$
+
+Instruction: Solve the problem and provide the final answer.",a+b,20260623
+math_reasoning_4752,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4752,train/algebra/2110.json,"Problem: Let \[p(x,y) = \begin{cases} x + y &\quad \text{if } x \ge 0 \text{ and } y \ge 0, \\ x - 2y &\quad \text{if } x < 0 \text{ and } y < 0, \\ 3x + y &\quad \text{otherwise}. \end{cases} \]What is $p(p(1,-1),p(-5,-2))$?
+
+Instruction: Solve the problem and provide the final answer.",5,20260623
+math_reasoning_4614,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4614,train/algebra/503.json,"Problem: If we express $x^2 - 5x$ in the form $a(x - h)^2 + k$, then what is $k$?
+
+Instruction: Solve the problem and provide the final answer.",-\frac{25}{4},20260623
+math_reasoning_8764,math_reasoning,nlile/hendrycks-MATH-benchmark,train,8764,test/counting_and_probability/427.json,"Problem: Phillip flips an unfair coin eight times. This coin is twice as likely to come up heads as tails. How many times as likely is Phillip to get exactly three heads than exactly two heads?
+
+Instruction: Solve the problem and provide the final answer.",4,20260623
+math_reasoning_9808,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9808,train/intermediate_algebra/1684.json,"Problem: Consider the region $A^{}_{}$ in the complex plane that consists of all points $z^{}_{}$ such that both $\frac{z^{}_{}}{40}$ and $\frac{40^{}_{}}{\overline{z}}$ have real and imaginary parts between $0^{}_{}$ and $1^{}_{}$, inclusive. Find the area of $A.$
+
+Instruction: Solve the problem and provide the final answer.",1200 - 200 \pi,20260623
+math_reasoning_946,math_reasoning,nlile/hendrycks-MATH-benchmark,train,946,train/prealgebra/1822.json,"Problem: The trip from Carville to Nikpath requires $4\frac 12$ hours when traveling at an average speed of 70 miles per hour. How many hours does the trip require when traveling at an average speed of 60 miles per hour? Express your answer as a decimal to the nearest hundredth.
+
+Instruction: Solve the problem and provide the final answer.",5.25,20260623
+math_reasoning_11390,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11390,train/algebra/1106.json,"Problem: The product of two consecutive page numbers is $18{,}360.$ What is the sum of the two page numbers?
+
+Instruction: Solve the problem and provide the final answer.",271,20260623
+math_reasoning_476,math_reasoning,nlile/hendrycks-MATH-benchmark,train,476,train/geometry/200.json,"Problem: Circles of radius 2 and 3 are externally tangent and are circumscribed by a third circle, as shown in the figure. Find the area of the shaded region. Express your answer in terms of $\pi$. [asy] fill(Circle((-1,0),5),gray(0.7)); fill(Circle((-3,0),3),white); fill(circle((2,0),2),white); dot((-3,0)); dot((2,0)); draw(Circle((-1,0),5)); draw((-3,0)--(0,0)); draw((2,0)--(4,0)); label(""3"",(-1.5,0),N); label(""2"",(3,0),N); draw(Circle((-3,0),3)); draw(Circle((2,0),2)); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",12\pi,20260623
+math_reasoning_5690,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5690,train/number_theory/901.json,"Problem: How many distinct positive factors does 32 have?
+
+Instruction: Solve the problem and provide the final answer.",6,20260623
+math_reasoning_6766,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6766,train/counting_and_probability/5089.json,"Problem: Define an ordered quadruple of integers $(a, b, c, d)$ as interesting if $1 \le a<b<c<d \le 10$, and $a+d>b+c$. How many interesting ordered quadruples are there?
+
+Instruction: Solve the problem and provide the final answer.",80,20260623
+math_reasoning_4387,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4387,train/prealgebra/2032.json,"Problem: In 2003, the average monthly rainfall in Mathborough was $41.5\text{ mm.}$ In 2004, the average monthly rainfall in Mathborough was $2\text{ mm}$ more than in 2003. What was the total amount of rain that fell in Mathborough in 2004?
+
+Instruction: Solve the problem and provide the final answer.",522,20260623
+code_generation_136,code_generation,bigcode/humanevalpack,test,136,Python/136,"Write a Python function `largest_smallest_integers(lst)` to solve the following problem:
+Create a function that returns a tuple (a, b), where 'a' is
+the largest of negative integers, and 'b' is the smallest
+of positive integers in a list.
+If there is no negative or positive integers, return them as None.
+Examples:
+largest_smallest_integers([2, 4, 1, 3, 5, 7]) == (None, 1)
+largest_smallest_integers([]) == (None, None)
+largest_smallest_integers([0]) == (None, None)","smallest = list(filter(lambda x: x < 0, lst)) largest = list(filter(lambda x: x > 0, lst)) return (max(smallest) if smallest else None, min(largest) if largest else None)",20260623
+code_generation_16,code_generation,bigcode/humanevalpack,test,16,Python/16,"Write a Python function `count_distinct_characters(string: str) -> int` to solve the following problem:
+Given a string, find out how many distinct characters (regardless of case) does it consist of
+>>> count_distinct_characters('xyzXYZ')
+3
+>>> count_distinct_characters('Jerry')
+4",return len(set(string.lower())),20260623
+code_generation_123,code_generation,bigcode/humanevalpack,test,123,Python/123,"Write a Python function `get_odd_collatz(n)` to solve the following problem:
+Given a positive integer n, return a sorted list that has the odd numbers in collatz sequence.
+The Collatz conjecture is a conjecture in mathematics that concerns a sequence defined
+as follows: start with any positive integer n. Then each term is obtained from the
+previous term as follows: if the previous term is even, the next term is one half of
+the previous term. If the previous term is odd, the next term is 3 times the previous
+term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1.
+Note:
+1. Collatz(1) is [1].
+2. returned list sorted in increasing order.
+For example:
+get_odd_collatz(5) returns [1, 5] # The collatz sequence for 5 is [5, 16, 8, 4, 2, 1], so the odd numbers are only 1, and 5.",if n%2==0: odd_collatz = [] else: odd_collatz = [n] while n > 1: if n % 2 == 0: n = n/2 else: n = n*3 + 1 if n%2 == 1: odd_collatz.append(int(n)) return sorted(odd_collatz),20260623
+code_generation_91,code_generation,bigcode/humanevalpack,test,91,Python/91,"Write a Python function `is_bored(S)` to solve the following problem:
+You'll be given a string of words, and your task is to count the number
+of boredoms. A boredom is a sentence that starts with the word ""I"".
+Sentences are delimited by '.', '?' or '!'.
+For example:
+>>> is_bored(""Hello world"")
+0
+>>> is_bored(""The sky is blue. The sun is shining. I love this weather"")
+1","import re sentences = re.split(r'[.?!]\s*', S) return sum(sentence[0:2] == 'I ' for sentence in sentences)",20260623
+code_generation_21,code_generation,bigcode/humanevalpack,test,21,Python/21,"Write a Python function `rescale_to_unit(numbers: List[float]) -> List[float]` to solve the following problem:
+Given list of numbers (of at least two elements), apply a linear transform to that list,
+such that the smallest number will become 0 and the largest will become 1
+>>> rescale_to_unit([1.0, 2.0, 3.0, 4.0, 5.0])
+[0.0, 0.25, 0.5, 0.75, 1.0]",min_number = min(numbers) max_number = max(numbers) return [(x - min_number) / (max_number - min_number) for x in numbers],20260623
+code_generation_87,code_generation,bigcode/humanevalpack,test,87,Python/87,"Write a Python function `get_row(lst, x)` to solve the following problem:
+You are given a 2 dimensional data, as a nested lists,
+which is similar to matrix, however, unlike matrices,
+each row may contain a different number of columns.
+Given lst, and integer x, find integers x in the list,
+and return list of tuples, [(x1, y1), (x2, y2) ...] such that
+each tuple is a coordinate - (row, columns), starting with 0.
+Sort coordinates initially by rows in ascending order.
+Also, sort coordinates of the row by columns in descending order.
+Examples:
+get_row([
+[1,2,3,4,5,6],
+[1,2,3,4,1,6],
+[1,2,3,4,5,1]
+], 1) == [(0, 0), (1, 4), (1, 0), (2, 5), (2, 0)]
+get_row([], 1) == []
+get_row([[], [1], [1, 2, 3]], 3) == [(2, 2)]","coords = [(i, j) for i in range(len(lst)) for j in range(len(lst[i])) if lst[i][j] == x] return sorted(sorted(coords, key=lambda x: x[1], reverse=True), key=lambda x: x[0])",20260623
+code_generation_55,code_generation,bigcode/humanevalpack,test,55,Python/55,"Write a Python function `fib(n: int)` to solve the following problem:
+Return n-th Fibonacci number.
+>>> fib(10)
+55
+>>> fib(1)
+1
+>>> fib(8)
+21",if n == 0: return 0 if n == 1: return 1 return fib(n - 1) + fib(n - 2),20260623
+code_generation_163,code_generation,bigcode/humanevalpack,test,163,Python/163,"Write a Python function `generate_integers(a, b)` to solve the following problem:
+Given two positive integers a and b, return the even digits between a
+and b, in ascending order.
+For example:
+generate_integers(2, 8) => [2, 4, 6, 8]
+generate_integers(8, 2) => [2, 4, 6, 8]
+generate_integers(10, 14) => []","lower = max(2, min(a, b)) upper = min(8, max(a, b)) return [i for i in range(lower, upper+1) if i % 2 == 0]",20260623
+code_generation_155,code_generation,bigcode/humanevalpack,test,155,Python/155,"Write a Python function `even_odd_count(num)` to solve the following problem:
+Given an integer. return a tuple that has the number of even and odd digits respectively.
+Example:
+even_odd_count(-12) ==> (1, 1)
+even_odd_count(123) ==> (1, 2)","even_count = 0 odd_count = 0 for i in str(abs(num)): if int(i)%2==0: even_count +=1 else: odd_count +=1 return (even_count, odd_count)",20260623
+code_generation_63,code_generation,bigcode/humanevalpack,test,63,Python/63,"Write a Python function `fibfib(n: int)` to solve the following problem:
+The FibFib number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:
+fibfib(0) == 0
+fibfib(1) == 0
+fibfib(2) == 1
+fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3).
+Please write a function to efficiently compute the n-th element of the fibfib number sequence.
+>>> fibfib(1)
+0
+>>> fibfib(5)
+4
+>>> fibfib(8)
+24",if n == 0: return 0 if n == 1: return 0 if n == 2: return 1 return fibfib(n - 1) + fibfib(n - 2) + fibfib(n - 3),20260623
+code_generation_52,code_generation,bigcode/humanevalpack,test,52,Python/52,"Write a Python function `below_threshold(l: list, t: int)` to solve the following problem:
+Return True if all numbers in the list l are below threshold t.
+>>> below_threshold([1, 2, 4, 10], 100)
+True
+>>> below_threshold([1, 20, 4, 10], 5)
+False",for e in l: if e >= t: return False return True,20260623
+code_generation_5,code_generation,bigcode/humanevalpack,test,5,Python/5,"Write a Python function `intersperse(numbers: List[int], delimeter: int) -> List[int]` to solve the following problem:
+Insert a number 'delimeter' between every two consecutive elements of input list `numbers'
+>>> intersperse([], 4)
+[]
+>>> intersperse([1, 2, 3], 4)
+[1, 4, 2, 4, 3]",if not numbers: return [] result = [] for n in numbers[:-1]: result.append(n) result.append(delimeter) result.append(numbers[-1]) return result,20260623
+code_generation_3,code_generation,bigcode/humanevalpack,test,3,Python/3,"Write a Python function `below_zero(operations: List[int]) -> bool` to solve the following problem:
+You're given a list of deposit and withdrawal operations on a bank account that starts with
+zero balance. Your task is to detect if at any point the balance of account fallls below zero, and
+at that point function should return True. Otherwise it should return False.
+>>> below_zero([1, 2, 3])
+False
+>>> below_zero([1, 2, -4, 5])
+True",balance = 0 for op in operations: balance += op if balance < 0: return True return False,20260623
+code_generation_1,code_generation,bigcode/humanevalpack,test,1,Python/1,"Write a Python function `separate_paren_groups(paren_string: str) -> List[str]` to solve the following problem:
+Input to this function is a string containing multiple groups of nested parentheses. Your goal is to
+separate those group into separate strings and return the list of those.
+Separate groups are balanced (each open brace is properly closed) and not nested within each other
+Ignore any spaces in the input string.
+>>> separate_paren_groups('( ) (( )) (( )( ))')
+['()', '(())', '(()())']",result = [] current_string = [] current_depth = 0 for c in paren_string: if c == '(': current_depth += 1 current_string.append(c) elif c == ')': current_depth -= 1 current_string.append(c) if current_depth == 0: result.append(''.join(current_string)) current_string.clear() return result,20260623
+code_generation_105,code_generation,bigcode/humanevalpack,test,105,Python/105,"Write a Python function `by_length(arr)` to solve the following problem:
+Given an array of integers, sort the integers that are between 1 and 9 inclusive,
+reverse the resulting array, and then replace each digit by its corresponding name from
+""One"", ""Two"", ""Three"", ""Four"", ""Five"", ""Six"", ""Seven"", ""Eight"", ""Nine"".
+For example:
+arr = [2, 1, 1, 4, 5, 8, 2, 3]
+-> sort arr -> [1, 1, 2, 2, 3, 4, 5, 8]
+-> reverse arr -> [8, 5, 4, 3, 2, 2, 1, 1]
+return [""Eight"", ""Five"", ""Four"", ""Three"", ""Two"", ""Two"", ""One"", ""One""]
+If the array is empty, return an empty array:
+arr = []
+return []
+If the array has any strange number ignore it:
+arr = [1, -1 , 55]
+-> sort arr -> [-1, 1, 55]
+-> reverse arr -> [55, 1, -1]
+return = ['One']","dic = { 1: ""One"", 2: ""Two"", 3: ""Three"", 4: ""Four"", 5: ""Five"", 6: ""Six"", 7: ""Seven"", 8: ""Eight"", 9: ""Nine"", } sorted_arr = sorted(arr, reverse=True) new_arr = [] for var in sorted_arr: try: new_arr.append(dic[var]) except: pass return new_arr",20260623
+code_generation_93,code_generation,bigcode/humanevalpack,test,93,Python/93,"Write a Python function `encode(message)` to solve the following problem:
+Write a function that takes a message, and encodes in such a
+way that it swaps case of all letters, replaces all vowels in
+the message with the letter that appears 2 places ahead of that
+vowel in the english alphabet.
+Assume only letters.
+Examples:
+>>> encode('test')
+'TGST'
+>>> encode('This is a message')
+'tHKS KS C MGSSCGG'","vowels = ""aeiouAEIOU"" vowels_replace = dict([(i, chr(ord(i) + 2)) for i in vowels]) message = message.swapcase() return ''.join([vowels_replace[i] if i in vowels else i for i in message])",20260623
+code_generation_70,code_generation,bigcode/humanevalpack,test,70,Python/70,"Write a Python function `strange_sort_list(lst)` to solve the following problem:
+Given list of integers, return list in strange order.
+Strange sorting, is when you start with the minimum value,
+then maximum of the remaining integers, then minimum and so on.
+Examples:
+strange_sort_list([1, 2, 3, 4]) == [1, 4, 2, 3]
+strange_sort_list([5, 5, 5, 5]) == [5, 5, 5, 5]
+strange_sort_list([]) == []","res, switch = [], True while lst: res.append(min(lst) if switch else max(lst)) lst.remove(res[-1]) switch = not switch return res",20260623
+code_generation_160,code_generation,bigcode/humanevalpack,test,160,Python/160,"Write a Python function `do_algebra(operator, operand)` to solve the following problem:
+Given two lists operator, and operand. The first list has basic algebra operations, and
+the second list is a list of integers. Use the two given lists to build the algebric
+expression and return the evaluation of this expression.
+The basic algebra operations:
+Addition ( + )
+Subtraction ( - )
+Multiplication ( * )
+Floor division ( // )
+Exponentiation ( ** )
+Example:
+operator['+', '*', '-']
+array = [2, 3, 4, 5]
+result = 2 + 3 * 4 - 5
+=> result = 9
+Note:
+The length of operator list is equal to the length of operand list minus one.
+Operand is a list of of non-negative integers.
+Operator list has at least one operator, and operand list has at least two operands.","expression = str(operand[0]) for oprt, oprn in zip(operator, operand[1:]): expression+= oprt + str(oprn) return eval(expression)",20260623
+code_generation_134,code_generation,bigcode/humanevalpack,test,134,Python/134,"Write a Python function `check_if_last_char_is_a_letter(txt)` to solve the following problem:
+Create a function that returns True if the last character
+of a given string is an alphabetical character and is not
+a part of a word, and False otherwise.
+Note: ""word"" is a group of characters separated by space.
+Examples:
+check_if_last_char_is_a_letter(""apple pie"") ➞ False
+check_if_last_char_is_a_letter(""apple pi e"") ➞ True
+check_if_last_char_is_a_letter(""apple pi e "") ➞ False
+check_if_last_char_is_a_letter("""") ➞ False",check = txt.split(' ')[-1] return True if len(check) == 1 and (97 <= ord(check.lower()) <= 122) else False,20260623
+code_generation_100,code_generation,bigcode/humanevalpack,test,100,Python/100,"Write a Python function `make_a_pile(n)` to solve the following problem:
+Given a positive integer n, you have to make a pile of n levels of stones.
+The first level has n stones.
+The number of stones in the next level is:
+- the next odd number if n is odd.
+- the next even number if n is even.
+Return the number of stones in each level in a list, where element at index
+i represents the number of stones in the level (i+1).
+Examples:
+>>> make_a_pile(3)
+[3, 5, 7]",return [n + 2*i for i in range(n)],20260623
