@@ -3,7 +3,7 @@
 | Metric | Value |
 |---|---:|
 | n_paraphrase_rows | 50 |
-| template_artifact_before | 16 |
+| template_artifact_before | 17 |
 | template_artifact_after | 0 |
 | asy_removed_before | 7 |
 | asy_removed_after | 0 |
@@ -29,5 +29,6 @@ Affected rows before repair:
 | math_reasoning_10521 | True                    | False             | False          | False                         | False                   |
 | math_reasoning_6164  | True                    | False             | False          | False                         | False                   |
 | math_reasoning_1121  | True                    | False             | False          | False                         | False                   |
+| math_reasoning_5201  | True                    | False             | False          | False                         | False                   |
 | math_reasoning_2891  | True                    | True              | True           | False                         | False                   |
 | math_reasoning_6746  | True                    | False             | False          | False                         | False                   |
