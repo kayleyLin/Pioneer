@@ -1,0 +1,21 @@
+{
+  "updated_at_utc": "2026-07-14T02:11:14.806277+00:00",
+  "model": "qwen-plus",
+  "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "samples_per_prompt": 5,
+  "system_prompt": "You are a helpful assistant. Answer the user's prompt directly.",
+  "expected_original_rows": 1500,
+  "expected_perturbed_rows": 7500,
+  "files": {
+    "prompts\\rq1_sampled_original_prompts_add100_three_task.csv": "cb4a57d4d3ad269f1d8ebf7d32435ed1deccc96bad7bf7f6b8503bebde1f874b",
+    "prompts\\rq1_formal_perturbed_prompts_add100_factual_qa.csv": "8875f78f50a7cfd58500aa95bbc4bd656b6d7f0ddfd27949ac24bddac40ebf6a",
+    "prompts\\rq1_formal_perturbed_prompts_add100_math_reasoning.csv": "83dd9f2cf211e9d63dabe0ab94e7dd0ce55b0ea8a22f16788cd7aaf4e45272f0",
+    "prompts\\rq1_formal_perturbed_prompts_add100_code_generation.csv": "5f38cce6541d344117963879290eba9cafcb3e2563dc120a14319594eedb4b1b",
+    "config\\rq1_generation_config.json": "a62cb22c2ea311d260bc993adf33fc591c93a6c761cfaf7d1bcee75b56a25004",
+    "src\\07_generate_rq1_outputs_qwen.py": "c25495305367b2d54c70e86fdc59b0d4273c8e150514595d35a8cf86b5cb8bf9",
+    "src\\11_generate_rq1b_perturbed_outputs_qwen.py": "68576aa33acaaa65ed9023ff9313264b594323303ce04ea658e9175b361b46a4",
+    "src\\78_run_qwen_add100_parallel.py": "b32b586bd03cb8151822ea7c933cc5273b28ac81bdfadd765343d322c03686dc"
+  }
+}

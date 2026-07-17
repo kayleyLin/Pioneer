@@ -1,0 +1,26 @@
+# Qwen add100 three-task generation validation report
+
+- Status: **PASS**
+- Model: qwen-plus
+- Original rows: 1500
+- Perturbed rows: 7500
+- Original task counts: {'factual_qa': 500, 'math_reasoning': 500, 'code_generation': 500}
+- Perturbed task counts: {'factual_qa': 2500, 'math_reasoning': 2500, 'code_generation': 2500}
+- Perturbation counts: {'paraphrasing': 1500, 'reordering': 1500, 'formatting_changes': 1500, 'context_injection': 1500, 'surface_noise': 1500}
+- Expected samples: 1,2,3,4,5
+- Input hashes:
+  - `prompts\rq1_sampled_original_prompts_add100_three_task.csv`: `cb4a57d4d3ad269f1d8ebf7d32435ed1deccc96bad7bf7f6b8503bebde1f874b`
+  - `prompts\rq1_formal_perturbed_prompts_add100_factual_qa.csv`: `8875f78f50a7cfd58500aa95bbc4bd656b6d7f0ddfd27949ac24bddac40ebf6a`
+  - `prompts\rq1_formal_perturbed_prompts_add100_math_reasoning.csv`: `83dd9f2cf211e9d63dabe0ab94e7dd0ce55b0ea8a22f16788cd7aaf4e45272f0`
+  - `prompts\rq1_formal_perturbed_prompts_add100_code_generation.csv`: `5f38cce6541d344117963879290eba9cafcb3e2563dc120a14319594eedb4b1b`
+- Shard hashes:
+  - `qwen\outputs\add100_shards\original_generations_shard1.csv`: `87ea77b7cf9270aa681ad7719ae28f7db7db28880336e5109b7870e64bfa372d`
+  - `qwen\outputs\add100_shards\original_generations_shard2.csv`: `f18e0e99f3ee09a5651db33a8fe5eaa5f453db84da3186cb71c3771dde3ff581`
+  - `qwen\outputs\add100_shards\original_generations_shard3.csv`: `1142eca255130e8316ed2cf1a09dc3cc59e2d6fc2e0fac7c048548e41ab1e3f1`
+  - `qwen\outputs\add100_shards\original_generations_shard4.csv`: `47c295a0ef9ed021f6c25295652383dd5f0d1a4ca7c8fa67751ee9a32570694f`
+  - `qwen\outputs\add100_shards\original_generations_shard5.csv`: `ca7998219b95213d4c9b8fae7b1bb9de2b856b738640350ef0a1d6cbf35991b9`
+  - `qwen\outputs\add100_shards\perturbed_generations_shard1.csv`: `15f8da58f1128a0e8be53ef17332166d6d1d904b8cf9f6149e09215c9e20d9e3`
+  - `qwen\outputs\add100_shards\perturbed_generations_shard2.csv`: `fe4432157a9b72821dc9d80568aa275828d2e952c2e3786be2f126fbd70ae4b4`
+  - `qwen\outputs\add100_shards\perturbed_generations_shard3.csv`: `32c3cfb83ace9ce3bda0bb19f3edd99bbd11ff86d692c8010554a027506fdfb2`
+  - `qwen\outputs\add100_shards\perturbed_generations_shard4.csv`: `55a99150d9bcbc92e6fac0024e3f40ec359b461d3df3d0bf8b6faf8b000abed7`
+  - `qwen\outputs\add100_shards\perturbed_generations_shard5.csv`: `b6ab5682e8d642420ba108a7b91d9f4187258e168f4e014724242796495fb94b`

@@ -1,0 +1,16 @@
+task_type,perturbation_type,n_items,mean_uncorrected_drift,std_uncorrected_drift,similarity_metric
+code_generation,context_injection,150,0.079526,0.078375,sentence-transformers/all-MiniLM-L6-v2
+code_generation,formatting_changes,150,0.061548,0.05314,sentence-transformers/all-MiniLM-L6-v2
+code_generation,paraphrasing,150,0.103536,0.08027,sentence-transformers/all-MiniLM-L6-v2
+code_generation,reordering,150,0.100822,0.085338,sentence-transformers/all-MiniLM-L6-v2
+code_generation,surface_noise,150,0.066627,0.062309,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,context_injection,150,0.051547,0.083475,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,formatting_changes,150,0.031089,0.041873,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,paraphrasing,150,0.137974,0.107676,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,reordering,150,0.077345,0.085593,sentence-transformers/all-MiniLM-L6-v2
+factual_qa,surface_noise,150,0.025147,0.035975,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,context_injection,150,0.071953,0.052526,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,formatting_changes,150,0.065313,0.047483,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,paraphrasing,150,0.106409,0.10273,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,reordering,150,0.065189,0.049129,sentence-transformers/all-MiniLM-L6-v2
+math_reasoning,surface_noise,150,0.063795,0.049029,sentence-transformers/all-MiniLM-L6-v2

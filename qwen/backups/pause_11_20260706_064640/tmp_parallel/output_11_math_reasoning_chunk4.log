@@ -1,0 +1,279 @@
+CMD: C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\python.exe D:\pioneer_kayley\Pioneer\src\11_generate_rq1b_perturbed_outputs_qwen.py
+ENVS: API_KEY=set
+Found 170 existing rows in D:\pioneer_kayley\Pioneer\tmp_parallel\output_11_math_reasoning_chunk4.csv; resuming.
+[1/250] math_reasoning_9765 paraphrasing sample 1 skipped
+[2/250] math_reasoning_9765 paraphrasing sample 2 skipped
+[3/250] math_reasoning_9765 paraphrasing sample 3 skipped
+[4/250] math_reasoning_9765 paraphrasing sample 4 skipped
+[5/250] math_reasoning_9765 paraphrasing sample 5 skipped
+[6/250] math_reasoning_9765 reordering sample 1 skipped
+[7/250] math_reasoning_9765 reordering sample 2 skipped
+[8/250] math_reasoning_9765 reordering sample 3 skipped
+[9/250] math_reasoning_9765 reordering sample 4 skipped
+[10/250] math_reasoning_9765 reordering sample 5 skipped
+[11/250] math_reasoning_9765 formatting_changes sample 1 skipped
+[12/250] math_reasoning_9765 formatting_changes sample 2 skipped
+[13/250] math_reasoning_9765 formatting_changes sample 3 skipped
+[14/250] math_reasoning_9765 formatting_changes sample 4 skipped
+[15/250] math_reasoning_9765 formatting_changes sample 5 skipped
+[16/250] math_reasoning_9765 context_injection sample 1 skipped
+[17/250] math_reasoning_9765 context_injection sample 2 skipped
+[18/250] math_reasoning_9765 context_injection sample 3 skipped
+[19/250] math_reasoning_9765 context_injection sample 4 skipped
+[20/250] math_reasoning_9765 context_injection sample 5 skipped
+[21/250] math_reasoning_9765 surface_noise sample 1 skipped
+[22/250] math_reasoning_9765 surface_noise sample 2 skipped
+[23/250] math_reasoning_9765 surface_noise sample 3 skipped
+[24/250] math_reasoning_9765 surface_noise sample 4 skipped
+[25/250] math_reasoning_9765 surface_noise sample 5 skipped
+[26/250] math_reasoning_3336 paraphrasing sample 1 skipped
+[27/250] math_reasoning_3336 paraphrasing sample 2 skipped
+[28/250] math_reasoning_3336 paraphrasing sample 3 skipped
+[29/250] math_reasoning_3336 paraphrasing sample 4 skipped
+[30/250] math_reasoning_3336 paraphrasing sample 5 skipped
+[31/250] math_reasoning_3336 reordering sample 1 skipped
+[32/250] math_reasoning_3336 reordering sample 2 skipped
+[33/250] math_reasoning_3336 reordering sample 3 skipped
+[34/250] math_reasoning_3336 reordering sample 4 skipped
+[35/250] math_reasoning_3336 reordering sample 5 skipped
+[36/250] math_reasoning_3336 formatting_changes sample 1 skipped
+[37/250] math_reasoning_3336 formatting_changes sample 2 skipped
+[38/250] math_reasoning_3336 formatting_changes sample 3 skipped
+[39/250] math_reasoning_3336 formatting_changes sample 4 skipped
+[40/250] math_reasoning_3336 formatting_changes sample 5 skipped
+[41/250] math_reasoning_3336 context_injection sample 1 skipped
+[42/250] math_reasoning_3336 context_injection sample 2 skipped
+[43/250] math_reasoning_3336 context_injection sample 3 skipped
+[44/250] math_reasoning_3336 context_injection sample 4 skipped
+[45/250] math_reasoning_3336 context_injection sample 5 skipped
+[46/250] math_reasoning_3336 surface_noise sample 1 skipped
+[47/250] math_reasoning_3336 surface_noise sample 2 skipped
+[48/250] math_reasoning_3336 surface_noise sample 3 skipped
+[49/250] math_reasoning_3336 surface_noise sample 4 skipped
+[50/250] math_reasoning_3336 surface_noise sample 5 skipped
+[51/250] math_reasoning_4965 paraphrasing sample 1 skipped
+[52/250] math_reasoning_4965 paraphrasing sample 2 skipped
+[53/250] math_reasoning_4965 paraphrasing sample 3 skipped
+[54/250] math_reasoning_4965 paraphrasing sample 4 skipped
+[55/250] math_reasoning_4965 paraphrasing sample 5 skipped
+[56/250] math_reasoning_4965 reordering sample 1 skipped
+[57/250] math_reasoning_4965 reordering sample 2 skipped
+[58/250] math_reasoning_4965 reordering sample 3 skipped
+[59/250] math_reasoning_4965 reordering sample 4 skipped
+[60/250] math_reasoning_4965 reordering sample 5 skipped
+[61/250] math_reasoning_4965 formatting_changes sample 1 skipped
+[62/250] math_reasoning_4965 formatting_changes sample 2 skipped
+[63/250] math_reasoning_4965 formatting_changes sample 3 skipped
+[64/250] math_reasoning_4965 formatting_changes sample 4 skipped
+[65/250] math_reasoning_4965 formatting_changes sample 5 skipped
+[66/250] math_reasoning_4965 context_injection sample 1 skipped
+[67/250] math_reasoning_4965 context_injection sample 2 skipped
+[68/250] math_reasoning_4965 context_injection sample 3 skipped
+[69/250] math_reasoning_4965 context_injection sample 4 skipped
+[70/250] math_reasoning_4965 context_injection sample 5 skipped
+[71/250] math_reasoning_4965 surface_noise sample 1 skipped
+[72/250] math_reasoning_4965 surface_noise sample 2 skipped
+[73/250] math_reasoning_4965 surface_noise sample 3 skipped
+[74/250] math_reasoning_4965 surface_noise sample 4 skipped
+[75/250] math_reasoning_4965 surface_noise sample 5 skipped
+[76/250] math_reasoning_9403 paraphrasing sample 1 skipped
+[77/250] math_reasoning_9403 paraphrasing sample 2 skipped
+[78/250] math_reasoning_9403 paraphrasing sample 3 skipped
+[79/250] math_reasoning_9403 paraphrasing sample 4 skipped
+[80/250] math_reasoning_9403 paraphrasing sample 5 skipped
+[81/250] math_reasoning_9403 reordering sample 1 skipped
+[82/250] math_reasoning_9403 reordering sample 2 skipped
+[83/250] math_reasoning_9403 reordering sample 3 skipped
+[84/250] math_reasoning_9403 reordering sample 4 skipped
+[85/250] math_reasoning_9403 reordering sample 5 skipped
+[86/250] math_reasoning_9403 formatting_changes sample 1 skipped
+[87/250] math_reasoning_9403 formatting_changes sample 2 skipped
+[88/250] math_reasoning_9403 formatting_changes sample 3 skipped
+[89/250] math_reasoning_9403 formatting_changes sample 4 skipped
+[90/250] math_reasoning_9403 formatting_changes sample 5 skipped
+[91/250] math_reasoning_9403 context_injection sample 1 skipped
+[92/250] math_reasoning_9403 context_injection sample 2 skipped
+[93/250] math_reasoning_9403 context_injection sample 3 skipped
+[94/250] math_reasoning_9403 context_injection sample 4 skipped
+[95/250] math_reasoning_9403 context_injection sample 5 skipped
+[96/250] math_reasoning_9403 surface_noise sample 1 skipped
+[97/250] math_reasoning_9403 surface_noise sample 2 skipped
+[98/250] math_reasoning_9403 surface_noise sample 3 skipped
+[99/250] math_reasoning_9403 surface_noise sample 4 skipped
+[100/250] math_reasoning_9403 surface_noise sample 5 skipped
+[101/250] math_reasoning_10521 paraphrasing sample 1 skipped
+[102/250] math_reasoning_10521 paraphrasing sample 2 skipped
+[103/250] math_reasoning_10521 paraphrasing sample 3 skipped
+[104/250] math_reasoning_10521 paraphrasing sample 4 skipped
+[105/250] math_reasoning_10521 paraphrasing sample 5 skipped
+[106/250] math_reasoning_10521 reordering sample 1 skipped
+[107/250] math_reasoning_10521 reordering sample 2 skipped
+[108/250] math_reasoning_10521 reordering sample 3 skipped
+[109/250] math_reasoning_10521 reordering sample 4 skipped
+[110/250] math_reasoning_10521 reordering sample 5 skipped
+[111/250] math_reasoning_10521 formatting_changes sample 1 skipped
+[112/250] math_reasoning_10521 formatting_changes sample 2 skipped
+[113/250] math_reasoning_10521 formatting_changes sample 3 skipped
+[114/250] math_reasoning_10521 formatting_changes sample 4 skipped
+[115/250] math_reasoning_10521 formatting_changes sample 5 skipped
+[116/250] math_reasoning_10521 context_injection sample 1 skipped
+[117/250] math_reasoning_10521 context_injection sample 2 skipped
+[118/250] math_reasoning_10521 context_injection sample 3 skipped
+[119/250] math_reasoning_10521 context_injection sample 4 skipped
+[120/250] math_reasoning_10521 context_injection sample 5 skipped
+[121/250] math_reasoning_10521 surface_noise sample 1 skipped
+[122/250] math_reasoning_10521 surface_noise sample 2 skipped
+[123/250] math_reasoning_10521 surface_noise sample 3 skipped
+[124/250] math_reasoning_10521 surface_noise sample 4 skipped
+[125/250] math_reasoning_10521 surface_noise sample 5 skipped
+[126/250] math_reasoning_6164 paraphrasing sample 1 skipped
+[127/250] math_reasoning_6164 paraphrasing sample 2 skipped
+[128/250] math_reasoning_6164 paraphrasing sample 3 skipped
+[129/250] math_reasoning_6164 paraphrasing sample 4 skipped
+[130/250] math_reasoning_6164 paraphrasing sample 5 skipped
+[131/250] math_reasoning_6164 reordering sample 1 skipped
+[132/250] math_reasoning_6164 reordering sample 2 skipped
+[133/250] math_reasoning_6164 reordering sample 3 skipped
+[134/250] math_reasoning_6164 reordering sample 4 skipped
+[135/250] math_reasoning_6164 reordering sample 5 skipped
+[136/250] math_reasoning_6164 formatting_changes sample 1 skipped
+[137/250] math_reasoning_6164 formatting_changes sample 2 skipped
+[138/250] math_reasoning_6164 formatting_changes sample 3 skipped
+[139/250] math_reasoning_6164 formatting_changes sample 4 skipped
+[140/250] math_reasoning_6164 formatting_changes sample 5 skipped
+[141/250] math_reasoning_6164 context_injection sample 1 skipped
+[142/250] math_reasoning_6164 context_injection sample 2 skipped
+[143/250] math_reasoning_6164 context_injection sample 3 skipped
+[144/250] math_reasoning_6164 context_injection sample 4 skipped
+[145/250] math_reasoning_6164 context_injection sample 5 skipped
+[146/250] math_reasoning_6164 surface_noise sample 1 skipped
+[147/250] math_reasoning_6164 surface_noise sample 2 skipped
+[148/250] math_reasoning_6164 surface_noise sample 3 skipped
+[149/250] math_reasoning_6164 surface_noise sample 4 skipped
+[150/250] math_reasoning_6164 surface_noise sample 5 skipped
+[151/250] math_reasoning_6807 paraphrasing sample 1 skipped
+[152/250] math_reasoning_6807 paraphrasing sample 2 skipped
+[153/250] math_reasoning_6807 paraphrasing sample 3 skipped
+[154/250] math_reasoning_6807 paraphrasing sample 4 skipped
+[155/250] math_reasoning_6807 paraphrasing sample 5 skipped
+[156/250] math_reasoning_6807 reordering sample 1 skipped
+[157/250] math_reasoning_6807 reordering sample 2 skipped
+[158/250] math_reasoning_6807 reordering sample 3 skipped
+[159/250] math_reasoning_6807 reordering sample 4 skipped
+[160/250] math_reasoning_6807 reordering sample 5 skipped
+[161/250] math_reasoning_6807 formatting_changes sample 1 skipped
+[162/250] math_reasoning_6807 formatting_changes sample 2 skipped
+[163/250] math_reasoning_6807 formatting_changes sample 3 skipped
+[164/250] math_reasoning_6807 formatting_changes sample 4 skipped
+[165/250] math_reasoning_6807 formatting_changes sample 5 skipped
+[166/250] math_reasoning_6807 context_injection sample 1 skipped
+[167/250] math_reasoning_6807 context_injection sample 2 skipped
+[168/250] math_reasoning_6807 context_injection sample 3 skipped
+[169/250] math_reasoning_6807 context_injection sample 4 skipped
+[170/250] math_reasoning_6807 context_injection sample 5 skipped
+Submitting 80 jobs with workers=1.
+[171/250] math_reasoning_6807 surface_noise sample 1
+[172/250] math_reasoning_6807 surface_noise sample 2
+[173/250] math_reasoning_6807 surface_noise sample 3
+[174/250] math_reasoning_6807 surface_noise sample 4
+[175/250] math_reasoning_6807 surface_noise sample 5
+[176/250] math_reasoning_1121 paraphrasing sample 1
+[177/250] math_reasoning_1121 paraphrasing sample 2
+[178/250] math_reasoning_1121 paraphrasing sample 3
+[179/250] math_reasoning_1121 paraphrasing sample 4
+[180/250] math_reasoning_1121 paraphrasing sample 5
+[181/250] math_reasoning_1121 reordering sample 1
+[182/250] math_reasoning_1121 reordering sample 2
+[183/250] math_reasoning_1121 reordering sample 3
+[184/250] math_reasoning_1121 reordering sample 4
+[185/250] math_reasoning_1121 reordering sample 5
+[186/250] math_reasoning_1121 formatting_changes sample 1
+[187/250] math_reasoning_1121 formatting_changes sample 2
+[188/250] math_reasoning_1121 formatting_changes sample 3
+[189/250] math_reasoning_1121 formatting_changes sample 4
+[190/250] math_reasoning_1121 formatting_changes sample 5
+[191/250] math_reasoning_1121 context_injection sample 1
+[192/250] math_reasoning_1121 context_injection sample 2
+[193/250] math_reasoning_1121 context_injection sample 3
+[194/250] math_reasoning_1121 context_injection sample 4
+[195/250] math_reasoning_1121 context_injection sample 5
+[196/250] math_reasoning_1121 surface_noise sample 1
+[197/250] math_reasoning_1121 surface_noise sample 2
+[198/250] math_reasoning_1121 surface_noise sample 3
+[199/250] math_reasoning_1121 surface_noise sample 4
+[200/250] math_reasoning_1121 surface_noise sample 5
+[201/250] math_reasoning_4506 paraphrasing sample 1
+[202/250] math_reasoning_4506 paraphrasing sample 2
+[203/250] math_reasoning_4506 paraphrasing sample 3
+Connection error: TimeoutError; retrying in 5s
+[204/250] math_reasoning_4506 paraphrasing sample 4
+[205/250] math_reasoning_4506 paraphrasing sample 5
+[206/250] math_reasoning_4506 reordering sample 1
+[207/250] math_reasoning_4506 reordering sample 2
+Connection error: TimeoutError; retrying in 5s
+[208/250] math_reasoning_4506 reordering sample 3
+Connection error: TimeoutError; retrying in 5s
+Connection error: TimeoutError; retrying in 10s
+Connection error: TimeoutError; retrying in 15s
+Connection error: TimeoutError; retrying in 20s
+Traceback (most recent call last):
+  File "D:\pioneer_kayley\Pioneer\src\11_generate_rq1b_perturbed_outputs_qwen.py", line 154, in call_qwen
+    with urlopen(request, timeout=120, context=make_ssl_context()) as response:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 489, in open
+    response = self._open(req, data)
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 1367, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 1323, in do_open
+    r = h.getresponse()
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pioneer_kayley\Pioneer\src\11_generate_rq1b_perturbed_outputs_qwen.py", line 335, in <module>
+    main()
+    ~~~~^^
+  File "D:\pioneer_kayley\Pioneer\src\11_generate_rq1b_perturbed_outputs_qwen.py", line 294, in main
+    _, row = run_generation_job(
+             ~~~~~~~~~~~~~~~~~~^
+        job_number, total, prompt_row, sample_id, config, api_key
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\pioneer_kayley\Pioneer\src\11_generate_rq1b_perturbed_outputs_qwen.py", line 222, in run_generation_job
+    output_text = call_qwen(prompt_row["perturbed_prompt"], config, api_key)
+  File "D:\pioneer_kayley\Pioneer\src\11_generate_rq1b_perturbed_outputs_qwen.py", line 169, in call_qwen
+    raise RuntimeError(
+        f"Qwen connection error after {attempt} attempts: {error}"
+    ) from error
+RuntimeError: Qwen connection error after 5 attempts: The read operation timed out

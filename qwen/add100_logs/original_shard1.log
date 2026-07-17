@@ -1,0 +1,737 @@
+
+=== round 1 2026-07-13T16:17:07.807332+00:00 before=0/300 ===
+Submitting 300 jobs with workers=1.
+[1/300] factual_qa_11652 sample 1
+[2/300] factual_qa_11652 sample 2
+[3/300] factual_qa_11652 sample 3
+[4/300] factual_qa_11652 sample 4
+[5/300] factual_qa_11652 sample 5
+[6/300] factual_qa_8998 sample 1
+[7/300] factual_qa_8998 sample 2
+[8/300] factual_qa_8998 sample 3
+[9/300] factual_qa_8998 sample 4
+[10/300] factual_qa_8998 sample 5
+[11/300] factual_qa_9760 sample 1
+[12/300] factual_qa_9760 sample 2
+[13/300] factual_qa_9760 sample 3
+[14/300] factual_qa_9760 sample 4
+[15/300] factual_qa_9760 sample 5
+[16/300] factual_qa_10491 sample 1
+[17/300] factual_qa_10491 sample 2
+[18/300] factual_qa_10491 sample 3
+[19/300] factual_qa_10491 sample 4
+[20/300] factual_qa_10491 sample 5
+[21/300] factual_qa_7603 sample 1
+[22/300] factual_qa_7603 sample 2
+[23/300] factual_qa_7603 sample 3
+[24/300] factual_qa_7603 sample 4
+[25/300] factual_qa_7603 sample 5
+[26/300] factual_qa_1470 sample 1
+[27/300] factual_qa_1470 sample 2
+[28/300] factual_qa_1470 sample 3
+[29/300] factual_qa_1470 sample 4
+[30/300] factual_qa_1470 sample 5
+[31/300] factual_qa_3208 sample 1
+[32/300] factual_qa_3208 sample 2
+[33/300] factual_qa_3208 sample 3
+[34/300] factual_qa_3208 sample 4
+[35/300] factual_qa_3208 sample 5
+[36/300] factual_qa_10479 sample 1
+[37/300] factual_qa_10479 sample 2
+[38/300] factual_qa_10479 sample 3
+[39/300] factual_qa_10479 sample 4
+[40/300] factual_qa_10479 sample 5
+[41/300] factual_qa_2102 sample 1
+[42/300] factual_qa_2102 sample 2
+[43/300] factual_qa_2102 sample 3
+[44/300] factual_qa_2102 sample 4
+[45/300] factual_qa_2102 sample 5
+[46/300] factual_qa_808 sample 1
+[47/300] factual_qa_808 sample 2
+[48/300] factual_qa_808 sample 3
+[49/300] factual_qa_808 sample 4
+[50/300] factual_qa_808 sample 5
+[51/300] factual_qa_2722 sample 1
+[52/300] factual_qa_2722 sample 2
+[53/300] factual_qa_2722 sample 3
+[54/300] factual_qa_2722 sample 4
+[55/300] factual_qa_2722 sample 5
+[56/300] factual_qa_6833 sample 1
+[57/300] factual_qa_6833 sample 2
+[58/300] factual_qa_6833 sample 3
+[59/300] factual_qa_6833 sample 4
+[60/300] factual_qa_6833 sample 5
+[61/300] factual_qa_3545 sample 1
+[62/300] factual_qa_3545 sample 2
+[63/300] factual_qa_3545 sample 3
+[64/300] factual_qa_3545 sample 4
+[65/300] factual_qa_3545 sample 5
+[66/300] factual_qa_7188 sample 1
+[67/300] factual_qa_7188 sample 2
+[68/300] factual_qa_7188 sample 3
+[69/300] factual_qa_7188 sample 4
+[70/300] factual_qa_7188 sample 5
+[71/300] factual_qa_7457 sample 1
+[72/300] factual_qa_7457 sample 2
+[73/300] factual_qa_7457 sample 3
+[74/300] factual_qa_7457 sample 4
+[75/300] factual_qa_7457 sample 5
+[76/300] factual_qa_8355 sample 1
+[77/300] factual_qa_8355 sample 2
+[78/300] factual_qa_8355 sample 3
+[79/300] factual_qa_8355 sample 4
+[80/300] factual_qa_8355 sample 5
+[81/300] factual_qa_8867 sample 1
+[82/300] factual_qa_8867 sample 2
+[83/300] factual_qa_8867 sample 3
+[84/300] factual_qa_8867 sample 4
+[85/300] factual_qa_8867 sample 5
+[86/300] factual_qa_419 sample 1
+[87/300] factual_qa_419 sample 2
+[88/300] factual_qa_419 sample 3
+[89/300] factual_qa_419 sample 4
+[90/300] factual_qa_419 sample 5
+[91/300] factual_qa_11643 sample 1
+[92/300] factual_qa_11643 sample 2
+[93/300] factual_qa_11643 sample 3
+[94/300] factual_qa_11643 sample 4
+[95/300] factual_qa_11643 sample 5
+[96/300] factual_qa_3903 sample 1
+[97/300] factual_qa_3903 sample 2
+[98/300] factual_qa_3903 sample 3
+[99/300] factual_qa_3903 sample 4
+[100/300] factual_qa_3903 sample 5
+[101/300] math_reasoning_8114 sample 1
+[102/300] math_reasoning_8114 sample 2
+[103/300] math_reasoning_8114 sample 3
+Connection error: TimeoutError; retrying in 5s
+Connection error: TimeoutError; retrying in 10s
+[104/300] math_reasoning_8114 sample 4
+[105/300] math_reasoning_8114 sample 5
+Connection error: TimeoutError; retrying in 5s
+[106/300] math_reasoning_3048 sample 1
+[107/300] math_reasoning_3048 sample 2
+[108/300] math_reasoning_3048 sample 3
+[109/300] math_reasoning_3048 sample 4
+[110/300] math_reasoning_3048 sample 5
+[111/300] math_reasoning_7857 sample 1
+[112/300] math_reasoning_7857 sample 2
+[113/300] math_reasoning_7857 sample 3
+[114/300] math_reasoning_7857 sample 4
+[115/300] math_reasoning_7857 sample 5
+[116/300] math_reasoning_4126 sample 1
+[117/300] math_reasoning_4126 sample 2
+[118/300] math_reasoning_4126 sample 3
+[119/300] math_reasoning_4126 sample 4
+[120/300] math_reasoning_4126 sample 5
+[121/300] math_reasoning_9735 sample 1
+[122/300] math_reasoning_9735 sample 2
+[123/300] math_reasoning_9735 sample 3
+[124/300] math_reasoning_9735 sample 4
+[125/300] math_reasoning_9735 sample 5
+[126/300] math_reasoning_6580 sample 1
+[127/300] math_reasoning_6580 sample 2
+[128/300] math_reasoning_6580 sample 3
+[129/300] math_reasoning_6580 sample 4
+[130/300] math_reasoning_6580 sample 5
+[131/300] math_reasoning_6711 sample 1
+[132/300] math_reasoning_6711 sample 2
+[133/300] math_reasoning_6711 sample 3
+[134/300] math_reasoning_6711 sample 4
+[135/300] math_reasoning_6711 sample 5
+[136/300] math_reasoning_2551 sample 1
+[137/300] math_reasoning_2551 sample 2
+[138/300] math_reasoning_2551 sample 3
+[139/300] math_reasoning_2551 sample 4
+[140/300] math_reasoning_2551 sample 5
+[141/300] math_reasoning_11227 sample 1
+[142/300] math_reasoning_11227 sample 2
+[143/300] math_reasoning_11227 sample 3
+[144/300] math_reasoning_11227 sample 4
+[145/300] math_reasoning_11227 sample 5
+[146/300] math_reasoning_3822 sample 1
+[147/300] math_reasoning_3822 sample 2
+[148/300] math_reasoning_3822 sample 3
+[149/300] math_reasoning_3822 sample 4
+[150/300] math_reasoning_3822 sample 5
+[151/300] math_reasoning_11685 sample 1
+[152/300] math_reasoning_11685 sample 2
+[153/300] math_reasoning_11685 sample 3
+[154/300] math_reasoning_11685 sample 4
+[155/300] math_reasoning_11685 sample 5
+[156/300] math_reasoning_9716 sample 1
+[157/300] math_reasoning_9716 sample 2
+[158/300] math_reasoning_9716 sample 3
+[159/300] math_reasoning_9716 sample 4
+[160/300] math_reasoning_9716 sample 5
+[161/300] math_reasoning_7480 sample 1
+[162/300] math_reasoning_7480 sample 2
+[163/300] math_reasoning_7480 sample 3
+[164/300] math_reasoning_7480 sample 4
+[165/300] math_reasoning_7480 sample 5
+[166/300] math_reasoning_1864 sample 1
+[167/300] math_reasoning_1864 sample 2
+[168/300] math_reasoning_1864 sample 3
+[169/300] math_reasoning_1864 sample 4
+[170/300] math_reasoning_1864 sample 5
+[171/300] math_reasoning_10456 sample 1
+[172/300] math_reasoning_10456 sample 2
+[173/300] math_reasoning_10456 sample 3
+[174/300] math_reasoning_10456 sample 4
+[175/300] math_reasoning_10456 sample 5
+[176/300] math_reasoning_7313 sample 1
+Connection error: TimeoutError; retrying in 5s
+Connection error: TimeoutError; retrying in 10s
+Connection error: TimeoutError; retrying in 15s
+Connection error: TimeoutError; retrying in 20s
+Traceback (most recent call last):
+  File "D:\pioneer_kayley_llm\Pioneer\src\07_generate_rq1_outputs_qwen.py", line 126, in call_qwen
+    with urlopen(request, timeout=120, context=make_ssl_context()) as response:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 489, in open
+    response = self._open(req, data)
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 1367, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\urllib\request.py", line 1323, in do_open
+    r = h.getresponse()
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\wenfeng.lin\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pioneer_kayley_llm\Pioneer\src\07_generate_rq1_outputs_qwen.py", line 278, in <module>
+    main()
+    ~~~~^^
+  File "D:\pioneer_kayley_llm\Pioneer\src\07_generate_rq1_outputs_qwen.py", line 249, in main
+    _, row = run_generation_job(
+             ~~~~~~~~~~~~~~~~~~^
+        job_number, total, prompt_row, sample_id, config, api_key
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\pioneer_kayley_llm\Pioneer\src\07_generate_rq1_outputs_qwen.py", line 191, in run_generation_job
+    output_text = call_qwen(prompt_row["prompt_text"], config, api_key)
+  File "D:\pioneer_kayley_llm\Pioneer\src\07_generate_rq1_outputs_qwen.py", line 141, in call_qwen
+    raise RuntimeError(
+        f"Qwen connection error after {attempt} attempts: {error}"
+    ) from error
+RuntimeError: Qwen connection error after 5 attempts: The read operation timed out
+=== exit=1 ===
+
+=== round 1 2026-07-14T01:45:08.637412+00:00 before=175/300 ===
+Found 175 existing rows in D:\pioneer_kayley_llm\Pioneer\qwen\outputs\add100_shards\original_generations_shard1.csv; resuming.
+[1/300] factual_qa_11652 sample 1 skipped
+[2/300] factual_qa_11652 sample 2 skipped
+[3/300] factual_qa_11652 sample 3 skipped
+[4/300] factual_qa_11652 sample 4 skipped
+[5/300] factual_qa_11652 sample 5 skipped
+[6/300] factual_qa_8998 sample 1 skipped
+[7/300] factual_qa_8998 sample 2 skipped
+[8/300] factual_qa_8998 sample 3 skipped
+[9/300] factual_qa_8998 sample 4 skipped
+[10/300] factual_qa_8998 sample 5 skipped
+[11/300] factual_qa_9760 sample 1 skipped
+[12/300] factual_qa_9760 sample 2 skipped
+[13/300] factual_qa_9760 sample 3 skipped
+[14/300] factual_qa_9760 sample 4 skipped
+[15/300] factual_qa_9760 sample 5 skipped
+[16/300] factual_qa_10491 sample 1 skipped
+[17/300] factual_qa_10491 sample 2 skipped
+[18/300] factual_qa_10491 sample 3 skipped
+[19/300] factual_qa_10491 sample 4 skipped
+[20/300] factual_qa_10491 sample 5 skipped
+[21/300] factual_qa_7603 sample 1 skipped
+[22/300] factual_qa_7603 sample 2 skipped
+[23/300] factual_qa_7603 sample 3 skipped
+[24/300] factual_qa_7603 sample 4 skipped
+[25/300] factual_qa_7603 sample 5 skipped
+[26/300] factual_qa_1470 sample 1 skipped
+[27/300] factual_qa_1470 sample 2 skipped
+[28/300] factual_qa_1470 sample 3 skipped
+[29/300] factual_qa_1470 sample 4 skipped
+[30/300] factual_qa_1470 sample 5 skipped
+[31/300] factual_qa_3208 sample 1 skipped
+[32/300] factual_qa_3208 sample 2 skipped
+[33/300] factual_qa_3208 sample 3 skipped
+[34/300] factual_qa_3208 sample 4 skipped
+[35/300] factual_qa_3208 sample 5 skipped
+[36/300] factual_qa_10479 sample 1 skipped
+[37/300] factual_qa_10479 sample 2 skipped
+[38/300] factual_qa_10479 sample 3 skipped
+[39/300] factual_qa_10479 sample 4 skipped
+[40/300] factual_qa_10479 sample 5 skipped
+[41/300] factual_qa_2102 sample 1 skipped
+[42/300] factual_qa_2102 sample 2 skipped
+[43/300] factual_qa_2102 sample 3 skipped
+[44/300] factual_qa_2102 sample 4 skipped
+[45/300] factual_qa_2102 sample 5 skipped
+[46/300] factual_qa_808 sample 1 skipped
+[47/300] factual_qa_808 sample 2 skipped
+[48/300] factual_qa_808 sample 3 skipped
+[49/300] factual_qa_808 sample 4 skipped
+[50/300] factual_qa_808 sample 5 skipped
+[51/300] factual_qa_2722 sample 1 skipped
+[52/300] factual_qa_2722 sample 2 skipped
+[53/300] factual_qa_2722 sample 3 skipped
+[54/300] factual_qa_2722 sample 4 skipped
+[55/300] factual_qa_2722 sample 5 skipped
+[56/300] factual_qa_6833 sample 1 skipped
+[57/300] factual_qa_6833 sample 2 skipped
+[58/300] factual_qa_6833 sample 3 skipped
+[59/300] factual_qa_6833 sample 4 skipped
+[60/300] factual_qa_6833 sample 5 skipped
+[61/300] factual_qa_3545 sample 1 skipped
+[62/300] factual_qa_3545 sample 2 skipped
+[63/300] factual_qa_3545 sample 3 skipped
+[64/300] factual_qa_3545 sample 4 skipped
+[65/300] factual_qa_3545 sample 5 skipped
+[66/300] factual_qa_7188 sample 1 skipped
+[67/300] factual_qa_7188 sample 2 skipped
+[68/300] factual_qa_7188 sample 3 skipped
+[69/300] factual_qa_7188 sample 4 skipped
+[70/300] factual_qa_7188 sample 5 skipped
+[71/300] factual_qa_7457 sample 1 skipped
+[72/300] factual_qa_7457 sample 2 skipped
+[73/300] factual_qa_7457 sample 3 skipped
+[74/300] factual_qa_7457 sample 4 skipped
+[75/300] factual_qa_7457 sample 5 skipped
+[76/300] factual_qa_8355 sample 1 skipped
+[77/300] factual_qa_8355 sample 2 skipped
+[78/300] factual_qa_8355 sample 3 skipped
+[79/300] factual_qa_8355 sample 4 skipped
+[80/300] factual_qa_8355 sample 5 skipped
+[81/300] factual_qa_8867 sample 1 skipped
+[82/300] factual_qa_8867 sample 2 skipped
+[83/300] factual_qa_8867 sample 3 skipped
+[84/300] factual_qa_8867 sample 4 skipped
+[85/300] factual_qa_8867 sample 5 skipped
+[86/300] factual_qa_419 sample 1 skipped
+[87/300] factual_qa_419 sample 2 skipped
+[88/300] factual_qa_419 sample 3 skipped
+[89/300] factual_qa_419 sample 4 skipped
+[90/300] factual_qa_419 sample 5 skipped
+[91/300] factual_qa_11643 sample 1 skipped
+[92/300] factual_qa_11643 sample 2 skipped
+[93/300] factual_qa_11643 sample 3 skipped
+[94/300] factual_qa_11643 sample 4 skipped
+[95/300] factual_qa_11643 sample 5 skipped
+[96/300] factual_qa_3903 sample 1 skipped
+[97/300] factual_qa_3903 sample 2 skipped
+[98/300] factual_qa_3903 sample 3 skipped
+[99/300] factual_qa_3903 sample 4 skipped
+[100/300] factual_qa_3903 sample 5 skipped
+[101/300] math_reasoning_8114 sample 1 skipped
+[102/300] math_reasoning_8114 sample 2 skipped
+[103/300] math_reasoning_8114 sample 3 skipped
+[104/300] math_reasoning_8114 sample 4 skipped
+[105/300] math_reasoning_8114 sample 5 skipped
+[106/300] math_reasoning_3048 sample 1 skipped
+[107/300] math_reasoning_3048 sample 2 skipped
+[108/300] math_reasoning_3048 sample 3 skipped
+[109/300] math_reasoning_3048 sample 4 skipped
+[110/300] math_reasoning_3048 sample 5 skipped
+[111/300] math_reasoning_7857 sample 1 skipped
+[112/300] math_reasoning_7857 sample 2 skipped
+[113/300] math_reasoning_7857 sample 3 skipped
+[114/300] math_reasoning_7857 sample 4 skipped
+[115/300] math_reasoning_7857 sample 5 skipped
+[116/300] math_reasoning_4126 sample 1 skipped
+[117/300] math_reasoning_4126 sample 2 skipped
+[118/300] math_reasoning_4126 sample 3 skipped
+[119/300] math_reasoning_4126 sample 4 skipped
+[120/300] math_reasoning_4126 sample 5 skipped
+[121/300] math_reasoning_9735 sample 1 skipped
+[122/300] math_reasoning_9735 sample 2 skipped
+[123/300] math_reasoning_9735 sample 3 skipped
+[124/300] math_reasoning_9735 sample 4 skipped
+[125/300] math_reasoning_9735 sample 5 skipped
+[126/300] math_reasoning_6580 sample 1 skipped
+[127/300] math_reasoning_6580 sample 2 skipped
+[128/300] math_reasoning_6580 sample 3 skipped
+[129/300] math_reasoning_6580 sample 4 skipped
+[130/300] math_reasoning_6580 sample 5 skipped
+[131/300] math_reasoning_6711 sample 1 skipped
+[132/300] math_reasoning_6711 sample 2 skipped
+[133/300] math_reasoning_6711 sample 3 skipped
+[134/300] math_reasoning_6711 sample 4 skipped
+[135/300] math_reasoning_6711 sample 5 skipped
+[136/300] math_reasoning_2551 sample 1 skipped
+[137/300] math_reasoning_2551 sample 2 skipped
+[138/300] math_reasoning_2551 sample 3 skipped
+[139/300] math_reasoning_2551 sample 4 skipped
+[140/300] math_reasoning_2551 sample 5 skipped
+[141/300] math_reasoning_11227 sample 1 skipped
+[142/300] math_reasoning_11227 sample 2 skipped
+[143/300] math_reasoning_11227 sample 3 skipped
+[144/300] math_reasoning_11227 sample 4 skipped
+[145/300] math_reasoning_11227 sample 5 skipped
+[146/300] math_reasoning_3822 sample 1 skipped
+[147/300] math_reasoning_3822 sample 2 skipped
+[148/300] math_reasoning_3822 sample 3 skipped
+[149/300] math_reasoning_3822 sample 4 skipped
+[150/300] math_reasoning_3822 sample 5 skipped
+[151/300] math_reasoning_11685 sample 1 skipped
+[152/300] math_reasoning_11685 sample 2 skipped
+[153/300] math_reasoning_11685 sample 3 skipped
+[154/300] math_reasoning_11685 sample 4 skipped
+[155/300] math_reasoning_11685 sample 5 skipped
+[156/300] math_reasoning_9716 sample 1 skipped
+[157/300] math_reasoning_9716 sample 2 skipped
+[158/300] math_reasoning_9716 sample 3 skipped
+[159/300] math_reasoning_9716 sample 4 skipped
+[160/300] math_reasoning_9716 sample 5 skipped
+[161/300] math_reasoning_7480 sample 1 skipped
+[162/300] math_reasoning_7480 sample 2 skipped
+[163/300] math_reasoning_7480 sample 3 skipped
+[164/300] math_reasoning_7480 sample 4 skipped
+[165/300] math_reasoning_7480 sample 5 skipped
+[166/300] math_reasoning_1864 sample 1 skipped
+[167/300] math_reasoning_1864 sample 2 skipped
+[168/300] math_reasoning_1864 sample 3 skipped
+[169/300] math_reasoning_1864 sample 4 skipped
+[170/300] math_reasoning_1864 sample 5 skipped
+[171/300] math_reasoning_10456 sample 1 skipped
+[172/300] math_reasoning_10456 sample 2 skipped
+[173/300] math_reasoning_10456 sample 3 skipped
+[174/300] math_reasoning_10456 sample 4 skipped
+[175/300] math_reasoning_10456 sample 5 skipped
+Submitting 125 jobs with workers=2.
+[176/300] math_reasoning_7313 sample 1
+[177/300] math_reasoning_7313 sample 2
+Connection error: TimeoutError; retrying in 5s
+Connection error: TimeoutError; retrying in 5s
+
+=== round 1 2026-07-14T01:49:10.533652+00:00 before=175/300 ===
+Found 175 existing rows in D:\pioneer_kayley_llm\Pioneer\qwen\outputs\add100_shards\original_generations_shard1.csv; resuming.
+[1/300] factual_qa_11652 sample 1 skipped
+[2/300] factual_qa_11652 sample 2 skipped
+[3/300] factual_qa_11652 sample 3 skipped
+[4/300] factual_qa_11652 sample 4 skipped
+[5/300] factual_qa_11652 sample 5 skipped
+[6/300] factual_qa_8998 sample 1 skipped
+[7/300] factual_qa_8998 sample 2 skipped
+[8/300] factual_qa_8998 sample 3 skipped
+[9/300] factual_qa_8998 sample 4 skipped
+[10/300] factual_qa_8998 sample 5 skipped
+[11/300] factual_qa_9760 sample 1 skipped
+[12/300] factual_qa_9760 sample 2 skipped
+[13/300] factual_qa_9760 sample 3 skipped
+[14/300] factual_qa_9760 sample 4 skipped
+[15/300] factual_qa_9760 sample 5 skipped
+[16/300] factual_qa_10491 sample 1 skipped
+[17/300] factual_qa_10491 sample 2 skipped
+[18/300] factual_qa_10491 sample 3 skipped
+[19/300] factual_qa_10491 sample 4 skipped
+[20/300] factual_qa_10491 sample 5 skipped
+[21/300] factual_qa_7603 sample 1 skipped
+[22/300] factual_qa_7603 sample 2 skipped
+[23/300] factual_qa_7603 sample 3 skipped
+[24/300] factual_qa_7603 sample 4 skipped
+[25/300] factual_qa_7603 sample 5 skipped
+[26/300] factual_qa_1470 sample 1 skipped
+[27/300] factual_qa_1470 sample 2 skipped
+[28/300] factual_qa_1470 sample 3 skipped
+[29/300] factual_qa_1470 sample 4 skipped
+[30/300] factual_qa_1470 sample 5 skipped
+[31/300] factual_qa_3208 sample 1 skipped
+[32/300] factual_qa_3208 sample 2 skipped
+[33/300] factual_qa_3208 sample 3 skipped
+[34/300] factual_qa_3208 sample 4 skipped
+[35/300] factual_qa_3208 sample 5 skipped
+[36/300] factual_qa_10479 sample 1 skipped
+[37/300] factual_qa_10479 sample 2 skipped
+[38/300] factual_qa_10479 sample 3 skipped
+[39/300] factual_qa_10479 sample 4 skipped
+[40/300] factual_qa_10479 sample 5 skipped
+[41/300] factual_qa_2102 sample 1 skipped
+[42/300] factual_qa_2102 sample 2 skipped
+[43/300] factual_qa_2102 sample 3 skipped
+[44/300] factual_qa_2102 sample 4 skipped
+[45/300] factual_qa_2102 sample 5 skipped
+[46/300] factual_qa_808 sample 1 skipped
+[47/300] factual_qa_808 sample 2 skipped
+[48/300] factual_qa_808 sample 3 skipped
+[49/300] factual_qa_808 sample 4 skipped
+[50/300] factual_qa_808 sample 5 skipped
+[51/300] factual_qa_2722 sample 1 skipped
+[52/300] factual_qa_2722 sample 2 skipped
+[53/300] factual_qa_2722 sample 3 skipped
+[54/300] factual_qa_2722 sample 4 skipped
+[55/300] factual_qa_2722 sample 5 skipped
+[56/300] factual_qa_6833 sample 1 skipped
+[57/300] factual_qa_6833 sample 2 skipped
+[58/300] factual_qa_6833 sample 3 skipped
+[59/300] factual_qa_6833 sample 4 skipped
+[60/300] factual_qa_6833 sample 5 skipped
+[61/300] factual_qa_3545 sample 1 skipped
+[62/300] factual_qa_3545 sample 2 skipped
+[63/300] factual_qa_3545 sample 3 skipped
+[64/300] factual_qa_3545 sample 4 skipped
+[65/300] factual_qa_3545 sample 5 skipped
+[66/300] factual_qa_7188 sample 1 skipped
+[67/300] factual_qa_7188 sample 2 skipped
+[68/300] factual_qa_7188 sample 3 skipped
+[69/300] factual_qa_7188 sample 4 skipped
+[70/300] factual_qa_7188 sample 5 skipped
+[71/300] factual_qa_7457 sample 1 skipped
+[72/300] factual_qa_7457 sample 2 skipped
+[73/300] factual_qa_7457 sample 3 skipped
+[74/300] factual_qa_7457 sample 4 skipped
+[75/300] factual_qa_7457 sample 5 skipped
+[76/300] factual_qa_8355 sample 1 skipped
+[77/300] factual_qa_8355 sample 2 skipped
+[78/300] factual_qa_8355 sample 3 skipped
+[79/300] factual_qa_8355 sample 4 skipped
+[80/300] factual_qa_8355 sample 5 skipped
+[81/300] factual_qa_8867 sample 1 skipped
+[82/300] factual_qa_8867 sample 2 skipped
+[83/300] factual_qa_8867 sample 3 skipped
+[84/300] factual_qa_8867 sample 4 skipped
+[85/300] factual_qa_8867 sample 5 skipped
+[86/300] factual_qa_419 sample 1 skipped
+[87/300] factual_qa_419 sample 2 skipped
+[88/300] factual_qa_419 sample 3 skipped
+[89/300] factual_qa_419 sample 4 skipped
+[90/300] factual_qa_419 sample 5 skipped
+[91/300] factual_qa_11643 sample 1 skipped
+[92/300] factual_qa_11643 sample 2 skipped
+[93/300] factual_qa_11643 sample 3 skipped
+[94/300] factual_qa_11643 sample 4 skipped
+[95/300] factual_qa_11643 sample 5 skipped
+[96/300] factual_qa_3903 sample 1 skipped
+[97/300] factual_qa_3903 sample 2 skipped
+[98/300] factual_qa_3903 sample 3 skipped
+[99/300] factual_qa_3903 sample 4 skipped
+[100/300] factual_qa_3903 sample 5 skipped
+[101/300] math_reasoning_8114 sample 1 skipped
+[102/300] math_reasoning_8114 sample 2 skipped
+[103/300] math_reasoning_8114 sample 3 skipped
+[104/300] math_reasoning_8114 sample 4 skipped
+[105/300] math_reasoning_8114 sample 5 skipped
+[106/300] math_reasoning_3048 sample 1 skipped
+[107/300] math_reasoning_3048 sample 2 skipped
+[108/300] math_reasoning_3048 sample 3 skipped
+[109/300] math_reasoning_3048 sample 4 skipped
+[110/300] math_reasoning_3048 sample 5 skipped
+[111/300] math_reasoning_7857 sample 1 skipped
+[112/300] math_reasoning_7857 sample 2 skipped
+[113/300] math_reasoning_7857 sample 3 skipped
+[114/300] math_reasoning_7857 sample 4 skipped
+[115/300] math_reasoning_7857 sample 5 skipped
+[116/300] math_reasoning_4126 sample 1 skipped
+[117/300] math_reasoning_4126 sample 2 skipped
+[118/300] math_reasoning_4126 sample 3 skipped
+[119/300] math_reasoning_4126 sample 4 skipped
+[120/300] math_reasoning_4126 sample 5 skipped
+[121/300] math_reasoning_9735 sample 1 skipped
+[122/300] math_reasoning_9735 sample 2 skipped
+[123/300] math_reasoning_9735 sample 3 skipped
+[124/300] math_reasoning_9735 sample 4 skipped
+[125/300] math_reasoning_9735 sample 5 skipped
+[126/300] math_reasoning_6580 sample 1 skipped
+[127/300] math_reasoning_6580 sample 2 skipped
+[128/300] math_reasoning_6580 sample 3 skipped
+[129/300] math_reasoning_6580 sample 4 skipped
+[130/300] math_reasoning_6580 sample 5 skipped
+[131/300] math_reasoning_6711 sample 1 skipped
+[132/300] math_reasoning_6711 sample 2 skipped
+[133/300] math_reasoning_6711 sample 3 skipped
+[134/300] math_reasoning_6711 sample 4 skipped
+[135/300] math_reasoning_6711 sample 5 skipped
+[136/300] math_reasoning_2551 sample 1 skipped
+[137/300] math_reasoning_2551 sample 2 skipped
+[138/300] math_reasoning_2551 sample 3 skipped
+[139/300] math_reasoning_2551 sample 4 skipped
+[140/300] math_reasoning_2551 sample 5 skipped
+[141/300] math_reasoning_11227 sample 1 skipped
+[142/300] math_reasoning_11227 sample 2 skipped
+[143/300] math_reasoning_11227 sample 3 skipped
+[144/300] math_reasoning_11227 sample 4 skipped
+[145/300] math_reasoning_11227 sample 5 skipped
+[146/300] math_reasoning_3822 sample 1 skipped
+[147/300] math_reasoning_3822 sample 2 skipped
+[148/300] math_reasoning_3822 sample 3 skipped
+[149/300] math_reasoning_3822 sample 4 skipped
+[150/300] math_reasoning_3822 sample 5 skipped
+[151/300] math_reasoning_11685 sample 1 skipped
+[152/300] math_reasoning_11685 sample 2 skipped
+[153/300] math_reasoning_11685 sample 3 skipped
+[154/300] math_reasoning_11685 sample 4 skipped
+[155/300] math_reasoning_11685 sample 5 skipped
+[156/300] math_reasoning_9716 sample 1 skipped
+[157/300] math_reasoning_9716 sample 2 skipped
+[158/300] math_reasoning_9716 sample 3 skipped
+[159/300] math_reasoning_9716 sample 4 skipped
+[160/300] math_reasoning_9716 sample 5 skipped
+[161/300] math_reasoning_7480 sample 1 skipped
+[162/300] math_reasoning_7480 sample 2 skipped
+[163/300] math_reasoning_7480 sample 3 skipped
+[164/300] math_reasoning_7480 sample 4 skipped
+[165/300] math_reasoning_7480 sample 5 skipped
+[166/300] math_reasoning_1864 sample 1 skipped
+[167/300] math_reasoning_1864 sample 2 skipped
+[168/300] math_reasoning_1864 sample 3 skipped
+[169/300] math_reasoning_1864 sample 4 skipped
+[170/300] math_reasoning_1864 sample 5 skipped
+[171/300] math_reasoning_10456 sample 1 skipped
+[172/300] math_reasoning_10456 sample 2 skipped
+[173/300] math_reasoning_10456 sample 3 skipped
+[174/300] math_reasoning_10456 sample 4 skipped
+[175/300] math_reasoning_10456 sample 5 skipped
+Submitting 125 jobs with workers=2.
+[176/300] math_reasoning_7313 sample 1
+[177/300] math_reasoning_7313 sample 2
+[178/300] math_reasoning_7313 sample 3
+[179/300] math_reasoning_7313 sample 4
+[180/300] math_reasoning_7313 sample 5
+[181/300] math_reasoning_3167 sample 1
+[182/300] math_reasoning_3167 sample 2
+[183/300] math_reasoning_3167 sample 3
+[184/300] math_reasoning_3167 sample 4
+[185/300] math_reasoning_3167 sample 5
+[186/300] math_reasoning_11086 sample 1
+[187/300] math_reasoning_11086 sample 2
+[188/300] math_reasoning_11086 sample 3
+[189/300] math_reasoning_11086 sample 4
+[190/300] math_reasoning_11086 sample 5
+[191/300] math_reasoning_6733 sample 1
+[192/300] math_reasoning_6733 sample 2
+[193/300] math_reasoning_6733 sample 3
+[194/300] math_reasoning_6733 sample 4
+[195/300] math_reasoning_6733 sample 5
+[196/300] math_reasoning_4227 sample 1
+[197/300] math_reasoning_4227 sample 2
+[198/300] math_reasoning_4227 sample 3
+[199/300] math_reasoning_4227 sample 4
+[200/300] math_reasoning_4227 sample 5
+[201/300] code_generation_67 sample 1
+[202/300] code_generation_67 sample 2
+[203/300] code_generation_67 sample 3
+[204/300] code_generation_67 sample 4
+[205/300] code_generation_67 sample 5
+[206/300] code_generation_86 sample 1
+[207/300] code_generation_86 sample 2
+[208/300] code_generation_86 sample 3
+[209/300] code_generation_86 sample 4
+[210/300] code_generation_86 sample 5
+[211/300] code_generation_124 sample 1
+[212/300] code_generation_124 sample 2
+[213/300] code_generation_124 sample 3
+[214/300] code_generation_124 sample 4
+[215/300] code_generation_124 sample 5
+[216/300] code_generation_119 sample 1
+[217/300] code_generation_119 sample 2
+[218/300] code_generation_119 sample 3
+[219/300] code_generation_119 sample 4
+[220/300] code_generation_119 sample 5
+[221/300] code_generation_6 sample 1
+[222/300] code_generation_6 sample 2
+[223/300] code_generation_6 sample 3
+[224/300] code_generation_6 sample 4
+[225/300] code_generation_6 sample 5
+[226/300] code_generation_66 sample 1
+[227/300] code_generation_66 sample 2
+[228/300] code_generation_66 sample 3
+[229/300] code_generation_66 sample 4
+[230/300] code_generation_66 sample 5
+[231/300] code_generation_101 sample 1
+[232/300] code_generation_101 sample 2
+[233/300] code_generation_101 sample 3
+[234/300] code_generation_101 sample 4
+[235/300] code_generation_101 sample 5
+[236/300] code_generation_127 sample 1
+[237/300] code_generation_127 sample 2
+[238/300] code_generation_127 sample 3
+[239/300] code_generation_127 sample 4
+[240/300] code_generation_127 sample 5
+[241/300] code_generation_161 sample 1
+[242/300] code_generation_161 sample 2
+[243/300] code_generation_161 sample 3
+[244/300] code_generation_161 sample 4
+[245/300] code_generation_161 sample 5
+[246/300] code_generation_103 sample 1
+[247/300] code_generation_103 sample 2
+[248/300] code_generation_103 sample 3
+[249/300] code_generation_103 sample 4
+[250/300] code_generation_103 sample 5
+[251/300] code_generation_22 sample 1
+[252/300] code_generation_22 sample 2
+[253/300] code_generation_22 sample 3
+[254/300] code_generation_22 sample 4
+[255/300] code_generation_22 sample 5
+[256/300] code_generation_76 sample 1
+[257/300] code_generation_76 sample 2
+[258/300] code_generation_76 sample 3
+[259/300] code_generation_76 sample 4
+[260/300] code_generation_76 sample 5
+[261/300] code_generation_125 sample 1
+[262/300] code_generation_125 sample 2
+[263/300] code_generation_125 sample 3
+[264/300] code_generation_125 sample 4
+[265/300] code_generation_125 sample 5
+[266/300] code_generation_162 sample 1
+[267/300] code_generation_162 sample 2
+[268/300] code_generation_162 sample 3
+[269/300] code_generation_162 sample 4
+[270/300] code_generation_162 sample 5
+[271/300] code_generation_57 sample 1
+[272/300] code_generation_57 sample 2
+[273/300] code_generation_57 sample 3
+[274/300] code_generation_57 sample 4
+[275/300] code_generation_57 sample 5
+[276/300] code_generation_140 sample 1
+[277/300] code_generation_140 sample 2
+[278/300] code_generation_140 sample 3
+[279/300] code_generation_140 sample 4
+[280/300] code_generation_140 sample 5
+[281/300] code_generation_56 sample 1
+[282/300] code_generation_56 sample 2
+[283/300] code_generation_56 sample 3
+[284/300] code_generation_56 sample 4
+[285/300] code_generation_56 sample 5
+[286/300] code_generation_98 sample 1
+[287/300] code_generation_98 sample 2
+[288/300] code_generation_98 sample 3
+[289/300] code_generation_98 sample 4
+[290/300] code_generation_98 sample 5
+[291/300] code_generation_139 sample 1
+[292/300] code_generation_139 sample 2
+[293/300] code_generation_139 sample 3
+[294/300] code_generation_139 sample 4
+[295/300] code_generation_139 sample 5
+[296/300] code_generation_69 sample 1
+[297/300] code_generation_69 sample 2
+[298/300] code_generation_69 sample 3
+[299/300] code_generation_69 sample 4
+[300/300] code_generation_69 sample 5
+Output file now has 300 rows: D:\pioneer_kayley_llm\Pioneer\qwen\outputs\add100_shards\original_generations_shard1.csv
+=== exit=0 ===

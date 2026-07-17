@@ -1,0 +1,29 @@
+item_id,task_type,dataset_name,source_index,perturbation_type,sample_id,model_name,temperature,top_p,max_output_tokens,original_prompt,perturbed_prompt,output_text
+factual_qa_11652,factual_qa,rajpurkar/squad_v2,11652,paraphrasing,1,qwen-plus,0.7,0.9,,"Context: The notion ""force"" keeps its meaning in quantum mechanics, though one is now dealing with operators instead of classical variables and though the physics is now described by the Schrödinger equation instead of Newtonian equations. This has the consequence that the results of a measurement are now sometimes ""quantized"", i.e. they appear in discrete portions. This is, of course, difficult to imagine in the context of ""forces"". However, the potentials V(x,y,z) or fields, from which the forces generally can be derived, are treated similar to classical position variables, i.e., .
+
+Question: What equation desribed the physics of force before the current Schrodinger equation?","Context: The notion ""force"" keeps its meaning in quantum mechanics, though one is now dealing with operators instead of classical variables and though the physics is now described by the Schrödinger equation instead of Newtonian equations. This has the consequence that the results of a measurement are now sometimes ""quantized"", i.e. they appear in discrete portions. This is, of course, difficult to imagine in the context of ""forces"". However, the potentials V(x,y,z) or fields, from which the forces generally can be derived, are treated similar to classical position variables, i.e., .
+
+Question: What was the equation that described the physics of force prior to the current Schrödinger equation?","The equation that described the physics of force prior to the Schrödinger equation was **Newton’s second law of motion**, typically written as:
+
+\[
+\mathbf{F} = m\mathbf{a} = m \frac{d^2 \mathbf{r}}{dt^2}
+\]
+
+where \(\mathbf{F}\) is the net classical force acting on a particle of mass \(m\), and \(\mathbf{a}\) is its acceleration — the second time derivative of position \(\mathbf{r}(t)\).
+
+When expressed in terms of potential energy \(V(\mathbf{r})\) (for conservative forces), the force is given by \(\mathbf{F} = -\nabla V\), and Newton’s equation becomes:
+
+\[
+m \frac{d^2 \mathbf{r}}{dt^2} = -\nabla V(\mathbf{r})
+\]
+
+This classical deterministic equation governed the dynamics of particles under forces before quantum mechanics introduced the probabilistic, wave-based description via the **Schrödinger equation**."
+factual_qa_436,factual_qa,rajpurkar/squad_v2,436,paraphrasing,1,qwen-plus,0.7,0.9,,"Context: Other important complexity classes include BPP, ZPP and RP, which are defined using probabilistic Turing machines; AC and NC, which are defined using Boolean circuits; and BQP and QMA, which are defined using quantum Turing machines. #P is an important complexity class of counting problems (not decision problems). Classes like IP and AM are defined using Interactive proof systems. ALL is the class of all decision problems.
+
+Question: What is the expression used to represent a complexity class of counting problems?","Context: Other important complexity classes include BPP, ZPP and RP, which are defined using probabilistic Turing machines; AC and NC, which are defined using Boolean circuits; and BQP and QMA, which are defined using quantum Turing machines. #P is an important complexity class of counting problems (not decision problems). Classes like IP and AM are defined using Interactive proof systems. ALL is the class of all decision problems.
+
+Question: What term is used to denote a complexity class that focuses on counting problems instead of decision problems?","The term used to denote a complexity class that focuses on counting problems instead of decision problems is **#P** (pronounced ""sharp P"" or ""number P"").  
+
+As stated in the context: ""*#P is an important complexity class of counting problems (not decision problems).*""  
+
+#P consists of function problems that count the number of accepting paths of a nondeterministic polynomial-time Turing machine — i.e., it captures *how many* solutions exist, rather than just whether a solution exists (which is what decision classes like NP address)."

@@ -1,0 +1,321 @@
+item_id,task_type,dataset_name,dataset_split,source_index,source_id,prompt_text,reference_answer,random_seed
+factual_qa_5262,factual_qa,rajpurkar/squad_v2,validation,5262,5726deed5951b619008f80c6,"Context: In Europe there are old pharmacies still operating in Dubrovnik, Croatia, located inside the Franciscan monastery, opened in 1317; and in the Town Hall Square of Tallinn, Estonia, dating from at least 1422. The oldest is claimed to have been set up in 1221 in the Church of Santa Maria Novella in Florence, Italy, which now houses a perfume museum. The medieval Esteve Pharmacy, located in Llívia, a Catalan enclave close to Puigcerdà, also now a museum, dates back to the 15th century, keeping albarellos from the 16th and 17th centuries, old prescription books and antique drugs.
+
+Question: Where is the oldest pharmacy stated to be located?","Church of Santa Maria Novella in Florence, Italy",20260623
+factual_qa_6116,factual_qa,rajpurkar/squad_v2,validation,6116,57274d9bf1498d1400e8f5f8,"Context: After Malaysia's independence in 1957, the government instructed all schools to surrender their properties and be assimilated into the National School system. This caused an uproar among the Chinese and a compromise was achieved in that the schools would instead become ""National Type"" schools. Under such a system, the government is only in charge of the school curriculum and teaching personnel while the lands still belonged to the schools. While Chinese primary schools were allowed to retain Chinese as the medium of instruction, Chinese secondary schools are required to change into English-medium schools. Over 60 schools converted to become National Type schools.
+
+Question: What language is used in Chinese secondary schools in Malaysia?",English,20260623
+factual_qa_8080,factual_qa,rajpurkar/squad_v2,validation,8080,5728fb002ca10214002dab6e,"Context: Several barriers protect organisms from infection, including mechanical, chemical, and biological barriers. The waxy cuticle of many leaves, the exoskeleton of insects, the shells and membranes of externally deposited eggs, and skin are examples of mechanical barriers that are the first line of defense against infection. However, as organisms cannot be completely sealed from their environments, other systems act to protect body openings such as the lungs, intestines, and the genitourinary tract. In the lungs, coughing and sneezing mechanically eject pathogens and other irritants from the respiratory tract. The flushing action of tears and urine also mechanically expels pathogens, while mucus secreted by the respiratory and gastrointestinal tract serves to trap and entangle microorganisms.
+
+Question: The flushing action of what expels pathogens from the eyes?",tears,20260623
+factual_qa_11034,factual_qa,rajpurkar/squad_v2,validation,11034,5733a2a9d058e614000b5f28,"Context: The 17th century Royal Ujazdów Castle currently houses Centre for Contemporary Art, with some permanent and temporary exhibitions, concerts, shows and creative workshops. The Centre currently realizes about 500 projects a year. Zachęta National Gallery of Art, the oldest exhibition site in Warsaw, with a tradition stretching back to the mid-19th century organises exhibitions of modern art by Polish and international artists and promotes art in many other ways. Since 2011 Warsaw Gallery Weekend is held on last weekend of September.
+
+Question: What castle currently houses the Centre for Contemporary Art?",Royal Ujazdów Castle,20260623
+factual_qa_11149,factual_qa,rajpurkar/squad_v2,validation,11149,5733d4c8d058e614000b6355,"Context: In Europe, the North American theater of the Seven Years' War usually is not given a separate name. The entire international conflict is known as the Seven Years' War. ""Seven Years"" refers to events in Europe, from the official declaration of war in 1756 to the signing of the peace treaty in 1763. These dates do not correspond with the fighting on mainland North America, where the fighting between the two colonial powers was largely concluded in six years, from the Battle of Jumonville Glen in 1754 to the capture of Montreal in 1760.
+
+Question: When was Montreal captured?",1760,20260623
+factual_qa_7612,factual_qa,rajpurkar/squad_v2,validation,7612,572864dd4b864d1900164978,"Context: Many Han Chinese and Khitan defected to the Mongols to fight against the Jin. Two Han Chinese leaders, Shi Tianze, Liu Heima (劉黑馬, Liu Ni), and the Khitan Xiao Zhala (蕭札剌) defected and commanded the 3 Tumens in the Mongol army. Liu Heima and Shi Tianze served Ogödei Khan. Liu Heima and Shi Tianxiang led armies against Western Xia for the Mongols. There were 4 Han Tumens and 3 Khitan Tumens, with each Tumen consisting of 10,000 troops. The three Khitan Generals Shimobeidier (石抹孛迭兒), Tabuyir (塔不已兒) and Xiaozhacizhizizhongxi (蕭札刺之子重喜) commanded the three Khitan Tumens and the four Han Generals Zhang Rou, Yan Shi, Shi Tianze, and Liu Heima commanded the four Han tumens under Ogödei Khan.
+
+Question: What Han Chinese leader defected to the Mongols?","Shi Tianze, Liu Heima",20260623
+factual_qa_3396,factual_qa,rajpurkar/squad_v2,validation,3396,5729e500af94a219006aa6b5,"Context: Following the Cretaceous–Paleogene extinction event, the extinction of the dinosaurs and the wetter climate may have allowed the tropical rainforest to spread out across the continent. From 66–34 Mya, the rainforest extended as far south as 45°. Climate fluctuations during the last 34 million years have allowed savanna regions to expand into the tropics. During the Oligocene, for example, the rainforest spanned a relatively narrow band. It expanded again during the Middle Miocene, then retracted to a mostly inland formation at the last glacial maximum. However, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.
+
+Question: What extinction event might have created some conditions allowing the expansion of the amazon rainforest?",Cretaceous–Paleogene extinction event,20260623
+factual_qa_8780,factual_qa,rajpurkar/squad_v2,validation,8780,57297a276aef051400154f8b,"Context: After the Greeks, little happened with the study of prime numbers until the 17th century. In 1640 Pierre de Fermat stated (without proof) Fermat's little theorem (later proved by Leibniz and Euler). Fermat also conjectured that all numbers of the form 22n + 1 are prime (they are called Fermat numbers) and he verified this up to n = 4 (or 216 + 1). However, the very next Fermat number 232 + 1 is composite (one of its prime factors is 641), as Euler discovered later, and in fact no further Fermat numbers are known to be prime. The French monk Marin Mersenne looked at primes of the form 2p − 1, with p a prime. They are called Mersenne primes in his honor.
+
+Question: To what extent did Fermat confirm the validity of Fermat numbers?",up to n = 4 (or 216 + 1),20260623
+factual_qa_8707,factual_qa,rajpurkar/squad_v2,validation,8707,57296f293f37b319004783a3,"Context: The property of being prime (or not) is called primality. A simple but slow method of verifying the primality of a given number n is known as trial division. It consists of testing whether n is a multiple of any integer between 2 and . Algorithms much more efficient than trial division have been devised to test the primality of large numbers. These include the Miller–Rabin primality test, which is fast but has a small probability of error, and the AKS primality test, which always produces the correct answer in polynomial time but is too slow to be practical. Particularly fast methods are available for numbers of special forms, such as Mersenne numbers. As of January 2016[update], the largest known prime number has 22,338,618 decimal digits.
+
+Question: What is the name of the property that designates a number as being prime or not?",primality,20260623
+factual_qa_8460,factual_qa,rajpurkar/squad_v2,validation,8460,572a135daf94a219006aa7a2,"Context: Pathogens can rapidly evolve and adapt, and thereby avoid detection and neutralization by the immune system; however, multiple defense mechanisms have also evolved to recognize and neutralize pathogens. Even simple unicellular organisms such as bacteria possess a rudimentary immune system, in the form of enzymes that protect against bacteriophage infections. Other basic immune mechanisms evolved in ancient eukaryotes and remain in their modern descendants, such as plants and invertebrates. These mechanisms include phagocytosis, antimicrobial peptides called defensins, and the complement system. Jawed vertebrates, including humans, have even more sophisticated defense mechanisms, including the ability to adapt over time to recognize specific pathogens more efficiently. Adaptive (or acquired) immunity creates immunological memory after an initial response to a specific pathogen, leading to an enhanced response to subsequent encounters with that same pathogen. This process of acquired immunity is the basis of vaccination.
+
+Question: What is the ability to recognize and adapt to new specific pathogens called?",Adaptive (or acquired) immunity,20260623
+factual_qa_8365,factual_qa,rajpurkar/squad_v2,validation,8365,572a07fc6aef0514001551de,"Context: Evolution of the adaptive immune system occurred in an ancestor of the jawed vertebrates. Many of the classical molecules of the adaptive immune system (e.g., immunoglobulins and T cell receptors) exist only in jawed vertebrates. However, a distinct lymphocyte-derived molecule has been discovered in primitive jawless vertebrates, such as the lamprey and hagfish. These animals possess a large array of molecules called Variable lymphocyte receptors (VLRs) that, like the antigen receptors of jawed vertebrates, are produced from only a small number (one or two) of genes. These molecules are believed to bind pathogenic antigens in a similar way to antibodies, and with the same degree of specificity.
+
+Question: Primitive jawless vertebrates possess an array of receptors referred to as what?",Variable lymphocyte receptors (VLRs),20260623
+factual_qa_4702,factual_qa,rajpurkar/squad_v2,validation,4702,57264cc6dd62a815002e80e6,"Context: The historian Francis Aidan Gasquet wrote about the 'Great Pestilence' in 1893 and suggested that ""it would appear to be some form of the ordinary Eastern or bubonic plague"". He was able to adopt the epidemiology of the bubonic plague for the Black Death for the second edition in 1908, implicating rats and fleas in the process, and his interpretation was widely accepted for other ancient and medieval epidemics, such as the Justinian plague that was prevalent in the Eastern Roman Empire from 541 to 700 CE.
+
+Question: When did the second edition of Gasquet's book come out?",1908,20260623
+factual_qa_8174,factual_qa,rajpurkar/squad_v2,validation,8174,5729f1fcaf94a219006aa6d7,"Context: Both B cells and T cells carry receptor molecules that recognize specific targets. T cells recognize a ""non-self"" target, such as a pathogen, only after antigens (small fragments of the pathogen) have been processed and presented in combination with a ""self"" receptor called a major histocompatibility complex (MHC) molecule. There are two major subtypes of T cells: the killer T cell and the helper T cell. In addition there are regulatory T cells which have a role in modulating immune response. Killer T cells only recognize antigens coupled to Class I MHC molecules, while helper T cells and regulatory T cells only recognize antigens coupled to Class II MHC molecules. These two mechanisms of antigen presentation reflect the different roles of the two types of T cell. A third, minor subtype are the γδ T cells that recognize intact antigens that are not bound to MHC receptors.
+
+Question: What class of T cells recognizes intact antigens that are not associated with MHC receptors?",γδ T cells,20260623
+factual_qa_5338,factual_qa,rajpurkar/squad_v2,validation,5338,5726eb4b5951b619008f826e,"Context: Since about the year 2000, a growing number of Internet pharmacies have been established worldwide. Many of these pharmacies are similar to community pharmacies, and in fact, many of them are actually operated by brick-and-mortar community pharmacies that serve consumers online and those that walk in their door. The primary difference is the method by which the medications are requested and received. Some customers consider this to be more convenient and private method rather than traveling to a community drugstore where another customer might overhear about the drugs that they take. Internet pharmacies (also known as online pharmacies) are also recommended to some patients by their physicians if they are homebound.
+
+Question: What is one reason a patient might choose an internet pharmacy?",another customer might overhear about the drugs that they take,20260623
+factual_qa_7352,factual_qa,rajpurkar/squad_v2,validation,7352,57285213ff5b5019007da180,"Context: The College of the University of Chicago grants Bachelor of Arts and Bachelor of Science degrees in 50 academic majors and 28 minors. The college's academics are divided into five divisions: the Biological Sciences Collegiate Division, the Physical Sciences Collegiate Division, the Social Sciences Collegiate Division, the Humanities Collegiate Division, and the New Collegiate Division. The first four are sections within their corresponding graduate divisions, while the New Collegiate Division administers interdisciplinary majors and studies which do not fit in one of the other four divisions.
+
+Question: How many academic majors does the university grant in total?",50,20260623
+factual_qa_6850,factual_qa,rajpurkar/squad_v2,validation,6850,5727f2714b864d1900164076,"Context: During the mass high school education movement from 1910–1940, there was an increase in skilled workers, which led to a decrease in the price of skilled labor. High school education during the period was designed to equip students with necessary skill sets to be able to perform at work. In fact, it differs from the present high school education, which is regarded as a stepping-stone to acquire college and advanced degrees. This decrease in wages caused a period of compression and decreased inequality between skilled and unskilled workers. Education is very important for the growth of the economy, however educational inequality in gender also influence towards the economy. Lagerlof and Galor stated that gender inequality in education can result to low economic growth, and continued gender inequality in education, thus creating a poverty trap. It is suggested that a large gap in male and female education may indicate backwardness and so may be associated with lower economic growth, which can explain why there is economic inequality between countries.
+
+Question: What contributed to the decreased inequality between trained and untrained workers?",period of compression,20260623
+factual_qa_836,factual_qa,rajpurkar/squad_v2,validation,836,5706094b52bb8914006897e0,"Context: Southern California's economy is diverse and one of the largest in the United States. It is dominated and heavily dependent upon abundance of petroleum, as opposed to other regions where automobiles not nearly as dominant, the vast majority of transport runs on this fuel. Southern California is famous for tourism and Hollywood (film, television, and music). Other industries include software, automotive, ports, finance, tourism, biomedical, and regional logistics. The region was a leader in the housing bubble 2001–2007, and has been heavily impacted by the housing crash.
+
+Question: The region was a leader in what event between 2001 - 2007?",the housing bubble,20260623
+factual_qa_3611,factual_qa,rajpurkar/squad_v2,validation,3611,572a07c11d046914007796d6,"Context: The use of remote sensing for the conservation of the Amazon is also being used by the indigenous tribes of the basin to protect their tribal lands from commercial interests. Using handheld GPS devices and programs like Google Earth, members of the Trio Tribe, who live in the rainforests of southern Suriname, map out their ancestral lands to help strengthen their territorial claims. Currently, most tribes in the Amazon do not have clearly defined boundaries, making it easier for commercial ventures to target their territories.
+
+Question: What tribe uses GPS devices to map lands?",Trio Tribe,20260623
+factual_qa_1310,factual_qa,rajpurkar/squad_v2,validation,1310,570d418dfed7b91900d45dbe,"Context: Politically, Victoria has 37 seats in the Australian House of Representatives and 12 seats in the Australian Senate. At state level, the Parliament of Victoria consists of the Legislative Assembly (the lower house) and the Legislative Council (the upper house). Victoria is currently governed by the Labor Party, with Daniel Andrews the current Premier. The personal representative of the Queen of Australia in the state is the Governor of Victoria, currently Linda Dessau. Local government is concentrated in 79 municipal districts, including 33 cities, although a number of unincorporated areas still exist, which are administered directly by the state.
+
+Question: How many seats does Victoria have in the Senate?",12,20260623
+factual_qa_10472,factual_qa,rajpurkar/squad_v2,validation,10472,5730a4d02461fd1900a9cf2d,"Context: France took control of Algeria in 1830 but began in earnest to rebuild its worldwide empire after 1850, concentrating chiefly in North and West Africa, as well as South-East Asia, with other conquests in Central and East Africa, as well as the South Pacific. Republicans, at first hostile to empire, only became supportive when Germany started to build her own colonial empire. As it developed, the new empire took on roles of trade with France, supplying raw materials and purchasing manufactured items, as well as lending prestige to the motherland and spreading French civilization and language as well as Catholicism. It also provided crucial manpower in both World Wars.
+
+Question: What religion did the French spread along with their imperialism?",Catholicism,20260623
+math_reasoning_9320,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9320,train/prealgebra/770.json,"Problem: I have 10 distinguishable socks in my drawer: 4 white, 4 brown, and 2 blue. In how many ways can I choose a pair of socks, provided that I get two socks of different colors?
+
+Instruction: Solve the problem and provide the final answer.",32,20260623
+math_reasoning_1062,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1062,train/intermediate_algebra/1367.json,"Problem: Find the minimum of the function \[\frac{xy}{x^2 + y^2}\]in the domain $\frac{2}{5} \le x \le \frac{1}{2}$ and $\frac{1}{3} \le y \le \frac{3}{8}.$
+
+Instruction: Solve the problem and provide the final answer.",\frac{6}{13},20260623
+math_reasoning_6708,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6708,train/algebra/1501.json,"Problem: The values of a function $f(x)$ are given below: \begin{tabular}{|c||c|c|c|c|c|} \hline $x$ & 3 & 4 & 5 & 6 & 7 \\ \hline $f(x)$ & 10 & 17 & 26 & 37 & 50 \\ \hline \end{tabular}Evaluate $f^{-1}\left(f^{-1}(50)\times f^{-1}(10)+f^{-1}(26)\right)$.
+
+Instruction: Solve the problem and provide the final answer.",5,20260623
+math_reasoning_10367,math_reasoning,nlile/hendrycks-MATH-benchmark,train,10367,train/prealgebra/1395.json,"Problem: In a particular right triangle, the two legs have lengths of 40 inches and 42 inches. What is the area of the triangle?
+
+Instruction: Solve the problem and provide the final answer.",840\text{ square inches},20260623
+math_reasoning_7036,math_reasoning,nlile/hendrycks-MATH-benchmark,train,7036,train/intermediate_algebra/1635.json,"Problem: Let $f_1(x) = \frac23 - \frac3{3x+1},$ and for $n \ge 2,$ define $f_n(x) = f_1(f_{n-1}(x)).$ Find the value of $x$ that satisfies $f_{1001}(x) = x-3.$
+
+Instruction: Solve the problem and provide the final answer.",\tfrac{5}{3},20260623
+math_reasoning_6748,math_reasoning,nlile/hendrycks-MATH-benchmark,train,6748,test/algebra/581.json,"Problem: Evaluate $\displaystyle\frac{a^3 + b^2 + c}{a + b^2 + c^3}$ when $a = 1$, $b = 3$, and $c = 5$.
+
+Instruction: Solve the problem and provide the final answer.",\frac{1}{9},20260623
+math_reasoning_9464,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9464,train/intermediate_algebra/1378.json,"Problem: Let $ f(x) = x^3 + x + 1$. Suppose $ g$ is a cubic polynomial such that $ g(0) = - 1$, and the roots of $ g$ are the squares of the roots of $ f$. Find $ g(9)$.
+
+Instruction: Solve the problem and provide the final answer.",899,20260623
+math_reasoning_8968,math_reasoning,nlile/hendrycks-MATH-benchmark,train,8968,train/counting_and_probability/429.json,"Problem: An ice cream shop offers 6 kinds of ice cream. What is the greatest number of two scoop sundaes that can be made such that each sundae contains two types of ice cream and no two sundaes are the same combination?
+
+Instruction: Solve the problem and provide the final answer.",15,20260623
+math_reasoning_971,math_reasoning,nlile/hendrycks-MATH-benchmark,train,971,test/counting_and_probability/497.json,"Problem: How many $4$-digit numbers have the last digit equal to the sum of the first two digits?
+
+Instruction: Solve the problem and provide the final answer.",450,20260623
+math_reasoning_565,math_reasoning,nlile/hendrycks-MATH-benchmark,train,565,train/intermediate_algebra/2072.json,"Problem: Find the remainder when $x^3$ is divided by $x^2 + 5x + 1.$
+
+Instruction: Solve the problem and provide the final answer.",24x + 5,20260623
+math_reasoning_933,math_reasoning,nlile/hendrycks-MATH-benchmark,train,933,train/algebra/3.json,"Problem: If $A=2+i$, $O=-4$, $P=-i$, and $S=2+4i$, find $A-O+P+S$.
+
+Instruction: Solve the problem and provide the final answer.",8+4i,20260623
+math_reasoning_9026,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9026,test/intermediate_algebra/420.json,"Problem: Let $f(x) = \sqrt{ax^2 + bx}$. For how many real values of $a$ is there at least one positive value of $b$ for which the domain of $f$ and the range of $f$ are the same set?
+
+Instruction: Solve the problem and provide the final answer.",2,20260623
+math_reasoning_3152,math_reasoning,nlile/hendrycks-MATH-benchmark,train,3152,test/algebra/2130.json,"Problem: What is the following value when expressed as a common fraction: $$\frac{1}{2^{1}}+\frac{1}{2^{2}}+\frac{1}{2^{3}}+\cdots + \frac{1}{2^{8}}+\frac{1}{2^{9}}+\frac{1}{2^{10}}?$$
+
+Instruction: Solve the problem and provide the final answer.",\frac{1023}{1024},20260623
+math_reasoning_2888,math_reasoning,nlile/hendrycks-MATH-benchmark,train,2888,test/intermediate_algebra/1626.json,"Problem: Let $p(x)$ be a polynomial with positive leading coefficient such that \[[p(x)]^2 = 4(x^2 + 2x + 1)(x^2 + 3x - 2) + (x - 3)^2.\]Find $p(x).$
+
+Instruction: Solve the problem and provide the final answer.",2x^2 + 5x - 1,20260623
+math_reasoning_1176,math_reasoning,nlile/hendrycks-MATH-benchmark,train,1176,train/intermediate_algebra/1753.json,"Problem: Evaluate the infinite sum $\sum_{n=1}^{\infty}\frac{n}{n^4+4}$.
+
+Instruction: Solve the problem and provide the final answer.",\dfrac 3 8,20260623
+math_reasoning_4442,math_reasoning,nlile/hendrycks-MATH-benchmark,train,4442,test/counting_and_probability/747.json,"Problem: A blue plane, a red plane and a white plane are waiting to take off from an airport that has two runways. Planes must take off from the airport one at a time, but can take off from either runway. In how many ways can the three takeoffs be scheduled? (One such way is the blue plane on runway A, followed by the red plane on runway B, followed by the white plane on runway B.)
+
+Instruction: Solve the problem and provide the final answer.",48,20260623
+math_reasoning_9293,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9293,train/algebra/2013.json,"Problem: There are values $A$ and $B$ such that \[\frac{Bx-11}{x^2-7x+10}=\frac{A}{x-2}+\frac{3}{x-5}.\]Find $A+B$.
+
+Instruction: Solve the problem and provide the final answer.",5,20260623
+math_reasoning_5767,math_reasoning,nlile/hendrycks-MATH-benchmark,train,5767,test/algebra/337.json,"Problem: When Lauren was born on January 1, 1990, her grandparents put $\$1000$ in a savings account in her name. The account earned $7.5\%$ annual interest compounded quarterly every three months. To the nearest dollar, how much money was in her account when she turned two?
+
+Instruction: Solve the problem and provide the final answer.",1160,20260623
+math_reasoning_9089,math_reasoning,nlile/hendrycks-MATH-benchmark,train,9089,train/prealgebra/1120.json,"Problem: Figure $ABCD$ is a square. Inside this square three smaller squares are drawn with side lengths as labeled. What is the area of the shaded $\text L$-shaped region? [asy] /* AMC8 2000 #6 Problem */ draw((0,0)--(5,0)--(5,5)--(0,5)--cycle); draw((1,5)--(1,1)--(5,1)); draw((0,4)--(4,4)--(4,0)); fill((0,4)--(1,4)--(1,1)--(4,1)--(4,0)--(0,0)--cycle); label(""$A$"", (5,5), NE); label(""$B$"", (5,0), SE); label(""$C$"", (0,0), SW); label(""$D$"", (0,5), NW); label(""1"",(.5,5), N); label(""1"",(1,4.5), E); label(""1"",(4.5,1), N); label(""1"",(4,.5), E); label(""3"",(1,2.5), E); label(""3"",(2.5,1), N); [/asy]
+
+Instruction: Solve the problem and provide the final answer.",7,20260623
+math_reasoning_11854,math_reasoning,nlile/hendrycks-MATH-benchmark,train,11854,train/number_theory/734.json,"Problem: An abundant number is a positive integer such that the sum of its proper divisors is greater than the number itself. The number 12 is an abundant number since $1 + 2 + 3 + 4 + 6 > 12$. What is the smallest abundant number that is not a multiple of 6?
+
+Instruction: Solve the problem and provide the final answer.",20,20260623
+code_generation_95,code_generation,bigcode/humanevalpack,test,95,Python/95,"Write a Python function `check_dict_case(dict)` to solve the following problem:
+Given a dictionary, return True if all keys are strings in lower
+case or all keys are strings in upper case, else return False.
+The function should return False is the given dictionary is empty.
+Examples:
+check_dict_case({""a"":""apple"", ""b"":""banana""}) should return True.
+check_dict_case({""a"":""apple"", ""A"":""banana"", ""B"":""banana""}) should return False.
+check_dict_case({""a"":""apple"", 8:""banana"", ""a"":""apple""}) should return False.
+check_dict_case({""Name"":""John"", ""Age"":""36"", ""City"":""Houston""}) should return False.
+check_dict_case({""STATE"":""NC"", ""ZIP"":""12345"" }) should return True.","if len(dict.keys()) == 0: return False else: state = ""start"" for key in dict.keys(): if isinstance(key, str) == False: state = ""mixed"" break if state == ""start"": if key.isupper(): state = ""upper"" elif key.islower(): state = ""lower"" else: break elif (state == ""upper"" and not key.isupper()) or (state == ""lower"" and not key.islower()): state = ""mixed"" break else: break return state == ""upper"" or state == ""lower""",20260623
+code_generation_152,code_generation,bigcode/humanevalpack,test,152,Python/152,"Write a Python function `compare(game,guess)` to solve the following problem:
+I think we all remember that feeling when the result of some long-awaited
+event is finally known. The feelings and thoughts you have at that moment are
+definitely worth noting down and comparing.
+Your task is to determine if a person correctly guessed the results of a number of matches.
+You are given two arrays of scores and guesses of equal length, where each index shows a match.
+Return an array of the same length denoting how far off each guess was. If they have guessed correctly,
+the value is 0, and if not, the value is the absolute difference between the guess and the score.
+example:
+compare([1,2,3,4,5,1],[1,2,3,4,2,-2]) -> [0,0,0,0,3,3]
+compare([0,5,0,0,0,4],[4,1,1,0,0,-2]) -> [4,4,1,0,0,6]","return [abs(x-y) for x,y in zip(game,guess)]",20260623
+code_generation_45,code_generation,bigcode/humanevalpack,test,45,Python/45,"Write a Python function `triangle_area(a, h)` to solve the following problem:
+Given length of a side and high return area for a triangle.
+>>> triangle_area(5, 3)
+7.5",return a * h / 2.0,20260623
+code_generation_29,code_generation,bigcode/humanevalpack,test,29,Python/29,"Write a Python function `filter_by_prefix(strings: List[str], prefix: str) -> List[str]` to solve the following problem:
+Filter an input list of strings only for ones that start with a given prefix.
+>>> filter_by_prefix([], 'a')
+[]
+>>> filter_by_prefix(['abc', 'bcd', 'cde', 'array'], 'a')
+['abc', 'array']",return [x for x in strings if x.startswith(prefix)],20260623
+code_generation_79,code_generation,bigcode/humanevalpack,test,79,Python/79,"Write a Python function `decimal_to_binary(decimal)` to solve the following problem:
+You will be given a number in decimal form and your task is to convert it to
+binary format. The function should return a string, with each character representing a binary
+number. Each character in the string will be '0' or '1'.
+There will be an extra couple of characters 'db' at the beginning and at the end of the string.
+The extra characters are there to help with the format.
+Examples:
+decimal_to_binary(15)   # returns ""db1111db""
+decimal_to_binary(32)   # returns ""db100000db""","return ""db"" + bin(decimal)[2:] + ""db""",20260623
+code_generation_115,code_generation,bigcode/humanevalpack,test,115,Python/115,"Write a Python function `max_fill(grid, capacity):
+    import math` to solve the following problem:
+You are given a rectangular grid of wells. Each row represents a single well,
+and each 1 in a row represents a single unit of water.
+Each well has a corresponding bucket that can be used to extract water from it,
+and all buckets have the same capacity.
+Your task is to use the buckets to empty the wells.
+Output the number of times you need to lower the buckets.
+Example 1:
+Input:
+grid : [[0,0,1,0], [0,1,0,0], [1,1,1,1]]
+bucket_capacity : 1
+Output: 6
+Example 2:
+Input:
+grid : [[0,0,1,1], [0,0,0,0], [1,1,1,1], [0,1,1,1]]
+bucket_capacity : 2
+Output: 5
+Example 3:
+Input:
+grid : [[0,0,0], [0,0,0]]
+bucket_capacity : 5
+Output: 0
+Constraints:
+* all wells have the same length
+* 1 <= grid.length <= 10^2
+* 1 <= grid[:,1].length <= 10^2
+* grid[i][j] -> 0 | 1
+* 1 <= capacity <= 10",return sum([math.ceil(sum(arr)/capacity) for arr in grid]),20260623
+code_generation_72,code_generation,bigcode/humanevalpack,test,72,Python/72,"Write a Python function `will_it_fly(q,w)` to solve the following problem:
+Write a function that returns True if the object q will fly, and False otherwise.
+The object q will fly if it's balanced (it is a palindromic list) and the sum of its elements is less than or equal the maximum possible weight w.
+Example:
+will_it_fly([1, 2], 5) ➞ False
+# 1+2 is less than the maximum possible weight, but it's unbalanced.
+will_it_fly([3, 2, 3], 1) ➞ False
+# it's balanced, but 3+2+3 is more than the maximum possible weight.
+will_it_fly([3, 2, 3], 9) ➞ True
+# 3+2+3 is less than the maximum possible weight, and it's balanced.
+will_it_fly([3], 5) ➞ True
+# 3 is less than the maximum possible weight, and it's balanced.","if sum(q) > w: return False i, j = 0, len(q)-1 while i<j: if q[i] != q[j]: return False i+=1 j-=1 return True",20260623
+code_generation_30,code_generation,bigcode/humanevalpack,test,30,Python/30,"Write a Python function `get_positive(l: list)` to solve the following problem:
+Return only positive numbers in the list.
+>>> get_positive([-1, 2, -4, 5, 6])
+[2, 5, 6]
+>>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+[5, 3, 2, 3, 9, 123, 1]",return [e for e in l if e > 0],20260623
+code_generation_120,code_generation,bigcode/humanevalpack,test,120,Python/120,"Write a Python function `maximum(arr, k)` to solve the following problem:
+Given an array arr of integers and a positive integer k, return a sorted list
+of length k with the maximum k numbers in arr.
+Example 1:
+Input: arr = [-3, -4, 5], k = 3
+Output: [-4, -3, 5]
+Example 2:
+Input: arr = [4, -4, 4], k = 2
+Output: [4, 4]
+Example 3:
+Input: arr = [-3, 2, 1, 2, -1, -2, 1], k = 1
+Output: [2]
+Note:
+1. The length of the array will be in the range of [1, 1000].
+2. The elements in the array will be in the range of [-1000, 1000].
+3. 0 <= k <= len(arr)",if k == 0: return [] arr.sort() ans = arr[-k:] return ans,20260623
+code_generation_19,code_generation,bigcode/humanevalpack,test,19,Python/19,"Write a Python function `sort_numbers(numbers: str) -> str` to solve the following problem:
+Input is a space-delimited string of numberals from 'zero' to 'nine'.
+Valid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.
+Return the string with numbers sorted from smallest to largest
+>>> sort_numbers('three one five')
+'one three five'","value_map = { 'zero': 0, 'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'six': 6, 'seven': 7, 'eight': 8, 'nine': 9 } return ' '.join(sorted([x for x in numbers.split(' ') if x], key=lambda x: value_map[x]))",20260623
+code_generation_84,code_generation,bigcode/humanevalpack,test,84,Python/84,"Write a Python function `solve(N)` to solve the following problem:
+Given a positive integer N, return the total sum of its digits in binary.
+Example
+For N = 1000, the sum of digits will be 1 the output should be ""1"".
+For N = 150, the sum of digits will be 6 the output should be ""110"".
+For N = 147, the sum of digits will be 12 the output should be ""1100"".
+Variables:
+@N integer
+Constraints: 0 ≤ N ≤ 10000.
+Output:
+a string of binary number",return bin(sum(int(i) for i in str(N)))[2:],20260623
+code_generation_27,code_generation,bigcode/humanevalpack,test,27,Python/27,"Write a Python function `flip_case(string: str) -> str` to solve the following problem:
+For a given string, flip lowercase characters to uppercase and uppercase to lowercase.
+>>> flip_case('Hello')
+'hELLO'",return string.swapcase(),20260623
+code_generation_148,code_generation,bigcode/humanevalpack,test,148,Python/148,"Write a Python function `bf(planet1, planet2)` to solve the following problem:
+There are eight planets in our solar system: the closerst to the Sun
+is Mercury, the next one is Venus, then Earth, Mars, Jupiter, Saturn,
+Uranus, Neptune.
+Write a function that takes two planet names as strings planet1 and planet2.
+The function should return a tuple containing all planets whose orbits are
+located between the orbit of planet1 and the orbit of planet2, sorted by
+the proximity to the sun.
+The function should return an empty tuple if planet1 or planet2
+are not correct planet names.
+Examples
+bf(""Jupiter"", ""Neptune"") ==> (""Saturn"", ""Uranus"")
+bf(""Earth"", ""Mercury"") ==> (""Venus"")
+bf(""Mercury"", ""Uranus"") ==> (""Venus"", ""Earth"", ""Mars"", ""Jupiter"", ""Saturn"")","planet_names = (""Mercury"", ""Venus"", ""Earth"", ""Mars"", ""Jupiter"", ""Saturn"", ""Uranus"", ""Neptune"") if planet1 not in planet_names or planet2 not in planet_names or planet1 == planet2: return () planet1_index = planet_names.index(planet1) planet2_index = planet_names.index(planet2) if planet1_index < planet2_index: return (planet_names[planet1_index + 1: planet2_index]) else: return (planet_names[planet2_index + 1 : planet1_index])",20260623
+code_generation_151,code_generation,bigcode/humanevalpack,test,151,Python/151,"Write a Python function `double_the_difference(lst)` to solve the following problem:
+Given a list of numbers, return the sum of squares of the numbers
+in the list that are odd. Ignore numbers that are negative or not integers.
+double_the_difference([1, 3, 2, 0]) == 1 + 9 + 0 + 0 = 10
+double_the_difference([-1, -2, 0]) == 0
+double_the_difference([9, -2]) == 81
+double_the_difference([0]) == 0
+If the input list is empty, return 0.","return sum([i**2 for i in lst if i > 0 and i%2!=0 and ""."" not in str(i)])",20260623
+code_generation_62,code_generation,bigcode/humanevalpack,test,62,Python/62,"Write a Python function `derivative(xs: list)` to solve the following problem:
+xs represent coefficients of a polynomial.
+xs[0] + xs[1] * x + xs[2] * x^2 + ....
+Return derivative of this polynomial in the same form.
+>>> derivative([3, 1, 2, 4, 5])
+[1, 4, 12, 20]
+>>> derivative([1, 2, 3])
+[2, 6]","return [(i * x) for i, x in enumerate(xs)][1:]",20260623
+code_generation_50,code_generation,bigcode/humanevalpack,test,50,Python/50,"Write a Python function `decode_shift(s: str)` to solve the following problem:
+takes as input string encoded with encode_shift function. Returns decoded string.","return """".join([chr(((ord(ch) - 5 - ord(""a"")) % 26) + ord(""a"")) for ch in s])",20260623
+code_generation_132,code_generation,bigcode/humanevalpack,test,132,Python/132,"Write a Python function `is_nested(string)` to solve the following problem:
+Create a function that takes a string as input which contains only square brackets.
+The function should return True if and only if there is a valid subsequence of brackets
+where at least one bracket in the subsequence is nested.
+is_nested('[[]]') ➞ True
+is_nested('[]]]]]]][[[[[]') ➞ False
+is_nested('[][]') ➞ False
+is_nested('[]') ➞ False
+is_nested('[[][]]') ➞ True
+is_nested('[[]][[') ➞ True",opening_bracket_index = [] closing_bracket_index = [] for i in range(len(string)): if string[i] == '[': opening_bracket_index.append(i) else: closing_bracket_index.append(i) closing_bracket_index.reverse() cnt = 0 i = 0 l = len(closing_bracket_index) for idx in opening_bracket_index: if i < l and idx < closing_bracket_index[i]: cnt += 1 i += 1 return cnt >= 2,20260623
+code_generation_51,code_generation,bigcode/humanevalpack,test,51,Python/51,"Write a Python function `remove_vowels(text)` to solve the following problem:
+remove_vowels is a function that takes string and returns string without vowels.
+>>> remove_vowels('')
+''
+>>> remove_vowels(""abcdef\nghijklm"")
+'bcdf\nghjklm'
+>>> remove_vowels('abcdef')
+'bcdf'
+>>> remove_vowels('aaaaa')
+''
+>>> remove_vowels('aaBAA')
+'B'
+>>> remove_vowels('zbcd')
+'zbcd'","return """".join([s for s in text if s.lower() not in [""a"", ""e"", ""i"", ""o"", ""u""]])",20260623
+code_generation_80,code_generation,bigcode/humanevalpack,test,80,Python/80,"Write a Python function `is_happy(s)` to solve the following problem:
+You are given a string s.
+Your task is to check if the string is happy or not.
+A string is happy if its length is at least 3 and every 3 consecutive letters are distinct
+For example:
+is_happy(a) => False
+is_happy(aa) => False
+is_happy(abcd) => True
+is_happy(aabb) => False
+is_happy(adb) => True
+is_happy(xyy) => False",if len(s) < 3: return False for i in range(len(s) - 2): if s[i] == s[i+1] or s[i+1] == s[i+2] or s[i] == s[i+2]: return False return True,20260623
+code_generation_97,code_generation,bigcode/humanevalpack,test,97,Python/97,"Write a Python function `multiply(a, b)` to solve the following problem:
+Complete the function that takes two integers and returns
+the product of their unit digits.
+Assume the input is always valid.
+Examples:
+multiply(148, 412) should return 16.
+multiply(19, 28) should return 72.
+multiply(2020, 1851) should return 0.
+multiply(14,-15) should return 20.",return abs(a % 10) * abs(b % 10),20260623
